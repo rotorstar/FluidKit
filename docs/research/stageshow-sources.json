@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "researchedAt": "2026-11-02",
+  "repository": "https://github.com/benjitaylor/skills",
+  "commit": "802057409787133703c56001080169e347305572",
+  "commitDate": "2026-10-31T18:07:17Z",
+  "transport": "GitHub connector; official author/specification pages via web",
+  "installed": false,
+  "sourceCodeExecuted": false,
+  "runtimeCodeCopied": false,
+  "inspection": "Documentation and selected implementation paths; no live Stageshow experiment or compatibility claim.",
+  "files": [
+    {
+      "path": "stageshow/SKILL.md",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/SKILL.md",
+      "scope": "design-method"
+    },
+    {
+      "path": "stageshow/README.md",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/README.md",
+      "scope": "scope-and-tooling"
+    },
+    {
+      "path": "stageshow/LICENSE",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/LICENSE",
+      "scope": "license"
+    },
+    {
+      "path": "stageshow/NOTICE.md",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/NOTICE.md",
+      "scope": "asset-terms"
+    },
+    {
+      "path": "stageshow/references/craft.md",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/references/craft.md",
+      "scope": "design-method"
+    },
+    {
+      "path": "stageshow/references/motion.md",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/references/motion.md",
+      "scope": "design-method"
+    },
+    {
+      "path": "stageshow/references/framing.md",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/references/framing.md",
+      "scope": "design-method"
+    },
+    {
+      "path": "stageshow/references/looks.md",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/references/looks.md",
+      "scope": "design-method"
+    },
+    {
+      "path": "stageshow/references/rehearse.md",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/references/rehearse.md",
+      "scope": "quality-method"
+    },
+    {
+      "path": "stageshow/references/review.md",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/references/review.md",
+      "scope": "review-method"
+    },
+    {
+      "path": "stageshow/scripts/film.mjs",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/scripts/film.mjs",
+      "scope": "selected-code-paths"
+    },
+    {
+      "path": "stageshow/scripts/motion-watch.mjs",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/scripts/motion-watch.mjs",
+      "scope": "selected-code-paths"
+    },
+    {
+      "path": "stageshow/kit/act.ts",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/kit/act.ts",
+      "scope": "selected-code-paths"
+    },
+    {
+      "path": "stageshow/examples/table-edit/index.tsx",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/examples/table-edit/index.tsx",
+      "scope": "reference-example"
+    },
+    {
+      "path": "stageshow/examples/choreography/index.tsx",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/examples/choreography/index.tsx",
+      "scope": "reference-example"
+    },
+    {
+      "path": "stageshow/examples/phone-touch/index.tsx",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/examples/phone-touch/index.tsx",
+      "scope": "reference-example"
+    },
+    {
+      "path": "stageshow/package.json",
+      "url": "https://github.com/benjitaylor/skills/blob/802057409787133703c56001080169e347305572/stageshow/package.json",
+      "scope": "compatibility"
+    }
+  ],
+  "additionalSources": [
+    "https://benji.org/stageshow",
+    "https://www.designtokens.org/tr/2025.10/format/",
+    "https://www.w3.org/TR/webgpu/#dom-gpuqueue-onsubmittedworkdone",
+    "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+    "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+    "https://ai-sdk.dev/docs/ai-sdk-core/generating-structured-data",
+    "https://ai-sdk.dev/docs/foundations/prompts",
+    "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-11-02T08:48:40.567Z",
+  "okfVersion": "0.2",
+  "requested": {
+    "repo": "knowledge-catalog",
+    "commit": "62432a095456147ee71e70ac6e4dc0d2dea3ac30",
+    "path": "okf/SPEC.md",
+    "uri": "https://raw.githubusercontent.com/GoogleCloudPlatform/knowledge-catalog/62432a095456147ee71e70ac6e4dc0d2dea3ac30/okf/SPEC.md",
+    "retrievedAt": "2026-11-02T08:44:59.349Z"
+  },
+  "canonical": {
+    "repo": "open-knowledge-format",
+    "commit": "0b87c52c6ef999286c745e19998fdfcd03d5dbee",
+    "path": "SPEC.md",
+    "uri": "https://raw.githubusercontent.com/GoogleCloudPlatform/open-knowledge-format/0b87c52c6ef999286c745e19998fdfcd03d5dbee/SPEC.md",
+    "retrievedAt": "2026-11-02T08:44:59.766Z"
+  },
+  "identical": true,
+  "specSha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
+}

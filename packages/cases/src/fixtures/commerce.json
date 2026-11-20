@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "commerce",
+  "source": {
+    "schemaVersion": 1,
+    "id": "fluid-commerce-simulation",
+    "version": "1",
+    "mode": "synthetic",
+    "provider": "Fluid Simulation",
+    "label": "Simulation · synthetische Daten · keine realen Angebote",
+    "asOf": "2026-11-01T12:00:00Z",
+    "simulation": true
+  },
+  "records": [
+    {
+      "kind": "product",
+      "id": "sim-product-01",
+      "title": "Studio Desk Lamp",
+      "city": "Versand aus Deutschland",
+      "summary": "Wohnen · 2 Varianten",
+      "priceMinor": 8900,
+      "currency": "EUR",
+      "available": true,
+      "category": "Wohnen",
+      "taxRate": 0.19,
+      "shippingMinor": 490,
+      "variants": [
+        {
+          "id": "sim-sku-01-1",
+          "label": "Graphit",
+          "stock": 12,
+          "priceMinor": 8900
+        },
+        {
+          "id": "sim-sku-01-2",
+          "label": "Sand",
+          "stock": 11,
+          "priceMinor": 9400
+        }
+      ]
+    },
+    {
+      "kind": "product",
+      "id": "sim-product-02",
+      "title": "Everyday Backpack",
+      "city": "Versand aus Deutschland",
+      "summary": "Reise · 2 Varianten",
+      "priceMinor": 12900,
+      "currency": "EUR",
+      "available": true,
+      "category": "Reise",
+      "taxRate": 0.19,
+      "shippingMinor": 490,
+      "variants": [
+        {
+          "id": "sim-sku-02-1",
+          "label": "Salbei",
+          "stock": 7,
+          "priceMinor": 12900
+        },
+        {
+          "id": "sim-sku-02-2",
+          "label": "Schwarz",
+          "stock": 6,
+          "priceMinor": 13400
+        }
+      ]
+    },
+    {
+      "kind": "product",
+      "id": "sim-product-03",
+      "title": "Ceramic Pour-over Set",
+      "city": "Versand aus Deutschland",
+      "summary": "Küche · 2 Varianten",
+      "priceMinor": 6400,
+      "currency": "EUR",
+      "available": false,
+      "category": "Küche",
+      "taxRate": 0.19,
+      "shippingMinor": 490,
+      "variants": [
+        {
+          "id": "sim-sku-03-1",
+          "label": "Kreide",
+          "stock": 0,
+          "priceMinor": 6400
+        },
+        {
+          "id": "sim-sku-03-2",
+          "label": "Ton",
+          "stock": 0,
+          "priceMinor": 6900
+        }
+      ]
+    },
+    {
+      "kind": "product",
+      "id": "sim-product-04",
+      "title": "Mechanical Keyboard",
+      "city": "Versand aus Deutschland",
+      "summary": "Technik · 2 Varianten",
+      "priceMinor": 16900,
+      "currency": "EUR",
+      "available": true,
+      "category": "Technik",
+      "taxRate": 0.19,
+      "shippingMinor": 490,
+      "variants": [
+        {
+          "id": "sim-sku-04-1",
+          "label": "DE / dunkel",
+          "stock": 18,
+          "priceMinor": 16900
+        },
+        {
+          "id": "sim-sku-04-2",
+          "label": "DE / hell",
+          "stock": 17,
+          "priceMinor": 17400
+        }
+      ]
+    },
+    {
+      "kind": "product",
+      "id": "sim-product-05",
+      "title": "Wool Throw",
+      "city": "Versand aus Deutschland",
+      "summary": "Wohnen · 2 Varianten",
+      "priceMinor": 11900,
+      "currency": "EUR",
+      "available": true,
+      "category": "Wohnen",
+      "taxRate": 0.19,
+      "shippingMinor": 490,
+      "variants": [
+        {
+          "id": "sim-sku-05-1",
+          "label": "Moos",
+          "stock": 4,
+          "priceMinor": 11900
+        },
+        {
+          "id": "sim-sku-05-2",
+          "label": "Natur",
+          "stock": 3,
+          "priceMinor": 12400
+        }
+      ]
+    },
+    {
+      "kind": "product",
+      "id": "sim-product-06",
+      "title": "Insulated Bottle 750",
+      "city": "Versand aus Deutschland",
+      "summary": "Reise · 2 Varianten",
+      "priceMinor": 3900,
+      "currency": "EUR",
+      "available": true,
+      "category": "Reise",
+      "taxRate": 0.19,
+      "shippingMinor": 490,
+      "variants": [
+        {
+          "id": "sim-sku-06-1",
+          "label": "Nebel",
+          "stock": 23,
+          "priceMinor": 3900
+        },
+        {
+          "id": "sim-sku-06-2",
+          "label": "Kupfer",
+          "stock": 22,
+          "priceMinor": 4400
+        }
+      ]
+    },
+    {
+      "kind": "product",
+      "id": "sim-product-07",
+      "title": "Notebook Trio",
+      "city": "Versand aus Deutschland",
+      "summary": "Büro · 2 Varianten",
+      "priceMinor": 2400,
+      "currency": "EUR",
+      "available": true,
+      "category": "Büro",
+      "taxRate": 0.19,
+      "shippingMinor": 490,
+      "variants": [
+        {
+          "id": "sim-sku-07-1",
+          "label": "Punktiert",
+          "stock": 30,
+          "priceMinor": 2400
+        },
+        {
+          "id": "sim-sku-07-2",
+          "label": "Blanko",
+          "stock": 29,
+          "priceMinor": 2900
+        }
+      ]
+    },
+    {
+      "kind": "product",
+      "id": "sim-product-08",
+      "title": "Portable Speaker",
+      "city": "Versand aus Deutschland",
+      "summary": "Technik · 2 Varianten",
+      "priceMinor": 14900,
+      "currency": "EUR",
+      "available": true,
+      "category": "Technik",
+      "taxRate": 0.19,
+      "shippingMinor": 490,
+      "variants": [
+        {
+          "id": "sim-sku-08-1",
+          "label": "Schwarz",
+          "stock": 2,
+          "priceMinor": 14900
+        },
+        {
+          "id": "sim-sku-08-2",
+          "label": "Blau",
+          "stock": 1,
+          "priceMinor": 15400
+        }
+      ]
+    }
+  ]
+}

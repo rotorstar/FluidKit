@@ -1,0 +1,248 @@
+[
+  {
+    "id": "R1",
+    "document": "docs/milestones/structural-transitions.md",
+    "researchedAt": "2026-11-20",
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "ratings": {
+      "A": [
+        3,
+        3,
+        3,
+        5,
+        3
+      ],
+      "B": [
+        3,
+        4,
+        4,
+        5,
+        2
+      ],
+      "H": [
+        5,
+        5,
+        4,
+        4,
+        5
+      ]
+    },
+    "scores": {
+      "A": 66,
+      "B": 73,
+      "H": 93
+    },
+    "winner": "H"
+  },
+  {
+    "id": "R2",
+    "document": "docs/milestones/structural-transitions.md",
+    "researchedAt": "2026-11-20",
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "ratings": {
+      "A": [
+        2,
+        3,
+        3,
+        5,
+        3
+      ],
+      "B": [
+        5,
+        2,
+        2,
+        1,
+        4
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        3,
+        5
+      ]
+    },
+    "scores": {
+      "A": 60,
+      "B": 59,
+      "H": 94
+    },
+    "winner": "H"
+  },
+  {
+    "id": "R3",
+    "document": "docs/milestones/structural-transitions.md",
+    "researchedAt": "2026-11-20",
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "ratings": {
+      "A": [
+        3,
+        3,
+        4,
+        2,
+        4
+      ],
+      "B": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        4,
+        5
+      ]
+    },
+    "scores": {
+      "A": 63,
+      "B": 60,
+      "H": 97
+    },
+    "winner": "H"
+  },
+  {
+    "id": "R4",
+    "document": "docs/milestones/structural-transitions.md",
+    "researchedAt": "2026-11-20",
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "ratings": {
+      "A": [
+        2,
+        3,
+        3,
+        5,
+        2
+      ],
+      "B": [
+        4,
+        3,
+        3,
+        2,
+        4
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        4,
+        4
+      ]
+    },
+    "scores": {
+      "A": 58,
+      "B": 65,
+      "H": 95
+    },
+    "winner": "H"
+  },
+  {
+    "id": "R5",
+    "document": "docs/milestones/structural-transitions.md",
+    "researchedAt": "2026-11-20",
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "ratings": {
+      "A": [
+        2,
+        2,
+        2,
+        5,
+        2
+      ],
+      "B": [
+        4,
+        3,
+        3,
+        2,
+        3
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        4,
+        4
+      ]
+    },
+    "scores": {
+      "A": 49,
+      "B": 63,
+      "H": 95
+    },
+    "winner": "H"
+  },
+  {
+    "id": "R6",
+    "document": "docs/milestones/structural-transitions.md",
+    "researchedAt": "2026-11-20",
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "ratings": {
+      "A": [
+        2,
+        2,
+        2,
+        5,
+        2
+      ],
+      "B": [
+        3,
+        3,
+        4,
+        4,
+        3
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        3,
+        5
+      ]
+    },
+    "scores": {
+      "A": 49,
+      "B": 67,
+      "H": 94
+    },
+    "winner": "H"
+  }
+]

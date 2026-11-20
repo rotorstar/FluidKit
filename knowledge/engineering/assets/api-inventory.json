@@ -1,0 +1,3635 @@
+{
+  "schemaVersion": 1,
+  "exports": [
+    {
+      "name": "authoredCatalogFingerprint",
+      "path": "packages/cases/src/authoring.ts",
+      "line": 20,
+      "kind": "const"
+    },
+    {
+      "name": "authoredWorkspaceHeight",
+      "path": "packages/cases/src/authoring.ts",
+      "line": 70,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createAuthoredWorkspaceFlow",
+      "path": "packages/cases/src/authoring.ts",
+      "line": 74,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "authoredWorkspaceScene",
+      "path": "packages/cases/src/authoring.ts",
+      "line": 96,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "architectureReviewModule",
+      "path": "packages/cases/src/flow-explorer.ts",
+      "line": 12,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createArchitectureReviewFlow",
+      "path": "packages/cases/src/flow-explorer.ts",
+      "line": 17,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "architectureReviewGraph",
+      "path": "packages/cases/src/flow-explorer.ts",
+      "line": 32,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "architectureReviewMermaid",
+      "path": "packages/cases/src/flow-explorer.ts",
+      "line": 36,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "architectureReviewReturnUrl",
+      "path": "packages/cases/src/flow-explorer.ts",
+      "line": 46,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "architectureReviewLayout",
+      "path": "packages/cases/src/flow-explorer.ts",
+      "line": 49,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "architectureReviewHeight",
+      "path": "packages/cases/src/flow-explorer.ts",
+      "line": 61,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "architectureReviewScene",
+      "path": "packages/cases/src/flow-explorer.ts",
+      "line": 63,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createProjectProof",
+      "path": "packages/cases/src/index.ts",
+      "line": 6,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "projectProofOptions",
+      "path": "packages/cases/src/index.ts",
+      "line": 35,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "caseMessage",
+      "path": "packages/cases/src/messages.ts",
+      "line": 215,
+      "kind": "const"
+    },
+    {
+      "name": "CaseMessageKey",
+      "path": "packages/cases/src/messages.ts",
+      "line": 216,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "caseTranslator",
+      "path": "packages/cases/src/messages.ts",
+      "line": 217,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "caseCatalogFingerprint",
+      "path": "packages/cases/src/messages.ts",
+      "line": 221,
+      "kind": "const"
+    },
+    {
+      "name": "searchText",
+      "path": "packages/cases/src/messages.ts",
+      "line": 223,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "compareIds",
+      "path": "packages/cases/src/messages.ts",
+      "line": 227,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "SIMULATION_TITLES",
+      "path": "packages/cases/src/simulation-flow.ts",
+      "line": 7,
+      "kind": "const"
+    },
+    {
+      "name": "simulationRows",
+      "path": "packages/cases/src/simulation-flow.ts",
+      "line": 9,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "simulationCanPrepare",
+      "path": "packages/cases/src/simulation-flow.ts",
+      "line": 13,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createSimulationFlow",
+      "path": "packages/cases/src/simulation-flow.ts",
+      "line": 20,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "simulationScene",
+      "path": "packages/cases/src/simulation-flow.ts",
+      "line": 38,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "simulationLocation",
+      "path": "packages/cases/src/simulation-flow.ts",
+      "line": 121,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "simulationSearch",
+      "path": "packages/cases/src/simulation-flow.ts",
+      "line": 127,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "SimulationRecordSchema",
+      "path": "packages/cases/src/simulation.ts",
+      "line": 13,
+      "kind": "const"
+    },
+    {
+      "name": "SimulationDatasetSchema",
+      "path": "packages/cases/src/simulation.ts",
+      "line": 21,
+      "kind": "const"
+    },
+    {
+      "name": "SimulationDataset",
+      "path": "packages/cases/src/simulation.ts",
+      "line": 31,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "SimulationRecord",
+      "path": "packages/cases/src/simulation.ts",
+      "line": 32,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "SIMULATION_DATASETS",
+      "path": "packages/cases/src/simulation.ts",
+      "line": 33,
+      "kind": "const"
+    },
+    {
+      "name": "SimulationQuerySchema",
+      "path": "packages/cases/src/simulation.ts",
+      "line": 34,
+      "kind": "const"
+    },
+    {
+      "name": "filterSimulationRecords",
+      "path": "packages/cases/src/simulation.ts",
+      "line": 35,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createSimulationAdapter",
+      "path": "packages/cases/src/simulation.ts",
+      "line": 41,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "formatSimulationMoney",
+      "path": "packages/cases/src/simulation.ts",
+      "line": 49,
+      "kind": "const"
+    },
+    {
+      "name": "selectedSimulationRecord",
+      "path": "packages/cases/src/simulation.ts",
+      "line": 50,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "AtlasRect",
+      "path": "packages/cases/src/workspace-atlas.ts",
+      "line": 7,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AtlasCell",
+      "path": "packages/cases/src/workspace-atlas.ts",
+      "line": 8,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "workspaceTreemap",
+      "path": "packages/cases/src/workspace-atlas.ts",
+      "line": 10,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "workspaceAtlasCells",
+      "path": "packages/cases/src/workspace-atlas.ts",
+      "line": 35,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "workspaceAtlasScene",
+      "path": "packages/cases/src/workspace-atlas.ts",
+      "line": 42,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "WorkspaceModuleProjector",
+      "path": "packages/cases/src/workspace-compare.ts",
+      "line": 6,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "WORKSPACE_GROUP_COLORS",
+      "path": "packages/cases/src/workspace-compare.ts",
+      "line": 7,
+      "kind": "const"
+    },
+    {
+      "name": "workspaceSuggestedComparison",
+      "path": "packages/cases/src/workspace-compare.ts",
+      "line": 8,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "workspaceWrap",
+      "path": "packages/cases/src/workspace-compare.ts",
+      "line": 14,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "workspaceViewNode",
+      "path": "packages/cases/src/workspace-compare.ts",
+      "line": 29,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "workspaceViewText",
+      "path": "packages/cases/src/workspace-compare.ts",
+      "line": 33,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "workspaceComparison",
+      "path": "packages/cases/src/workspace-compare.ts",
+      "line": 38,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "workspaceCompareScene",
+      "path": "packages/cases/src/workspace-compare.ts",
+      "line": 52,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "workspaceLayout",
+      "path": "packages/cases/src/workspace-layout.ts",
+      "line": 2,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createWorkspaceStory",
+      "path": "packages/cases/src/workspace-story.ts",
+      "line": 6,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "WorkspaceModuleSchema",
+      "path": "packages/cases/src/workspace.ts",
+      "line": 11,
+      "kind": "const"
+    },
+    {
+      "name": "WorkspaceDataSchema",
+      "path": "packages/cases/src/workspace.ts",
+      "line": 16,
+      "kind": "const"
+    },
+    {
+      "name": "WorkspaceData",
+      "path": "packages/cases/src/workspace.ts",
+      "line": 22,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "WorkspaceModule",
+      "path": "packages/cases/src/workspace.ts",
+      "line": 23,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "WorkspaceLocationSchema",
+      "path": "packages/cases/src/workspace.ts",
+      "line": 24,
+      "kind": "const"
+    },
+    {
+      "name": "readWorkspaceLocation",
+      "path": "packages/cases/src/workspace.ts",
+      "line": 33,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "workspaceSearch",
+      "path": "packages/cases/src/workspace.ts",
+      "line": 41,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "workspaceSelection",
+      "path": "packages/cases/src/workspace.ts",
+      "line": 50,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "workspaceRows",
+      "path": "packages/cases/src/workspace.ts",
+      "line": 54,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "workspaceCollectionOrder",
+      "path": "packages/cases/src/workspace.ts",
+      "line": 70,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createWorkspaceFlow",
+      "path": "packages/cases/src/workspace.ts",
+      "line": 79,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "WORKSPACE_MODULE_DEFINITION",
+      "path": "packages/cases/src/workspace.ts",
+      "line": 108,
+      "kind": "const"
+    },
+    {
+      "name": "workspaceScene",
+      "path": "packages/cases/src/workspace.ts",
+      "line": 118,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "workspaceSurfaceHeight",
+      "path": "packages/cases/src/workspace.ts",
+      "line": 334,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "AcceptanceStatusSchema",
+      "path": "packages/contracts/src/acceptance.ts",
+      "line": 3,
+      "kind": "const"
+    },
+    {
+      "name": "AcceptanceCriterionSchema",
+      "path": "packages/contracts/src/acceptance.ts",
+      "line": 4,
+      "kind": "const"
+    },
+    {
+      "name": "AcceptanceLedgerSchema",
+      "path": "packages/contracts/src/acceptance.ts",
+      "line": 14,
+      "kind": "const"
+    },
+    {
+      "name": "AcceptanceCriterion",
+      "path": "packages/contracts/src/acceptance.ts",
+      "line": 17,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AcceptanceLedger",
+      "path": "packages/contracts/src/acceptance.ts",
+      "line": 18,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AGENT_MAX_STEPS",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 7,
+      "kind": "const"
+    },
+    {
+      "name": "AgentScopeSchema",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 8,
+      "kind": "const"
+    },
+    {
+      "name": "AgentActionRefSchema",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 9,
+      "kind": "const"
+    },
+    {
+      "name": "AgentStepSchema",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 10,
+      "kind": "const"
+    },
+    {
+      "name": "AgentRequestSchema",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 11,
+      "kind": "const"
+    },
+    {
+      "name": "AgentPolicySchema",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 18,
+      "kind": "const"
+    },
+    {
+      "name": "LocalCommandSchema",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 25,
+      "kind": "const"
+    },
+    {
+      "name": "LocalTransactionSchema",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 30,
+      "kind": "const"
+    },
+    {
+      "name": "AgentQueryRequestSchema",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 34,
+      "kind": "const"
+    },
+    {
+      "name": "AgentReadSnapshotSchema",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 38,
+      "kind": "const"
+    },
+    {
+      "name": "AgentErrorCodeSchema",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 43,
+      "kind": "const"
+    },
+    {
+      "name": "AgentStepResultSchema",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 49,
+      "kind": "const"
+    },
+    {
+      "name": "AgentExecutionSchema",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 54,
+      "kind": "const"
+    },
+    {
+      "name": "AgentProposalSchema",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 60,
+      "kind": "const"
+    },
+    {
+      "name": "AgentScope",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 65,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AgentActionRef",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 66,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AgentRequest",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 67,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AgentStep",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 68,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AgentPolicy",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 69,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AgentQueryRequest",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 70,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AgentReadSnapshot",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 71,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AgentExecution",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 72,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AgentProposal",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 73,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AgentStepResult",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 74,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AgentErrorCode",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 75,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LocalCommand",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 76,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LocalTransaction",
+      "path": "packages/contracts/src/agent.ts",
+      "line": 77,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AuthoringMetricSchema",
+      "path": "packages/contracts/src/authoring.ts",
+      "line": 6,
+      "kind": "const"
+    },
+    {
+      "name": "AuthoringSectionSchema",
+      "path": "packages/contracts/src/authoring.ts",
+      "line": 10,
+      "kind": "const"
+    },
+    {
+      "name": "AUTHORING_REGISTRY_VERSION",
+      "path": "packages/contracts/src/authoring.ts",
+      "line": 16,
+      "kind": "const"
+    },
+    {
+      "name": "AuthoringDocumentSchema",
+      "path": "packages/contracts/src/authoring.ts",
+      "line": 17,
+      "kind": "const"
+    },
+    {
+      "name": "AuthoringDocument",
+      "path": "packages/contracts/src/authoring.ts",
+      "line": 31,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AuthoringSection",
+      "path": "packages/contracts/src/authoring.ts",
+      "line": 32,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "DEFAULT_AUTHORING_DOCUMENT",
+      "path": "packages/contracts/src/authoring.ts",
+      "line": 33,
+      "kind": "const"
+    },
+    {
+      "name": "AuthoringRequestSchema",
+      "path": "packages/contracts/src/authoring.ts",
+      "line": 41,
+      "kind": "const"
+    },
+    {
+      "name": "AuthoringRequest",
+      "path": "packages/contracts/src/authoring.ts",
+      "line": 47,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AuthoringProvenanceSchema",
+      "path": "packages/contracts/src/authoring.ts",
+      "line": 48,
+      "kind": "const"
+    },
+    {
+      "name": "AuthoringResultSchema",
+      "path": "packages/contracts/src/authoring.ts",
+      "line": 57,
+      "kind": "const"
+    },
+    {
+      "name": "AuthoringResult",
+      "path": "packages/contracts/src/authoring.ts",
+      "line": 63,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AuthoringStreamEventSchema",
+      "path": "packages/contracts/src/authoring.ts",
+      "line": 64,
+      "kind": "const"
+    },
+    {
+      "name": "AuthoringStreamEvent",
+      "path": "packages/contracts/src/authoring.ts",
+      "line": 69,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AUTHORING_PALETTE",
+      "path": "packages/contracts/src/authoring.ts",
+      "line": 72,
+      "kind": "const"
+    },
+    {
+      "name": "ComponentCapabilitiesSchema",
+      "path": "packages/contracts/src/components.ts",
+      "line": 9,
+      "kind": "const"
+    },
+    {
+      "name": "ComponentPartSchema",
+      "path": "packages/contracts/src/components.ts",
+      "line": 14,
+      "kind": "const"
+    },
+    {
+      "name": "MultipartComponentDefinitionSchema",
+      "path": "packages/contracts/src/components.ts",
+      "line": 32,
+      "kind": "const"
+    },
+    {
+      "name": "MultipartComponentDefinition",
+      "path": "packages/contracts/src/components.ts",
+      "line": 83,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ComponentPart",
+      "path": "packages/contracts/src/components.ts",
+      "line": 84,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ComponentCapabilities",
+      "path": "packages/contracts/src/components.ts",
+      "line": 85,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ComponentLayoutSchema",
+      "path": "packages/contracts/src/components.ts",
+      "line": 89,
+      "kind": "const"
+    },
+    {
+      "name": "ComponentCommandBindingSchema",
+      "path": "packages/contracts/src/components.ts",
+      "line": 94,
+      "kind": "const"
+    },
+    {
+      "name": "MultipartComponentInstanceSchema",
+      "path": "packages/contracts/src/components.ts",
+      "line": 99,
+      "kind": "const"
+    },
+    {
+      "name": "MultipartComponentInstance",
+      "path": "packages/contracts/src/components.ts",
+      "line": 114,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ComponentInstantiationSchema",
+      "path": "packages/contracts/src/components.ts",
+      "line": 115,
+      "kind": "const"
+    },
+    {
+      "name": "ComponentInstantiation",
+      "path": "packages/contracts/src/components.ts",
+      "line": 124,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "defineMultipartComponent",
+      "path": "packages/contracts/src/components.ts",
+      "line": 126,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "instantiateMultipartComponent",
+      "path": "packages/contracts/src/components.ts",
+      "line": 158,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "projectMultipartComponent",
+      "path": "packages/contracts/src/components.ts",
+      "line": 169,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "DataSourceSchema",
+      "path": "packages/contracts/src/data.ts",
+      "line": 3,
+      "kind": "const"
+    },
+    {
+      "name": "DataSource",
+      "path": "packages/contracts/src/data.ts",
+      "line": 14,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ActionContextSchema",
+      "path": "packages/contracts/src/data.ts",
+      "line": 15,
+      "kind": "const"
+    },
+    {
+      "name": "ActionContext",
+      "path": "packages/contracts/src/data.ts",
+      "line": 19,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "dataResultSchema",
+      "path": "packages/contracts/src/data.ts",
+      "line": 20,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "DesignTokensSchema",
+      "path": "packages/contracts/src/design-tokens.ts",
+      "line": 4,
+      "kind": "const"
+    },
+    {
+      "name": "DESIGN_TOKENS",
+      "path": "packages/contracts/src/design-tokens.ts",
+      "line": 9,
+      "kind": "const"
+    },
+    {
+      "name": "DevelopmentProposalRequestSchema",
+      "path": "packages/contracts/src/development-proposal.ts",
+      "line": 10,
+      "kind": "const"
+    },
+    {
+      "name": "DevelopmentProposalRequest",
+      "path": "packages/contracts/src/development-proposal.ts",
+      "line": 14,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "DevelopmentTypecheckSchema",
+      "path": "packages/contracts/src/development-proposal.ts",
+      "line": 17,
+      "kind": "const"
+    },
+    {
+      "name": "DevelopmentCheckSchema",
+      "path": "packages/contracts/src/development-proposal.ts",
+      "line": 21,
+      "kind": "const"
+    },
+    {
+      "name": "DevelopmentConformanceSchema",
+      "path": "packages/contracts/src/development-proposal.ts",
+      "line": 22,
+      "kind": "const"
+    },
+    {
+      "name": "DevelopmentProposalSchema",
+      "path": "packages/contracts/src/development-proposal.ts",
+      "line": 26,
+      "kind": "const"
+    },
+    {
+      "name": "DevelopmentProposal",
+      "path": "packages/contracts/src/development-proposal.ts",
+      "line": 36,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "EffectReferenceSchema",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 5,
+      "kind": "const"
+    },
+    {
+      "name": "EffectReference",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 6,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "EFFECT_POLICY_VERSION",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 7,
+      "kind": "const"
+    },
+    {
+      "name": "EffectParametersSchema",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 8,
+      "kind": "const"
+    },
+    {
+      "name": "EffectRuleSchema",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 13,
+      "kind": "const"
+    },
+    {
+      "name": "EffectRule",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 21,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "VisualCommandSchema",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 22,
+      "kind": "const"
+    },
+    {
+      "name": "VisualCommand",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 27,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "EffectSettingsSchema",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 28,
+      "kind": "const"
+    },
+    {
+      "name": "EffectSettings",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 43,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "DEFAULT_EFFECT_SETTINGS",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 44,
+      "kind": "const"
+    },
+    {
+      "name": "EffectDefinitionSchema",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 45,
+      "kind": "const"
+    },
+    {
+      "name": "EffectDefinition",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 58,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "RenderCapabilitiesSchema",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 59,
+      "kind": "const"
+    },
+    {
+      "name": "RenderCapabilities",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 63,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "EffectPresentationSchema",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 64,
+      "kind": "const"
+    },
+    {
+      "name": "ResolvedEffectPlanSchema",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 74,
+      "kind": "const"
+    },
+    {
+      "name": "ResolvedEffectPlan",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 91,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "VisualStateSchema",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 92,
+      "kind": "const"
+    },
+    {
+      "name": "VisualState",
+      "path": "packages/contracts/src/effects.ts",
+      "line": 98,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "SCHEMA_VERSION",
+      "path": "packages/contracts/src/index.ts",
+      "line": 8,
+      "kind": "const"
+    },
+    {
+      "name": "IdentifierSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 9,
+      "kind": "const"
+    },
+    {
+      "name": "JsonSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 10,
+      "kind": "const"
+    },
+    {
+      "name": "Json",
+      "path": "packages/contracts/src/index.ts",
+      "line": 11,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ModeSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 12,
+      "kind": "const"
+    },
+    {
+      "name": "BackendModeSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 13,
+      "kind": "const"
+    },
+    {
+      "name": "BackendMode",
+      "path": "packages/contracts/src/index.ts",
+      "line": 14,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ControlMode",
+      "path": "packages/contracts/src/index.ts",
+      "line": 15,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ColorSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 16,
+      "kind": "const"
+    },
+    {
+      "name": "NodeKindSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 17,
+      "kind": "const"
+    },
+    {
+      "name": "PartDefinitionSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 18,
+      "kind": "const"
+    },
+    {
+      "name": "PartDefinition",
+      "path": "packages/contracts/src/index.ts",
+      "line": 23,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "SceneNodeSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 24,
+      "kind": "const"
+    },
+    {
+      "name": "SceneNode",
+      "path": "packages/contracts/src/index.ts",
+      "line": 68,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "SceneNodeInput",
+      "path": "packages/contracts/src/index.ts",
+      "line": 69,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "FieldValueSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 70,
+      "kind": "const"
+    },
+    {
+      "name": "FieldValue",
+      "path": "packages/contracts/src/index.ts",
+      "line": 71,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "FieldSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 72,
+      "kind": "const"
+    },
+    {
+      "name": "isFieldValue",
+      "path": "packages/contracts/src/index.ts",
+      "line": 79,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "CollectionDefinitionSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 83,
+      "kind": "const"
+    },
+    {
+      "name": "TransitionSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 89,
+      "kind": "const"
+    },
+    {
+      "name": "StateSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 99,
+      "kind": "const"
+    },
+    {
+      "name": "FlowDefinitionSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 106,
+      "kind": "const"
+    },
+    {
+      "name": "FlowDefinition",
+      "path": "packages/contracts/src/index.ts",
+      "line": 186,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ComponentDefinitionSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 188,
+      "kind": "const"
+    },
+    {
+      "name": "ComponentDefinition",
+      "path": "packages/contracts/src/index.ts",
+      "line": 189,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "RuntimeSnapshotSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 190,
+      "kind": "const"
+    },
+    {
+      "name": "RuntimeSnapshot",
+      "path": "packages/contracts/src/index.ts",
+      "line": 195,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "InteractionSnapshotSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 196,
+      "kind": "const"
+    },
+    {
+      "name": "InteractionSnapshot",
+      "path": "packages/contracts/src/index.ts",
+      "line": 201,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ChangeReasonSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 202,
+      "kind": "const"
+    },
+    {
+      "name": "ChangeReason",
+      "path": "packages/contracts/src/index.ts",
+      "line": 203,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "RuntimeEventSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 204,
+      "kind": "const"
+    },
+    {
+      "name": "RuntimeEvent",
+      "path": "packages/contracts/src/index.ts",
+      "line": 212,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "DecisionPlanSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 213,
+      "kind": "const"
+    },
+    {
+      "name": "DecisionPlan",
+      "path": "packages/contracts/src/index.ts",
+      "line": 219,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "TraceEntrySchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 220,
+      "kind": "const"
+    },
+    {
+      "name": "TraceEntry",
+      "path": "packages/contracts/src/index.ts",
+      "line": 229,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ScenarioDefinitionSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 230,
+      "kind": "const"
+    },
+    {
+      "name": "ScenarioDefinition",
+      "path": "packages/contracts/src/index.ts",
+      "line": 237,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "DatasetSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 238,
+      "kind": "const"
+    },
+    {
+      "name": "Dataset",
+      "path": "packages/contracts/src/index.ts",
+      "line": 243,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ProjectSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 244,
+      "kind": "const"
+    },
+    {
+      "name": "FluidProject",
+      "path": "packages/contracts/src/index.ts",
+      "line": 253,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "defineFlow",
+      "path": "packages/contracts/src/index.ts",
+      "line": 254,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "defineComponent",
+      "path": "packages/contracts/src/index.ts",
+      "line": 255,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "VisualScenarioV2Schema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 263,
+      "kind": "const"
+    },
+    {
+      "name": "VisualScenarioV3Schema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 264,
+      "kind": "const"
+    },
+    {
+      "name": "VisualScenarioV4Schema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 265,
+      "kind": "const"
+    },
+    {
+      "name": "RecordingLanguageProfileSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 270,
+      "kind": "const"
+    },
+    {
+      "name": "RecordingLanguageProfile",
+      "path": "packages/contracts/src/index.ts",
+      "line": 276,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "VisualScenarioV5Schema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 277,
+      "kind": "const"
+    },
+    {
+      "name": "VisualScenarioSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 285,
+      "kind": "const"
+    },
+    {
+      "name": "TextInkBoxSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 299,
+      "kind": "const"
+    },
+    {
+      "name": "TextInkBox",
+      "path": "packages/contracts/src/index.ts",
+      "line": 300,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "TextAuditSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 301,
+      "kind": "const"
+    },
+    {
+      "name": "TextAudit",
+      "path": "packages/contracts/src/index.ts",
+      "line": 308,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "VisualScenario",
+      "path": "packages/contracts/src/index.ts",
+      "line": 309,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "RestagedRecordingSchema",
+      "path": "packages/contracts/src/index.ts",
+      "line": 310,
+      "kind": "const"
+    },
+    {
+      "name": "RestagedRecording",
+      "path": "packages/contracts/src/index.ts",
+      "line": 314,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "NativeInputContextSchema",
+      "path": "packages/contracts/src/input-observation.ts",
+      "line": 3,
+      "kind": "const"
+    },
+    {
+      "name": "NativeInputObservationSchema",
+      "path": "packages/contracts/src/input-observation.ts",
+      "line": 4,
+      "kind": "const"
+    },
+    {
+      "name": "NativeInputObservation",
+      "path": "packages/contracts/src/input-observation.ts",
+      "line": 13,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "NativeInputProtocolSchema",
+      "path": "packages/contracts/src/input-observation.ts",
+      "line": 14,
+      "kind": "const"
+    },
+    {
+      "name": "NativeInputProtocol",
+      "path": "packages/contracts/src/input-observation.ts",
+      "line": 20,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ResourceKindSchema",
+      "path": "packages/contracts/src/lifecycle.ts",
+      "line": 3,
+      "kind": "const"
+    },
+    {
+      "name": "ResourceSnapshotSchema",
+      "path": "packages/contracts/src/lifecycle.ts",
+      "line": 4,
+      "kind": "const"
+    },
+    {
+      "name": "LifecycleRunSchema",
+      "path": "packages/contracts/src/lifecycle.ts",
+      "line": 9,
+      "kind": "const"
+    },
+    {
+      "name": "ResourceKind",
+      "path": "packages/contracts/src/lifecycle.ts",
+      "line": 17,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ResourceSnapshot",
+      "path": "packages/contracts/src/lifecycle.ts",
+      "line": 18,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LifecycleRun",
+      "path": "packages/contracts/src/lifecycle.ts",
+      "line": 19,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LoadPolicySchema",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 2,
+      "kind": "const"
+    },
+    {
+      "name": "DEFAULT_LOAD_POLICY",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 18,
+      "kind": "const"
+    },
+    {
+      "name": "LoadPolicy",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 33,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LoadProcessSchema",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 34,
+      "kind": "const"
+    },
+    {
+      "name": "LoadProcess",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 56,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LoadGpuSchema",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 57,
+      "kind": "const"
+    },
+    {
+      "name": "LoadGpu",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 79,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LoadMemorySchema",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 80,
+      "kind": "const"
+    },
+    {
+      "name": "LoadSampleSchema",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 97,
+      "kind": "const"
+    },
+    {
+      "name": "LoadSample",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 177,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LoadReportSchema",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 178,
+      "kind": "const"
+    },
+    {
+      "name": "LoadReport",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 300,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LoadWindowSchema",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 301,
+      "kind": "const"
+    },
+    {
+      "name": "LoadWindow",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 309,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LoadAssessmentSchema",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 310,
+      "kind": "const"
+    },
+    {
+      "name": "LoadAssessment",
+      "path": "packages/contracts/src/load.d.ts",
+      "line": 346,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LoadPolicySchema",
+      "path": "packages/contracts/src/load.ts",
+      "line": 8,
+      "kind": "const"
+    },
+    {
+      "name": "DEFAULT_LOAD_POLICY",
+      "path": "packages/contracts/src/load.ts",
+      "line": 17,
+      "kind": "const"
+    },
+    {
+      "name": "LoadPolicy",
+      "path": "packages/contracts/src/load.ts",
+      "line": 21,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LoadProcessSchema",
+      "path": "packages/contracts/src/load.ts",
+      "line": 22,
+      "kind": "const"
+    },
+    {
+      "name": "LoadProcess",
+      "path": "packages/contracts/src/load.ts",
+      "line": 28,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LoadGpuSchema",
+      "path": "packages/contracts/src/load.ts",
+      "line": 29,
+      "kind": "const"
+    },
+    {
+      "name": "LoadGpu",
+      "path": "packages/contracts/src/load.ts",
+      "line": 36,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LoadMemorySchema",
+      "path": "packages/contracts/src/load.ts",
+      "line": 37,
+      "kind": "const"
+    },
+    {
+      "name": "LoadSampleSchema",
+      "path": "packages/contracts/src/load.ts",
+      "line": 42,
+      "kind": "const"
+    },
+    {
+      "name": "LoadSample",
+      "path": "packages/contracts/src/load.ts",
+      "line": 51,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LoadReportSchema",
+      "path": "packages/contracts/src/load.ts",
+      "line": 52,
+      "kind": "const"
+    },
+    {
+      "name": "LoadReport",
+      "path": "packages/contracts/src/load.ts",
+      "line": 63,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LoadWindowSchema",
+      "path": "packages/contracts/src/load.ts",
+      "line": 64,
+      "kind": "const"
+    },
+    {
+      "name": "LoadWindow",
+      "path": "packages/contracts/src/load.ts",
+      "line": 68,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LoadAssessmentSchema",
+      "path": "packages/contracts/src/load.ts",
+      "line": 69,
+      "kind": "const"
+    },
+    {
+      "name": "LoadAssessment",
+      "path": "packages/contracts/src/load.ts",
+      "line": 79,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ContentHashSchema",
+      "path": "packages/contracts/src/local-project.ts",
+      "line": 4,
+      "kind": "const"
+    },
+    {
+      "name": "LocalDraftInputSchema",
+      "path": "packages/contracts/src/local-project.ts",
+      "line": 5,
+      "kind": "const"
+    },
+    {
+      "name": "LocalDraftVersionSchema",
+      "path": "packages/contracts/src/local-project.ts",
+      "line": 13,
+      "kind": "const"
+    },
+    {
+      "name": "LocalDraftVersion",
+      "path": "packages/contracts/src/local-project.ts",
+      "line": 18,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LocalDraftListSchema",
+      "path": "packages/contracts/src/local-project.ts",
+      "line": 19,
+      "kind": "const"
+    },
+    {
+      "name": "LocalBudgetSummarySchema",
+      "path": "packages/contracts/src/local-project.ts",
+      "line": 20,
+      "kind": "const"
+    },
+    {
+      "name": "LocalBudgetSummary",
+      "path": "packages/contracts/src/local-project.ts",
+      "line": 24,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LocalReviewEvidenceSchema",
+      "path": "packages/contracts/src/local-project.ts",
+      "line": 25,
+      "kind": "const"
+    },
+    {
+      "name": "LocalReviewEvidence",
+      "path": "packages/contracts/src/local-project.ts",
+      "line": 36,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "M8_DIRECTIONS",
+      "path": "packages/contracts/src/m8-qualification.ts",
+      "line": 6,
+      "kind": "const"
+    },
+    {
+      "name": "M8_EFFECT_IDS",
+      "path": "packages/contracts/src/m8-qualification.ts",
+      "line": 7,
+      "kind": "const"
+    },
+    {
+      "name": "M8_PHASES",
+      "path": "packages/contracts/src/m8-qualification.ts",
+      "line": 8,
+      "kind": "const"
+    },
+    {
+      "name": "M8QualificationSampleSchema",
+      "path": "packages/contracts/src/m8-qualification.ts",
+      "line": 13,
+      "kind": "const"
+    },
+    {
+      "name": "M8QualificationCaseSchema",
+      "path": "packages/contracts/src/m8-qualification.ts",
+      "line": 16,
+      "kind": "const"
+    },
+    {
+      "name": "M8QualificationSchema",
+      "path": "packages/contracts/src/m8-qualification.ts",
+      "line": 22,
+      "kind": "const"
+    },
+    {
+      "name": "M8Qualification",
+      "path": "packages/contracts/src/m8-qualification.ts",
+      "line": 81,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "M8QualificationCase",
+      "path": "packages/contracts/src/m8-qualification.ts",
+      "line": 82,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "M8_TIMING_BUDGET",
+      "path": "packages/contracts/src/m8-timing.ts",
+      "line": 5,
+      "kind": "const"
+    },
+    {
+      "name": "summarizeM8Timings",
+      "path": "packages/contracts/src/m8-timing.ts",
+      "line": 9,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "M8TimingWarmupSchema",
+      "path": "packages/contracts/src/m8-timing.ts",
+      "line": 21,
+      "kind": "const"
+    },
+    {
+      "name": "M8TimingCaseSchema",
+      "path": "packages/contracts/src/m8-timing.ts",
+      "line": 22,
+      "kind": "const"
+    },
+    {
+      "name": "M8TimingReportSchema",
+      "path": "packages/contracts/src/m8-timing.ts",
+      "line": 26,
+      "kind": "const"
+    },
+    {
+      "name": "M8TimingReport",
+      "path": "packages/contracts/src/m8-timing.ts",
+      "line": 63,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "M8TimingCase",
+      "path": "packages/contracts/src/m8-timing.ts",
+      "line": 64,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "M8TimingWarmup",
+      "path": "packages/contracts/src/m8-timing.ts",
+      "line": 65,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "resolveMotionPorts",
+      "path": "packages/contracts/src/motion-geometry.ts",
+      "line": 4,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "MOTION_LIMITS",
+      "path": "packages/contracts/src/motion.ts",
+      "line": 5,
+      "kind": "const"
+    },
+    {
+      "name": "MotionRuleSchema",
+      "path": "packages/contracts/src/motion.ts",
+      "line": 8,
+      "kind": "const"
+    },
+    {
+      "name": "MotionPortReferenceSchema",
+      "path": "packages/contracts/src/motion.ts",
+      "line": 20,
+      "kind": "const"
+    },
+    {
+      "name": "SceneMotionSchema",
+      "path": "packages/contracts/src/motion.ts",
+      "line": 21,
+      "kind": "const"
+    },
+    {
+      "name": "SceneMotion",
+      "path": "packages/contracts/src/motion.ts",
+      "line": 33,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "MorphRelationSchema",
+      "path": "packages/contracts/src/motion.ts",
+      "line": 34,
+      "kind": "const"
+    },
+    {
+      "name": "MotionPlanSchema",
+      "path": "packages/contracts/src/motion.ts",
+      "line": 44,
+      "kind": "const"
+    },
+    {
+      "name": "MotionPlan",
+      "path": "packages/contracts/src/motion.ts",
+      "line": 45,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "MorphRelation",
+      "path": "packages/contracts/src/motion.ts",
+      "line": 46,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "MotionVelocitySchema",
+      "path": "packages/contracts/src/motion.ts",
+      "line": 47,
+      "kind": "const"
+    },
+    {
+      "name": "MotionVelocity",
+      "path": "packages/contracts/src/motion.ts",
+      "line": 48,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "CouplingPresentationSchema",
+      "path": "packages/contracts/src/motion.ts",
+      "line": 49,
+      "kind": "const"
+    },
+    {
+      "name": "CouplingPresentation",
+      "path": "packages/contracts/src/motion.ts",
+      "line": 55,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "MotionCheckpointSchema",
+      "path": "packages/contracts/src/motion.ts",
+      "line": 56,
+      "kind": "const"
+    },
+    {
+      "name": "M8_NATIVE_TOLERANCE_PX",
+      "path": "packages/contracts/src/native-targets.ts",
+      "line": 3,
+      "kind": "const"
+    },
+    {
+      "name": "NativeTargetBoundsSchema",
+      "path": "packages/contracts/src/native-targets.ts",
+      "line": 4,
+      "kind": "const"
+    },
+    {
+      "name": "NativeTargetObservationSchema",
+      "path": "packages/contracts/src/native-targets.ts",
+      "line": 5,
+      "kind": "const"
+    },
+    {
+      "name": "NativeTargetAuditSchema",
+      "path": "packages/contracts/src/native-targets.ts",
+      "line": 12,
+      "kind": "const"
+    },
+    {
+      "name": "NativeTargetBounds",
+      "path": "packages/contracts/src/native-targets.ts",
+      "line": 24,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "NativeTargetObservation",
+      "path": "packages/contracts/src/native-targets.ts",
+      "line": 25,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "NativeTargetAudit",
+      "path": "packages/contracts/src/native-targets.ts",
+      "line": 26,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "PresentedNodeStateSchema",
+      "path": "packages/contracts/src/presentation.ts",
+      "line": 6,
+      "kind": "const"
+    },
+    {
+      "name": "PresentedNodeState",
+      "path": "packages/contracts/src/presentation.ts",
+      "line": 12,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LensPresentationSchema",
+      "path": "packages/contracts/src/presentation.ts",
+      "line": 13,
+      "kind": "const"
+    },
+    {
+      "name": "LensPresentation",
+      "path": "packages/contracts/src/presentation.ts",
+      "line": 18,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ParticlePresentationSchema",
+      "path": "packages/contracts/src/presentation.ts",
+      "line": 19,
+      "kind": "const"
+    },
+    {
+      "name": "ParticlePresentation",
+      "path": "packages/contracts/src/presentation.ts",
+      "line": 25,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "SourcePresentationCheckpointSchema",
+      "path": "packages/contracts/src/presentation.ts",
+      "line": 27,
+      "kind": "const"
+    },
+    {
+      "name": "SourcePresentationCheckpoint",
+      "path": "packages/contracts/src/presentation.ts",
+      "line": 38,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ProofViewportSchema",
+      "path": "packages/contracts/src/proof-capture.ts",
+      "line": 9,
+      "kind": "const"
+    },
+    {
+      "name": "ProofFieldsSchema",
+      "path": "packages/contracts/src/proof-capture.ts",
+      "line": 14,
+      "kind": "const"
+    },
+    {
+      "name": "NativeProofSchema",
+      "path": "packages/contracts/src/proof-capture.ts",
+      "line": 21,
+      "kind": "const"
+    },
+    {
+      "name": "ProofViewport",
+      "path": "packages/contracts/src/proof-capture.ts",
+      "line": 66,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "NativeProof",
+      "path": "packages/contracts/src/proof-capture.ts",
+      "line": 67,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "QualitySourceSchema",
+      "path": "packages/contracts/src/quality.ts",
+      "line": 3,
+      "kind": "const"
+    },
+    {
+      "name": "QualityFindingSchema",
+      "path": "packages/contracts/src/quality.ts",
+      "line": 4,
+      "kind": "const"
+    },
+    {
+      "name": "QualityCheckSchema",
+      "path": "packages/contracts/src/quality.ts",
+      "line": 14,
+      "kind": "const"
+    },
+    {
+      "name": "QualityContextSchema",
+      "path": "packages/contracts/src/quality.ts",
+      "line": 25,
+      "kind": "const"
+    },
+    {
+      "name": "QualityReportSchema",
+      "path": "packages/contracts/src/quality.ts",
+      "line": 31,
+      "kind": "const"
+    },
+    {
+      "name": "QualityFinding",
+      "path": "packages/contracts/src/quality.ts",
+      "line": 37,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "QualityCheck",
+      "path": "packages/contracts/src/quality.ts",
+      "line": 38,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "QualityContext",
+      "path": "packages/contracts/src/quality.ts",
+      "line": 39,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "QualityReport",
+      "path": "packages/contracts/src/quality.ts",
+      "line": 40,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "StoryDefinitionSchema",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 6,
+      "kind": "const"
+    },
+    {
+      "name": "StoryDefinition",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 25,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "CapturedFrameSchema",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 27,
+      "kind": "const"
+    },
+    {
+      "name": "CapturedFrame",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 37,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AIReviewFrameSchema",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 38,
+      "kind": "const"
+    },
+    {
+      "name": "AIReviewFrame",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 42,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AIReviewBundleSchema",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 43,
+      "kind": "const"
+    },
+    {
+      "name": "AIReviewBundle",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 52,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AIReviewFindingSchema",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 55,
+      "kind": "const"
+    },
+    {
+      "name": "AIReviewFinding",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 63,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AIReviewOutputSchema",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 64,
+      "kind": "const"
+    },
+    {
+      "name": "AIReviewOutput",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 68,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AIReviewResultSchema",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 69,
+      "kind": "const"
+    },
+    {
+      "name": "AIReviewResult",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 75,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AIReviewAssessmentSchema",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 76,
+      "kind": "const"
+    },
+    {
+      "name": "AIReviewAssessment",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 83,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AIReviewStatusSchema",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 84,
+      "kind": "const"
+    },
+    {
+      "name": "AIReviewStatus",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 88,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "validateReviewReferences",
+      "path": "packages/contracts/src/rehearsal.ts",
+      "line": 90,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "SequenceGeometrySchema",
+      "path": "packages/contracts/src/sequence-geometry.ts",
+      "line": 3,
+      "kind": "const"
+    },
+    {
+      "name": "SequenceGeometry",
+      "path": "packages/contracts/src/sequence-geometry.ts",
+      "line": 8,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "SEQUENCE_LIMITS",
+      "path": "packages/contracts/src/sequence.ts",
+      "line": 9,
+      "kind": "const"
+    },
+    {
+      "name": "EffectRuntimeMetricsSchema",
+      "path": "packages/contracts/src/sequence.ts",
+      "line": 10,
+      "kind": "const"
+    },
+    {
+      "name": "SequenceSampleSchema",
+      "path": "packages/contracts/src/sequence.ts",
+      "line": 16,
+      "kind": "const"
+    },
+    {
+      "name": "SequenceReportSchema",
+      "path": "packages/contracts/src/sequence.ts",
+      "line": 21,
+      "kind": "const"
+    },
+    {
+      "name": "SequenceSample",
+      "path": "packages/contracts/src/sequence.ts",
+      "line": 38,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "SequenceReport",
+      "path": "packages/contracts/src/sequence.ts",
+      "line": 39,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "EffectRuntimeMetrics",
+      "path": "packages/contracts/src/sequence.ts",
+      "line": 40,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "EffectStressReportSchema",
+      "path": "packages/contracts/src/sequence.ts",
+      "line": 41,
+      "kind": "const"
+    },
+    {
+      "name": "EffectStressReport",
+      "path": "packages/contracts/src/sequence.ts",
+      "line": 48,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "NaturalPlaybackReportSchema",
+      "path": "packages/contracts/src/sequence.ts",
+      "line": 49,
+      "kind": "const"
+    },
+    {
+      "name": "NaturalPlaybackReport",
+      "path": "packages/contracts/src/sequence.ts",
+      "line": 57,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "VisualRetargetReportSchema",
+      "path": "packages/contracts/src/sequence.ts",
+      "line": 58,
+      "kind": "const"
+    },
+    {
+      "name": "VisualRetargetReport",
+      "path": "packages/contracts/src/sequence.ts",
+      "line": 68,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "M7SurfaceCaseSchema",
+      "path": "packages/contracts/src/surface-qualification.ts",
+      "line": 5,
+      "kind": "const"
+    },
+    {
+      "name": "M7SurfaceQualificationSchema",
+      "path": "packages/contracts/src/surface-qualification.ts",
+      "line": 18,
+      "kind": "const"
+    },
+    {
+      "name": "M7SurfaceCase",
+      "path": "packages/contracts/src/surface-qualification.ts",
+      "line": 42,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "M7SurfaceQualification",
+      "path": "packages/contracts/src/surface-qualification.ts",
+      "line": 43,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "resolveTextInsetY",
+      "path": "packages/contracts/src/text-geometry.ts",
+      "line": 2,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "ThemeDefinitionSchema",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 4,
+      "kind": "const"
+    },
+    {
+      "name": "ThemeDefinition",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 13,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "themeCSS",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 22,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "ThemePresetIdSchema",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 27,
+      "kind": "const"
+    },
+    {
+      "name": "ThemePresetId",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 28,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ThemePreferencesSchema",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 29,
+      "kind": "const"
+    },
+    {
+      "name": "ThemePreferences",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 33,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "DEFAULT_THEME_PREFERENCES",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 34,
+      "kind": "const"
+    },
+    {
+      "name": "THEME_PRESETS",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 35,
+      "kind": "const"
+    },
+    {
+      "name": "mixThemeColor",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 42,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "themeContrast",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 46,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "resolveAppearance",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 59,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "GPU_PALETTE",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 87,
+      "kind": "const"
+    },
+    {
+      "name": "GpuPalette",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 88,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "projectThemePaint",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 91,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "FLUID_THEME",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 98,
+      "kind": "const"
+    },
+    {
+      "name": "appearanceCSS",
+      "path": "packages/contracts/src/theme.ts",
+      "line": 102,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "M7_DIRECTIONS",
+      "path": "packages/contracts/src/workspace-qualification.ts",
+      "line": 6,
+      "kind": "const"
+    },
+    {
+      "name": "M7_EFFECT_IDS",
+      "path": "packages/contracts/src/workspace-qualification.ts",
+      "line": 7,
+      "kind": "const"
+    },
+    {
+      "name": "M7_PHASES",
+      "path": "packages/contracts/src/workspace-qualification.ts",
+      "line": 8,
+      "kind": "const"
+    },
+    {
+      "name": "WorkspaceQualificationCaseSchema",
+      "path": "packages/contracts/src/workspace-qualification.ts",
+      "line": 9,
+      "kind": "const"
+    },
+    {
+      "name": "WorkspaceQualificationSchema",
+      "path": "packages/contracts/src/workspace-qualification.ts",
+      "line": 15,
+      "kind": "const"
+    },
+    {
+      "name": "WorkspaceQualification",
+      "path": "packages/contracts/src/workspace-qualification.ts",
+      "line": 30,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "WorkspaceQualificationCase",
+      "path": "packages/contracts/src/workspace-qualification.ts",
+      "line": 31,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "MotionEnvironmentReportSchema",
+      "path": "packages/contracts/src/workspace-qualification.ts",
+      "line": 33,
+      "kind": "const"
+    },
+    {
+      "name": "MotionEnvironmentReport",
+      "path": "packages/contracts/src/workspace-qualification.ts",
+      "line": 40,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AgentBridgeError",
+      "path": "packages/core/src/agent.ts",
+      "line": 12,
+      "kind": "ClassDeclaration"
+    },
+    {
+      "name": "AgentLocalAction",
+      "path": "packages/core/src/agent.ts",
+      "line": 15,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AgentExternalAction",
+      "path": "packages/core/src/agent.ts",
+      "line": 20,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "AgentQuery",
+      "path": "packages/core/src/agent.ts",
+      "line": 27,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "defineAgentLocalAction",
+      "path": "packages/core/src/agent.ts",
+      "line": 31,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "defineAgentExternalAction",
+      "path": "packages/core/src/agent.ts",
+      "line": 40,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "defineAgentQuery",
+      "path": "packages/core/src/agent.ts",
+      "line": 65,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createFluidAgentBridge",
+      "path": "packages/core/src/agent.ts",
+      "line": 105,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "CollectionBehaviorConfig",
+      "path": "packages/core/src/collection.ts",
+      "line": 6,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "CollectionTypeaheadInput",
+      "path": "packages/core/src/collection.ts",
+      "line": 17,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "createCollectionBehavior",
+      "path": "packages/core/src/collection.ts",
+      "line": 43,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "defineDataAdapter",
+      "path": "packages/core/src/data.ts",
+      "line": 5,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "StaleDataError",
+      "path": "packages/core/src/data.ts",
+      "line": 36,
+      "kind": "ClassDeclaration"
+    },
+    {
+      "name": "createDataClient",
+      "path": "packages/core/src/data.ts",
+      "line": 39,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "defineActionAdapter",
+      "path": "packages/core/src/data.ts",
+      "line": 84,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createActionClient",
+      "path": "packages/core/src/data.ts",
+      "line": 92,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "Clock",
+      "path": "packages/core/src/index.ts",
+      "line": 15,
+      "kind": "InterfaceDeclaration"
+    },
+    {
+      "name": "TraceSink",
+      "path": "packages/core/src/index.ts",
+      "line": 16,
+      "kind": "InterfaceDeclaration"
+    },
+    {
+      "name": "RouterAdapter",
+      "path": "packages/core/src/index.ts",
+      "line": 17,
+      "kind": "InterfaceDeclaration"
+    },
+    {
+      "name": "Guard",
+      "path": "packages/core/src/index.ts",
+      "line": 18,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "Action",
+      "path": "packages/core/src/index.ts",
+      "line": 19,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "ChangeDetails",
+      "path": "packages/core/src/index.ts",
+      "line": 20,
+      "kind": "InterfaceDeclaration"
+    },
+    {
+      "name": "RuntimeOptions",
+      "path": "packages/core/src/index.ts",
+      "line": 26,
+      "kind": "InterfaceDeclaration"
+    },
+    {
+      "name": "EventResult",
+      "path": "packages/core/src/index.ts",
+      "line": 36,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LocalTransactionAuthority",
+      "path": "packages/core/src/index.ts",
+      "line": 38,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "createFluidRuntime",
+      "path": "packages/core/src/index.ts",
+      "line": 53,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "FluidRuntime",
+      "path": "packages/core/src/index.ts",
+      "line": 524,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "flowToMermaid",
+      "path": "packages/core/src/index.ts",
+      "line": 526,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "SceneViewportSchema",
+      "path": "packages/core/src/layout.ts",
+      "line": 5,
+      "kind": "const"
+    },
+    {
+      "name": "SceneViewport",
+      "path": "packages/core/src/layout.ts",
+      "line": 6,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "resolveSceneLayout",
+      "path": "packages/core/src/layout.ts",
+      "line": 16,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "defaultViewport",
+      "path": "packages/core/src/surface-interactions.ts",
+      "line": 6,
+      "kind": "const"
+    },
+    {
+      "name": "createSurfaceInteractions",
+      "path": "packages/core/src/surface-interactions.ts",
+      "line": 11,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "EFFECT_LIBRARY",
+      "path": "packages/effects/src/index.ts",
+      "line": 7,
+      "kind": "const"
+    },
+    {
+      "name": "effectReference",
+      "path": "packages/effects/src/index.ts",
+      "line": 15,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "findEffect",
+      "path": "packages/effects/src/index.ts",
+      "line": 16,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "transitionSeed",
+      "path": "packages/effects/src/index.ts",
+      "line": 17,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "resolveEffect",
+      "path": "packages/effects/src/index.ts",
+      "line": 29,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "validateEffectReplay",
+      "path": "packages/effects/src/index.ts",
+      "line": 77,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "validateMotionPlan",
+      "path": "packages/effects/src/motion-plan.ts",
+      "line": 25,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "compileMotionPlan",
+      "path": "packages/effects/src/motion-plan.ts",
+      "line": 51,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "sampleCorrespondenceMotion",
+      "path": "packages/effects/src/motion-sampler.ts",
+      "line": 26,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "TransitionClipSchema",
+      "path": "packages/effects/src/presentation.ts",
+      "line": 14,
+      "kind": "const"
+    },
+    {
+      "name": "TransitionClip",
+      "path": "packages/effects/src/presentation.ts",
+      "line": 22,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "PresentationFrameSchema",
+      "path": "packages/effects/src/presentation.ts",
+      "line": 23,
+      "kind": "const"
+    },
+    {
+      "name": "PresentationFrame",
+      "path": "packages/effects/src/presentation.ts",
+      "line": 30,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "createTransitionClip",
+      "path": "packages/effects/src/presentation.ts",
+      "line": 61,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "getTransitionQuality",
+      "path": "packages/effects/src/presentation.ts",
+      "line": 118,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "sampleTransitionClip",
+      "path": "packages/effects/src/presentation.ts",
+      "line": 136,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "capturePresentationCheckpoint",
+      "path": "packages/effects/src/presentation.ts",
+      "line": 268,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "captureTransitionSource",
+      "path": "packages/effects/src/presentation.ts",
+      "line": 275,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "normalizeVisualScenario",
+      "path": "packages/effects/src/presentation.ts",
+      "line": 300,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "recordTransitionClip",
+      "path": "packages/effects/src/presentation.ts",
+      "line": 311,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createClipFromRecording",
+      "path": "packages/effects/src/presentation.ts",
+      "line": 322,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "MAX_COUPLING_SHAPES",
+      "path": "packages/gpu-kernels/src/coupling.ts",
+      "line": 7,
+      "kind": "const"
+    },
+    {
+      "name": "couplingPrimitiveDistance",
+      "path": "packages/gpu-kernels/src/coupling.ts",
+      "line": 12,
+      "kind": "const"
+    },
+    {
+      "name": "couplingSmoothUnion",
+      "path": "packages/gpu-kernels/src/coupling.ts",
+      "line": 32,
+      "kind": "const"
+    },
+    {
+      "name": "couplingPaintWeight",
+      "path": "packages/gpu-kernels/src/coupling.ts",
+      "line": 41,
+      "kind": "const"
+    },
+    {
+      "name": "createCouplingShader",
+      "path": "packages/gpu-kernels/src/coupling.ts",
+      "line": 51,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "panelDistance",
+      "path": "packages/gpu-kernels/src/index.ts",
+      "line": 13,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createPanelShader",
+      "path": "packages/gpu-kernels/src/index.ts",
+      "line": 18,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "lensDisplacement",
+      "path": "packages/gpu-kernels/src/index.ts",
+      "line": 76,
+      "kind": "const"
+    },
+    {
+      "name": "createLensCoordinates",
+      "path": "packages/gpu-kernels/src/index.ts",
+      "line": 89,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createSoftShadow",
+      "path": "packages/gpu-kernels/src/index.ts",
+      "line": 122,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "verifyPanelKernel",
+      "path": "packages/gpu-kernels/src/index.ts",
+      "line": 137,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "HostMessages",
+      "path": "packages/i18n/src/host-catalog.ts",
+      "line": 4,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "createHostCatalog",
+      "path": "packages/i18n/src/host-catalog.ts",
+      "line": 6,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "MessageValues",
+      "path": "packages/i18n/src/index.ts",
+      "line": 7,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "formatNumber",
+      "path": "packages/i18n/src/index.ts",
+      "line": 25,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "getCollator",
+      "path": "packages/i18n/src/index.ts",
+      "line": 29,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "formatMessage",
+      "path": "packages/i18n/src/index.ts",
+      "line": 43,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "contentFingerprint",
+      "path": "packages/i18n/src/index.ts",
+      "line": 50,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "assertCompatibleMessage",
+      "path": "packages/i18n/src/index.ts",
+      "line": 74,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "FluidCatalog",
+      "path": "packages/i18n/src/index.ts",
+      "line": 78,
+      "kind": "InterfaceDeclaration"
+    },
+    {
+      "name": "defineCatalog",
+      "path": "packages/i18n/src/index.ts",
+      "line": 84,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "LOCALES",
+      "path": "packages/i18n/src/locale.ts",
+      "line": 3,
+      "kind": "const"
+    },
+    {
+      "name": "LocaleSchema",
+      "path": "packages/i18n/src/locale.ts",
+      "line": 4,
+      "kind": "const"
+    },
+    {
+      "name": "Locale",
+      "path": "packages/i18n/src/locale.ts",
+      "line": 5,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "LOCALE_NAMES",
+      "path": "packages/i18n/src/locale.ts",
+      "line": 6,
+      "kind": "const"
+    },
+    {
+      "name": "LocaleContextSchema",
+      "path": "packages/i18n/src/locale.ts",
+      "line": 8,
+      "kind": "const"
+    },
+    {
+      "name": "LocaleContext",
+      "path": "packages/i18n/src/locale.ts",
+      "line": 18,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "resolveLocaleContext",
+      "path": "packages/i18n/src/locale.ts",
+      "line": 19,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "formatRegion",
+      "path": "packages/i18n/src/locale.ts",
+      "line": 22,
+      "kind": "const"
+    },
+    {
+      "name": "DecisionProvider",
+      "path": "packages/intelligence/src/index.ts",
+      "line": 3,
+      "kind": "InterfaceDeclaration"
+    },
+    {
+      "name": "FluidLocaleProvider",
+      "path": "packages/react/src/index.tsx",
+      "line": 19,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "FluidThemeProvider",
+      "path": "packages/react/src/index.tsx",
+      "line": 24,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "FluidProvider",
+      "path": "packages/react/src/index.tsx",
+      "line": 27,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "FluidContextValue",
+      "path": "packages/react/src/index.tsx",
+      "line": 39,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "useFluid",
+      "path": "packages/react/src/index.tsx",
+      "line": 47,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "FluidSurface",
+      "path": "packages/react/src/index.tsx",
+      "line": 61,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "AUTHORING_POLICY",
+      "path": "packages/server/src/ai-authoring.ts",
+      "line": 9,
+      "kind": "const"
+    },
+    {
+      "name": "AuthoringDataScopeSchema",
+      "path": "packages/server/src/ai-authoring.ts",
+      "line": 25,
+      "kind": "const"
+    },
+    {
+      "name": "AuthoringDataScope",
+      "path": "packages/server/src/ai-authoring.ts",
+      "line": 26,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "createBoundedAuthoringFetch",
+      "path": "packages/server/src/ai-authoring.ts",
+      "line": 29,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createAuthoringService",
+      "path": "packages/server/src/ai-authoring.ts",
+      "line": 52,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "getConfiguredAuthoring",
+      "path": "packages/server/src/ai-authoring.ts",
+      "line": 122,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "qualifyReviewModel",
+      "path": "packages/server/src/ai-review.ts",
+      "line": 20,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createAIReviewService",
+      "path": "packages/server/src/ai-review.ts",
+      "line": 41,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "getConfiguredReview",
+      "path": "packages/server/src/ai-review.ts",
+      "line": 99,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "reviewProviderLabel",
+      "path": "packages/server/src/ai-review.ts",
+      "line": 119,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "checkDevelopmentDocumentType",
+      "path": "packages/server/src/development-proposal.ts",
+      "line": 36,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createDevelopmentProposal",
+      "path": "packages/server/src/development-proposal.ts",
+      "line": 117,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "readAcceptanceEvidence",
+      "path": "packages/server/src/evidence-files.ts",
+      "line": 7,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "validateFlow",
+      "path": "packages/server/src/index.ts",
+      "line": 6,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "getLocalStudioAccess",
+      "path": "packages/server/src/local-access.ts",
+      "line": 4,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "LOCAL_BUDGET",
+      "path": "packages/server/src/local-project.ts",
+      "line": 10,
+      "kind": "const"
+    },
+    {
+      "name": "contentHash",
+      "path": "packages/server/src/local-project.ts",
+      "line": 11,
+      "kind": "const"
+    },
+    {
+      "name": "workspaceDatasetHash",
+      "path": "packages/server/src/local-project.ts",
+      "line": 13,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "LocalBudgetAuthority",
+      "path": "packages/server/src/local-project.ts",
+      "line": 16,
+      "kind": "InterfaceDeclaration"
+    },
+    {
+      "name": "findLocalProjectRoot",
+      "path": "packages/server/src/local-project.ts",
+      "line": 21,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createLocalProjectStore",
+      "path": "packages/server/src/local-project.ts",
+      "line": 44,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "getLocalProjectStore",
+      "path": "packages/server/src/local-project.ts",
+      "line": 135,
+      "kind": "const"
+    },
+    {
+      "name": "OPENAI_REVIEW_QUOTE",
+      "path": "packages/server/src/openai-review.ts",
+      "line": 9,
+      "kind": "const"
+    },
+    {
+      "name": "createBoundedOpenAIFetch",
+      "path": "packages/server/src/openai-review.ts",
+      "line": 26,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createOpenAIReviewModel",
+      "path": "packages/server/src/openai-review.ts",
+      "line": 45,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "responseLanguageInstruction",
+      "path": "packages/server/src/response-language.ts",
+      "line": 10,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createLocalReviewAccess",
+      "path": "packages/server/src/review-access.ts",
+      "line": 4,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "readBoundedJSON",
+      "path": "packages/server/src/review-access.ts",
+      "line": 41,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "REVIEW_POLICY",
+      "path": "packages/server/src/review-policy.ts",
+      "line": 3,
+      "kind": "const"
+    },
+    {
+      "name": "ReviewError",
+      "path": "packages/server/src/review-policy.ts",
+      "line": 4,
+      "kind": "ClassDeclaration"
+    },
+    {
+      "name": "defineReviewQuote",
+      "path": "packages/server/src/review-policy.ts",
+      "line": 13,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "ReviewModelQuote",
+      "path": "packages/server/src/review-policy.ts",
+      "line": 20,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "intersectText",
+      "path": "packages/testing/src/dom-quality.ts",
+      "line": 5,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "occludedByChrome",
+      "path": "packages/testing/src/dom-quality.ts",
+      "line": 11,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "hiddenByClosedDetails",
+      "path": "packages/testing/src/dom-quality.ts",
+      "line": 36,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "inspectDomQuality",
+      "path": "packages/testing/src/dom-quality.ts",
+      "line": 55,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "inspectSemantics",
+      "path": "packages/testing/src/dom-quality.ts",
+      "line": 99,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createTestClock",
+      "path": "packages/testing/src/index.ts",
+      "line": 5,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "runScenario",
+      "path": "packages/testing/src/index.ts",
+      "line": 9,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "ProcessObservation",
+      "path": "packages/testing/src/load.ts",
+      "line": 3,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "shortProcessName",
+      "path": "packages/testing/src/load.ts",
+      "line": 4,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "cpuTimeMs",
+      "path": "packages/testing/src/load.ts",
+      "line": 5,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "parseProcessSnapshot",
+      "path": "packages/testing/src/load.ts",
+      "line": 11,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "classifyProcesses",
+      "path": "packages/testing/src/load.ts",
+      "line": 24,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "parseTopCpu",
+      "path": "packages/testing/src/load.ts",
+      "line": 43,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "pressureLevel",
+      "path": "packages/testing/src/load.ts",
+      "line": 50,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "parseMemoryCsv",
+      "path": "packages/testing/src/load.ts",
+      "line": 54,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "parseSwapCounters",
+      "path": "packages/testing/src/load.ts",
+      "line": 60,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "parseGpuRegistry",
+      "path": "packages/testing/src/load.ts",
+      "line": 65,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "assessLoadWindow",
+      "path": "packages/testing/src/load.ts",
+      "line": 101,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "NativeProofPort",
+      "path": "packages/testing/src/proof-capture.ts",
+      "line": 7,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "NativeProofContext",
+      "path": "packages/testing/src/proof-capture.ts",
+      "line": 18,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "proofSha256",
+      "path": "packages/testing/src/proof-capture.ts",
+      "line": 20,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "proofImageBytes",
+      "path": "packages/testing/src/proof-capture.ts",
+      "line": 24,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "validateNativeProof",
+      "path": "packages/testing/src/proof-capture.ts",
+      "line": 37,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "captureNativeProof",
+      "path": "packages/testing/src/proof-capture.ts",
+      "line": 46,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "measuredCheck",
+      "path": "packages/testing/src/quality.ts",
+      "line": 3,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "openCheck",
+      "path": "packages/testing/src/quality.ts",
+      "line": 9,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createQualityReport",
+      "path": "packages/testing/src/quality.ts",
+      "line": 12,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "summarizeQuality",
+      "path": "packages/testing/src/quality.ts",
+      "line": 15,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "textAuditCheck",
+      "path": "packages/testing/src/quality.ts",
+      "line": 22,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "replayReadabilityCheck",
+      "path": "packages/testing/src/quality.ts",
+      "line": 26,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "gpuReadabilityCheck",
+      "path": "packages/testing/src/quality.ts",
+      "line": 32,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "SequenceCaptureAdapter",
+      "path": "packages/testing/src/sequence.ts",
+      "line": 11,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "sequenceTimes",
+      "path": "packages/testing/src/sequence.ts",
+      "line": 23,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "captureSequence",
+      "path": "packages/testing/src/sequence.ts",
+      "line": 51,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "EffectDiagnosticAdapter",
+      "path": "packages/testing/src/sequence.ts",
+      "line": 145,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "stressEffect",
+      "path": "packages/testing/src/sequence.ts",
+      "line": 177,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "measureEffectPlayback",
+      "path": "packages/testing/src/sequence.ts",
+      "line": 207,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "VisualRetargetAdapter",
+      "path": "packages/testing/src/sequence.ts",
+      "line": 237,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "stressVisualRetargeting",
+      "path": "packages/testing/src/sequence.ts",
+      "line": 261,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createStoryRunner",
+      "path": "packages/testing/src/story.ts",
+      "line": 4,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "qualificationGeometry",
+      "path": "packages/testing/src/workspace-qualification.ts",
+      "line": 4,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "endpointIssues",
+      "path": "packages/testing/src/workspace-qualification.ts",
+      "line": 8,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "checkpointComplete",
+      "path": "packages/testing/src/workspace-qualification.ts",
+      "line": 18,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "resolveGPUPreference",
+      "path": "packages/webgpu/src/backend-policy.ts",
+      "line": 4,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "observeSurfaceCapabilities",
+      "path": "packages/webgpu/src/capabilities.ts",
+      "line": 7,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "couplingBounds",
+      "path": "packages/webgpu/src/coupling-layer.ts",
+      "line": 9,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createCouplingLayer",
+      "path": "packages/webgpu/src/coupling-layer.ts",
+      "line": 21,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createEffectLayers",
+      "path": "packages/webgpu/src/effect-layers.ts",
+      "line": 9,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "resolveFocusRing",
+      "path": "packages/webgpu/src/focus-ring.ts",
+      "line": 11,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "FocusRingGeometry",
+      "path": "packages/webgpu/src/focus-ring.ts",
+      "line": 26,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "createFocusRing",
+      "path": "packages/webgpu/src/focus-ring.ts",
+      "line": 29,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "fetchSurfaceFontAssets",
+      "path": "packages/webgpu/src/font-assets.ts",
+      "line": 2,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "DEFAULT_PRIMARY_FONT_URL",
+      "path": "packages/webgpu/src/fonts.ts",
+      "line": 4,
+      "kind": "const"
+    },
+    {
+      "name": "DEFAULT_FALLBACK_FONT_URLS",
+      "path": "packages/webgpu/src/fonts.ts",
+      "line": 5,
+      "kind": "const"
+    },
+    {
+      "name": "loadSurfaceFonts",
+      "path": "packages/webgpu/src/fonts.ts",
+      "line": 8,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "PresentedHitTarget",
+      "path": "packages/webgpu/src/hit-testing.ts",
+      "line": 4,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "hitTestPresentation",
+      "path": "packages/webgpu/src/hit-testing.ts",
+      "line": 42,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "CapabilityError",
+      "path": "packages/webgpu/src/index.ts",
+      "line": 35,
+      "kind": "ClassDeclaration"
+    },
+    {
+      "name": "SurfaceFontError",
+      "path": "packages/webgpu/src/index.ts",
+      "line": 36,
+      "kind": "ClassDeclaration"
+    },
+    {
+      "name": "SurfaceMetrics",
+      "path": "packages/webgpu/src/index.ts",
+      "line": 37,
+      "kind": "InterfaceDeclaration"
+    },
+    {
+      "name": "SurfaceOptions",
+      "path": "packages/webgpu/src/index.ts",
+      "line": 38,
+      "kind": "InterfaceDeclaration"
+    },
+    {
+      "name": "TextSelection",
+      "path": "packages/webgpu/src/index.ts",
+      "line": 51,
+      "kind": "InterfaceDeclaration"
+    },
+    {
+      "name": "layoutScene",
+      "path": "packages/webgpu/src/index.ts",
+      "line": 86,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "visibleRange",
+      "path": "packages/webgpu/src/index.ts",
+      "line": 90,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createFluidSurface",
+      "path": "packages/webgpu/src/index.ts",
+      "line": 97,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "FluidSurfaceHandle",
+      "path": "packages/webgpu/src/index.ts",
+      "line": 644,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "SurfacePlaybackControls",
+      "path": "packages/webgpu/src/index.ts",
+      "line": 645,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "motionProgress",
+      "path": "packages/webgpu/src/motion.ts",
+      "line": 4,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "interpolateBounds",
+      "path": "packages/webgpu/src/motion.ts",
+      "line": 8,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "transitionStages",
+      "path": "packages/webgpu/src/motion.ts",
+      "line": 13,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "redactSceneNode",
+      "path": "packages/webgpu/src/privacy.ts",
+      "line": 4,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createResourceLedger",
+      "path": "packages/webgpu/src/resources.ts",
+      "line": 4,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "ResourceLedger",
+      "path": "packages/webgpu/src/resources.ts",
+      "line": 15,
+      "kind": "TypeAliasDeclaration"
+    },
+    {
+      "name": "createResourceScope",
+      "path": "packages/webgpu/src/resources.ts",
+      "line": 18,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "deriveLocalizedRecording",
+      "path": "packages/webgpu/src/restage.ts",
+      "line": 5,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "isTextSelectionVisible",
+      "path": "packages/webgpu/src/selection-visibility.ts",
+      "line": 5,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "glyphCaretAtOffset",
+      "path": "packages/webgpu/src/text-input.ts",
+      "line": 7,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "textInputScroll",
+      "path": "packages/webgpu/src/text-input.ts",
+      "line": 29,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "clipTextRect",
+      "path": "packages/webgpu/src/text-input.ts",
+      "line": 40,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "TEXT_LINE_HEIGHT",
+      "path": "packages/webgpu/src/text-layout.ts",
+      "line": 3,
+      "kind": "const"
+    },
+    {
+      "name": "textRegion",
+      "path": "packages/webgpu/src/text-layout.ts",
+      "line": 5,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "overlappingText",
+      "path": "packages/webgpu/src/text-layout.ts",
+      "line": 13,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "recordingScale",
+      "path": "packages/webgpu/src/text-layout.ts",
+      "line": 25,
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "name": "createPresentationTimeline",
+      "path": "packages/webgpu/src/timeline.ts",
+      "line": 2,
+      "kind": "FunctionDeclaration"
+    }
+  ]
+}

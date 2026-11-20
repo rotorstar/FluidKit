@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-11-20T12:53:28.847Z",
+  "browser": "157.0.8103.80",
+  "sourceSha256": "8557eef0075cd56c2c981dc2e33446e10c6efca5b26c7fe81774b0c293d1853a",
+  "datasetSha256": "ae5366f023c0f154895d874d3c65b976d1d38546a0ec6baadd6a9c43cceaa390",
+  "deviceProfile": {
+    "vendor": "apple",
+    "architecture": "metal-3",
+    "isFallbackAdapter": false
+  },
+  "dataCapturedAt": "2026-11-20T12:52:17.738Z",
+  "moduleCount": 12,
+  "results": [
+    {
+      "backend": "webgpu",
+      "width": 320,
+      "reducedMotion": false,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {
+        "de→en": "4a07f9536326cd3df9886c363672bd36c47c1d6d7a189da546a889a9b8fd690b",
+        "de→fr": "4a07f9536326cd3df9886c363672bd36c47c1d6d7a189da546a889a9b8fd690b",
+        "en→de": "d79c254c38e296f382bba0ab6a0ae85fad63427c49d99dcbb9d2ff982d69a2f6",
+        "en→fr": "d79c254c38e296f382bba0ab6a0ae85fad63427c49d99dcbb9d2ff982d69a2f6",
+        "fr→de": "03f311f52d9a57d7cc2ecba9c76054a62f078843999f6fe00af806ac15aa27cc",
+        "fr→en": "03f311f52d9a57d7cc2ecba9c76054a62f078843999f6fe00af806ac15aa27cc"
+      },
+      "inkBoxes": 3,
+      "frameHash": "8c13063dff9f0aa2b344636edfcb93ae98a6016c2424bbe3e02d864ee512f344"
+    },
+    {
+      "backend": "webgpu",
+      "width": 320,
+      "reducedMotion": true,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {},
+      "inkBoxes": 3,
+      "frameHash": "8c13063dff9f0aa2b344636edfcb93ae98a6016c2424bbe3e02d864ee512f344"
+    },
+    {
+      "backend": "webgl2",
+      "width": 320,
+      "reducedMotion": false,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {
+        "de→en": "4a07f9536326cd3df9886c363672bd36c47c1d6d7a189da546a889a9b8fd690b",
+        "de→fr": "4a07f9536326cd3df9886c363672bd36c47c1d6d7a189da546a889a9b8fd690b",
+        "en→de": "d79c254c38e296f382bba0ab6a0ae85fad63427c49d99dcbb9d2ff982d69a2f6",
+        "en→fr": "d79c254c38e296f382bba0ab6a0ae85fad63427c49d99dcbb9d2ff982d69a2f6",
+        "fr→de": "03f311f52d9a57d7cc2ecba9c76054a62f078843999f6fe00af806ac15aa27cc",
+        "fr→en": "03f311f52d9a57d7cc2ecba9c76054a62f078843999f6fe00af806ac15aa27cc"
+      },
+      "inkBoxes": 3,
+      "frameHash": "8c13063dff9f0aa2b344636edfcb93ae98a6016c2424bbe3e02d864ee512f344"
+    },
+    {
+      "backend": "webgl2",
+      "width": 320,
+      "reducedMotion": true,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {},
+      "inkBoxes": 3,
+      "frameHash": "8c13063dff9f0aa2b344636edfcb93ae98a6016c2424bbe3e02d864ee512f344"
+    },
+    {
+      "backend": "webgpu",
+      "width": 390,
+      "reducedMotion": false,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {
+        "de→en": "d642b99b074a1d24ba3ecc58bd0de11ee1a9bb851022c9f41de243c2c0d39bb3",
+        "de→fr": "d642b99b074a1d24ba3ecc58bd0de11ee1a9bb851022c9f41de243c2c0d39bb3",
+        "en→de": "e5374a17c4387f11dfe96a87f5f0e3d8f0b2a5be5d437d8a0aa2e60049e2265d",
+        "en→fr": "e5374a17c4387f11dfe96a87f5f0e3d8f0b2a5be5d437d8a0aa2e60049e2265d",
+        "fr→de": "5dbcfaf16a2fb980e74bb2fc607cb5df8cdbd1b2299ec3279d7c3c702f2e6934",
+        "fr→en": "5dbcfaf16a2fb980e74bb2fc607cb5df8cdbd1b2299ec3279d7c3c702f2e6934"
+      },
+      "inkBoxes": 3,
+      "frameHash": "ff11af7b6a992fb528f42425090b93b2053546788eb32515b01d8a7ff9688550"
+    },
+    {
+      "backend": "webgpu",
+      "width": 390,
+      "reducedMotion": true,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {},
+      "inkBoxes": 3,
+      "frameHash": "ff11af7b6a992fb528f42425090b93b2053546788eb32515b01d8a7ff9688550"
+    },
+    {
+      "backend": "webgl2",
+      "width": 390,
+      "reducedMotion": false,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {
+        "de→en": "d642b99b074a1d24ba3ecc58bd0de11ee1a9bb851022c9f41de243c2c0d39bb3",
+        "de→fr": "d642b99b074a1d24ba3ecc58bd0de11ee1a9bb851022c9f41de243c2c0d39bb3",
+        "en→de": "e5374a17c4387f11dfe96a87f5f0e3d8f0b2a5be5d437d8a0aa2e60049e2265d",
+        "en→fr": "e5374a17c4387f11dfe96a87f5f0e3d8f0b2a5be5d437d8a0aa2e60049e2265d",
+        "fr→de": "5dbcfaf16a2fb980e74bb2fc607cb5df8cdbd1b2299ec3279d7c3c702f2e6934",
+        "fr→en": "5dbcfaf16a2fb980e74bb2fc607cb5df8cdbd1b2299ec3279d7c3c702f2e6934"
+      },
+      "inkBoxes": 3,
+      "frameHash": "ff11af7b6a992fb528f42425090b93b2053546788eb32515b01d8a7ff9688550"
+    },
+    {
+      "backend": "webgl2",
+      "width": 390,
+      "reducedMotion": true,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {},
+      "inkBoxes": 3,
+      "frameHash": "ff11af7b6a992fb528f42425090b93b2053546788eb32515b01d8a7ff9688550"
+    },
+    {
+      "backend": "webgpu",
+      "width": 768,
+      "reducedMotion": false,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {
+        "de→en": "fdf3b8daa1a1c9a2621ae3907bbe0b16d337f788c9c9a87171cacaa8c98e802d",
+        "de→fr": "fdf3b8daa1a1c9a2621ae3907bbe0b16d337f788c9c9a87171cacaa8c98e802d",
+        "en→de": "681b60af1ae462c83ee2d0cc793493032f5f38da41d3d57ef7ec94914272b473",
+        "en→fr": "681b60af1ae462c83ee2d0cc793493032f5f38da41d3d57ef7ec94914272b473",
+        "fr→de": "31e918bf4725dfdabc108349fa68647c484205679ffa337641321ff5a657b5a1",
+        "fr→en": "31e918bf4725dfdabc108349fa68647c484205679ffa337641321ff5a657b5a1"
+      },
+      "inkBoxes": 3,
+      "frameHash": "23bdb7de22db0563af2a60280b33cad80aceeb360d29d791c43601f3bf1e7394"
+    },
+    {
+      "backend": "webgpu",
+      "width": 768,
+      "reducedMotion": true,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {},
+      "inkBoxes": 3,
+      "frameHash": "23bdb7de22db0563af2a60280b33cad80aceeb360d29d791c43601f3bf1e7394"
+    },
+    {
+      "backend": "webgl2",
+      "width": 768,
+      "reducedMotion": false,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {
+        "de→en": "fdf3b8daa1a1c9a2621ae3907bbe0b16d337f788c9c9a87171cacaa8c98e802d",
+        "de→fr": "fdf3b8daa1a1c9a2621ae3907bbe0b16d337f788c9c9a87171cacaa8c98e802d",
+        "en→de": "681b60af1ae462c83ee2d0cc793493032f5f38da41d3d57ef7ec94914272b473",
+        "en→fr": "681b60af1ae462c83ee2d0cc793493032f5f38da41d3d57ef7ec94914272b473",
+        "fr→de": "31e918bf4725dfdabc108349fa68647c484205679ffa337641321ff5a657b5a1",
+        "fr→en": "31e918bf4725dfdabc108349fa68647c484205679ffa337641321ff5a657b5a1"
+      },
+      "inkBoxes": 3,
+      "frameHash": "23bdb7de22db0563af2a60280b33cad80aceeb360d29d791c43601f3bf1e7394"
+    },
+    {
+      "backend": "webgl2",
+      "width": 768,
+      "reducedMotion": true,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {},
+      "inkBoxes": 3,
+      "frameHash": "23bdb7de22db0563af2a60280b33cad80aceeb360d29d791c43601f3bf1e7394"
+    },
+    {
+      "backend": "webgpu",
+      "width": 1280,
+      "reducedMotion": false,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {
+        "de→en": "652ead97f88a0b21eb3868ca0b79b952dd03315cba4b6ac602ee566e4f7b08f6",
+        "de→fr": "652ead97f88a0b21eb3868ca0b79b952dd03315cba4b6ac602ee566e4f7b08f6",
+        "en→de": "5da189ffc021db9eb85c82eda64ac3adc2f7ed3b70e0f91c5fa30925cd260786",
+        "en→fr": "5da189ffc021db9eb85c82eda64ac3adc2f7ed3b70e0f91c5fa30925cd260786",
+        "fr→de": "6b08f40040bb73ee99e814a88cd46d6be37105437df2b5f8ed6c7a4bd5177a2c",
+        "fr→en": "6b08f40040bb73ee99e814a88cd46d6be37105437df2b5f8ed6c7a4bd5177a2c"
+      },
+      "inkBoxes": 3,
+      "frameHash": "d32e16a7179cfff9a300fed933385ed7e78c265f831764efc7930d9d0f040ace"
+    },
+    {
+      "backend": "webgpu",
+      "width": 1280,
+      "reducedMotion": true,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {},
+      "inkBoxes": 3,
+      "frameHash": "d32e16a7179cfff9a300fed933385ed7e78c265f831764efc7930d9d0f040ace"
+    },
+    {
+      "backend": "webgl2",
+      "width": 1280,
+      "reducedMotion": false,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {
+        "de→en": "652ead97f88a0b21eb3868ca0b79b952dd03315cba4b6ac602ee566e4f7b08f6",
+        "de→fr": "652ead97f88a0b21eb3868ca0b79b952dd03315cba4b6ac602ee566e4f7b08f6",
+        "en→de": "5da189ffc021db9eb85c82eda64ac3adc2f7ed3b70e0f91c5fa30925cd260786",
+        "en→fr": "5da189ffc021db9eb85c82eda64ac3adc2f7ed3b70e0f91c5fa30925cd260786",
+        "fr→de": "6b08f40040bb73ee99e814a88cd46d6be37105437df2b5f8ed6c7a4bd5177a2c",
+        "fr→en": "6b08f40040bb73ee99e814a88cd46d6be37105437df2b5f8ed6c7a4bd5177a2c"
+      },
+      "inkBoxes": 3,
+      "frameHash": "d32e16a7179cfff9a300fed933385ed7e78c265f831764efc7930d9d0f040ace"
+    },
+    {
+      "backend": "webgl2",
+      "width": 1280,
+      "reducedMotion": true,
+      "checks": [
+        "de→en",
+        "de→fr",
+        "en→de",
+        "en→fr",
+        "fr→de",
+        "fr→en",
+        "pseudo+35%"
+      ],
+      "originalReplayHashes": {},
+      "inkBoxes": 3,
+      "frameHash": "d32e16a7179cfff9a300fed933385ed7e78c265f831764efc7930d9d0f040ace"
+    }
+  ],
+  "workspace": [
+    {
+      "backend": "webgpu",
+      "width": 320,
+      "samples": 378,
+      "issues": []
+    },
+    {
+      "backend": "webgl2",
+      "width": 320,
+      "samples": 378,
+      "issues": []
+    },
+    {
+      "backend": "webgpu",
+      "width": 390,
+      "samples": 378,
+      "issues": []
+    },
+    {
+      "backend": "webgl2",
+      "width": 390,
+      "samples": 378,
+      "issues": []
+    },
+    {
+      "backend": "webgpu",
+      "width": 768,
+      "samples": 378,
+      "issues": []
+    },
+    {
+      "backend": "webgl2",
+      "width": 768,
+      "samples": 378,
+      "issues": []
+    },
+    {
+      "backend": "webgpu",
+      "width": 1280,
+      "samples": 378,
+      "issues": []
+    },
+    {
+      "backend": "webgl2",
+      "width": 1280,
+      "samples": 378,
+      "issues": []
+    }
+  ]
+}

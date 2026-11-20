@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "product": "FluidKit Pro",
+  "version": "0.2.0-alpha.0",
+  "routes": [
+    "/",
+    "/studio",
+    "/studio/transitions",
+    "/studio/rehearsal",
+    "/studio/flows",
+    "/studio/m7",
+    "/studio/behaviors",
+    "/studio/m8",
+    "/studio/authoring",
+    "/studio/acceptance",
+    "/studio/simulations/real-estate",
+    "/studio/simulations/commerce",
+    "/studio/simulations/travel"
+  ],
+  "dataModes": {
+    "workspace": "Actual local package manifests and TypeScript source statistics",
+    "simulations": "Synthetic, explicitly labeled, no real purchases/bookings/messages",
+    "ai": "Selected original GPU stills are sent to OpenAI only after explicit analysis selection",
+    "authoring": "Actual workspace data; manual or server-side AI draft limited to registered sections. Project note excluded from model context; explicit apply after independent preflight and isolated preview.",
+    "flowExplorer": "Actual selected workspace module; local architecture-review state machine. No external audit, publication or AI call.",
+    "comparison": "Two to four explicitly selected workspace modules, real source metrics and dependency sets.",
+    "atlas": "Real files or source lines as proportional areas; group drilldown; size is not a quality score."
+  },
+  "screenshots": "screenshots.json",
+  "limitations": [
+    "Alpha product; full roadmap remains open",
+    "Manual screenreader, IME, mobile and broad hardware qualification incomplete",
+    "Selected-frame AI critique does not prove full motion quality",
+    "AI review export and project file persistence are separate",
+    "No production provider is attached to simulation cases"
+  ],
+  "documentedAt": "2026-11-20",
+  "historicalSnapshot": {
+    "documentedAt": "2026-11-02",
+    "sourceBuild": "fluid-b383e3697f017257a779",
+    "baselineCommit": "104f9f8",
+    "snapshotScope": "Screenshots show the documented runtime build, not a new production qualification. Knowledge-tooling changes do not expand runtime acceptance.",
+    "releaseCriteria": {
+      "total": 408,
+      "verified": 94,
+      "partial": 190,
+      "open": 123,
+      "external": 1
+    },
+    "navigationIntegration": {
+      "buildId": "fluid-82e1541dee9b5ad0e8b2",
+      "verifiedAt": "2026-11-02T10:49:05.092293Z",
+      "opensNewTab": true,
+      "preservesWorkspaceState": true,
+      "labels": [
+        "Engineering",
+        "Bedienungsanleitung"
+      ],
+      "sameStudioOrigin": true
+    }
+  },
+  "currentScope": {
+    "milestone": "R1–R6",
+    "documentedAt": "2026-11-20",
+    "canonicalAcceptanceSource": "docs/acceptance/ledger.json",
+    "canonicalCriteria": 510,
+    "historicalCriteria": 497,
+    "addedCriteria": 13,
+    "scope": "Three structural transformations and an optional accent, shared studio scrubber, local versioned authoring and frame evidence. Human and hardware qualification are tracked independently.",
+    "studioBuild": "fluid-0f80b42806fab50ea044",
+    "qualification": {
+      "verified": 11,
+      "partial": 1,
+      "external": 1
+    },
+    "unitTestsPassed": 695,
+    "browserJourneysPassed": 10
+  },
+  "milestoneHistory": [
+    {
+      "milestone": "M7",
+      "sourceState": "All27 M7 criteria qualified in explicitly recorded local scopes; wider product, language, accessibility and hardware gates remain open",
+      "canonicalAcceptanceSource": "docs/acceptance/ledger.json",
+      "canonicalCriteria": 435,
+      "historicalCriteria": 408,
+      "addedCriteria": 27,
+      "verifiedAddedCriteria": 27,
+      "newRecipes": [
+        "silk-cascade",
+        "liquid-lens",
+        "particle-weave"
+      ],
+      "scope": "Six effects with144 controlled view cases/720 checkpoints, native journeys, 200 fresh Surfacecycles, real media/visibility and bounded capture/privacy checks. Local manual OS dead-key flow functions correctly; its observed end is untrusted and fully trusted composition counter remains0. No general IME/AT/mobile/hardware release.",
+      "screenshots": "Historical November2 screenshots and November3 build2006 gallery retain original hashes/builds. November4 workshop captures retain separate f0 and final81 provenance; actual original JPEG bytes are stored with matching .jpg names in Public.",
+      "releaseCriteria": {
+        "total": 435,
+        "verified": 121,
+        "partial": 190,
+        "open": 123,
+        "external": 1
+      },
+      "m7Criteria": {
+        "total": 27,
+        "verified": 27,
+        "partial": 0
+      },
+      "qualificationHistory": [
+        {
+          "buildId": "fluid-902aad3c08fc2098e23d",
+          "status": "not-final-release-evidence",
+          "findings": [
+            "Ghost outgoing labels despite numerically complete sampling",
+            "Lens misses moving selected detail content",
+            "491.6ms maximum observed natural frame interval"
+          ],
+          "afterFix": "New build and repeated visual/timing evidence required"
+        },
+        {
+          "buildId": "fluid-339a0c4d705d1a307729",
+          "status": "partial-with-blockers",
+          "passedScope": [
+            "Silk and Particle selected original WebGPU phases reviewed by AI agent",
+            "Four deterministic sequences with 67/67 numeric samples",
+            "Silk/Lens managed-resource 100 replay and 100 visual-retarget runs"
+          ],
+          "failedScope": [
+            "Lens background Y inversion and unrelated duplicated controls",
+            "WebGL2 shader compilation errors"
+          ],
+          "afterFix": "New backend compilation and original images required; no complete release acceptance"
+        },
+        {
+          "buildId": "fluid-2006dfa3f94ae832a214",
+          "status": "locally-validated-before-input-patches",
+          "passedScope": [
+            "18 new-effect sequences across WebGPU/WebGL2 and four responsive browser widths; 12 full archives, six metadata/selected-original-frame archives",
+            "Three legacy recipe regressions with metadata and selected original phases",
+            "Six desktop effect/backend combinations with 100 replay and 100 visual retarget cycles",
+            "Warm scheduler P95 8.4–8.9ms; no GPU timestamps, startup interval omitted",
+            "Manual M7a desktop/390px, URL/history/search and keyboard input journey"
+          ],
+          "remaining": [
+            "No full manual AT/IME/CJK/mobile or cross-device approval",
+            "CJK input is preserved in Core but not fully rendered by project font",
+            "No new mount/unmount or driver-memory qualification"
+          ]
+        },
+        {
+          "buildId": "fluid-47ea533eb1602bbecd0e",
+          "status": "scoped-input-visibility-patch-regression",
+          "passedScope": [
+            "Six new-effect standard sequences, all67 metadata samples and five original phases inspected per run",
+            "Outgoing selection/caret visibility gate; MATERIAL style label"
+          ],
+          "remaining": [
+            "Selection layout commit needed subsequent patch; metadata-only archives are not full image sequence archives"
+          ]
+        },
+        {
+          "buildId": "fluid-d9f34d61a94c9d556b63",
+          "status": "final-local-source-checks-and-targeted-input-patch",
+          "passedScope": [
+            "215 tests in24 files, strict TypeScript, ESLint and22-file supported ai-design-check",
+            "Real Glyph/font regression confirms selection geometry after explicit layout commit",
+            "Six final standard effect/backend sequences: all67 metadata samples pass, five original phases covered by direct review or exact pixel identity to previously reviewed frames",
+            "Visible Latin selection/caret and43-second settled WebGPU idle observation"
+          ],
+          "evidence": "docs/qa/2026-11-03-m7/build-d9f34d61a94c9d556b63/verification.json",
+          "remaining": [
+            "Broader viewport/stress results retain build2006 provenance; no implied repeat on final patch",
+            "Eight M7 acceptance criteria remain partial",
+            "Documentation-only date-generation correction and216-test final suite are recorded separately; runtime build ID is not relabeled"
+          ]
+        },
+        {
+          "buildId": "fluid-f0dc6354dc0abff86d1b",
+          "status": "scoped-passed-matrix-with-native-history-defect",
+          "passedScope": [
+            "144 controlled matrix cases/720 original checkpoint images",
+            "200 fresh imperative Surfacecycles and bounded private capture/export probes",
+            "Manual OS-dead-key input: correct â and protected Core input; observed end untrusted"
+          ],
+          "failedScope": [
+            "Native75% History could restore domain while exporting stale previous clip"
+          ],
+          "remaining": [
+            "No fully trusted composition-end or Japanese candidate-selection claim"
+          ]
+        },
+        {
+          "buildId": "fluid-f706cdc793fc290902a5",
+          "status": "native-history-corrected-before-final-input-media-patches",
+          "passedScope": [
+            "Repeated144-case matrix and200 Surfacecycles",
+            "25 native interruption pairs across effects/backends;23 pixel-identical boundary pairs, remaining raster differences retained for targeted review",
+            "Real sort/search/selection/URL/replay/React recovery, long-input and clipboard journeys"
+          ],
+          "failedScope": [
+            "Native maxLength was not yet bound to the Field contract",
+            "Reduced-Motion capability updates did not yet reach later Core plans"
+          ]
+        },
+        {
+          "buildId": "fluid-81e03df218772a9d1bef",
+          "status": "locally-qualified-m7",
+          "passedScope": [
+            "267 tests/33files, strict TypeScript/ESLint, production build;28 supported design-check sources",
+            "144 matrix cases/720 PNG integrity checks/288 exact endpoints; original-image identity comparison and targeted current image review",
+            "200 fresh Surfacecycles plus10 special cases,26 private/public capture probes",
+            "Native length-bound correction, six live resize journeys and six legacy recipe/backend regressions",
+            "Actual Chrome/WebGPU media and visibility observations; three reduced targets and paused/running hidden-clock preservation"
+          ],
+          "remaining": [
+            "Manual OS-dead-key functional result belongs to f0; end observed untrusted, fully trusted counter remains0",
+            "Five matrix checkpoints are not a new full temporal film",
+            "Cross-device, AT, mobile, broader IME and other product-roadmap gates remain open"
+          ]
+        }
+      ],
+      "sourceBuild": "fluid-81e03df218772a9d1bef",
+      "documentationTooling": {
+        "scope": "November4 plan, unchanged canonical criteria, both handbooks and generated references. Historical screenshots remain tied to original builds; binary font and Python preparation have supplemental hashes.",
+        "finalUnitTests": 267,
+        "files": 33,
+        "runtimeTests": 267,
+        "runtimeBuild": "fluid-81e03df218772a9d1bef",
+        "evidence": "docs/qa/2026-11-04-m7/build-81e03df218772a9d1bef/verification.json"
+      },
+      "documentationHistory": [
+        {
+          "scope": "Chapter dates derive from individual source metadata; book date follows the latest chapter. Historical screenshots and untouched chapters retain original dates.",
+          "finalUnitTests": 216,
+          "files": 24,
+          "runtimeTests": 215,
+          "runtimeBuild": "fluid-d9f34d61a94c9d556b63",
+          "evidence": "docs/qa/2026-11-03-m7/documentation-tooling-verification.json"
+        }
+      ]
+    },
+    {
+      "milestone": "M8",
+      "canonicalAcceptanceSource": "docs/acceptance/ledger.json",
+      "canonicalCriteria": 476,
+      "historicalCriteria": 435,
+      "addedCriteria": 41,
+      "sourceState": "Implemented and locally qualified by criterion. Saved native run/screenshot binding and load-qualified performance remain partial; no full M8 or product release. Both handbooks and generated documentation checked in the separate final documentation gate.",
+      "scope": "Multipart components, public SDK Selection, timer-free Typeahead, shared layout and current native geometry, controlled multiselection across Table/Cards/Map, nonmodal inspector, two-library Studio comparison, bounded default-deny agent bridge and registered manual/AI authoring.",
+      "m7Criteria": {
+        "total": 27,
+        "verified": 27,
+        "provenance": "Historical M7 scope retained in milestoneHistory; no new build attribution."
+      },
+      "tests": {
+        "passed": 512,
+        "files": 57,
+        "postPackageBoundaryRetest": 21,
+        "verification": "docs/qa/2026-11-13-m8/final-verification.json",
+        "scope": "Final local TypeScript/ESLint/test checks and successful package/Studio production build; not a rerun of all historical browser/provider evidence."
+      },
+      "matrix": {
+        "buildId": "fluid-dfc8a56ebe0e58ace2ea",
+        "cases": 144,
+        "checkpoints": 720,
+        "maximumNativeDeviationCssPx": 0.007811553998308796,
+        "sameSeedComparison": "not-qualified",
+        "visualReviewOriginals": 7,
+        "evidence": "docs/qa/2026-11-13-m8/build-dfc8a56ebe0e58ace2ea/matrix/assembly-c66d6d7b93ba.json"
+      },
+      "decisions": {
+        "selection": "Public UI SDK adapter",
+        "typeahead": "Fluid implementation with explicit time",
+        "studioTabsSelectDialog": "Base UI retained; UI SDK stays available in comparison lab",
+        "bundleCombinedGzipDeltaBytes": 16779,
+        "bundleScope": "Isolated matched browser fixture, not whole Next application"
+      },
+      "performance": {
+        "buildId": "fluid-e4a5afc0f4c1b34e96de",
+        "latestObservedBackend": "webgpu",
+        "cases": 18,
+        "maximumCaseP95Ms": 17.6,
+        "maximumIntervalMs": 66.7,
+        "longIntervalsOver50Ms": 5,
+        "idleAdditionalFrames": 0,
+        "budget": "failed",
+        "load": "contaminated",
+        "performanceValidity": "not-qualified",
+        "gpuAttribution": "Unqualified counter units and complete process/tab attribution",
+        "evidence": "docs/qa/2026-11-13-m8/build-e4a5afc0f4c1b34e96de/observed-load-122924/review.json"
+      },
+      "screenshots": "November13 original GPU checkpoints retain dfc build/report provenance. Earlier screenshots/build histories are unchanged; no image constitutes a full motion or native-input qualification.",
+      "m8Criteria": {
+        "total": 41,
+        "verified": 39,
+        "partial": 2,
+        "remaining": [
+          "T61-AC06",
+          "T65-AC05"
+        ],
+        "scope": "Per-criterion local evidence; not a product-wide or full M8 release."
+      },
+      "releaseCriteria": {
+        "total": 476,
+        "verified": 160,
+        "partial": 192,
+        "open": 123,
+        "external": 1
+      }
+    },
+    {
+      "milestone": "M8",
+      "canonicalAcceptanceSource": "docs/acceptance/ledger.json",
+      "canonicalCriteria": 476,
+      "historicalCriteria": 435,
+      "addedCriteria": 41,
+      "sourceState": "All41 M8 criteria locally qualified. Measurement/evaluation completed with explicitly failed frame budget and contaminated/not-qualified performance validity; no T29 or general product release.",
+      "scope": "Multipart components, public SDK Selection, timer-free Typeahead, shared layout and current native geometry, controlled multiselection across Table/Cards/Map, nonmodal inspector, two-library Studio comparison, bounded default-deny agent bridge and registered manual/AI authoring.",
+      "m7Criteria": {
+        "total": 27,
+        "verified": 27,
+        "provenance": "Historical M7 scope retained in milestoneHistory; no new build attribution."
+      },
+      "tests": {
+        "passed": 544,
+        "files": 59,
+        "verification": "docs/qa/2026-11-13-m8/native-proof-build-verification.json",
+        "scope": "Final current-source strict TypeScript/ESLint/full tests and package/Studio production build after native proof export; archived browser capture has its own source build."
+      },
+      "matrix": {
+        "buildId": "fluid-dfc8a56ebe0e58ace2ea",
+        "cases": 144,
+        "checkpoints": 720,
+        "maximumNativeDeviationCssPx": 0.007811553998308796,
+        "sameSeedComparison": "not-qualified",
+        "visualReviewOriginals": 7,
+        "evidence": "docs/qa/2026-11-13-m8/build-dfc8a56ebe0e58ace2ea/matrix/assembly-c66d6d7b93ba.json"
+      },
+      "decisions": {
+        "selection": "Public UI SDK adapter",
+        "typeahead": "Fluid implementation with explicit time",
+        "studioTabsSelectDialog": "Base UI retained; UI SDK stays available in comparison lab",
+        "bundleCombinedGzipDeltaBytes": 16779,
+        "bundleScope": "Isolated matched browser fixture, not whole Next application"
+      },
+      "performance": {
+        "buildId": "fluid-e4a5afc0f4c1b34e96de",
+        "latestObservedBackend": "webgpu",
+        "cases": 18,
+        "maximumCaseP95Ms": 17.6,
+        "maximumIntervalMs": 66.7,
+        "longIntervalsOver50Ms": 5,
+        "idleAdditionalFrames": 0,
+        "budget": "failed",
+        "load": "contaminated",
+        "performanceValidity": "not-qualified",
+        "gpuAttribution": "Unqualified counter units and complete process/tab attribution",
+        "evidence": "docs/qa/2026-11-13-m8/build-e4a5afc0f4c1b34e96de/observed-load-122924/review.json"
+      },
+      "screenshots": "November13 original GPU checkpoints retain dfc build/report provenance. Earlier screenshots/build histories are unchanged; no image constitutes a full motion or native-input qualification. Two original native November13 frames have separately bound build3cf/run/dataset identities.",
+      "m8Criteria": {
+        "total": 41,
+        "verified": 41,
+        "partial": 0,
+        "remaining": [],
+        "scope": "Limited local functionality, comparison and honest measurement assessment; no full historical roadmap or production/performance release."
+      },
+      "releaseCriteria": {
+        "total": 476,
+        "verified": 162,
+        "partial": 190,
+        "open": 123,
+        "external": 1
+      },
+      "nativeProof": {
+        "buildId": "fluid-3cf71edcdbac59235548",
+        "reports": 2,
+        "browserWidths": [
+          1280,
+          390
+        ],
+        "surfaceSizes": [
+          [
+            989,
+            1478
+          ],
+          [
+            353,
+            1980
+          ]
+        ],
+        "nativeTargetsPerCapture": 45,
+        "maximumNativeDeviationCssPx": 0,
+        "inputOrigin": "Observed separately by actual operator; exporter never attests native input",
+        "evidence": "docs/qa/2026-11-13-m8/native-proof-operator-review.json"
+      }
+    },
+    {
+      "milestone": "M9",
+      "documentedAt": "2026-11-14",
+      "canonicalAcceptanceSource": "docs/acceptance/ledger.json",
+      "canonicalCriteria": 497,
+      "historicalCriteria": 476,
+      "addedCriteria": 21,
+      "sourceState": "All21 new M9 criteria locally qualified. Current GPU stills, native control geometry,608 tests and production build bound to fluid-5efc7ce43b5669cc30e9; historical proofs remain separate.",
+      "scope": "Local architecture-review Flow Explorer; two-to-four-module comparison; proportional Workspace Atlas; eight palettes and custom accents across Studio and live GPU scenes.",
+      "m9Criteria": {
+        "total": 21,
+        "verified": 21,
+        "pending": 0,
+        "scope": "New M9 criteria only; no promotion inferred from prior screenshots, source hashes or tests."
+      },
+      "verification": {
+        "status": "locally-qualified",
+        "path": "docs/qa/2026-11-14-m9/final-verification.json",
+        "documentation": "docs/qa/2026-11-14-m9/documentation-verification.json"
+      },
+      "tests": {
+        "passed": 608,
+        "files": 67,
+        "verification": "docs/qa/2026-11-14-m9/tests-final.json",
+        "scope": "Current local full suite; native browser images and quality reports have separate explicit provenance."
+      },
+      "releaseCriteria": {
+        "total": 497,
+        "verified": 183,
+        "partial": 190,
+        "open": 123,
+        "external": 1
+      },
+      "historicalPerformance": {
+        "milestone": "M8",
+        "maximumCaseP95Ms": 17.6,
+        "maximumIntervalMs": 66.7,
+        "budget": "failed",
+        "load": "contaminated",
+        "performanceValidity": "not-qualified",
+        "evidence": "docs/qa/2026-11-13-m8/build-e4a5afc0f4c1b34e96de/observed-load-122924/review.json",
+        "scope": "Historical observation only. M9 does not requalify this benchmark or close T29."
+      },
+      "screenshots": "Six unchanged original GPU canvas frames, three views at 1280/390 browser widths, registered against fluid-5efc7ce43b5669cc30e9. Historical screenshots remain unchanged. No motion sequence or surrounding DOM is depicted."
+    }
+  ],
+  "appearance": {
+    "default": "blue",
+    "presets": [
+      "blue",
+      "indigo",
+      "violet",
+      "cyan",
+      "teal",
+      "rose",
+      "amber",
+      "graphite"
+    ],
+    "custom": "Validated six-digit hexadecimal accent",
+    "storage": "Local browser preference only; no domain or URL change",
+    "replay": "Recorded scenes retain original paint"
+  }
+}

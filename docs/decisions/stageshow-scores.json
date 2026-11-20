@@ -1,0 +1,604 @@
+[
+  {
+    "id": "STAGESHOW",
+    "document": "docs/decisions/0006-stageshow.md",
+    "ratings": {
+      "A": [
+        3,
+        2,
+        2,
+        5,
+        3
+      ],
+      "B": [
+        4,
+        4,
+        3,
+        5,
+        3
+      ],
+      "H2": [
+        4,
+        4,
+        4,
+        3,
+        4
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        4,
+        5
+      ]
+    },
+    "excluded": [
+      "A"
+    ],
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "scores": {
+      "A": 57,
+      "B": 77,
+      "H2": 77,
+      "H": 97
+    },
+    "winner": "H"
+  },
+  {
+    "id": "T50",
+    "ratings": {
+      "A": [
+        4,
+        3,
+        2,
+        5,
+        2
+      ],
+      "B": [
+        3,
+        4,
+        3,
+        4,
+        3
+      ],
+      "H2": [
+        4,
+        4,
+        4,
+        3,
+        4
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        4,
+        5
+      ]
+    },
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "scores": {
+      "A": 66,
+      "B": 68,
+      "H2": 77,
+      "H": 97
+    },
+    "winner": "H"
+  },
+  {
+    "id": "T51",
+    "ratings": {
+      "A": [
+        3,
+        3,
+        2,
+        5,
+        2
+      ],
+      "B": [
+        4,
+        4,
+        5,
+        2,
+        5
+      ],
+      "H2": [
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        4,
+        5
+      ]
+    },
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "scores": {
+      "A": 60,
+      "B": 80,
+      "H2": 78,
+      "H": 97
+    },
+    "winner": "H"
+  },
+  {
+    "id": "T52",
+    "ratings": {
+      "A": [
+        3,
+        2,
+        2,
+        5,
+        3
+      ],
+      "B": [
+        4,
+        3,
+        3,
+        1,
+        5
+      ],
+      "H2": [
+        4,
+        5,
+        4,
+        4,
+        3
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        4,
+        5
+      ]
+    },
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "scores": {
+      "A": 57,
+      "B": 64,
+      "H2": 83,
+      "H": 97
+    },
+    "winner": "H"
+  },
+  {
+    "id": "T53",
+    "ratings": {
+      "A": [
+        3,
+        2,
+        3,
+        5,
+        2
+      ],
+      "B": [
+        5,
+        3,
+        4,
+        1,
+        5
+      ],
+      "H2": [
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        3,
+        5
+      ]
+    },
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "scores": {
+      "A": 59,
+      "B": 74,
+      "H2": 78,
+      "H": 94
+    },
+    "winner": "H"
+  },
+  {
+    "id": "T54",
+    "ratings": {
+      "A": [
+        3,
+        2,
+        3,
+        5,
+        2
+      ],
+      "B": [
+        3,
+        2,
+        4,
+        4,
+        3
+      ],
+      "H2": [
+        4,
+        3,
+        4,
+        3,
+        4
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        3,
+        5
+      ]
+    },
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "scores": {
+      "A": 59,
+      "B": 62,
+      "H2": 72,
+      "H": 94
+    },
+    "winner": "H"
+  },
+  {
+    "id": "T55",
+    "ratings": {
+      "A": [
+        3,
+        3,
+        3,
+        5,
+        2
+      ],
+      "B": [
+        4,
+        3,
+        4,
+        1,
+        5
+      ],
+      "H2": [
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        3,
+        5
+      ]
+    },
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "scores": {
+      "A": 64,
+      "B": 68,
+      "H2": 78,
+      "H": 94
+    },
+    "winner": "H"
+  },
+  {
+    "id": "T56",
+    "ratings": {
+      "A": [
+        3,
+        3,
+        3,
+        5,
+        3
+      ],
+      "B": [
+        3,
+        2,
+        2,
+        5,
+        2
+      ],
+      "H2": [
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        3,
+        5
+      ]
+    },
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "scores": {
+      "A": 66,
+      "B": 55,
+      "H2": 78,
+      "H": 94
+    },
+    "winner": "H"
+  },
+  {
+    "id": "T57",
+    "ratings": {
+      "A": [
+        3,
+        3,
+        2,
+        5,
+        2
+      ],
+      "B": [
+        4,
+        2,
+        3,
+        2,
+        4
+      ],
+      "H2": [
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        4,
+        5
+      ]
+    },
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "scores": {
+      "A": 60,
+      "B": 60,
+      "H2": 78,
+      "H": 97
+    },
+    "winner": "H"
+  },
+  {
+    "id": "T58",
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "ratings": {
+      "A": [
+        4,
+        2,
+        2,
+        5,
+        2
+      ],
+      "B": [
+        5,
+        1,
+        2,
+        3,
+        4
+      ],
+      "H2": [
+        4,
+        4,
+        3,
+        4,
+        3
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        3,
+        5
+      ]
+    },
+    "scores": {
+      "A": 61.0,
+      "B": 60.0,
+      "H2": 74.0,
+      "H": 94.0
+    },
+    "winner": "H",
+    "excluded": [
+      "B"
+    ]
+  },
+  {
+    "id": "M6-STORY",
+    "document": "docs/milestones/m6-plan.md",
+    "ratings": {
+      "A": [
+        3,
+        3,
+        4,
+        5,
+        2
+      ],
+      "B": [
+        5,
+        4,
+        4,
+        2,
+        5
+      ],
+      "H2": [
+        5,
+        4,
+        5,
+        3,
+        5
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        4,
+        5
+      ]
+    },
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "scores": {
+      "A": 68,
+      "B": 82,
+      "H2": 89,
+      "H": 97
+    },
+    "winner": "H"
+  }
+]

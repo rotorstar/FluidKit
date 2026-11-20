@@ -1,0 +1,322 @@
+{
+  "overview": {
+    "en": [
+      "Engineering handbook",
+      "This edition follows a module through a complete path: a host event updates the snapshot, a case projects it into scene nodes, and the surface draws and records the transition. Start with the workspace route and compare the two motion samplers in the studio."
+    ],
+    "fr": [
+      "Manuel d’ingénierie",
+      "Suivez le parcours d’un module. Un événement du projet modifie l’instantané, le cas le projette en nœuds et la surface dessine puis enregistre la transition. Commencez par l’atelier et comparez les deux méthodes de mouvement dans le studio."
+    ]
+  },
+  "why-fluid": {
+    "en": [
+      "What the transition conveys",
+      "A stable identity connects a row to a card. A declared membership connects a group to its children. The visible correspondence can help a reader track data through a change of perspective. Independent recognition tasks and device measurements are separate release gates."
+    ],
+    "fr": [
+      "Le sens de la transition",
+      "Une identité stable relie une ligne à une carte. Une appartenance déclarée relie un groupe à ses membres. La correspondance visible aide à suivre les données lors d’un changement de vue. La reconnaissance par des utilisateurs et les mesures sur appareil ont des critères distincts."
+    ]
+  },
+  "architecture": {
+    "en": [
+      "Architecture and ownership",
+      "Contracts validate the boundary. Core owns domain state; cases project the state. The React binding connects the runtime to a surface. Studio adds editing, inspection and replay. Server code owns model credentials and local persistence. The language package also runs in a process with no DOM."
+    ],
+    "fr": [
+      "Architecture et responsabilités",
+      "Les contrats valident les échanges. Le noyau possède l’état métier et les cas le projettent. La liaison React relie le noyau à une surface. Le studio ajoute l’édition, l’inspection et la relecture. Le serveur gère les secrets du modèle et le stockage. Le module linguistique fonctionne aussi sans DOM."
+    ]
+  },
+  "contracts": {
+    "en": [
+      "Data contracts",
+      "Parse untrusted data with the version-specific Zod schema before using it. A scene node has a stable identity, visual properties and semantic information. New localized recordings can carry a language profile and fingerprints. Earlier recordings preserve their resolved text."
+    ],
+    "fr": [
+      "Contrats de données",
+      "Validez toute donnée entrante avec le schéma Zod de sa version. Un nœud de scène possède une identité stable, des attributs graphiques et une sémantique. Les nouveaux enregistrements peuvent porter un profil linguistique et des empreintes. Les versions antérieures conservent leurs textes résolus."
+    ]
+  },
+  "core-runtime": {
+    "en": [
+      "Runtime and projections",
+      "Create an isolated runtime per host with createFluidRuntime. Dispatch declared events, read getSnapshot and subscribe to accepted changes. A language change invalidates presentation caches. It should preserve the domain revision, selection and the values entered by the user."
+    ],
+    "fr": [
+      "Noyau et projections",
+      "Créez un noyau isolé par hôte avec createFluidRuntime. Envoyez les événements déclarés, lisez getSnapshot et abonnez-vous aux changements acceptés. Un changement de langue invalide les caches de présentation et conserve révision métier, sélection et saisie."
+    ]
+  },
+  "rendering": {
+    "en": [
+      "Rendering a surface",
+      "Initialize the GPU surface after capability checks. Inspect the actual renderer and any fallback reason. Geometry, glyphs and hit regions are derived from the scene. Dispose the surface when its owner is removed and restore from CPU state after supported recovery."
+    ],
+    "fr": [
+      "Rendu d’une surface",
+      "Initialisez la surface après vérification des capacités. Consultez le moteur réellement actif et le motif d’un éventuel repli. Géométrie, glyphes et zones interactives proviennent de la scène. Libérez la surface avec son propriétaire et restaurez-la à partir de l’état CPU après récupération."
+    ]
+  },
+  "layout-text-input": {
+    "en": [
+      "Text, layout and input",
+      "Use one layout for rendering, hit testing and native semantics. Keep user-entered text intact. Shape localized copy with the actual font before accepting screenshots. French grouping uses a narrow no-break space. Selection, grapheme boundaries and IME completion require a native input journey."
+    ],
+    "fr": [
+      "Texte, disposition et saisie",
+      "Partagez une même géométrie entre rendu, pointage et sémantique native. Conservez le texte saisi. Vérifiez les glyphes de la police réelle avant de valider une capture. En français, le groupement utilise une espace fine insécable. Sélection, graphèmes et composition demandent un parcours de saisie natif."
+    ]
+  },
+  "react-integration": {
+    "en": [
+      "React integration",
+      "Bind a host runtime through FluidProvider and display it with FluidSurface. Keep one runtime instance across language changes. Forward the language context into case projections and collection ordering. Native focus and the GPU representation refer to the same node identifiers."
+    ],
+    "fr": [
+      "Intégration React",
+      "Reliez le noyau de l’hôte avec FluidProvider et affichez-le avec FluidSurface. Conservez la même instance lors d’un changement de langue. Transmettez le contexte linguistique à la projection et à l’ordre des collections. Focus natif et représentation GPU utilisent les mêmes identifiants."
+    ]
+  },
+  "effects": {
+    "en": [
+      "Structural motion and accents",
+      "The motion plan owns matches, splits, merges and ports. Optional effects add material or particles. sampleTransitionClip resolves the visual state at a supplied progress; use the same clip for playback and inspection. Retarget an interruption from the last presented scene."
+    ],
+    "fr": [
+      "Mouvement et effets",
+      "Le plan de mouvement décrit les correspondances, divisions, fusions et raccords. Les effets facultatifs ajoutent des matériaux ou des particules. sampleTransitionClip évalue la scène au point choisi. Réutilisez la séquence pour la lecture et l’inspection. Une interruption reprend la dernière scène affichée."
+    ]
+  },
+  "gpu-kernels": {
+    "en": [
+      "GPU kernels",
+      "TypeGPU kernels connect to the Three.js material pipeline. The source and target shapes and the viewport define a bounded effect. Record the backend when evaluating a result. A passing CPU geometry test alone cannot qualify the displayed pixels."
+    ],
+    "fr": [
+      "Noyaux GPU",
+      "Les noyaux TypeGPU s’intègrent aux matériaux Three.js. Les formes de départ et d’arrivée et la fenêtre délimitent l’effet. Enregistrez le moteur actif pendant la vérification. Un test CPU de géométrie ne suffit pas à qualifier les pixels affichés."
+    ]
+  },
+  "data-actions": {
+    "en": [
+      "Data reads and actions",
+      "Define a read adapter with validated queries and an AbortSignal. Put the requested content language in its query when the response varies by language. Reuse language-independent data across switches. Authorize actual mutations separately and give retries an idempotency key."
+    ],
+    "fr": [
+      "Lectures et actions",
+      "Définissez un adaptateur de lecture avec requêtes validées et AbortSignal. Incluez la langue du contenu dans la requête si la réponse en dépend. Réutilisez les données indépendantes de la langue. Autorisez séparément les mutations et associez une clé d’idempotence aux nouvelles tentatives."
+    ]
+  },
+  "workspace-case": {
+    "en": [
+      "Workspace case",
+      "The case reads real package names, file counts and dependencies. A selection contains stable IDs. An atlas group splits into its actual members. When cards merge into a comparison the selected ID set remains the data source. The simulation datasets follow a different, labelled provenance."
+    ],
+    "fr": [
+      "Cas du projet local",
+      "Le cas lit les noms de paquets, nombres de fichiers et dépendances du projet. Une sélection contient des identifiants stables. Un groupe d’atlas se divise en ses membres réels. Dans le comparateur, l’ensemble sélectionné reste la source des données. Les simulations indiquent leur propre provenance."
+    ]
+  },
+  "perspectives": {
+    "en": [
+      "Projecting new views",
+      "A view may present a graph, atlas, table or comparison over the same dataset. Declare which entities own each visible node and its ports. Keep the logical order independent of translated labels where an ID, tie-break or archive fingerprint needs stable ordering."
+    ],
+    "fr": [
+      "Projeter une nouvelle vue",
+      "Un même jeu de données alimente graphe, atlas, tableau et comparaison. Déclarez le propriétaire de chaque nœud et de ses raccords. Pour les identifiants, départages techniques et empreintes, utilisez un ordre indépendant des libellés traduits."
+    ]
+  },
+  "appearance": {
+    "en": [
+      "Appearance and language",
+      "Keep display choices local to the surface or host. Themes control paint; a locale controls language, number formats and direction. Capture the resolved appearance of a run. Applying current preferences to an imported clip would change the evidence."
+    ],
+    "fr": [
+      "Apparence et langue",
+      "Gardez les préférences de présentation au niveau de la surface ou de l’hôte. Le thème contrôle les couleurs. Le profil linguistique contrôle langue, formats et direction. Capturez l’apparence résolue du parcours. Appliquer les préférences actuelles à une séquence importée modifierait la preuve."
+    ]
+  },
+  "user-flows": {
+    "en": [
+      "User journeys",
+      "For the first language journey select two real modules, sort the table, change its rows into cards, switch language, then open the comparison. Exercise the return from Studio with browser Back and Forward. Check the same identities and the current keyboard target at each step."
+    ],
+    "fr": [
+      "Parcours utilisateur",
+      "Pour le premier parcours linguistique, sélectionnez deux modules réels, triez le tableau, passez aux cartes, changez de langue puis ouvrez le comparateur. Vérifiez le retour depuis le studio avec Précédent et Suivant. À chaque étape, contrôlez identités et cible du clavier."
+    ]
+  },
+  "state-flows": {
+    "en": [
+      "State and concurrency",
+      "Validate an event against current guards, commit the next revision, then project the result. Reject stale asynchronous work. An interrupted animation changes the visual trajectory. It cannot reverse an external transaction. Hold a language request during active input composition."
+    ],
+    "fr": [
+      "État et concurrence",
+      "Validez l’événement avec les gardes actuelles, appliquez la révision suivante puis projetez le résultat. Rejetez les réponses obsolètes. Une animation interrompue change la trajectoire visuelle, sans annuler une transaction externe. Différez le changement de langue pendant la composition."
+    ]
+  },
+  "url-routing": {
+    "en": [
+      "Routing",
+      "Use a locale-prefixed workspace URL to share a language, view and supported selection. Keep identifiers and query values stable. An explicit URL takes precedence over the stored preference. Exclude API endpoints, fonts and exported files from language negotiation."
+    ],
+    "fr": [
+      "Routage",
+      "Partagez une URL préfixée par la langue pour retrouver langue, vue et sélection prise en charge. Conservez identifiants et valeurs de requête. La langue explicite de l’adresse prime sur la préférence enregistrée. Les API, polices et fichiers exportés restent hors de la négociation linguistique."
+    ]
+  },
+  "studio": {
+    "en": [
+      "Studio tools",
+      "The DOM studio hosts the same GPU runtime as the workspace. Use the transition comparison for a synchronized A/B view. Open authoring for declarative projects and rehearsal for evidence. Development diagnostics may have a narrower translation and support scope."
+    ],
+    "fr": [
+      "Outils du studio",
+      "Le studio DOM héberge le même noyau GPU que le projet. Le comparateur de transitions synchronise les deux vues. L’atelier d’édition manipule les projets déclaratifs et la répétition produit les preuves. Les outils de diagnostic peuvent avoir une couverture linguistique plus limitée."
+    ]
+  },
+  "rehearsal": {
+    "en": [
+      "Reproducible rehearsal",
+      "Record the dataset identity, scene revision, viewport, backend, language and progress for a comparison. Inspect source, midpoint and target before evaluating a complete sequence. Label an image as a selected frame unless its full sequence is available."
+    ],
+    "fr": [
+      "Répétition reproductible",
+      "Consignez jeu de données, révision, fenêtre, moteur, langue et progression. Examinez départ, milieu et arrivée avant d’évaluer une séquence complète. Identifiez une image isolée comme une image sélectionnée tant que la séquence intégrale n’est pas disponible."
+    ]
+  },
+  "ai-review": {
+    "en": [
+      "AI review and authoring",
+      "Review and authoring use the server-side Vercel AI SDK. The allowlisted response language belongs to a particular request and its result. Validate generated references, current revision, dataset and permissions before applying a proposal. Keep secrets in the server environment."
+    ],
+    "fr": [
+      "Analyse et édition assistées",
+      "L’analyse et la proposition de composition passent par le Vercel AI SDK côté serveur. La langue autorisée appartient à la demande et à son résultat. Vérifiez références, révision, données et droits avant toute application. Les secrets restent dans l’environnement du serveur."
+    ]
+  },
+  "security": {
+    "en": [
+      "Local trust boundary",
+      "Bind the development server to loopback. Local write endpoints check the session and origin. Keep project files, model credentials, screen captures and machine diagnostics outside a public source export unless specifically cleared. Verify the curated export in a fresh directory."
+    ],
+    "fr": [
+      "Périmètre de confiance local",
+      "Liez le serveur de développement à l’interface locale. Les écritures vérifient session et origine. Excluez du code source public les projets, secrets, captures et diagnostics de machine sans validation explicite. Vérifiez l’export sélectionné dans un dossier neuf."
+    ]
+  },
+  "quality-testing": {
+    "en": [
+      "Quality checks",
+      "Run the type checker, linter, unit suite and browser journeys. Inspect the actual GPU and semantic text region at fixed points. Look for collisions, missing glyphs, clipped targets and lost focus at narrow widths. Native hardware, IME and human review have separate evidence."
+    ],
+    "fr": [
+      "Contrôles qualité",
+      "Exécutez vérification des types, lint, tests unitaires et parcours navigateur. Examinez le GPU et la région sémantique à des instants fixes. Détectez collisions, glyphes absents, cibles rognées et pertes de focus sur écran étroit. Appareils, IME et relecture humaine ont des preuves distinctes."
+    ]
+  },
+  "development-cli": {
+    "en": [
+      "Local development",
+      "Use Node.js 24 or later and install the locked workspace with npm ci. Start Studio with npm run dev. npm test runs the unit suite; npm run build builds the packages and Studio. Inspect the current package scripts for documentation and evidence commands."
+    ],
+    "fr": [
+      "Développement local",
+      "Utilisez Node.js 24 ou une version ultérieure et installez le projet verrouillé avec npm ci. Démarrez le studio avec npm run dev. npm test lance les tests et npm run build construit les paquets et le studio. Les scripts du projet listent les commandes de documentation et de preuve."
+    ]
+  },
+  "performance-lifecycle": {
+    "en": [
+      "Performance and lifecycle",
+      "Use the central on-demand scheduler. Measure GPU/CPU activity separately from screenshot capture. Record external load, build and hardware before interpreting a percentile. After disposal check listeners, resources and scheduled frames. A busy workstation is a diagnostic environment."
+    ],
+    "fr": [
+      "Performances et cycle de vie",
+      "Utilisez l’ordonnanceur central à la demande. Mesurez l’activité CPU/GPU séparément des captures. Notez charge externe, version et matériel avant d’interpréter un percentile. Après libération vérifiez ressources, écouteurs et images en attente. Une machine chargée sert au diagnostic."
+    ]
+  },
+  "release-roadmap": {
+    "en": [
+      "Release scope",
+      "The project ships as an alpha workspace. Public source availability and a production support commitment are distinct decisions. Qualify each runtime feature by device, language and input method. Keep experimental work such as further script support under its own criteria."
+    ],
+    "fr": [
+      "Périmètre des versions",
+      "Le projet est distribué comme atelier alpha. Publication des sources et engagement de support en production sont deux décisions distinctes. Qualifiez chaque fonction par appareil, langue et méthode de saisie. Les nouvelles écritures gardent leurs propres critères."
+    ]
+  },
+  "feature-matrix": {
+    "en": [
+      "Feature matrix",
+      "Consult the acceptance view for feature-level evidence. Distinguish implemented code, locally verified cases, partial support and external validation. For languages report the exact route, message coverage, script, font profile and input path."
+    ],
+    "fr": [
+      "Matrice des fonctions",
+      "Consultez la vue d’acceptation pour les preuves par fonction. Distinguez code implémenté, cas vérifiés localement, support partiel et validation externe. Pour les langues, indiquez route, couverture des messages, écriture, police et parcours de saisie."
+    ]
+  },
+  "acceptance-reference": {
+    "en": [
+      "Acceptance register",
+      "A criterion has a stable ID, scope, evidence and any remaining work. Search by criterion or task, then verify the linked artifact. Historical artifacts stay bound to their original builds. A curated public source export can contain a smaller evidence set."
+    ],
+    "fr": [
+      "Registre d’acceptation",
+      "Chaque critère possède un identifiant stable, un périmètre, des preuves et des travaux restants. Recherchez par critère ou tâche, puis vérifiez l’artefact associé. Les preuves historiques restent attachées à leur version. Un export public peut contenir un sous-ensemble des preuves."
+    ]
+  },
+  "knowledge-maintenance": {
+    "en": [
+      "Maintain the handbooks",
+      "Edit the source chapters and language editions, preserve the logical chapter IDs and regenerate the offline books. Use real images from the indicated locale and build. The German source chapters retain the original evidence language."
+    ],
+    "fr": [
+      "Entretenir les manuels",
+      "Éditez les chapitres sources et les éditions linguistiques, conservez les identifiants logiques puis régénérez les manuels hors ligne. Utilisez des images réelles de la langue et de la version indiquées. Les chapitres sources allemands conservent la langue d’origine des preuves."
+    ]
+  },
+  "api-reference": {
+    "en": [
+      "API reference",
+      "Begin with defineFlow and createFluidRuntime. Use projected scene nodes and FluidSurface for display. Use defineCatalog for checked ICU messages shared between a case and its host. Consult the declarations in each package for exact signatures."
+    ],
+    "fr": [
+      "Référence API",
+      "Commencez avec defineFlow et createFluidRuntime. Utilisez les nœuds projetés et FluidSurface pour l’affichage. defineCatalog fournit les messages ICU vérifiés partagés entre cas et hôte. Les déclarations de chaque paquet donnent les signatures précises."
+    ]
+  },
+  "schema-reference": {
+    "en": [
+      "Schema reference",
+      "Use the exported versioned schemas to parse incoming projects, captures, decisions and recordings. Prefer inferred types to a parallel interface. Localized records add metadata to the resolved scene. Decode historical versions explicitly."
+    ],
+    "fr": [
+      "Référence des schémas",
+      "Utilisez les schémas versionnés pour lire projets, captures, décisions et séquences. Préférez les types inférés à une interface dupliquée. Les enregistrements localisés ajoutent des métadonnées à la scène résolue. Décodez explicitement les anciennes versions."
+    ]
+  },
+  "source-map": {
+    "en": [
+      "Source map",
+      "packages/contracts defines boundaries, packages/core the runtime and packages/cases the adapters and workspace. packages/webgpu draws the surface, packages/i18n resolves language, apps/studio contains routes and controls, and scripts/knowledge builds these offline editions."
+    ],
+    "fr": [
+      "Carte des sources",
+      "packages/contracts définit les contrats, packages/core le noyau et packages/cases les adaptateurs et le projet. packages/webgpu dessine la surface, packages/i18n résout la langue, apps/studio contient les routes et commandes et scripts/knowledge construit ces éditions hors ligne."
+    ]
+  },
+  "simulation-cases": {
+    "en": [
+      "Simulation cases",
+      "Property, commerce and travel use validated, explicitly synthetic datasets. A query can reorder or filter records. Keep currency, integer price and provider identity intact when formatting an offer. Replay uses the same read contract and disables live actions."
+    ],
+    "fr": [
+      "Cas de simulation",
+      "Immobilier, commerce et voyage utilisent des données synthétiques validées et signalées. Une requête peut trier ou filtrer les enregistrements. Conservez la devise, le montant en unités mineures et l’identité du fournisseur lors du formatage. La relecture suit le même contrat de lecture et désactive les actions réelles."
+    ]
+  }
+}

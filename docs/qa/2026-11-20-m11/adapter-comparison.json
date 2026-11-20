@@ -1,0 +1,30 @@
+{
+  "node": "v24.18.1",
+  "icu": "78.3",
+  "formatjs": "12.2.0",
+  "useIntl": "4.15.1",
+  "platform": "darwin",
+  "arch": "arm64",
+  "gzipDeltaFluidMinusUseIntl": 23343,
+  "profiles": [
+    {
+      "name": "fluidkit",
+      "entryBytes": 152166,
+      "entryGzipBytes": 37194,
+      "modules": 25,
+      "uiFrameworkModules": [],
+      "host": "Node, no browser globals"
+    },
+    {
+      "name": "use-intl/core",
+      "entryBytes": 53034,
+      "entryGzipBytes": 13851,
+      "modules": 12,
+      "uiFrameworkModules": [
+        "react/cjs/react.production.js",
+        "react/index.js"
+      ],
+      "host": "Node, no browser globals"
+    }
+  ]
+}

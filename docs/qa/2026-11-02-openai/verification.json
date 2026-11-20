@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-11-02T08:19:09.062Z",
+  "buildId": "fluid-b383e3697f017257a779",
+  "checks": {
+    "typecheck": "passed",
+    "eslint": "passed",
+    "unitTests": {
+      "passed": 127,
+      "files": 16
+    },
+    "packageAndNextBuild": "passed",
+    "designStatic": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "liveGenerations": 3,
+    "liveReferenceValidation": "passed",
+    "adversarialBrief": "passed-in-scope",
+    "layoutEndpoints": 12,
+    "layoutFindings": 0,
+    "clientSecretBoundary": true
+  },
+  "liveUsageUpperEstimateUsd": 0.074156,
+  "limitations": [
+    "selected GPU stills, no complete film or native pacing proof",
+    "one adversarial text-brief case, no broad independent model evaluation",
+    "local process budget only, no durable distributed budget authority",
+    "manual navigation remained valid; timing overlap with inference was not proven"
+  ]
+}

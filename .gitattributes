@@ -1,0 +1,15 @@
+# Keep text fingerprints stable across Git checkouts and operating systems.
+* text=auto eol=lf
+
+# Historical evidence and archived prototypes retain their original bytes.
+docs/qa/** -text
+archive/** -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.glb binary
+*.otf binary
+*.ttf binary
+*.woff2 binary
+*.gz binary
+*.zip binary

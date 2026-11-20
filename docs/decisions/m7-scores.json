@@ -1,0 +1,331 @@
+[
+  {
+    "id": "M7-01",
+    "document": "docs/milestones/m7-plan.md",
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "ratings": {
+      "A": [
+        3,
+        4,
+        3,
+        4,
+        3
+      ],
+      "B": [
+        4,
+        3,
+        4,
+        4,
+        4
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        3,
+        5
+      ]
+    },
+    "scores": {
+      "A": 68,
+      "B": 75,
+      "H": 94
+    },
+    "winner": "H"
+  },
+  {
+    "id": "M7-02",
+    "document": "docs/milestones/m7-plan.md",
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "ratings": {
+      "A": [
+        2,
+        3,
+        2,
+        3,
+        2
+      ],
+      "B": [
+        3,
+        4,
+        4,
+        4,
+        4
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        4,
+        5
+      ]
+    },
+    "scores": {
+      "A": 48,
+      "B": 74,
+      "H": 97
+    },
+    "winner": "H"
+  },
+  {
+    "id": "M7-03",
+    "document": "docs/milestones/m7-plan.md",
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "ratings": {
+      "A": [
+        3,
+        4,
+        3,
+        4,
+        4
+      ],
+      "B": [
+        4,
+        4,
+        3,
+        4,
+        4
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        3,
+        5
+      ]
+    },
+    "scores": {
+      "A": 70,
+      "B": 76,
+      "H": 94
+    },
+    "winner": "H"
+  },
+  {
+    "id": "M7-04",
+    "document": "docs/milestones/m7-plan.md",
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "ratings": {
+      "A": [
+        3,
+        4,
+        3,
+        3,
+        3
+      ],
+      "B": [
+        3,
+        4,
+        4,
+        3,
+        4
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        4,
+        3
+      ]
+    },
+    "scores": {
+      "A": 65,
+      "B": 71,
+      "H": 93
+    },
+    "winner": "H"
+  },
+  {
+    "id": "M7-05",
+    "document": "docs/milestones/m7-plan.md",
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "ratings": {
+      "A": [
+        3,
+        3,
+        3,
+        3,
+        2
+      ],
+      "B": [
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        3,
+        4
+      ]
+    },
+    "scores": {
+      "A": 58,
+      "B": 73,
+      "H": 92
+    },
+    "winner": "H"
+  },
+  {
+    "id": "M7-06",
+    "document": "docs/milestones/m7-plan.md",
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "ratings": {
+      "A": [
+        3,
+        2,
+        3,
+        3,
+        3
+      ],
+      "B": [
+        3,
+        4,
+        3,
+        4,
+        4
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        4,
+        5
+      ]
+    },
+    "scores": {
+      "A": 55,
+      "B": 70,
+      "H": 97
+    },
+    "winner": "H"
+  },
+  {
+    "id": "M7-07",
+    "document": "docs/milestones/m7-plan.md",
+    "criteria": [
+      "fit",
+      "correctness",
+      "testability",
+      "delivery",
+      "extensibility"
+    ],
+    "weights": [
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "ratings": {
+      "A": [
+        3,
+        3,
+        3,
+        4,
+        2
+      ],
+      "B": [
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      "H": [
+        5,
+        5,
+        5,
+        4,
+        5
+      ]
+    },
+    "scores": {
+      "A": 61,
+      "B": 78,
+      "H": 97
+    },
+    "winner": "H"
+  }
+]

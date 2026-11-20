@@ -1,0 +1,27 @@
+{
+  "name": "@fluidkit/webgpu",
+  "version": "0.2.0-alpha.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@fluidkit/contracts": "*",
+    "@fluidkit/core": "*",
+    "three": "0.187.0",
+    "yoga-layout": "3.2.1",
+    "@pmndrs/glyph": "0.1.0",
+    "@fluidkit/gpu-kernels": "*",
+    "@fluidkit/effects": "*",
+    "@fluidkit/i18n": "*"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  }
+}

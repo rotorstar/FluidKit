@@ -1,0 +1,10 @@
+.toolbar{display:flex;align-items:center;justify-content:flex-end;gap:18px;flex-wrap:wrap;padding:10px 24px;background:var(--fluid-theme-paper);color:var(--fluid-theme-ink);border-bottom:1px solid var(--fluid-theme-border);min-height:58px;position:relative;z-index:30}
+.label{font-size:10px;font-weight:700;letter-spacing:.13em;color:var(--fluid-theme-muted);margin-right:auto}
+.controls,.controls label,.hex{display:flex;align-items:center;gap:8px}.controls{flex-wrap:wrap;justify-content:flex-end;font-size:12px}.controls label{white-space:nowrap}.controls select,.hex input,.hex button{min-height:34px;border:1px solid var(--fluid-theme-border);border-radius:7px;background:var(--fluid-theme-paper);color:var(--fluid-theme-ink);font:inherit;padding:5px 8px}.controls select:focus-visible,.controls input:focus-visible,.controls button:focus-visible{outline:2px solid var(--fluid-theme-focus);outline-offset:2px}.picker input{height:34px;width:36px;border:1px solid var(--fluid-theme-border);border-radius:7px;background:var(--fluid-theme-paper);padding:3px}.hex input{width:84px}.hex button{background:var(--fluid-theme-soft);color:var(--fluid-theme-accent-text)}.message{width:100%;max-width:540px;font-size:12px;line-height:1.4;color:var(--fluid-theme-ink)}
+@media(min-width:861px){:global(.root:has(.sidebar)) .toolbar{margin-left:238px}}
+@media(min-width:861px) and (max-width:1100px){:global(.root:has(.sidebar)) .toolbar{margin-left:200px}}
+@media(min-width:801px){:global(.root:has(.showcase-sidebar)) .toolbar{margin-left:210px}}
+@media(min-width:801px) and (max-width:1150px){:global(.root:has(.showcase-sidebar)) .toolbar{margin-left:180px}}@media(max-width:650px){.toolbar{padding:10px 12px;gap:8px}.label{width:100%}.controls{justify-content:flex-start;gap:10px}.controls label{font-size:11px}.hex{gap:5px}.hex button{font-size:11px}}
+
+.toolbar{display:block;min-height:0;padding:5px 16px;text-align:right}.toolbar summary{width:max-content;margin-left:auto;cursor:pointer;line-height:1.5;font-size:12px}.toolbar[open] .controls{padding:8px 0}
+@media(max-width:800px){.toolbar{padding:4px 14px}.toolbar .controls{justify-content:flex-start}}

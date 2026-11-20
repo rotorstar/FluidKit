@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "qualifiedAt": "2026-11-20T12:54:09.695453+00:00",
+  "platform": "macOS arm64",
+  "node": "24.18.1",
+  "icu": "78.3",
+  "browser": "157.0.8103.80",
+  "browserScope": "Production Studio in Chrome desktop; viewport emulation for narrow widths",
+  "checks": {
+    "unitTests": 717,
+    "typeScript": "passed",
+    "eslint": "passed",
+    "designErrors": 0,
+    "designWarnings": 0,
+    "playwrightJourneys": 20,
+    "playwrightFailures": 0,
+    "scrubRepetitions": 8,
+    "offlineBooks": 6,
+    "offlineNetworkRequests": 0,
+    "chapters": {
+      "engineering": 32,
+      "public": 19
+    },
+    "locales": [
+      "de",
+      "en",
+      "fr"
+    ],
+    "liveProviderReviews": 3,
+    "gpuProfiles": 16,
+    "sampledChoreographyPositions": 3024,
+    "textCollisions": 0,
+    "replayComparisons": 48,
+    "replayPixelMatch": "PNG SHA-256",
+    "reducedMotion": [
+      true,
+      false
+    ],
+    "viewports": [
+      320,
+      390,
+      768,
+      1280
+    ],
+    "backends": [
+      "webgpu",
+      "webgl2"
+    ]
+  },
+  "reproduce": [
+    "npm run check",
+    "npm run knowledge:sync",
+    "npm run knowledge:build",
+    "npm run test:e2e",
+    "node scripts/qa/qualify-gpu-locales.mjs",
+    "node scripts/qualify-i18n.mjs"
+  ],
+  "external": [
+    "Independent DE/EN/FR language review",
+    "Named screen-reader/device journeys",
+    "Mobile CJK IME and RTL selection on physical devices"
+  ],
+  "sources": [
+    "gpu-locales.json",
+    "live-review.json",
+    "adapter-comparison.json",
+    "../../readme/assets/m11-workspace-screenshots.json"
+  ]
+}

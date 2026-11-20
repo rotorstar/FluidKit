@@ -1,0 +1,11 @@
+{
+  "name": "@fluidkit/effects",
+  "version": "0.2.0-alpha.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "exports": { ".": { "types": "./src/index.ts", "default": "./src/index.ts" } },
+  "dependencies": { "@fluidkit/contracts": "*" },
+  "scripts": { "build": "tsc -p tsconfig.build.json" }
+}

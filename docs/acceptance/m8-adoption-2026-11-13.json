@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "kind": "documentation-adoption-not-runtime-proof",
+  "recordedAt": "2026-11-13T10:31:47.700608+00:00",
+  "scope": "M8 adoption of the approved behavior-first hybrid architecture. No new runtime, accessibility, device, AI or M7 qualification is claimed.",
+  "baseline": {
+    "criteria": 435,
+    "m7Criteria": 27,
+    "canonicalDigest": "902897374371339e2df520eee57d5a466d35310710e03fd1d5a7bee2562196eb",
+    "previousCheckPlanSourceSha256": "4822470805b037f53e036c6bc83c5760a071da943c34ac165cb88fc1f69da759"
+  },
+  "result": {
+    "tasks": 65,
+    "criteria": 476,
+    "newCriteria": 41,
+    "existingCriteriaUnchanged": true,
+    "existingCanonicalDigest": "902897374371339e2df520eee57d5a466d35310710e03fd1d5a7bee2562196eb",
+    "newCriterionStatus": "open",
+    "scoresRecomputed": 25,
+    "mermaidDiagramsParsed": 92
+  },
+  "checks": [
+    {
+      "command": "npm run check:plan",
+      "exitCode": 0,
+      "result": "65 unique tasks; all registered scores recomputed; 41 M8 detailed AC match canonical task rows; feature IDs match."
+    },
+    {
+      "command": "npm run check:flows",
+      "exitCode": 0,
+      "result": "92 Mermaid diagrams parsed with the installed Mermaid 12.2.0."
+    },
+    {
+      "command": "npx eslint scripts/check-plan.mjs",
+      "exitCode": 0,
+      "result": "No lint findings."
+    },
+    {
+      "command": "acceptanceSources(process.cwd()) + immutable baseline comparison",
+      "exitCode": 0,
+      "result": "All old 435 IDs, tasks, source paths, canonical texts and source hashes unchanged; 476 parser entries match the ledger."
+    }
+  ],
+  "review": {
+    "changedChecker": "The existing checks and dependency boundaries are preserved. The only additions are M8 score registration, minimum task count 65 and exact agreement of the 41 explanatory M8 criteria with the canonical task rows.",
+    "featureRegister": "Seven approved but unproven tasks are added as Geplant. No historical task or M7 criterion is promoted.",
+    "history": "Historical artifacts and their bytes are unchanged. T43 source and T30 documentation bindings are refreshed only for this reviewed and executed documentation check."
+  },
+  "sourceHashes": {
+    "docs/decisions/0007-ui-sdk.md": "c3ca0d9cffc8cbbc09caf3c92d2b47c5e7a2d7c512eec1719078bc19fce09ca2",
+    "docs/decisions/ui-sdk-scores.json": "0df9e8c27dd0c0bc65e39f0ce63b7b5363850f9e49e0a83cbb31bdb8b24b0fc5",
+    "docs/milestones/m8-plan.md": "29294f0b1b353b8325040ca6072cfff0f6e1d49992578e5960030d10a88ba69e",
+    "docs/milestones/ui-sdk-evaluation.md": "6720994f5451d4b735e0a8c523d1e0a3636cbcf35cae0e46bc43991bc87dff60",
+    "docs/implementation-plan.md": "ea7f36d7432f456bd29b45431079338bc14ad94a2aedf66ee4b2bb2aaa5f0428",
+    "docs/feature-status.json": "fe3082d928450a28885c6a121dfae0fcc75b403a55f8e06e6dd79c14e9d15bc6",
+    "docs/feature-status.md": "9e2e56f1fc74505724f9329bf370ecc464b7b8e4ee553402aaabce42bdcdc1e9",
+    "scripts/check-plan.mjs": "27bc1715ceea51078120a1f08ccca2b769f58280f54065d8da3ff290569912d2"
+  },
+  "limits": [
+    "This is a documentation/source consistency result, not M8 implementation completion.",
+    "The new criteria remain open until their own implementation and evidence exist.",
+    "The concurrent Core implementation changes need a separate T22-AC02 source review. That source binding is intentionally not updated here.",
+    "No knowledge generator or package/runtime build was run for this adoption."
+  ]
+}

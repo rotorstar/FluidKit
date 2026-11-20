@@ -1,0 +1,31 @@
+{
+  "name": "@fluidkit/i18n",
+  "version": "0.2.0-alpha.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./locale": {
+      "types": "./src/locale.ts",
+      "default": "./src/locale.ts"
+    },
+    "./host": {
+      "types": "./src/host-catalog.ts",
+      "default": "./src/host-catalog.ts"
+    }
+  },
+  "dependencies": {
+    "intl-messageformat": "12.2.0",
+    "zod": "4.6.7",
+    "@formatjs/icu-messageformat-parser": "3.5.23",
+    "@schummar/icu-type-parser": "1.21.5"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  }
+}

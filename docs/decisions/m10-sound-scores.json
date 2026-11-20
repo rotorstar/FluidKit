@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "researchedAt": "2026-11-14",
+  "status": "proposal-not-accepted-or-implemented",
+  "weights": [
+    30,
+    25,
+    20,
+    15,
+    10
+  ],
+  "dimensions": [
+    "Zielerfüllung",
+    "Korrektheit und Accessibility",
+    "Testbarkeit",
+    "Lieferbarkeit",
+    "Erweiterbarkeit"
+  ],
+  "scale": [
+    1,
+    5
+  ],
+  "formula": "sum(weight * rating) / 5",
+  "decisions": [
+    {
+      "id": "ARCH",
+      "title": "Audio-Unterbau",
+      "options": {
+        "A": {
+          "description": "Clickhandler und einzelne Audioobjekte",
+          "ratings": [
+            2,
+            2,
+            2,
+            5,
+            2
+          ],
+          "score": 49.0
+        },
+        "B": {
+          "description": "Allgemeine Musik-/Medienengine",
+          "ratings": [
+            4,
+            4,
+            4,
+            2,
+            5
+          ],
+          "score": 76.0
+        },
+        "H": {
+          "description": "Kleiner Web-Audio-Adapter, gleiche Timeline, Synthese und kuratierte Samples",
+          "ratings": [
+            5,
+            5,
+            5,
+            4,
+            4
+          ],
+          "score": 95.0
+        }
+      },
+      "winner": "H"
+    },
+    {
+      "id": "M10-01",
+      "title": "Semantische Verträge",
+      "options": {
+        "A": {
+          "description": "Manuelle Triggerkonventionen",
+          "ratings": [
+            3,
+            3,
+            3,
+            5,
+            2
+          ],
+          "score": 64.0
+        },
+        "B": {
+          "description": "Freie generative Cue-Definitionen",
+          "ratings": [
+            3,
+            2,
+            2,
+            2,
+            4
+          ],
+          "score": 50.0
+        },
+        "H": {
+          "description": "Strikte Rollenverträge plus registrierte Gestaltungsrezepte",
+          "ratings": [
+            5,
+            5,
+            5,
+            4,
+            5
+          ],
+          "score": 97.0
+        }
+      },
+      "winner": "H"
+    },
+    {
+      "id": "M10-02",
+      "title": "Lifecycle und Clock",
+      "options": {
+        "A": {
+          "description": "Direktes Abspielen pro Click",
+          "ratings": [
+            3,
+            2,
+            2,
+            5,
+            2
+          ],
+          "score": 55.0
+        },
+        "B": {
+          "description": "Eigener allgemeiner Transport",
+          "ratings": [
+            4,
+            4,
+            4,
+            2,
+            5
+          ],
+          "score": 76.0
+        },
+        "H": {
+          "description": "Vorhandene Playback-Timeline plus isolierter Audio-Coordinator",
+          "ratings": [
+            5,
+            5,
+            5,
+            4,
+            4
+          ],
+          "score": 95.0
+        }
+      },
+      "winner": "H"
+    },
+    {
+      "id": "M10-03",
+      "title": "Erste Lieferung",
+      "options": {
+        "A": {
+          "description": "Acht vollständige Paletten vor erster Hörprobe",
+          "ratings": [
+            5,
+            3,
+            3,
+            2,
+            4
+          ],
+          "score": 71.0
+        },
+        "B": {
+          "description": "Ein technischer Piepton-Proof",
+          "ratings": [
+            2,
+            4,
+            4,
+            5,
+            2
+          ],
+          "score": 67.0
+        },
+        "H": {
+          "description": "Drei kontrastierende Paletten in echten Cases",
+          "ratings": [
+            5,
+            5,
+            5,
+            4,
+            4
+          ],
+          "score": 95.0
+        }
+      },
+      "winner": "H"
+    },
+    {
+      "id": "M10-04",
+      "title": "Bedienung und Ausbau",
+      "options": {
+        "A": {
+          "description": "Soundeinstellungen pro Widget",
+          "ratings": [
+            3,
+            2,
+            3,
+            5,
+            2
+          ],
+          "score": 59.0
+        },
+        "B": {
+          "description": "Vollständiger Audioeditor",
+          "ratings": [
+            5,
+            3,
+            3,
+            1,
+            5
+          ],
+          "score": 70.0
+        },
+        "H": {
+          "description": "Gemeinsame kompakte Steuerung plus vertiefender Studio-Inspector",
+          "ratings": [
+            5,
+            5,
+            5,
+            4,
+            5
+          ],
+          "score": 97.0
+        }
+      },
+      "winner": "H"
+    },
+    {
+      "id": "M10-05",
+      "title": "Replay und Aufnahme",
+      "options": {
+        "A": {
+          "description": "Nur eine Audiodatei speichern",
+          "ratings": [
+            3,
+            3,
+            3,
+            4,
+            2
+          ],
+          "score": 61.0
+        },
+        "B": {
+          "description": "Alte visuelle Schemas still erweitern",
+          "ratings": [
+            3,
+            2,
+            4,
+            3,
+            3
+          ],
+          "score": 59.0
+        },
+        "H": {
+          "description": "Versionierter Umschlag mit visuellen Digests und AudioPlan",
+          "ratings": [
+            5,
+            5,
+            5,
+            4,
+            5
+          ],
+          "score": 97.0
+        }
+      },
+      "winner": "H"
+    },
+    {
+      "id": "M10-06",
+      "title": "Qualifikation",
+      "options": {
+        "A": {
+          "description": "Kurzes subjektives Anhören",
+          "ratings": [
+            3,
+            2,
+            2,
+            5,
+            2
+          ],
+          "score": 55.0
+        },
+        "B": {
+          "description": "Ausschließlich digitale Signaltests",
+          "ratings": [
+            4,
+            3,
+            5,
+            4,
+            3
+          ],
+          "score": 77.0
+        },
+        "H": {
+          "description": "Signaltests, Lifecycle, Hörreview und lastgeprüfte Live-Messung",
+          "ratings": [
+            5,
+            5,
+            5,
+            3,
+            4
+          ],
+          "score": 92.0
+        }
+      },
+      "winner": "H"
+    },
+    {
+      "id": "M10-07",
+      "title": "Dokumentation",
+      "options": {
+        "A": {
+          "description": "README-Ergänzung allein",
+          "ratings": [
+            3,
+            3,
+            2,
+            5,
+            2
+          ],
+          "score": 60.0
+        },
+        "B": {
+          "description": "Separates Audiohandbuch",
+          "ratings": [
+            4,
+            4,
+            4,
+            3,
+            3
+          ],
+          "score": 75.0
+        },
+        "H": {
+          "description": "Gemeinsame Feature-/AC-Matrix und beide OKF mit datierten Nachweisen",
+          "ratings": [
+            5,
+            5,
+            5,
+            4,
+            5
+          ],
+          "score": 97.0
+        }
+      },
+      "winner": "H"
+    }
+  ]
+}

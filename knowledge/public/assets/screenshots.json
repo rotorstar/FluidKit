@@ -1,0 +1,993 @@
+{
+  "schemaVersion": 1,
+  "screenshots": [
+    {
+      "id": "workspace-table",
+      "file": "assets/workspace-table.jpg",
+      "caption": "Workspace mit aufsteigend sortierten tatsächlichen Paketabhängigkeiten.",
+      "capturedAt": "2026-11-02T09:03:12.776Z",
+      "sourceBuild": "fluid-b383e3697f017257a779",
+      "backend": "WebGPU aktivWEBGPU DEFAULTLive-Import · package.json + TypeScript",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/?view=table&sort=dependencies&direction=asc&selected=&group=all",
+      "viewport": {
+        "dpr": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "encoding": "image/jpeg"
+    },
+    {
+      "id": "workspace-cards",
+      "file": "assets/workspace-cards.jpg",
+      "caption": "Dieselben Modul-IDs als adaptives Kartenraster.",
+      "capturedAt": "2026-11-02T09:03:41.006Z",
+      "sourceBuild": "fluid-b383e3697f017257a779",
+      "backend": "WebGPU aktivWEBGPU DEFAULTLive-Import · package.json + TypeScript",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/?view=cards&sort=dependencies&direction=asc&selected=&group=all",
+      "viewport": {
+        "dpr": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "encoding": "image/jpeg"
+    },
+    {
+      "id": "workspace-map",
+      "file": "assets/workspace-map.jpg",
+      "caption": "Dependency Map mit tatsächlichen internen Paketbeziehungen.",
+      "capturedAt": "2026-11-02T09:03:41.763Z",
+      "sourceBuild": "fluid-b383e3697f017257a779",
+      "backend": "WebGPU aktivWEBGPU DEFAULTLive-Import · package.json + TypeScript",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/?view=map&sort=dependencies&direction=asc&selected=&group=all",
+      "viewport": {
+        "dpr": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "encoding": "image/jpeg"
+    },
+    {
+      "id": "workspace-detail",
+      "file": "assets/workspace-detail.jpg",
+      "caption": "Entfaltetes WebGPU-Modul mit tatsächlicher Manifestliste.",
+      "capturedAt": "2026-11-02T09:03:42.226Z",
+      "sourceBuild": "fluid-b383e3697f017257a779",
+      "backend": "WebGPU aktivWEBGPU DEFAULTLive-Import · package.json + TypeScript",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/?view=detail&sort=dependencies&direction=asc&selected=webgpu&group=all",
+      "viewport": {
+        "dpr": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "encoding": "image/jpeg"
+    },
+    {
+      "id": "workspace-search",
+      "file": "assets/workspace-search.jpg",
+      "caption": "Suche nach gpu kombiniert mit dem Kernel-Filter.",
+      "capturedAt": "2026-11-02T09:03:42.940Z",
+      "sourceBuild": "fluid-b383e3697f017257a779",
+      "backend": "WebGPU aktivWEBGPU DEFAULTLive-Import · package.json + TypeScript",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/?view=table&sort=dependencies&direction=asc&selected=webgpu&group=Kernel",
+      "viewport": {
+        "dpr": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "encoding": "image/jpeg"
+    },
+    {
+      "id": "effect-studio",
+      "file": "assets/effect-studio.jpg",
+      "caption": "Rezeptwahl, Parameter, Seed, Kernelprüfung und Run-Dateien im Effekt-Studio.",
+      "capturedAt": "2026-11-02T09:11:42.618Z",
+      "sourceBuild": "fluid-b383e3697f017257a779",
+      "backend": "WebGPU aktivWEBGPU DEFAULTLive-Import · package.json + TypeScript",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/?view=table&sort=name&direction=asc&selected=&group=all",
+      "viewport": {
+        "dpr": 2,
+        "height": 720,
+        "width": 1280
+      },
+      "encoding": "image/jpeg"
+    },
+    {
+      "id": "quality-check",
+      "file": "assets/quality-check.jpg",
+      "caption": "Getrennte Qualitätsprüfer und sichtbar offene manuelle Abnahmen.",
+      "capturedAt": "2026-11-02T09:11:43.928Z",
+      "sourceBuild": "fluid-b383e3697f017257a779",
+      "backend": "WebGPU aktivWEBGPU DEFAULTLive-Import · package.json + TypeScript",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/?view=table&sort=name&direction=asc&selected=&group=all",
+      "viewport": {
+        "dpr": 2,
+        "height": 1314,
+        "width": 1174
+      },
+      "captureMethod": "native-viewport-no-resize",
+      "encoding": "image/jpeg"
+    },
+    {
+      "id": "rehearsal-story",
+      "file": "assets/rehearsal-story.jpg",
+      "caption": "Geführte Story mit sichtbaren Schritten und bewusster Pausensteuerung.",
+      "capturedAt": "2026-11-02T09:19:08.067Z",
+      "sourceBuild": "fluid-b383e3697f017257a779",
+      "captureMethod": "native-viewport-no-resize",
+      "backend": "WebGPU aktivtable · r2",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/studio/rehearsal",
+      "viewport": {
+        "dpr": 2,
+        "height": 1314,
+        "width": 1174
+      },
+      "encoding": "image/jpeg"
+    },
+    {
+      "id": "frame-comparison",
+      "file": "assets/frame-comparison.jpg",
+      "caption": "Zwei unveränderte GPU-Aufnahmen als Referenz und Kandidat.",
+      "capturedAt": "2026-11-02T09:20:09.568Z",
+      "sourceBuild": "fluid-b383e3697f017257a779",
+      "captureMethod": "native-viewport-no-resize",
+      "backend": "WebGPU aktivcards · r3",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/studio/rehearsal",
+      "viewport": {
+        "dpr": 2,
+        "height": 1314,
+        "width": 1174
+      },
+      "encoding": "image/jpeg"
+    },
+    {
+      "id": "acceptance",
+      "file": "assets/acceptance.jpg",
+      "caption": "AC-Abgleich: verifizierte, teilweise erfüllte und offene Kriterien werden getrennt ausgewiesen.",
+      "capturedAt": "2026-11-02T09:37:24.145Z",
+      "sourceBuild": "fluid-b383e3697f017257a779",
+      "captureMethod": "native-viewport-no-resize",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/studio/acceptance",
+      "viewport": {
+        "dpr": 2,
+        "height": 1314,
+        "width": 1174
+      },
+      "encoding": "image/jpeg"
+    },
+    {
+      "id": "simulation-real-estate",
+      "file": "assets/simulation-real-estate.jpg",
+      "caption": "Immobilien-Case mit acht ausdrücklich erfundenen Angeboten und WebGPU-Darstellung.",
+      "capturedAt": "2026-11-02T09:37:43.771Z",
+      "sourceBuild": "fluid-b383e3697f017257a779",
+      "backend": "WebGPU aktivSimulation · real-estate",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/studio/simulations/real-estate",
+      "viewport": {
+        "dpr": 2,
+        "height": 1314,
+        "width": 1174
+      },
+      "encoding": "image/jpeg"
+    },
+    {
+      "id": "simulation-commerce",
+      "file": "assets/simulation-commerce.jpg",
+      "caption": "Commerce-Detail mit ausgewählter Variante und simulierter Warenkorb-Vorbereitung.",
+      "capturedAt": "2026-11-02T09:38:09.136Z",
+      "sourceBuild": "fluid-b383e3697f017257a779",
+      "backend": "WebGPU aktivSimulation · commerce",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/studio/simulations/commerce?view=detail&selected=sim-product-02&comparison=sim-product-02&sort=name&variant=0",
+      "viewport": {
+        "dpr": 2,
+        "height": 1314,
+        "width": 1174
+      },
+      "encoding": "image/jpeg"
+    },
+    {
+      "id": "simulation-travel",
+      "file": "assets/simulation-travel.jpg",
+      "caption": "Abgelaufene Reise-Quote: Vorbereitung ist gesperrt, Daten und Auswahl bleiben sichtbar.",
+      "capturedAt": "2026-11-02T09:40:50.736Z",
+      "sourceBuild": "fluid-b383e3697f017257a779",
+      "backend": "WebGPU aktivSimulation · travel",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/studio/simulations/travel?view=detail&selected=sim-stay-03&comparison=sim-stay-02&sort=name&variant=0",
+      "viewport": {
+        "dpr": 2,
+        "height": 1314,
+        "width": 1174
+      },
+      "encoding": "image/jpeg"
+    },
+    {
+      "id": "ai-review",
+      "file": "assets/ai-review.jpg",
+      "caption": "Dokumentierter Live-Test der OpenAI-Analyse vom 2. November; kein neuer Modellaufruf für die Anleitung.",
+      "capturedAt": "2026-11-02T08:18:33.305Z",
+      "sourceBuild": "fluid-b383e3697f017257a779",
+      "route": "/studio/rehearsal",
+      "viewport": {
+        "width": 1174,
+        "height": 1314,
+        "dpr": 2
+      },
+      "origin": "prior-verified-live-run",
+      "captureMethod": "original-native-jpeg",
+      "provenance": "Dokumentierter OpenAI-Live-Test, vor Erstellung dieses Handbuchs.",
+      "encoding": "image/jpeg"
+    },
+    {
+      "id": "knowledge-navigation",
+      "file": "assets/knowledge-navigation.jpg",
+      "caption": "Engineering und Bedienungsanleitung unten links in der Studio-Navigation.",
+      "capturedAt": "2026-11-02T10:48:00.986Z",
+      "sourceBuild": "fluid-82e1541dee9b5ad0e8b2",
+      "route": "/?view=table&sort=name&direction=asc&selected=&group=all",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 2
+      },
+      "encoding": "image/jpeg",
+      "captureMethod": "native-no-resize"
+    },
+    {
+      "id": "m7-silk-cascade",
+      "file": "assets/m7-silk-cascade.png",
+      "caption": "Silk Cascade bei 24,24 %: Flächen ordnen sich gestaffelt; bewegte Inhaltslabels sind vorübergehend ausgeblendet.",
+      "capturedAt": "2026-11-03T22:14:06.569Z",
+      "sourceBuild": "fluid-2006dfa3f94ae832a214",
+      "backend": "webgpu",
+      "route": "/studio/rehearsal",
+      "viewport": {
+        "width": 868,
+        "height": 1136,
+        "dpr": 1
+      },
+      "encoding": "image/png",
+      "captureScope": "selected original GPU surface frame; no complete motion proof from this still",
+      "progress": 0.24242424242424243,
+      "sequenceId": "sequence-1793744047419",
+      "sequenceIndex": 16,
+      "sourceArtifact": "docs/qa/2026-11-03-m7/build-2006dfa3f94ae832a214/silk-webgpu.frame-016.png",
+      "sha256": "f88c1ce328d933be542fc7b7f9a0cd02159ef17d3740072a569786d599db4cc6"
+    },
+    {
+      "id": "m7-liquid-lens",
+      "file": "assets/m7-liquid-lens.png",
+      "caption": "Liquid Lens bei 50 %: lokale Hintergrundbrechung folgt dem ausgewählten Detail; feste Steuerung bleibt scharf.",
+      "capturedAt": "2026-11-03T22:14:14.844Z",
+      "sourceBuild": "fluid-2006dfa3f94ae832a214",
+      "backend": "webgpu",
+      "route": "/studio/rehearsal",
+      "viewport": {
+        "width": 868,
+        "height": 1136,
+        "dpr": 1
+      },
+      "encoding": "image/png",
+      "captureScope": "selected original GPU surface frame; no complete motion proof from this still",
+      "progress": 0.5,
+      "sequenceId": "sequence-1793744055401",
+      "sequenceIndex": 33,
+      "sourceArtifact": "docs/qa/2026-11-03-m7/build-2006dfa3f94ae832a214/lens-webgpu.frame-033.png",
+      "sha256": "cc82e0d0819708934bb4fc70108f22e4ca23c4ad00b1405b38cfc12dde3ae758"
+    },
+    {
+      "id": "m7-particle-weave",
+      "file": "assets/m7-particle-weave.png",
+      "caption": "Particle Weave bei 50 %: begrenzte geordnete Fragmente begleiten Karten zur Dependency Map.",
+      "capturedAt": "2026-11-03T22:14:22.645Z",
+      "sourceBuild": "fluid-2006dfa3f94ae832a214",
+      "backend": "webgpu",
+      "route": "/studio/rehearsal",
+      "viewport": {
+        "width": 868,
+        "height": 1136,
+        "dpr": 1
+      },
+      "encoding": "image/png",
+      "captureScope": "selected original GPU surface frame; no complete motion proof from this still",
+      "progress": 0.5,
+      "sequenceId": "sequence-1793744063218",
+      "sequenceIndex": 33,
+      "sourceArtifact": "docs/qa/2026-11-03-m7/build-2006dfa3f94ae832a214/particle-webgpu.frame-033.png",
+      "sha256": "26f5c4d8ed3d62baa45706da88f9ddb078b669b6eac6326ba67cb9be34f7ac8f"
+    },
+    {
+      "id": "m7-workshop",
+      "file": "assets/m7-workshop.jpg",
+      "caption": "M7-Werkstatt: Workspace-Matrix und eigenständige Surface-Prüfung mit getrennten Backends und Ergebnissen.",
+      "capturedAt": "2026-11-04T04:04:37.841Z",
+      "timestampSource": "Artifact write time; approximate capture timestamp, not a separately recorded CUA clock.",
+      "sourceBuild": "fluid-f0dc6354dc0abff86d1b",
+      "backend": "webgpu workspace / webgl2 isolated lifecycle",
+      "route": "/studio/m7",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "dpr": 1
+      },
+      "image": {
+        "width": 1280,
+        "height": 2402,
+        "fullPage": true
+      },
+      "encoding": "image/jpeg",
+      "captureScope": "Unmodified actual full-page Studio screenshot; no native input or full motion proof from this still.",
+      "sourceArtifact": "docs/qa/2026-11-04-m7/build-f0dc6354dc0abff86d1b/m7-workshop.png",
+      "sha256": "e429458fcfa3474ded534711fbbd05a06978237bf2d7ff1c7fff3026dfe8caec"
+    },
+    {
+      "id": "m7-workshop-final",
+      "file": "assets/m7-workshop-final.jpg",
+      "caption": "M7-Werkstatt im finalen lokalen Prüfbuild: getrennte Ansichtsmatrix und Surface-/Privacyprüfung.",
+      "capturedAt": "2026-11-04T04:58:59.820Z",
+      "timestampSource": "Artifact write time; approximate capture timestamp, not a separately recorded CUA clock.",
+      "sourceBuild": "fluid-81e03df218772a9d1bef",
+      "backend": "webgpu workspace / webgl2 isolated lifecycle",
+      "route": "/studio/m7",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "dpr": 1
+      },
+      "image": {
+        "width": 1280,
+        "height": 2402,
+        "fullPage": true
+      },
+      "encoding": "image/jpeg",
+      "captureScope": "Unmodified actual full-page Studio screenshot; no native input or full motion proof from this still.",
+      "sourceArtifact": "docs/qa/2026-11-04-m7/build-81e03df218772a9d1bef/m7-workshop.png",
+      "sha256": "900d81b57c2a983cc3fea3c4ead075881bfd0071fcd10125a989eb77555c8fe6"
+    },
+    {
+      "id": "m8-table-1280-fluid-dfc8a56ebe0e58ace2ea",
+      "file": "assets/m8-table-1280-fluid-dfc8a56ebe0e58ace2ea.png",
+      "caption": "M8-Workspace: stabile Mehrfachauswahl und offener Kontextinspector.",
+      "capturedAt": "2026-11-13T11:44:12.918Z",
+      "timestampSource": "Report export timestamp; individual capture time is not separately asserted. Original frameId is preserved.",
+      "sourceBuild": "fluid-dfc8a56ebe0e58ace2ea",
+      "backend": "webgpu",
+      "route": "/studio/m8",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 1201,
+        "height": 1478,
+        "dpr": 1
+      },
+      "image": {
+        "width": 1201,
+        "height": 1478,
+        "fullPage": false
+      },
+      "encoding": "image/png",
+      "sourceArtifact": "docs/qa/2026-11-13-m8/build-dfc8a56ebe0e58ace2ea/matrix/assembly-c66d6d7b93ba.json",
+      "sourceReportSha256": "cfdadb316e4478085713b09ae0f7a7a97d14ebcee49b80a66b8c93111232605d",
+      "frameId": "frame-1-12-1794570243802",
+      "case": "silk-cascade:table:cards",
+      "phase": 0,
+      "captureScope": "Unmodified original GPU checkpoint; no native input or full motion proof from this still.",
+      "sha256": "9017e04f7e1fafd2a6ba6da4bc31dccf6ae036ba97b1db791c22c5817705bd8e"
+    },
+    {
+      "id": "m8-cards-1280-fluid-dfc8a56ebe0e58ace2ea",
+      "file": "assets/m8-cards-1280-fluid-dfc8a56ebe0e58ace2ea.png",
+      "caption": "M8-Workspace: stabile Mehrfachauswahl und offener Kontextinspector.",
+      "capturedAt": "2026-11-13T11:44:12.918Z",
+      "timestampSource": "Report export timestamp; individual capture time is not separately asserted. Original frameId is preserved.",
+      "sourceBuild": "fluid-dfc8a56ebe0e58ace2ea",
+      "backend": "webgpu",
+      "route": "/studio/m8",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 1201,
+        "height": 1478,
+        "dpr": 1
+      },
+      "image": {
+        "width": 1201,
+        "height": 1478,
+        "fullPage": false
+      },
+      "encoding": "image/png",
+      "sourceArtifact": "docs/qa/2026-11-13-m8/build-dfc8a56ebe0e58ace2ea/matrix/assembly-c66d6d7b93ba.json",
+      "sourceReportSha256": "cfdadb316e4478085713b09ae0f7a7a97d14ebcee49b80a66b8c93111232605d",
+      "frameId": "frame-1-20-1794570243962",
+      "case": "silk-cascade:table:cards",
+      "phase": 1,
+      "captureScope": "Unmodified original GPU checkpoint; no native input or full motion proof from this still.",
+      "sha256": "ff3c1be8c23173f8d77d1cfb9c39d1178775d941dd2897326cfcfa60d3ba209a"
+    },
+    {
+      "id": "m8-map-1280-fluid-dfc8a56ebe0e58ace2ea",
+      "file": "assets/m8-map-1280-fluid-dfc8a56ebe0e58ace2ea.png",
+      "caption": "M8-Workspace: stabile Mehrfachauswahl und offener Kontextinspector.",
+      "capturedAt": "2026-11-13T11:44:12.918Z",
+      "timestampSource": "Report export timestamp; individual capture time is not separately asserted. Original frameId is preserved.",
+      "sourceBuild": "fluid-dfc8a56ebe0e58ace2ea",
+      "backend": "webgpu",
+      "route": "/studio/m8",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 1201,
+        "height": 1478,
+        "dpr": 1
+      },
+      "image": {
+        "width": 1201,
+        "height": 1478,
+        "fullPage": false
+      },
+      "encoding": "image/png",
+      "sourceArtifact": "docs/qa/2026-11-13-m8/build-dfc8a56ebe0e58ace2ea/matrix/assembly-c66d6d7b93ba.json",
+      "sourceReportSha256": "cfdadb316e4478085713b09ae0f7a7a97d14ebcee49b80a66b8c93111232605d",
+      "frameId": "frame-1-286-1794570251350",
+      "case": "particle-weave:cards:map",
+      "phase": 1,
+      "captureScope": "Unmodified original GPU checkpoint; no native input or full motion proof from this still.",
+      "sha256": "86242c5ce703dcaf6bd46511307f3cbbfd31eac2edfaeac2a86678bd5ab7bccd"
+    },
+    {
+      "id": "m8-silk-cascade-midpoint-1280-fluid-dfc8a56ebe0e58ace2ea",
+      "file": "assets/m8-silk-cascade-midpoint-1280-fluid-dfc8a56ebe0e58ace2ea.png",
+      "caption": "M8-Übergangscheckpoint: bewegte Beschriftungen können bewusst ausgeblendet sein.",
+      "capturedAt": "2026-11-13T11:44:12.918Z",
+      "timestampSource": "Report export timestamp; individual capture time is not separately asserted. Original frameId is preserved.",
+      "sourceBuild": "fluid-dfc8a56ebe0e58ace2ea",
+      "backend": "webgpu",
+      "route": "/studio/m8",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 1201,
+        "height": 1478,
+        "dpr": 1
+      },
+      "image": {
+        "width": 1201,
+        "height": 1478,
+        "fullPage": false
+      },
+      "encoding": "image/png",
+      "sourceArtifact": "docs/qa/2026-11-13-m8/build-dfc8a56ebe0e58ace2ea/matrix/assembly-c66d6d7b93ba.json",
+      "sourceReportSha256": "cfdadb316e4478085713b09ae0f7a7a97d14ebcee49b80a66b8c93111232605d",
+      "frameId": "frame-1-16-1794570243890",
+      "case": "silk-cascade:table:cards",
+      "phase": 0.5,
+      "captureScope": "Unmodified original GPU checkpoint; no native input or full motion proof from this still.",
+      "sha256": "d33cbf9b231d28e10249e4b2496da1f2f4f39a4f31ad77cbf53953b28089d5f9"
+    },
+    {
+      "id": "m8-liquid-lens-midpoint-1280-fluid-dfc8a56ebe0e58ace2ea",
+      "file": "assets/m8-liquid-lens-midpoint-1280-fluid-dfc8a56ebe0e58ace2ea.png",
+      "caption": "M8-Übergangscheckpoint: bewegte Beschriftungen können bewusst ausgeblendet sein.",
+      "capturedAt": "2026-11-13T11:44:12.918Z",
+      "timestampSource": "Report export timestamp; individual capture time is not separately asserted. Original frameId is preserved.",
+      "sourceBuild": "fluid-dfc8a56ebe0e58ace2ea",
+      "backend": "webgpu",
+      "route": "/studio/m8",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 1201,
+        "height": 1478,
+        "dpr": 1
+      },
+      "image": {
+        "width": 1201,
+        "height": 1478,
+        "fullPage": false
+      },
+      "encoding": "image/png",
+      "sourceArtifact": "docs/qa/2026-11-13-m8/build-dfc8a56ebe0e58ace2ea/matrix/assembly-c66d6d7b93ba.json",
+      "sourceReportSha256": "cfdadb316e4478085713b09ae0f7a7a97d14ebcee49b80a66b8c93111232605d",
+      "frameId": "frame-1-130-1794570247062",
+      "case": "liquid-lens:table:cards",
+      "phase": 0.5,
+      "captureScope": "Unmodified original GPU checkpoint; no native input or full motion proof from this still.",
+      "sha256": "7735db5000a91cf394645a6e34f07247ce3653ce807d18a72598431103c082b7"
+    },
+    {
+      "id": "m8-particle-weave-midpoint-1280-fluid-dfc8a56ebe0e58ace2ea",
+      "file": "assets/m8-particle-weave-midpoint-1280-fluid-dfc8a56ebe0e58ace2ea.png",
+      "caption": "M8-Übergangscheckpoint: bewegte Beschriftungen können bewusst ausgeblendet sein.",
+      "capturedAt": "2026-11-13T11:44:12.918Z",
+      "timestampSource": "Report export timestamp; individual capture time is not separately asserted. Original frameId is preserved.",
+      "sourceBuild": "fluid-dfc8a56ebe0e58ace2ea",
+      "backend": "webgpu",
+      "route": "/studio/m8",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 1201,
+        "height": 1478,
+        "dpr": 1
+      },
+      "image": {
+        "width": 1201,
+        "height": 1478,
+        "fullPage": false
+      },
+      "encoding": "image/png",
+      "sourceArtifact": "docs/qa/2026-11-13-m8/build-dfc8a56ebe0e58ace2ea/matrix/assembly-c66d6d7b93ba.json",
+      "sourceReportSha256": "cfdadb316e4478085713b09ae0f7a7a97d14ebcee49b80a66b8c93111232605d",
+      "frameId": "frame-1-244-1794570250344",
+      "case": "particle-weave:table:cards",
+      "phase": 0.5,
+      "captureScope": "Unmodified original GPU checkpoint; no native input or full motion proof from this still.",
+      "sha256": "31013109a6d43c869edbf8337106b50bde6f6ffaf6e3de364bba3a1be8531597"
+    },
+    {
+      "id": "m8-table-390-fluid-dfc8a56ebe0e58ace2ea",
+      "file": "assets/m8-table-390-fluid-dfc8a56ebe0e58ace2ea.png",
+      "caption": "M8-Workspace: stabile Mehrfachauswahl und offener Kontextinspector.",
+      "capturedAt": "2026-11-13T11:45:49.420Z",
+      "timestampSource": "Report export timestamp; individual capture time is not separately asserted. Original frameId is preserved.",
+      "sourceBuild": "fluid-dfc8a56ebe0e58ace2ea",
+      "backend": "webgpu",
+      "route": "/studio/m8",
+      "viewport": {
+        "width": 390,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 351,
+        "height": 1980,
+        "dpr": 1
+      },
+      "image": {
+        "width": 351,
+        "height": 1980,
+        "fullPage": false
+      },
+      "encoding": "image/png",
+      "sourceArtifact": "docs/qa/2026-11-13-m8/build-dfc8a56ebe0e58ace2ea/matrix/assembly-c66d6d7b93ba.json",
+      "sourceReportSha256": "a1df782bd7166665e3286b91606f3d3eb31462b853a190eb667f5643f9ef3d4c",
+      "frameId": "frame-3-358-1794570340696",
+      "case": "silk-cascade:table:cards",
+      "phase": 0,
+      "captureScope": "Unmodified original GPU checkpoint; no native input or full motion proof from this still.",
+      "sha256": "8453126e51d084f94fbad13fc686274817ab80a180112140f73b6e8a7a4526ee"
+    },
+    {
+      "id": "m8-cards-390-fluid-dfc8a56ebe0e58ace2ea",
+      "file": "assets/m8-cards-390-fluid-dfc8a56ebe0e58ace2ea.png",
+      "caption": "M8-Workspace: stabile Mehrfachauswahl und offener Kontextinspector.",
+      "capturedAt": "2026-11-13T11:45:49.420Z",
+      "timestampSource": "Report export timestamp; individual capture time is not separately asserted. Original frameId is preserved.",
+      "sourceBuild": "fluid-dfc8a56ebe0e58ace2ea",
+      "backend": "webgpu",
+      "route": "/studio/m8",
+      "viewport": {
+        "width": 390,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 351,
+        "height": 1980,
+        "dpr": 1
+      },
+      "image": {
+        "width": 351,
+        "height": 1980,
+        "fullPage": false
+      },
+      "encoding": "image/png",
+      "sourceArtifact": "docs/qa/2026-11-13-m8/build-dfc8a56ebe0e58ace2ea/matrix/assembly-c66d6d7b93ba.json",
+      "sourceReportSha256": "a1df782bd7166665e3286b91606f3d3eb31462b853a190eb667f5643f9ef3d4c",
+      "frameId": "frame-3-366-1794570340836",
+      "case": "silk-cascade:table:cards",
+      "phase": 1,
+      "captureScope": "Unmodified original GPU checkpoint; no native input or full motion proof from this still.",
+      "sha256": "d55434171c12b522da59a50b02bdac1d12b1ea7ff2a653daa824735ff9474cbd"
+    },
+    {
+      "id": "m8-map-390-fluid-dfc8a56ebe0e58ace2ea",
+      "file": "assets/m8-map-390-fluid-dfc8a56ebe0e58ace2ea.png",
+      "caption": "M8-Workspace: stabile Mehrfachauswahl und offener Kontextinspector.",
+      "capturedAt": "2026-11-13T11:45:49.420Z",
+      "timestampSource": "Report export timestamp; individual capture time is not separately asserted. Original frameId is preserved.",
+      "sourceBuild": "fluid-dfc8a56ebe0e58ace2ea",
+      "backend": "webgpu",
+      "route": "/studio/m8",
+      "viewport": {
+        "width": 390,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 351,
+        "height": 1980,
+        "dpr": 1
+      },
+      "image": {
+        "width": 351,
+        "height": 1980,
+        "fullPage": false
+      },
+      "encoding": "image/png",
+      "sourceArtifact": "docs/qa/2026-11-13-m8/build-dfc8a56ebe0e58ace2ea/matrix/assembly-c66d6d7b93ba.json",
+      "sourceReportSha256": "a1df782bd7166665e3286b91606f3d3eb31462b853a190eb667f5643f9ef3d4c",
+      "frameId": "frame-3-632-1794570347864",
+      "case": "particle-weave:cards:map",
+      "phase": 1,
+      "captureScope": "Unmodified original GPU checkpoint; no native input or full motion proof from this still.",
+      "sha256": "2ff6313802348f76761edb4a5cf24fc63b280b4f4b9ab178991b87ebfe8a2856"
+    },
+    {
+      "id": "m8-silk-cascade-midpoint-390-fluid-dfc8a56ebe0e58ace2ea",
+      "file": "assets/m8-silk-cascade-midpoint-390-fluid-dfc8a56ebe0e58ace2ea.png",
+      "caption": "M8-Übergangscheckpoint: bewegte Beschriftungen können bewusst ausgeblendet sein.",
+      "capturedAt": "2026-11-13T11:45:49.420Z",
+      "timestampSource": "Report export timestamp; individual capture time is not separately asserted. Original frameId is preserved.",
+      "sourceBuild": "fluid-dfc8a56ebe0e58ace2ea",
+      "backend": "webgpu",
+      "route": "/studio/m8",
+      "viewport": {
+        "width": 390,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 351,
+        "height": 1980,
+        "dpr": 1
+      },
+      "image": {
+        "width": 351,
+        "height": 1980,
+        "fullPage": false
+      },
+      "encoding": "image/png",
+      "sourceArtifact": "docs/qa/2026-11-13-m8/build-dfc8a56ebe0e58ace2ea/matrix/assembly-c66d6d7b93ba.json",
+      "sourceReportSha256": "a1df782bd7166665e3286b91606f3d3eb31462b853a190eb667f5643f9ef3d4c",
+      "frameId": "frame-3-362-1794570340772",
+      "case": "silk-cascade:table:cards",
+      "phase": 0.5,
+      "captureScope": "Unmodified original GPU checkpoint; no native input or full motion proof from this still.",
+      "sha256": "b337632a134fb9e18b6f79cc077f779953aa3ca279139ddf1ac97e59538454ef"
+    },
+    {
+      "id": "m8-liquid-lens-midpoint-390-fluid-dfc8a56ebe0e58ace2ea",
+      "file": "assets/m8-liquid-lens-midpoint-390-fluid-dfc8a56ebe0e58ace2ea.png",
+      "caption": "M8-Übergangscheckpoint: bewegte Beschriftungen können bewusst ausgeblendet sein.",
+      "capturedAt": "2026-11-13T11:45:49.420Z",
+      "timestampSource": "Report export timestamp; individual capture time is not separately asserted. Original frameId is preserved.",
+      "sourceBuild": "fluid-dfc8a56ebe0e58ace2ea",
+      "backend": "webgpu",
+      "route": "/studio/m8",
+      "viewport": {
+        "width": 390,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 351,
+        "height": 1980,
+        "dpr": 1
+      },
+      "image": {
+        "width": 351,
+        "height": 1980,
+        "fullPage": false
+      },
+      "encoding": "image/png",
+      "sourceArtifact": "docs/qa/2026-11-13-m8/build-dfc8a56ebe0e58ace2ea/matrix/assembly-c66d6d7b93ba.json",
+      "sourceReportSha256": "a1df782bd7166665e3286b91606f3d3eb31462b853a190eb667f5643f9ef3d4c",
+      "frameId": "frame-3-476-1794570343777",
+      "case": "liquid-lens:table:cards",
+      "phase": 0.5,
+      "captureScope": "Unmodified original GPU checkpoint; no native input or full motion proof from this still.",
+      "sha256": "020411238ffb50a24d2911e68b3453b61aee60422b18b9f738590509d95389c8"
+    },
+    {
+      "id": "m8-particle-weave-midpoint-390-fluid-dfc8a56ebe0e58ace2ea",
+      "file": "assets/m8-particle-weave-midpoint-390-fluid-dfc8a56ebe0e58ace2ea.png",
+      "caption": "M8-Übergangscheckpoint: bewegte Beschriftungen können bewusst ausgeblendet sein.",
+      "capturedAt": "2026-11-13T11:45:49.420Z",
+      "timestampSource": "Report export timestamp; individual capture time is not separately asserted. Original frameId is preserved.",
+      "sourceBuild": "fluid-dfc8a56ebe0e58ace2ea",
+      "backend": "webgpu",
+      "route": "/studio/m8",
+      "viewport": {
+        "width": 390,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 351,
+        "height": 1980,
+        "dpr": 1
+      },
+      "image": {
+        "width": 351,
+        "height": 1980,
+        "fullPage": false
+      },
+      "encoding": "image/png",
+      "sourceArtifact": "docs/qa/2026-11-13-m8/build-dfc8a56ebe0e58ace2ea/matrix/assembly-c66d6d7b93ba.json",
+      "sourceReportSha256": "a1df782bd7166665e3286b91606f3d3eb31462b853a190eb667f5643f9ef3d4c",
+      "frameId": "frame-3-590-1794570346861",
+      "case": "particle-weave:table:cards",
+      "phase": 0.5,
+      "captureScope": "Unmodified original GPU checkpoint; no native input or full motion proof from this still.",
+      "sha256": "2bb1a5196a767d807270cd846dcfb10604527e521ea23d7ee1dd06cb350c14c0"
+    },
+    {
+      "id": "m8-native-desktop",
+      "file": "assets/m8-native-desktop-fluid-3cf71edcdbac59235548.png",
+      "caption": "Nativ bedienter M8-Workspace mit Auswahl und Inspector; unverändertes Original-Canvasbild.",
+      "capturedAt": "2026-11-13T13:11:50.044Z",
+      "sourceBuild": "fluid-3cf71edcdbac59235548",
+      "backend": "webgpu",
+      "route": "/",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "x": 243,
+        "y": -1196.703125,
+        "width": 989,
+        "height": 1478
+      },
+      "image": {
+        "width": 989,
+        "height": 1478,
+        "fullPage": false
+      },
+      "encoding": "image/png",
+      "captureScope": "Single bound original canvas frame from observed native pointer/keyboard journey; no whole-browser screenshot, film or performance proof.",
+      "sourceArtifact": "docs/qa/2026-11-13-m8/native-proof-archive.json",
+      "reportId": "native-2e67d56a-7c37-431c-bf2f-2b68eb459c17",
+      "frameId": "frame-2-261-1794575510044",
+      "datasetSha256": "723f329175bf9a782794c869642231dcd3b5e328266d3edfb5092f8456b1269f",
+      "sha256": "6a5c6bfbf6a558674a8394923e336abede00c6e16bf30349e109f985013d6565"
+    },
+    {
+      "id": "m8-native-compact",
+      "file": "assets/m8-native-compact-fluid-3cf71edcdbac59235548.png",
+      "caption": "Nativ bedienter M8-Workspace mit Auswahl und Inspector; unverändertes Original-Canvasbild.",
+      "capturedAt": "2026-11-13T13:12:25.823Z",
+      "sourceBuild": "fluid-3cf71edcdbac59235548",
+      "backend": "webgpu",
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "x": 11,
+        "y": -1799.9609375,
+        "width": 353,
+        "height": 1980
+      },
+      "image": {
+        "width": 353,
+        "height": 1980,
+        "fullPage": false
+      },
+      "encoding": "image/png",
+      "captureScope": "Single bound original canvas frame from observed native pointer/keyboard journey; no whole-browser screenshot, film or performance proof.",
+      "sourceArtifact": "docs/qa/2026-11-13-m8/native-proof-archive.json",
+      "reportId": "native-14aca6a4-477d-48cb-a07f-548b3aa91372",
+      "frameId": "frame-2-354-1794575545823",
+      "datasetSha256": "723f329175bf9a782794c869642231dcd3b5e328266d3edfb5092f8456b1269f",
+      "sha256": "36203d0b22b09f21997a510a49e5ef77e6cd50567ae8cd8858e46b3e6c99a87f"
+    },
+    {
+      "id": "m9-flow-1280",
+      "file": "assets/m9-flow-1280.png",
+      "caption": "Flow Explorer im Zustand Abwägen mit echtem Modulkontext; Original-GPU-Fläche bei 1280px Browserbreite, blaue Palette, 14. November 2026.",
+      "capturedAt": "2026-11-14T06:20:26.993Z",
+      "sourceBuild": "fluid-5efc7ce43b5669cc30e9",
+      "backend": "webgpu",
+      "pageTitle": "Flow Explorer · Fluid Studio",
+      "route": "/studio/flows?module=core",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 1194,
+        "height": 818,
+        "dpr": 1
+      },
+      "encoding": "image/png",
+      "sha256": "0a7a9a54bd99a4006143e13d9789412a1e0014ecbdefea829f441772cfa6e7c8",
+      "captureScope": "original-canvas-frame, not surrounding DOM or motion sequence"
+    },
+    {
+      "id": "m9-flow-390",
+      "file": "assets/m9-flow-390.png",
+      "caption": "Flow Explorer im Zustand Abwägen mit echtem Modulkontext; Original-GPU-Fläche bei 390px Browserbreite, blaue Palette, 14. November 2026.",
+      "capturedAt": "2026-11-14T06:20:11.673Z",
+      "sourceBuild": "fluid-5efc7ce43b5669cc30e9",
+      "backend": "webgpu",
+      "pageTitle": "Flow Explorer · Fluid Studio",
+      "route": "/studio/flows?module=core",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 348,
+        "height": 1392,
+        "dpr": 1
+      },
+      "encoding": "image/png",
+      "sha256": "7de02b01de529ce42c0b55fc6afd8bbe0427236c29d94294d43821fa02d20ca7",
+      "captureScope": "original-canvas-frame, not surrounding DOM or motion sequence"
+    },
+    {
+      "id": "m9-compare-1280",
+      "file": "assets/m9-compare-1280.png",
+      "caption": "Vergleich von core, react und webgpu mit tatsächlichen Manifestwerten; Original-GPU-Fläche bei 1280px Browserbreite, blaue Palette, 14. November 2026.",
+      "capturedAt": "2026-11-14T06:20:53.702Z",
+      "sourceBuild": "fluid-5efc7ce43b5669cc30e9",
+      "backend": "webgpu",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/?view=compare&sort=name&direction=asc&selected=core&group=all&picked=core&picked=react&picked=webgpu",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 1004,
+        "height": 1234,
+        "dpr": 1
+      },
+      "encoding": "image/png",
+      "sha256": "685b4a5ff5a71428a3ee6654138637f270d51dc437dd390f79f97e7db68c09f9",
+      "captureScope": "original-canvas-frame, not surrounding DOM or motion sequence"
+    },
+    {
+      "id": "m9-compare-390",
+      "file": "assets/m9-compare-390.png",
+      "caption": "Vergleich von core, react und webgpu mit tatsächlichen Manifestwerten; Original-GPU-Fläche bei 390px Browserbreite, blaue Palette, 14. November 2026.",
+      "capturedAt": "2026-11-14T06:21:11.649Z",
+      "sourceBuild": "fluid-5efc7ce43b5669cc30e9",
+      "backend": "webgpu",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/?view=compare&sort=name&direction=asc&selected=core&group=all&picked=core&picked=react&picked=webgpu",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 368,
+        "height": 2270,
+        "dpr": 1
+      },
+      "encoding": "image/png",
+      "sha256": "82acd2ffc9d1ad57c47bf2d8e216e39cbda9aa0748186b91c2ebb537d24f84f9",
+      "captureScope": "original-canvas-frame, not surrounding DOM or motion sequence"
+    },
+    {
+      "id": "m9-atlas-1280",
+      "file": "assets/m9-atlas-1280.png",
+      "caption": "Proportionaler Atlas des echten Workspace; Original-GPU-Fläche bei 1280px Browserbreite, blaue Palette, 14. November 2026.",
+      "capturedAt": "2026-11-14T06:22:03.405Z",
+      "sourceBuild": "fluid-5efc7ce43b5669cc30e9",
+      "backend": "webgpu",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/?view=atlas&sort=name&direction=asc&selected=core&group=all&picked=core&picked=react&picked=webgpu",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 1004,
+        "height": 1843,
+        "dpr": 1
+      },
+      "encoding": "image/png",
+      "sha256": "7db6c70cab5216ad2ddd28ae255b295a67d5f3885a15f20b1502593fcafc6b5c",
+      "captureScope": "original-canvas-frame, not surrounding DOM or motion sequence"
+    },
+    {
+      "id": "m9-atlas-390",
+      "file": "assets/m9-atlas-390.png",
+      "caption": "Proportionaler Atlas des echten Workspace; Original-GPU-Fläche bei 390px Browserbreite, blaue Palette, 14. November 2026.",
+      "capturedAt": "2026-11-14T06:21:38.416Z",
+      "sourceBuild": "fluid-5efc7ce43b5669cc30e9",
+      "backend": "webgpu",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/?view=atlas&sort=name&direction=asc&selected=core&group=all&picked=core&picked=react&picked=webgpu&metric=files&atlasGroup=Kernel",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 368,
+        "height": 1708,
+        "dpr": 1
+      },
+      "encoding": "image/png",
+      "sha256": "ce08be7b2bd131e0b2e4880c068675fcb8301d6b70e7f0f4da93503c2904cc71",
+      "captureScope": "original-canvas-frame, not surrounding DOM or motion sequence"
+    },
+    {
+      "id": "structural-match-1280",
+      "file": "assets/structural-match-1280.png",
+      "caption": "Bei halber Bewegung wandern die IDs und Dateizahlen aus den Tabellenzeilen ins Raster. Links läuft die ursprüngliche Bewegung, rechts die neue.",
+      "capturedAt": "2026-11-20T11:29:45.338Z",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "sourceBuild": "fluid-0f80b42806fab50ea044",
+      "backend": "webgpu",
+      "route": "/studio/transitions",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 1
+      },
+      "encoding": "image/png",
+      "sha256": "a9cf52ca8d21fc65c9bfabb75600b5df46ea2ccfa1d7651ea18052140893bf25",
+      "captureScope": "Tatsächliche Studio-Oberfläche mit angehaltener GPU-Darstellung bei 50 Prozent."
+    },
+    {
+      "id": "structural-merge-390",
+      "file": "assets/structural-merge-390.png",
+      "caption": "Die ausgewählten Module verbinden sich auf der schmalen Arbeitsfläche zu einem Vergleich. Der Regler steht bei 50 Prozent.",
+      "capturedAt": "2026-11-20T11:29:48.668Z",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "sourceBuild": "fluid-0f80b42806fab50ea044",
+      "backend": "webgpu",
+      "route": "/studio/transitions",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "encoding": "image/png",
+      "sha256": "81a2db0cd0aa400967d5c49a7be6db9a6c5c1c0c75db510cfe77bca043ff3648",
+      "captureScope": "Tatsächliche Studio-Oberfläche mit angehaltener GPU-Darstellung bei 50 Prozent."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-04",
+  "glyphVersion": "0.1.0",
+  "fontToolsVersion": "4.68.0",
+  "sourceRelease": "Sans2.004",
+  "sourceUrl": "https://raw.githubusercontent.com/notofonts/noto-cjk/Sans2.004/Sans/SubsetOTF/JP/NotoSansJP-Regular.otf",
+  "licenseUrl": "https://raw.githubusercontent.com/notofonts/noto-cjk/Sans2.004/LICENSE",
+  "coverage": {
+    "mappedCodepoints": 512,
+    "glyphsIncludingShapingAlternates": 783,
+    "scope": "Japanese horizontal text; kana, punctuation, fullwidth/halfwidth forms and explicit Han corpus in font-bake.config.json. No universal CJK, emoji or native IME qualification."
+  },
+  "raster": {
+    "emSize": 32,
+    "pixelRange": 6,
+    "atlasWidth": 1023,
+    "atlasHeight": 995,
+    "format": "rgba8unorm"
+  },
+  "artifacts": [
+    {
+      "path": "assets/fonts/noto-sans-jp/NotoSansJP-Regular.otf",
+      "bytes": 4533028,
+      "sha256": "dff723ba59d57d136764a04b9b2d03205544f7cd785a711442d6d2d085ac5073"
+    },
+    {
+      "path": "assets/fonts/noto-sans-jp/fluid-japanese-subset.otf",
+      "bytes": 121680,
+      "sha256": "c562a65ea135c9ef9789af7df63fc6c525743cff0b146cdbfe2770d8a5a9cf26"
+    },
+    {
+      "path": "apps/studio/public/fonts/noto-sans-jp-subset.font.glb",
+      "bytes": 4114264,
+      "sha256": "c12e358bdc0524abe93c9576403c08ac0679def29c46c60aa8417e11b935f0eb"
+    },
+    {
+      "path": "apps/studio/public/fonts/inter.font.glb",
+      "bytes": 3591832,
+      "sha256": "5f8bae15767e4ecb744d524532f0d4cb69a397e2cf0a7d2a6a0ef6b11437acd0"
+    },
+    {
+      "path": "apps/studio/public/fonts/noto-sans-jp-OFL.txt",
+      "bytes": 4356,
+      "sha256": "0bca5f00e2ed031850e82334774456e7ae57556ed088fdf84c6d7deaf49a103b"
+    }
+  ],
+  "tests": {
+    "targeted": "16/16 passed across font-fallback, text-input, glyph-selection-commit and base-ui-contracts",
+    "typecheck": "passed",
+    "scopedEslint": "passed",
+    "checkFont": "both baked artifacts byte-identical",
+    "preparedSubsetReproduction": "repeat FontTools run reproduced exact c562a65ea135c9ef9789af7df63fc6c525743cff0b146cdbfe2770d8a5a9cf26 hash"
+  },
+  "nativeInputQualification": "not inferred from synthetic/runtime tests; OS IME, mobile keyboard and screenreader require separate journey evidence",
+  "inputProjection": {
+    "implementation": "Full native value shaped once on a line; public Glyph material fragment clip; horizontal caret viewport; UTF-16 cluster/bidi caret lookup; native selection direction; pointer click/drag mapping",
+    "automatedScope": "Real Glyph font and selection geometry plus pure viewport/clipping invariants",
+    "actualBackendScope": "Pending separate browser evidence from parent runner; not implied by these tests"
+  },
+  "documentation": {
+    "preparedAt": "2026-11-04T04:48:22.709Z",
+    "sourceArtifact": {
+      "path": "docs/qa/2026-11-04-m7/fonts-manifest.json",
+      "sha256": "b5a820dac4333f1c46562660ccbbf1175f4f2e5a9db86fb5087c76cb7180819f"
+    },
+    "scope": "Supplemental font asset and Python preparation provenance; the main AST inventory covers TypeScript/JavaScript, styles and configuration, not Python declarations.",
+    "preparationScript": {
+      "path": "scripts/prepare-japanese-font.py",
+      "sha256": "0f97656bc7b124d3fa0e67926f2be59dcb208422338f8243194731f1143e5b38"
+    }
+  }
+}

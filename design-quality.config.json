@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "fluid-studio-de-v1",
+  "locale": "de-DE",
+  "include": ["apps/studio/app", "apps/studio/components"],
+  "componentDirs": ["apps/studio/components/studio-controls.tsx"],
+  "qualifiedBlockingRules": ["type-scale", "focus-ring-removed", "icon-button-name"],
+  "ruleOverrides": {
+    "sentence-case": "off",
+    "no-style-overrides": "off",
+    "no-bounce-easing": "info",
+    "no-decorative-uppercase": "info"
+  },
+  "exceptions": [
+    {"rule": "sentence-case", "scope": "German studio labels", "reason": "Die englisch/türkische Heuristik beanstandet korrekte deutsche Substantive; Sprache redaktionell prüfen."},
+    {"rule": "no-style-overrides", "scope": "Unstyled Base UI primitives", "reason": "Base-UI-Primitives benötigen bewusst externe Styles; eigene gestylte Wrapper separat prüfen."},
+    {"rule": "use-shared-components", "scope": "apps/studio/components/studio-controls.tsx", "reason": "Zentrale native Select-/Range-/Number-/Checkbox-Primitives besitzen die gemeinsamen Eingabestile."},
+    {"rule": "source-scope", "scope": "packages/react/src", "reason": "Unsichtbare Semantik-/IME-Brücke benötigt native Controls und wird durch den Semantikadapter geprüft."}
+  ]
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "requestedWidth": 320,
+    "buildId": "fluid-b383e3697f017257a779",
+    "backend": "webgpu",
+    "viewport": {
+      "width": 268,
+      "height": 1348
+    },
+    "phase": 1,
+    "revision": 1,
+    "caseId": "workspace-explorer",
+    "state": "table",
+    "bounds": {
+      "dpr": 1,
+      "height": 1000,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    "checkedText": 69,
+    "findings": []
+  },
+  {
+    "requestedWidth": 390,
+    "buildId": "fluid-b383e3697f017257a779",
+    "backend": "webgpu",
+    "viewport": {
+      "width": 338,
+      "height": 1348
+    },
+    "phase": 1,
+    "revision": 1,
+    "caseId": "workspace-explorer",
+    "state": "table",
+    "bounds": {
+      "dpr": 1,
+      "height": 1000,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    "checkedText": 69,
+    "findings": []
+  },
+  {
+    "requestedWidth": 768,
+    "buildId": "fluid-b383e3697f017257a779",
+    "backend": "webgpu",
+    "viewport": {
+      "width": 431,
+      "height": 1348
+    },
+    "phase": 1,
+    "revision": 1,
+    "caseId": "workspace-explorer",
+    "state": "table",
+    "bounds": {
+      "dpr": 1,
+      "height": 1000,
+      "scrollWidth": 753,
+      "width": 768
+    },
+    "checkedText": 69,
+    "findings": []
+  },
+  {
+    "requestedWidth": 1280,
+    "buildId": "fluid-b383e3697f017257a779",
+    "backend": "webgpu",
+    "viewport": {
+      "width": 838,
+      "height": 1348
+    },
+    "phase": 1,
+    "revision": 1,
+    "caseId": "workspace-explorer",
+    "state": "table",
+    "bounds": {
+      "dpr": 1,
+      "height": 1000,
+      "scrollWidth": 1265,
+      "width": 1280
+    },
+    "checkedText": 69,
+    "findings": []
+  },
+  {
+    "requestedWidth": 320,
+    "buildId": "fluid-b383e3697f017257a779",
+    "backend": "webgpu",
+    "viewport": {
+      "width": 268,
+      "height": 1348
+    },
+    "phase": 1,
+    "revision": 2,
+    "caseId": "workspace-explorer",
+    "state": "cards",
+    "bounds": {
+      "dpr": 1,
+      "height": 1000,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    "checkedText": 54,
+    "findings": []
+  },
+  {
+    "requestedWidth": 390,
+    "buildId": "fluid-b383e3697f017257a779",
+    "backend": "webgpu",
+    "viewport": {
+      "width": 338,
+      "height": 1348
+    },
+    "phase": 1,
+    "revision": 2,
+    "caseId": "workspace-explorer",
+    "state": "cards",
+    "bounds": {
+      "dpr": 1,
+      "height": 1000,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    "checkedText": 54,
+    "findings": []
+  },
+  {
+    "requestedWidth": 768,
+    "buildId": "fluid-b383e3697f017257a779",
+    "backend": "webgpu",
+    "viewport": {
+      "width": 431,
+      "height": 1348
+    },
+    "phase": 1,
+    "revision": 2,
+    "caseId": "workspace-explorer",
+    "state": "cards",
+    "bounds": {
+      "dpr": 1,
+      "height": 1000,
+      "scrollWidth": 753,
+      "width": 768
+    },
+    "checkedText": 54,
+    "findings": []
+  },
+  {
+    "requestedWidth": 1280,
+    "buildId": "fluid-b383e3697f017257a779",
+    "backend": "webgpu",
+    "viewport": {
+      "width": 838,
+      "height": 1348
+    },
+    "phase": 1,
+    "revision": 2,
+    "caseId": "workspace-explorer",
+    "state": "cards",
+    "bounds": {
+      "dpr": 1,
+      "height": 1000,
+      "scrollWidth": 1265,
+      "width": 1280
+    },
+    "checkedText": 54,
+    "findings": []
+  },
+  {
+    "requestedWidth": 320,
+    "buildId": "fluid-b383e3697f017257a779",
+    "backend": "webgpu",
+    "viewport": {
+      "width": 268,
+      "height": 1348
+    },
+    "phase": 1,
+    "revision": 3,
+    "caseId": "workspace-explorer",
+    "state": "detail",
+    "bounds": {
+      "dpr": 1,
+      "height": 1000,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    "checkedText": 27,
+    "findings": []
+  },
+  {
+    "requestedWidth": 390,
+    "buildId": "fluid-b383e3697f017257a779",
+    "backend": "webgpu",
+    "viewport": {
+      "width": 338,
+      "height": 1348
+    },
+    "phase": 1,
+    "revision": 3,
+    "caseId": "workspace-explorer",
+    "state": "detail",
+    "bounds": {
+      "dpr": 1,
+      "height": 1000,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    "checkedText": 27,
+    "findings": []
+  },
+  {
+    "requestedWidth": 768,
+    "buildId": "fluid-b383e3697f017257a779",
+    "backend": "webgpu",
+    "viewport": {
+      "width": 431,
+      "height": 1348
+    },
+    "phase": 1,
+    "revision": 3,
+    "caseId": "workspace-explorer",
+    "state": "detail",
+    "bounds": {
+      "dpr": 1,
+      "height": 1000,
+      "scrollWidth": 753,
+      "width": 768
+    },
+    "checkedText": 27,
+    "findings": []
+  },
+  {
+    "requestedWidth": 1280,
+    "buildId": "fluid-b383e3697f017257a779",
+    "backend": "webgpu",
+    "viewport": {
+      "width": 838,
+      "height": 1348
+    },
+    "phase": 1,
+    "revision": 3,
+    "caseId": "workspace-explorer",
+    "state": "detail",
+    "bounds": {
+      "dpr": 1,
+      "height": 1000,
+      "scrollWidth": 1265,
+      "width": 1280
+    },
+    "checkedText": 27,
+    "findings": []
+  }
+]

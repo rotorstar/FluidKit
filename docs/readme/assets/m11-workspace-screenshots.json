@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-11-20T12:38:18.138Z",
+  "browser": "157.0.8103.80",
+  "sourceSha256": "30dc34cd863213f52a1dcf92717d535545f629c12cef45d301e1b12e3267fa41",
+  "capture": "Browser viewport, reduced motion, Next developer indicator hidden.",
+  "screenshots": [
+    {
+      "file": "m11-workspace-de.png",
+      "locale": "de",
+      "view": "table",
+      "url": "/de?view=table&sort=name&direction=asc&selected=&group=all",
+      "viewport": {
+        "width": 1370,
+        "height": 910
+      },
+      "dpr": 1,
+      "backend": "webgpu",
+      "buildId": "fluid-16eeba41d01550c9092c",
+      "sha256": "37552bc6ec0e1c615ade4987f584f249d7972f3d848f5b2a823c1c84d4c13ca5"
+    },
+    {
+      "file": "m11-workspace-en.png",
+      "locale": "en",
+      "view": "compare",
+      "url": "/en?view=compare&sort=name&direction=asc&selected=&group=all&picked=core&picked=webgpu",
+      "viewport": {
+        "width": 1370,
+        "height": 910
+      },
+      "dpr": 1,
+      "backend": "webgpu",
+      "buildId": "fluid-16eeba41d01550c9092c",
+      "sha256": "18c30a98bc18bfdfc812e50ca964c4eb6816bcfd5411bd2542671f63ea8aa842"
+    },
+    {
+      "file": "m11-workspace-fr.png",
+      "locale": "fr",
+      "view": "cards",
+      "url": "/fr?view=cards&sort=name&direction=asc&selected=&group=all",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1,
+      "backend": "webgpu",
+      "buildId": "fluid-16eeba41d01550c9092c",
+      "sha256": "f60239edef6e8cb26afd955d51661b3d685eaf005394a557c60818aac8999657"
+    }
+  ]
+}

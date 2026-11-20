@@ -1,0 +1,34 @@
+{
+  "name": "@fluidkit/core",
+  "version": "0.2.0-alpha.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    "./layout": {
+      "types": "./src/layout.ts",
+      "default": "./src/layout.ts"
+    },
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./data": {
+      "types": "./src/data.ts",
+      "default": "./src/data.ts"
+    }
+  },
+  "dependencies": {
+    "@fluidkit/contracts": "*",
+    "@fluidkit/effects": "*",
+    "@ui-sdk/core": "0.1.0-beta.13",
+    "xstate": "5.33.3",
+    "yoga-layout": "3.2.1",
+    "zod": "4.6.7",
+    "@fluidkit/i18n": "*"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "researchDate": "2026-11-01",
+  "package": {
+    "version": "0.9.0",
+    "publishedAt": "2026-11-01T10:40:40.712Z",
+    "integrity": "sha512-kKN411KmO6vUKWywgxoWIYvF98hGmdAID2QCKqCmjHEnaobk+dJMiLR5ryNRVP2FolxY0tIt2hf0/Yb7Gf4Mfw==",
+    "gitHead": "e945bc312d78514b052474a779609622b9aa962f",
+    "registry": "https://registry.npmjs.org/@enmera%2fai-design-check"
+  },
+  "include": [
+    "apps/studio/app",
+    "apps/studio/components",
+    "packages/react/src",
+    "packages/cases/src"
+  ],
+  "scope": "isolated static check() only; no package installation, browser runner, skill or autofix",
+  "findings": [
+    {
+      "rule": "use-shared-components",
+      "severity": "warn",
+      "path": "apps/studio/app/error.tsx",
+      "line": 2,
+      "value": "button",
+      "message": "Raw <button>: use <Button>"
+    },
+    {
+      "rule": "use-shared-components",
+      "severity": "warn",
+      "path": "apps/studio/components/effect-lab.tsx",
+      "line": 48,
+      "value": "select",
+      "message": "Raw <select>: use <Select>"
+    },
+    {
+      "rule": "use-shared-components",
+      "severity": "warn",
+      "path": "apps/studio/components/effect-lab.tsx",
+      "line": 49,
+      "value": "input",
+      "message": "Raw <input>: use <Input>"
+    },
+    {
+      "rule": "use-shared-components",
+      "severity": "warn",
+      "path": "apps/studio/components/effect-lab.tsx",
+      "line": 50,
+      "value": "input",
+      "message": "Raw <input>: use <Input>"
+    },
+    {
+      "rule": "locale-number-format",
+      "severity": "warn",
+      "path": "apps/studio/components/effect-lab.tsx",
+      "line": 51,
+      "value": ".toFixed(",
+      "message": "Numbers, dates and money through the locale formatter: .toFixed("
+    },
+    {
+      "rule": "use-shared-components",
+      "severity": "warn",
+      "path": "apps/studio/components/effect-lab.tsx",
+      "line": 51,
+      "value": "input",
+      "message": "Raw <input>: use <Input>"
+    },
+    {
+      "rule": "use-shared-components",
+      "severity": "warn",
+      "path": "apps/studio/components/effect-lab.tsx",
+      "line": 52,
+      "value": "input",
+      "message": "Raw <input>: use <Input>"
+    },
+    {
+      "rule": "use-shared-components",
+      "severity": "warn",
+      "path": "apps/studio/components/effect-lab.tsx",
+      "line": 54,
+      "value": "input",
+      "message": "Raw <input>: use <Input>"
+    },
+    {
+      "rule": "use-shared-components",
+      "severity": "warn",
+      "path": "apps/studio/components/effect-lab.tsx",
+      "line": 67,
+      "value": "input",
+      "message": "Raw <input>: use <Input>"
+    },
+    {
+      "rule": "no-style-overrides",
+      "severity": "warn",
+      "path": "apps/studio/components/effect-lab.tsx",
+      "line": 67,
+      "value": "outline-button",
+      "message": "<Button> styled from outside: outline-button"
+    },
+    {
+      "rule": "no-style-overrides",
+      "severity": "warn",
+      "path": "apps/studio/components/effect-lab.tsx",
+      "line": 67,
+      "value": "outline-button",
+      "message": "<Button> styled from outside: outline-button"
+    },
+    {
+      "rule": "no-style-overrides",
+      "severity": "warn",
+      "path": "apps/studio/components/effect-lab.tsx",
+      "line": 67,
+      "value": "outline-button",
+      "message": "<Button> styled from outside: outline-button"
+    },
+    {
+      "rule": "no-style-overrides",
+      "severity": "warn",
+      "path": "apps/studio/components/studio-proof.tsx",
+      "line": 88,
+      "value": "outline-button",
+      "message": "<Button> styled from outside: outline-button"
+    },
+    {
+      "rule": "no-style-overrides",
+      "severity": "warn",
+      "path": "apps/studio/components/studio-proof.tsx",
+      "line": 95,
+      "value": "outline-button",
+      "message": "<Button> styled from outside: outline-button"
+    },
+    {
+      "rule": "use-shared-components",
+      "severity": "warn",
+      "path": "apps/studio/components/studio-proof.tsx",
+      "line": 100,
+      "value": "select",
+      "message": "Raw <select>: use <Select>"
+    },
+    {
+      "rule": "no-style-overrides",
+      "severity": "warn",
+      "path": "apps/studio/components/studio-proof.tsx",
+      "line": 103,
+      "value": "outline-button",
+      "message": "<Button> styled from outside: outline-button"
+    },
+    {
+      "rule": "no-style-overrides",
+      "severity": "warn",
+      "path": "apps/studio/components/studio-showcase.tsx",
+      "line": 68,
+      "value": "outline-button",
+      "message": "<Button> styled from outside: outline-button"
+    },
+    {
+      "rule": "use-shared-components",
+      "severity": "warn",
+      "path": "apps/studio/components/studio-showcase.tsx",
+      "line": 70,
+      "value": "select",
+      "message": "Raw <select>: use <Select>"
+    },
+    {
+      "rule": "no-style-overrides",
+      "severity": "warn",
+      "path": "apps/studio/components/studio-showcase.tsx",
+      "line": 70,
+      "value": "outline-button",
+      "message": "<Button> styled from outside: outline-button"
+    },
+    {
+      "rule": "no-style-overrides",
+      "severity": "warn",
+      "path": "apps/studio/components/ui-quality.tsx",
+      "line": 12,
+      "value": "outline-button",
+      "message": "<Button> styled from outside: outline-button"
+    },
+    {
+      "rule": "locale-aware-case",
+      "severity": "warn",
+      "path": "packages/cases/src/workspace.ts",
+      "line": 91,
+      "value": ".toUpperCase()",
+      "message": "Case changes name the locale: .toUpperCase()"
+    },
+    {
+      "rule": "use-shared-components",
+      "severity": "warn",
+      "path": "packages/react/src/index.tsx",
+      "line": 94,
+      "value": "input",
+      "message": "Raw <input>: use <Input>"
+    },
+    {
+      "rule": "use-shared-components",
+      "severity": "warn",
+      "path": "packages/react/src/index.tsx",
+      "line": 95,
+      "value": "button",
+      "message": "Raw <button>: use <Button>"
+    },
+    {
+      "rule": "use-shared-components",
+      "severity": "warn",
+      "path": "packages/react/src/index.tsx",
+      "line": 142,
+      "value": "button",
+      "message": "Raw <button>: use <Button>"
+    },
+    {
+      "rule": "use-shared-components",
+      "severity": "warn",
+      "path": "packages/react/src/index.tsx",
+      "line": 143,
+      "value": "button",
+      "message": "Raw <button>: use <Button>"
+    }
+  ],
+  "summary": {
+    "use-shared-components": 14,
+    "locale-number-format": 1,
+    "no-style-overrides": 9,
+    "locale-aware-case": 1
+  },
+  "probes": {
+    "description": "synthetic temporary fixtures, not product data",
+    "findings": [
+      {
+        "rule": "type-scale",
+        "severity": "error",
+        "path": "bad.tsx",
+        "line": 1,
+        "value": "text-[7px]",
+        "message": "Font sizes from the scale only: text-[7px]"
+      },
+      {
+        "rule": "focus-ring-removed",
+        "severity": "error",
+        "path": "bad.tsx",
+        "line": 1,
+        "value": "outline-none",
+        "message": "Never remove the focus ring without a replacement: outline-none"
+      },
+      {
+        "rule": "use-shared-components",
+        "severity": "warn",
+        "path": "bad.tsx",
+        "line": 1,
+        "value": "button",
+        "message": "Raw <button>: use <Button>"
+      },
+      {
+        "rule": "sentence-case",
+        "severity": "error",
+        "path": "de.tsx",
+        "line": 1,
+        "value": "Neue Datei",
+        "message": "Label in Title Case: \"Neue Datei\""
+      },
+      {
+        "rule": "use-shared-components",
+        "severity": "warn",
+        "path": "de.tsx",
+        "line": 1,
+        "value": "button",
+        "message": "Raw <button>: use <Button>"
+      }
+    ]
+  }
+}

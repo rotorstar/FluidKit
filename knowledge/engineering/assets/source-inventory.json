@@ -1,0 +1,3507 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-20T11:46:48.000Z",
+  "sourceCommit": null,
+  "semantics": "Working-tree source hashes are authoritative. Commit identifies the baseline; knowledge changes may be uncommitted.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "a64e69362e41e01c3fe38e0832daa3e4b372155960db9e10c200830657f7523f",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/app/[locale]/layout.tsx",
+      "sha256": "b61920771a3e6eda955a84bbaccf3cb240ab76b68f8bb454e4689a5e11e5300f",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/app/[locale]/page.tsx",
+      "sha256": "779fb1568e832468a4dcb06136fa3dfc9adea3e78c91ca1d88a9da50127a1e68",
+      "concepts": [
+        "url-routing",
+        "workspace-case",
+        "studio"
+      ]
+    },
+    {
+      "path": "apps/studio/app/[locale]/studio/acceptance/page.tsx",
+      "sha256": "db763d8c90076c6eaf628b9a8bf497d690c57e9373cf03710b7e3ff392b0dc00",
+      "concepts": [
+        "url-routing",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "apps/studio/app/[locale]/studio/authoring/page.tsx",
+      "sha256": "d757f5c6fb66287e176b6af80e40ecf7c0c9f63f33e732d082b11f0684e06d65",
+      "concepts": [
+        "url-routing",
+        "studio",
+        "architecture",
+        "workspace-case",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "apps/studio/app/[locale]/studio/behaviors/page.tsx",
+      "sha256": "f6e1852d5b7361c20d3fe907c7ab40ed47fd52c4757755c1fe5c628e9647d43a",
+      "concepts": [
+        "url-routing",
+        "studio",
+        "architecture",
+        "workspace-case",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "apps/studio/app/[locale]/studio/flows/page.tsx",
+      "sha256": "7d77dac8952f320739d604702ad4265295a787d1ecbafca6fa9b26fad1443a0b",
+      "concepts": [
+        "url-routing",
+        "perspectives",
+        "studio",
+        "state-flows"
+      ]
+    },
+    {
+      "path": "apps/studio/app/[locale]/studio/m7/page.tsx",
+      "sha256": "d13ce95ad1aff6b30a4a77a82afc03e5c0f8002761a32f274e76ff2cd89328d5",
+      "concepts": [
+        "url-routing",
+        "rehearsal",
+        "quality-testing",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "apps/studio/app/[locale]/studio/m8/page.tsx",
+      "sha256": "eedb94f585ad8666c58104f12a11e623b00188a0e52ee9997400a4f4f3050590",
+      "concepts": [
+        "url-routing",
+        "studio",
+        "quality-testing",
+        "release-roadmap"
+      ]
+    },
+    {
+      "path": "apps/studio/app/[locale]/studio/page.tsx",
+      "sha256": "324a28697fba80379562e17a265956738b559428771ff9139cb8bc9a9ae50be9",
+      "concepts": [
+        "url-routing",
+        "user-flows",
+        "studio"
+      ]
+    },
+    {
+      "path": "apps/studio/app/[locale]/studio/rehearsal/page.tsx",
+      "sha256": "fbad7b58b20288748e9477645ea3c29789392a38b169c994ca24ea131bcfabaa",
+      "concepts": [
+        "url-routing",
+        "rehearsal",
+        "studio"
+      ]
+    },
+    {
+      "path": "apps/studio/app/[locale]/studio/simulations/[caseId]/page.tsx",
+      "sha256": "d8f67f01288712c97210a8413f6aace4f40f803d29990d8d600d3ccafac01fc3",
+      "concepts": [
+        "url-routing",
+        "simulation-cases"
+      ]
+    },
+    {
+      "path": "apps/studio/app/[locale]/studio/transitions/page.tsx",
+      "sha256": "55b372d14d92ab1b00f22d352837683501946f9a4ead34901ff9ea827f25fcc2",
+      "concepts": [
+        "url-routing",
+        "effects",
+        "studio",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "apps/studio/app/api/authoring/route.ts",
+      "sha256": "2f888431db17f7fe80704788e8381b19e367bd444ebe29ab4bde88e121ad4859",
+      "concepts": [
+        "url-routing",
+        "studio",
+        "contracts",
+        "security"
+      ]
+    },
+    {
+      "path": "apps/studio/app/api/design-review/route.ts",
+      "sha256": "78d9bf72b803af7b4f231357842c44b4ccc4a86b1a3af48060a6ecc8eaf06513",
+      "concepts": [
+        "url-routing",
+        "ai-review",
+        "security"
+      ]
+    },
+    {
+      "path": "apps/studio/app/api/evidence/route.ts",
+      "sha256": "8ca2d21decedc9b4f8aa25895c80c817cf4a64ae2feab829afd55c487a4fe594",
+      "concepts": [
+        "url-routing",
+        "quality-testing",
+        "security"
+      ]
+    },
+    {
+      "path": "apps/studio/app/api/local-project/route.ts",
+      "sha256": "233a21d790bf787b148e4f73120e69ff4db545d84e6e840ca6dcddfde3e1ad11",
+      "concepts": [
+        "url-routing",
+        "data-actions",
+        "studio",
+        "security"
+      ]
+    },
+    {
+      "path": "apps/studio/app/api/validate/route.ts",
+      "sha256": "3a57866efc905e5934382b2cb49b9073ea10d0b7dab947281e9378e6d3fd3d32",
+      "concepts": [
+        "url-routing",
+        "contracts",
+        "security"
+      ]
+    },
+    {
+      "path": "apps/studio/app/error.tsx",
+      "sha256": "4291d554410a9e3b67ac9df3e057b6f94a1756e0b55c0cc96dc18c34b24ad1d5",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/app/globals.css",
+      "sha256": "7881bfbb2ca43df0141239620ac40dfb137cc91dabe2fc0a2d2782bf8b4bb700",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/app/layout.tsx",
+      "sha256": "44075c83d588cbd9a552af21a97c606ca9c7b40a09949118d7d28fb47f828406",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/app/not-found.tsx",
+      "sha256": "18d95d44ded37f004c7a5a56d0593ce181162d5f60a068fcc62497498311b086",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/app/page.tsx",
+      "sha256": "1d78d6b4eb3aee2f5b2b790e1fbc9ddbcce16d9ecb1a12897f7af6f889546d69",
+      "concepts": [
+        "url-routing",
+        "workspace-case",
+        "studio"
+      ]
+    },
+    {
+      "path": "apps/studio/app/studio/acceptance/page.tsx",
+      "sha256": "bb2f214b2be36b1b017effd62ec5727e0da1144013ebf575e927aad05cf73add",
+      "concepts": [
+        "url-routing",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "apps/studio/app/studio/authoring/page.tsx",
+      "sha256": "b061eebaf8d48392bd82257e5b1dfb1258ac1c7eae93dfa7c0ab5c9818c893e2",
+      "concepts": [
+        "url-routing",
+        "studio",
+        "architecture",
+        "workspace-case",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "apps/studio/app/studio/behaviors/page.tsx",
+      "sha256": "4c46605849b3ea0e8a467a051f66e2bbc2a9ca7446a60458ca007a196052f47c",
+      "concepts": [
+        "url-routing",
+        "studio",
+        "architecture",
+        "workspace-case",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "apps/studio/app/studio/flows/page.tsx",
+      "sha256": "1b4932cf7bb035ead396d009e36e7f71ab2de41eb4bdc85e83d72f5606e53a16",
+      "concepts": [
+        "url-routing",
+        "perspectives",
+        "studio",
+        "state-flows"
+      ]
+    },
+    {
+      "path": "apps/studio/app/studio/m7/page.tsx",
+      "sha256": "961c8a846361002db8516c20dbbc096375012dadb0b0bf4c66641b12fd6d2c4a",
+      "concepts": [
+        "url-routing",
+        "rehearsal",
+        "quality-testing",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "apps/studio/app/studio/m7/qualification.css",
+      "sha256": "21c659fa954d7b0db3fc060eb5e169c6806c9ddf2fff0b80def808ac90a232b8",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/app/studio/m8/page.tsx",
+      "sha256": "9b4196e00c29b1dce1d473e95b682b87c82dc33e3a73ec1298670c513baa014c",
+      "concepts": [
+        "url-routing",
+        "studio",
+        "quality-testing",
+        "release-roadmap"
+      ]
+    },
+    {
+      "path": "apps/studio/app/studio/page.tsx",
+      "sha256": "d1c1cbee2856194402a2447d398e31261089b720dd7113fee466b778787e62f6",
+      "concepts": [
+        "url-routing",
+        "user-flows",
+        "studio"
+      ]
+    },
+    {
+      "path": "apps/studio/app/studio/rehearsal/page.tsx",
+      "sha256": "572889d7f45ee9c1ec7992916c45bc8408e58891beb5ad63ac14c7623823dfba",
+      "concepts": [
+        "url-routing",
+        "rehearsal",
+        "studio"
+      ]
+    },
+    {
+      "path": "apps/studio/app/studio/simulations/[caseId]/page.tsx",
+      "sha256": "ff06f173c4e68eb8174c0704eee004ccc84cf27a80ac10b6c628c609c65bd7b6",
+      "concepts": [
+        "url-routing",
+        "simulation-cases"
+      ]
+    },
+    {
+      "path": "apps/studio/app/studio/transitions/page.tsx",
+      "sha256": "289b55ef313bba67c636948444df0ef93078bf4287d41fbb5fcd3a19613294c7",
+      "concepts": [
+        "url-routing",
+        "effects",
+        "studio",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "apps/studio/components/acceptance-browser.tsx",
+      "sha256": "7f705ce2db39c0ac455565ec4b206e1f943cf56dae1f4185ca406746a864718c",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "apps/studio/components/ai-review-panel.tsx",
+      "sha256": "b86bec2718173ee4d8efe8933e9b8242fcc938a17a9be7ff9ec576a4657bfb40",
+      "concepts": [
+        "ai-review",
+        "studio"
+      ]
+    },
+    {
+      "path": "apps/studio/components/appearance-provider.module.css",
+      "sha256": "ca0bca1fb5135bae3665dbf97f7c5d19fba0811b147eba3e467c945c27e3c46b",
+      "concepts": [
+        "appearance",
+        "contracts",
+        "rendering"
+      ]
+    },
+    {
+      "path": "apps/studio/components/appearance-provider.tsx",
+      "sha256": "bf382a0bdcc57ff61cc1bcb2feb7577f85a27a88d24c454173cde9c8c900766c",
+      "concepts": [
+        "appearance",
+        "contracts",
+        "rendering"
+      ]
+    },
+    {
+      "path": "apps/studio/components/appearance-storage.ts",
+      "sha256": "b1977c3ca0233f236b3030dbcde42c1a20d4544f7d5df9ab072c009fc8bc0d2c",
+      "concepts": [
+        "appearance",
+        "contracts",
+        "rendering"
+      ]
+    },
+    {
+      "path": "apps/studio/components/authoring-workshop.module.css",
+      "sha256": "300a8e9e45ca83d00ab077f336644933be8236450101fef6a5a7c64f5ee39d9d",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/authoring-workshop.tsx",
+      "sha256": "cb2d0f45464e114ea76d56fdee4d014143b0730400fb5d41fd785de5a1697a2f",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/behavior-comparison.module.css",
+      "sha256": "950331e8b11844aeee174fdd35fec7cd6dce28e8cde454e98948df6eb766eef7",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/behavior-comparison.tsx",
+      "sha256": "0b097e0035f4ccfa013bc2d8cd1d2f2e1bf022addc0d93ecc5e3a0c8a6f002ae",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/diagnostic-locale.ts",
+      "sha256": "d81b3a182e67685194fd8983e0e74fdc21f4e6d142b61c21bcf6c3b6db608ee6",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/effect-lab.tsx",
+      "sha256": "30e5928a51228a710ce4594074dd6345a4a56dbad7a60cbd9544ae86e70ede5c",
+      "concepts": [
+        "effects",
+        "studio"
+      ]
+    },
+    {
+      "path": "apps/studio/components/effect-showcase-tour.tsx",
+      "sha256": "74124327f4753033b07d901583a082e572431f29a5da581c425bd7aed075d56a",
+      "concepts": [
+        "effects",
+        "studio"
+      ]
+    },
+    {
+      "path": "apps/studio/components/flow-explorer.module.css",
+      "sha256": "9a71ed027724119538cba0a77f27730b8b2ca8e2a5dbedd20ca5f93a15cd614e",
+      "concepts": [
+        "perspectives",
+        "workspace-case",
+        "user-flows",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "apps/studio/components/flow-explorer.tsx",
+      "sha256": "50e9c7cdad9b43034f80954b841806731c88bb2c4d7998608d62db2d9536afd7",
+      "concepts": [
+        "perspectives",
+        "workspace-case",
+        "user-flows",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "apps/studio/components/flow-proof-export.tsx",
+      "sha256": "0190d68378b309a08ca40ca88f640be58f569a4b00bb962234c67d57156d0b76",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/lifecycle-proof.tsx",
+      "sha256": "9bbebdad712a9019674c694fc66644bcbaa896aabd08cb16860b7274e36d5b4a",
+      "concepts": [
+        "performance-lifecycle",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "apps/studio/components/local-draft-library.tsx",
+      "sha256": "ff5907c461f0627fb6d1e0abf95096c678e7c9058d403685fb54ea867f41f0cc",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/m7-motion-environment.tsx",
+      "sha256": "6f9a7486e0cad73c7432c39fe9997d1fb63f8bbda107ad6d9c5ba108c0cfa343",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/m7-surface-qualification.tsx",
+      "sha256": "dda89e9a86e0a877cda078217d9f440e489a401673dacbc783d83b16defe285a",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/m7-workspace-qualification.tsx",
+      "sha256": "c3079028c2238de5b8e6624a87ec7c6be197ac8ccdef948f25f1d85c8eecbb8c",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/m8-timing.tsx",
+      "sha256": "4079603769de5b29dc59ae62f2d91c9d91198d61af82399bbc473c332594e021",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/m8-workspace-qualification.tsx",
+      "sha256": "16ed2a88dd70610e27dbb0eddd12823a10276fd49270493213986396ba898b5f",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/native-input-observer.tsx",
+      "sha256": "5cd19eb0620f884573ec62694ba3fded22314b7801bca1ca69d3de9b4ed6c76f",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/native-proof-export.tsx",
+      "sha256": "bdd0ade14a87a3f818d41edd700122051b0edbf6cfbb045e3a6c6f3efa83aaad",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/rehearsal-workshop.css",
+      "sha256": "506c983f7a50eae51b6755faad0ba28464d8781642c13511dcf663cbb0e6c009",
+      "concepts": [
+        "rehearsal",
+        "studio"
+      ]
+    },
+    {
+      "path": "apps/studio/components/rehearsal-workshop.tsx",
+      "sha256": "99f6199771269ab8e8cf7da280d07fe852e2de9b4ac0f631dec5e58e92d0380f",
+      "concepts": [
+        "rehearsal",
+        "studio"
+      ]
+    },
+    {
+      "path": "apps/studio/components/review-evidence-library.tsx",
+      "sha256": "10a68399a89efd21976d7b2b9170d7de31b8bdbd1a44d92707c106631a680a89",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/sequence-review.tsx",
+      "sha256": "305d4396ef8029249583f5efa720f828ab7231085335287e11bbc67e7ae04e2f",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/showcase-cases.module.css",
+      "sha256": "91a6eaf3a292ab29b85e059ad328aabb9595908116983114f6a32bc98364533f",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/showcase-cases.tsx",
+      "sha256": "798b2b0d6971e09132f1dd26b03fa841d2a090277161497b673513c38c0a99fb",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/simulation-showcase.tsx",
+      "sha256": "adfd4004d6ff8637550a35cb7c932374f8e8b800b2e91c3402b2775eddb367f7",
+      "concepts": [
+        "simulation-cases",
+        "studio"
+      ]
+    },
+    {
+      "path": "apps/studio/components/structural-controls.tsx",
+      "sha256": "7a39ce5488c913c2d93734dabc23846ba378b9514d037778b214af88a645ac22",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/structural-workspace.module.css",
+      "sha256": "e14aef751e2d6fbac50566886e5afd189aba4d61f85ce3e19adfa7fcd8751340",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/studio-controls.tsx",
+      "sha256": "c2d662b04f3e327bcd521bd67c350e81d71790e28b76f9fa0cfcc16d0cd66217",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/studio-fluid-surface.tsx",
+      "sha256": "b149387ab9533e99cabc93c67387f1cb522606be087075d4c70a0cd876f1483c",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/studio-locale.tsx",
+      "sha256": "ed97d13a08c8848099b640daf91600aa6351804293c42a6dd50243b77632dba4",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/studio-navigation.module.css",
+      "sha256": "1e1da03e7adb6444a55f4c30797eb579fd45ccf7dd35ea68c00850a08cb716fd",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/studio-navigation.tsx",
+      "sha256": "eeb63f4891b17796ebca9aa3920b41182f8cdb6497905274c778362a7af9bffd",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/studio-proof.tsx",
+      "sha256": "f4a0e4eb00c1d3bb6c74a5324b63eec985153e5877b235f23805627cb8809435",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/studio-showcase.tsx",
+      "sha256": "728a26086d4a0a9c83d35ec7a9131a364bdcf3002d9fc2aaed5e3ba44a10e33a",
+      "concepts": [
+        "workspace-case",
+        "url-routing",
+        "studio"
+      ]
+    },
+    {
+      "path": "apps/studio/components/ui-quality.tsx",
+      "sha256": "1771b9c9bdef6a33255041a6a91f48110170de80ded008cd434711f0825e4148",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "apps/studio/components/workspace-page.tsx",
+      "sha256": "481b52a7de46643649d6d6c449b4a994326230a3bba808b2dd4d21b1c272a4d4",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/components/workspace-surface.tsx",
+      "sha256": "31a8a31204bb43c2d54e24285cf32414776e7995c4f5b560a059df97b3416e45",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/lib/ai-request-status.ts",
+      "sha256": "617f8351ad30778f2364ea8ce3944b867a31b3f4d2d1b0527150170d10c58d56",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/lib/authoring-controller.ts",
+      "sha256": "3f860e9dc50819b06bdfee8474d9f143486ee5a5ad6a5cf7d9afd2393078d4b8",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/lib/diagnostic-messages.ts",
+      "sha256": "70e9f9dcadd8ce7adaf423b00b1a73113fbac65da4133216d6c33a1e128c4735",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/lib/flow-proof.ts",
+      "sha256": "621bbcaeb24f99f3278b5e742d72c9ac0449798dae520b856a7d037f2906f859",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/lib/locale-routing.ts",
+      "sha256": "f04e0fef0ada7dd9e4fab9f160b0260af66ea26aeb266f03be764f8d2d8ab304",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/lib/m7-surface-qualification.ts",
+      "sha256": "91d96075c8964cd20cc016728245ae9a8cf428b2fa5723ad4eaa7604e9cc42a1",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/lib/m8-native-targets.ts",
+      "sha256": "4e39610967c7cc45c36333e4a67eea15fb549115ceb5ed56a8af0fd95b3d093e",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/lib/native-input-observation.ts",
+      "sha256": "9bfc0c5ee5452f3106a02a51d478582769978d7fef63ff1b175163b095126074",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/lib/read-workspace.ts",
+      "sha256": "df3ad0e480e4ae32b7fcbf047a61b77d3be673b192bf9392df62797fe19004c2",
+      "concepts": [
+        "workspace-case"
+      ]
+    },
+    {
+      "path": "apps/studio/lib/rehearsal-capture.ts",
+      "sha256": "a25d8325a41cfa9c8a2c289862123473e34d9753d69a4c7dd7d7b78d6d6e2be6",
+      "concepts": [
+        "rehearsal",
+        "studio"
+      ]
+    },
+    {
+      "path": "apps/studio/lib/studio-destinations.ts",
+      "sha256": "00b78ee4c38cd947050e45aecef15035d75b407e54616dbd9b5f2d0349f4d974",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/lib/studio-messages.ts",
+      "sha256": "13ab5cc79dc0d50e31035f32f5efbbd193ed401330c5f74d9d26fd1f2a8a8660",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/lib/workspace-navigation.ts",
+      "sha256": "c268d613e22cec8c88310b6f38ee8be14d4e1f64393b22ba649a1faa526a9350",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/lib/workspace-stage.ts",
+      "sha256": "bbd6713b6bb013322985f1013d3a2250205f179e5456a497c617b2f2e9a94d7b",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/next.config.ts",
+      "sha256": "560dfe52ea16f7f83d8da3f83e44e1c71673971945c61bb07e91cfcebef9d62c",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/package.json",
+      "sha256": "4dfbd95b1981e131b51c735ad582572bffe92f673f5a9a0b215bf6b40d8d7ab7",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/proxy.ts",
+      "sha256": "b732bfec50e87fbcacfff8a89fd81f2bf9f99e74adc33feae1b2db48a1a618ad",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "apps/studio/tsconfig.json",
+      "sha256": "2065e0ad016a9a5ce94c63df83a0774c7ea6f939616d450638ebb297a85236e3",
+      "concepts": [
+        "studio",
+        "architecture"
+      ]
+    },
+    {
+      "path": "design-quality.config.json",
+      "sha256": "7cb71eab742ca9d79cfd24417bf532e59dd5426ff74d9248f98f50e6f1d00751",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/acceptance-matrix.md",
+      "sha256": "a5897c97798792cf794680a8dd8dac40cfcccc9de4084773b9e8ccecd7cb2896",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/acceptance/ledger.json",
+      "sha256": "5055057509ae2d55bfbf19e2adb8c63d492d70eb47f461f94b4c6ec69e71a03c",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/acceptance/m8-adoption-2026-11-13.json",
+      "sha256": "99fc655cfdf68b80079885c2f401f194ea6bca8d935e37f4ff62ec1588d56a1f",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/decisions/0002-base-ui.md",
+      "sha256": "6ed74588b070c118286bd0de2d08373725eff6ab4c0e397ae8fdfa72bb7e8647",
+      "concepts": [
+        "layout-text-input",
+        "studio"
+      ]
+    },
+    {
+      "path": "docs/decisions/0003-renderer-policy.md",
+      "sha256": "4af429ab4e49d3da46eac097512c0fa3d36f040abb5b608bf8828804a3957fc6",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/decisions/0004-typegpu-effects.md",
+      "sha256": "7c1f755a5a715ebf89663840ebd497278948bd01d5df16b56c72fca3dce3bcf0",
+      "concepts": [
+        "gpu-kernels",
+        "effects"
+      ]
+    },
+    {
+      "path": "docs/decisions/0005-design-quality.md",
+      "sha256": "d687543a13cac19e79aafbaa5531286c9c863c1e2c235b9d85097cab24efeeee",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/decisions/0006-stageshow.md",
+      "sha256": "187a20320cc48dbb6267d86f597d29d2234c27c4317ed508a43fd3980e8f271a",
+      "concepts": [
+        "rehearsal",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/decisions/0007-ui-sdk.md",
+      "sha256": "eca06b79b130f6d5c3a44d30bc5e8863f7067c621a270d763d5e99c4a6cb6ef6",
+      "concepts": [
+        "architecture",
+        "contracts",
+        "core-runtime",
+        "studio",
+        "release-roadmap"
+      ]
+    },
+    {
+      "path": "docs/decisions/base-ui-scores.json",
+      "sha256": "5ceb9d6fd69fbb30baa11e8edf10bc47d67d1d001cebac60f0ed1468890a8501",
+      "concepts": [
+        "layout-text-input",
+        "studio"
+      ]
+    },
+    {
+      "path": "docs/decisions/m10-sound-scores.json",
+      "sha256": "a11f9afda866527ed0ac6b49e7ebfc64deab07ea33d046654fcf99b8c097a1b8",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/decisions/m11-language-scores.json",
+      "sha256": "15b0422e134ae71c83e0981bf474af0be7c64ff692b6f8106c4b54b2cde9d129",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/decisions/m7-followup-scores.json",
+      "sha256": "b7b22568ad715d9e452d47df3f446e72f637c9e586869a2184de62b54c115266",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/decisions/m7-scores.json",
+      "sha256": "e3eefcfb34e2c60822989ab6a7aebac39de144f16e342d9956827e5c15f8015e",
+      "concepts": [
+        "effects",
+        "rehearsal",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/decisions/m9-scores.json",
+      "sha256": "ded57528ef7aba1b931df6b57cbee1e609d48e69bc41fdc93858a11e16473ecb",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/decisions/showcase-scores.json",
+      "sha256": "1c59590f03fbf0834f12b315fbaeb8212a02423d09ff9043f6e70fcde7defe7e",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/decisions/stageshow-scores.json",
+      "sha256": "394bed1c6f77a13ad8aef43351de758a7673b82d9c40f9afa5603077bb12aadd",
+      "concepts": [
+        "rehearsal",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/decisions/structural-scores.json",
+      "sha256": "b39f0b4a5be8ba0cf618898694b24d6e4b6cc9b9586d2c9274f4644a15902b05",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/decisions/typegpu-scores.json",
+      "sha256": "21bf48259c35f1b1b6e5667072bc1a0ddc1609d8adfb87c3954b729a883d768f",
+      "concepts": [
+        "gpu-kernels",
+        "effects"
+      ]
+    },
+    {
+      "path": "docs/decisions/ui-sdk-scores.json",
+      "sha256": "0df9e8c27dd0c0bc65e39f0ce63b7b5363850f9e49e0a83cbb31bdb8b24b0fc5",
+      "concepts": [
+        "architecture",
+        "contracts",
+        "core-runtime",
+        "studio",
+        "release-roadmap"
+      ]
+    },
+    {
+      "path": "docs/feature-status.json",
+      "sha256": "e8db04dc0b41da1da2a97e7ee75ea489e017261a9e887ba614f942c3205cf47f",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/feature-status.md",
+      "sha256": "2441c83d8a8868b44358c475bca5275d6eaef68eb0ecfedf016fdf06c0d2a9d5",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/flows/data-adapters.md",
+      "sha256": "a1a0acc22b1a6f982899877a0f7717088504b808139f1aa9f7685f8e0e7cf2b6",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/flows/design-quality.md",
+      "sha256": "fad4aef6ab85b1783dd66c14768b518e9f8f83b7a5befa88a16de21cd78ab035",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/flows/design-rehearsal.md",
+      "sha256": "b1b66d2a0c58504da0e42f4b0ff3ec4e8dd3cecb1ad8eef9f38d0e455fdb7d77",
+      "concepts": [
+        "rehearsal",
+        "studio"
+      ]
+    },
+    {
+      "path": "docs/flows/effects.md",
+      "sha256": "6d6873230707c5debc9eefd5244a9c0311e49584ac723e168449e0d1a01bed7b",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/flows/m7-qualification.md",
+      "sha256": "f118dd5310655585565bc862a4db193320e408151debdb09e2381edcdae3cc0d",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/flows/simulation-cases.md",
+      "sha256": "3229380e09d5f1b21d65990ef444db92f4861bba356940abfee47b60eb64b624",
+      "concepts": [
+        "simulation-cases",
+        "studio"
+      ]
+    },
+    {
+      "path": "docs/flows/sound.md",
+      "sha256": "6b96bc01007fb5ac4a47aafca38be8d55c143652cf58166f050a24c51c2f0a51",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/flows/workspace-state.mmd",
+      "sha256": "8a829291a5b34310378ef2d7fa03a4a36c38a59ef2b780b0fd3c71889dd8fd2e",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/flows/workspace.md",
+      "sha256": "e41d4c2b0423cc1ec6fb726c9cab15c21d35814da8a87016fe503ebd78f1e2ea",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/implementation-plan-v1.md",
+      "sha256": "b117d1eebc706813fb12137df5ae6a5dd627a2fe4b0e04a87358c11a35afce14",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/implementation-plan.md",
+      "sha256": "db9d02a8310d11b895fbb5bfd357c2fb75fa04869c12557e24703a7bdeb77051",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/github-readme-plan.md",
+      "sha256": "444ba270e8a44b43cd341e8a60efe2f75e870013d9e6383bec2bed25770f22c5",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/knowledge-plan.md",
+      "sha256": "38ea0089db99cfd3f432b653a91606738d9d7933e9c3d7f2ea4edf92b68e086e",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m1.md",
+      "sha256": "810844fb5126b7b3da5ecf3b73ee02484cf56c88e08df34c48358532a7a579e5",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m10-sound-plan.md",
+      "sha256": "67227f4f184995c666564763cdc6f640f91d9aa1432bd7582edb97093fc3a182",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m11-multilingual-plan.md",
+      "sha256": "85fd1b31c0b636b453b2b554f04e06bbcfde23824b94448e529b418703e89fa5",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m2-plan.md",
+      "sha256": "672a9b2803a0e604e976883a716ba58e1284f58223f6dc5c03c3637fe4be314a",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m2.md",
+      "sha256": "d8a8ddc527c1b471890569e6fca64b58cf85433493b3c2a0ac93daad03ac5a52",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m3-plan.md",
+      "sha256": "0eb264dc404f9103c323167de490d538686bf471d01e7bcc7f93568bafdc3424",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m3-run.json",
+      "sha256": "15767f96905bcc01a3a140b213fca71bc0ed3df26ffff0ba87773c50703fd3b4",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m3.md",
+      "sha256": "5f6cea766797e14dc661920a6327eb2148ecac9a7fcb86b86fe1c4764a3db97d",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m4-plan.md",
+      "sha256": "3113cf0d35b0f0db742408a6e2d09a2b0b744f7e94baac4b8b5cdf49e491e53d",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m4.md",
+      "sha256": "387d70907d24f3514022d73649a88503c17e296102eb870dc790a8e98d2b224b",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m5-plan.md",
+      "sha256": "6fccf29a15e59ea76fe2762517ab2e630b6894ee9ff8fc2f679ad2edd9ebde57",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m5.md",
+      "sha256": "4d9c10a9f71816962f149957160c55e0d3615a26ea64c96d4b3595a4dbdc9338",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m6-execution.md",
+      "sha256": "fd838f6bbf537ba43b5c5adec0ddce6bde6bf6886aec38370820d93e248d3295",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m6-plan.md",
+      "sha256": "c28c8ecf66bb98d4b223e6a0e547be7e4904fd26cadec903a0d7c7d80a05d500",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m6.md",
+      "sha256": "4f44d1dd0fd129ea1474262f08b8bf84412a071c13c7fbd2b7bf7b5ddd91f36f",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m7-followup.md",
+      "sha256": "c2e8630997ac9a1d6b71144906d1d85768386f54ef3bb7da26906a56e621737e",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m7-plan.md",
+      "sha256": "9c73a89f39d3a95e2eeeb89e564d0b5a4d65fcaad62126423ba1cf9bde1bc222",
+      "concepts": [
+        "effects",
+        "rehearsal",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m8-agent-bridge.md",
+      "sha256": "bedfdb625d8fbed3ef39c9329b0a85edb319ee8b075f1ab6175ba210d7f34de5",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m8-authoring.md",
+      "sha256": "5a31242e45643516c371a9e89b0f5b29260d29f555fc4cec4a9887763dadd3e2",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/m8-plan.md",
+      "sha256": "b6fc6f443637674b473d604c2134ccb1e7a8834bdd297be1485f2a7d069035a0",
+      "concepts": [
+        "architecture",
+        "contracts",
+        "core-runtime",
+        "studio",
+        "release-roadmap"
+      ]
+    },
+    {
+      "path": "docs/milestones/m9-plan.md",
+      "sha256": "2be874d3cf54881a7cc0a150d95530eeef85d4008440f3eb146304cb242cb46d",
+      "concepts": [
+        "perspectives",
+        "appearance",
+        "release-roadmap"
+      ]
+    },
+    {
+      "path": "docs/milestones/openai-review-execution.md",
+      "sha256": "e9526b1b4713a37496d817e85c13bc790e8cc041cc20748e0541b8b59a7c2570",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/structural-transitions.md",
+      "sha256": "59603b11f8ec5209f18363bb56cd5ec723338fd311e96504b1446d5e797234ea",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/ui-rationale-plan.md",
+      "sha256": "6f1245c2532a8b32a08f3b66b2da397c0d2cff7cec58db57c2db54758e14819d",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/milestones/ui-sdk-evaluation.md",
+      "sha256": "6720994f5451d4b735e0a8c523d1e0a3636cbcf35cae0e46bc43991bc87dff60",
+      "concepts": [
+        "architecture",
+        "contracts",
+        "core-runtime",
+        "studio",
+        "release-roadmap"
+      ]
+    },
+    {
+      "path": "docs/milestones/workspace-source.json",
+      "sha256": "7224080a18a4871d45afd439eade49c820ed6efc0386e115903447adf7f0913f",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/qa/2026-11-02-m6/lifecycle-100.json",
+      "sha256": "3a169bf76d60cd31d71e85e7a2357eab2723f49fcecfbfac63e862a337736462",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/qa/2026-11-02-openai/brief-injection-v1.json",
+      "sha256": "7a49a0cb9d2c8ff0c773970d735ec5bf6ed9bbfedcd6f458e6efc6f3ce2ffee5",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/qa/2026-11-02-openai/final-layout-matrix.json",
+      "sha256": "cb9ba1593bf54b0cda68e2f8a2f986f0c19782887d1b31ed4cc562666c22a624",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/qa/2026-11-02-openai/secret-boundary.json",
+      "sha256": "7ced9b545d96103e90ff3d310ef4ea0da70426362de136132cb5f26ab1e97aa6",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/qa/2026-11-02-openai/verification.json",
+      "sha256": "14f48528e74c7979ad6a234cb8fe88108ce43222f3048648a8d28f7ade121c25",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/quality/ai-review.md",
+      "sha256": "a40ceabfea83dc5a13a26f7df5ce8daa19c1e5b1c49abe31affbe5745dddb92d",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/quality/fluid-design-workflow.md",
+      "sha256": "df405e9e8feb8fbd94cf17f8f935d60084bf51ac519853d074739a06bd277407",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/readme/assets/m11-workspace-screenshots.json",
+      "sha256": "4ba47adb83205cd480dd64428380acb4d2cc97bb3e00ccb190af2c82b78ae2cd",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/readme/screenshots.json",
+      "sha256": "8edd7207aef45902eba8bd4f89730b4c0ffe16862bdd537cd011894eb28c88c0",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/release/public-source.md",
+      "sha256": "09722a00c7c4d11776ab2b198a6d5cdf576d6f6fafc87cd65addd325595cd538",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/research/ai-design-check-evaluation.json",
+      "sha256": "5f125308ba7d68949a5c7f7f483c0e3c900c6879937e5ee64a1e3211538ec081",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/research/ai-design-check.md",
+      "sha256": "efa39eb74bda6e9b65ce42cf5882f0a7606346e5faec06ccacb7a2362e6d90fa",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/research/base-ui.md",
+      "sha256": "126079a04a936d432b9c6598baec12252547869c15399bec3423886ffc2c3c1e",
+      "concepts": [
+        "layout-text-input",
+        "studio"
+      ]
+    },
+    {
+      "path": "docs/research/effect-extension.md",
+      "sha256": "31e91dbc23a8b8bc87688e2a2c2094bc730913687308e4f07581a0bfc017cad8",
+      "concepts": [
+        "effects",
+        "rehearsal",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/research/fluid-ui-rationale.md",
+      "sha256": "8320c10df06c6e5fb610ec9c18928621041b764b2891dbbc59c07aded52c8af8",
+      "concepts": [
+        "why-fluid",
+        "overview",
+        "rendering"
+      ]
+    },
+    {
+      "path": "docs/research/m2-ui.md",
+      "sha256": "381a1397bb268abb891d5a9f0f746e1b3b735ce30fbf57fefe78ec6ad62ea793",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/research/m7-followup-qualification.md",
+      "sha256": "db323bcc2d651ef5c2a4256f98210802966c4b697d4c0118df6bb5b09cb9e54c",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/research/provider-apis.md",
+      "sha256": "828841441283f748f2b82860e2fc382bafdb26ac939cd10bb6c7d30716ee0c92",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/research/sound-feedback.md",
+      "sha256": "ecbaa99e2ff6b73fc03fc6d3bbcd7ba6e6f08243a920361799d00f915272b3fd",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/research/stageshow-sources.json",
+      "sha256": "0689625be589989248cd6daad8c801280ebcd3336bcb6140d149e3a5d821078e",
+      "concepts": [
+        "rehearsal",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/research/stageshow.md",
+      "sha256": "c88920cd9a2784d15d6414ca17b370630cd7daf6bdee2539a5354a7c65522e3d",
+      "concepts": [
+        "rehearsal",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "docs/research/typegpu.md",
+      "sha256": "a62cd7c0e86326ddd858ee82b8337e58c270bc416d91cba71ec7d0322a034c2b",
+      "concepts": [
+        "gpu-kernels",
+        "effects"
+      ]
+    },
+    {
+      "path": "docs/research/vercel-ui-sdk.md",
+      "sha256": "196f17f85a37d83a68f95205502865a3570cfd37f84148d76ce1bd4a52d162b6",
+      "concepts": [
+        "architecture",
+        "contracts",
+        "core-runtime",
+        "studio",
+        "release-roadmap"
+      ]
+    },
+    {
+      "path": "eslint.config.mjs",
+      "sha256": "cbf1fd39a88b07c140a47558ba262ce5286614f644ed4d9783c103b0c287a7b9",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "font-bake.config.json",
+      "sha256": "27b15e00f2ab68aa35c8cf58ab4f55db66f22b97ecadcee878e4fa750d70ba0a",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "knowledge/editions/engineering.json",
+      "sha256": "176cd0f83faa25ac13156284bf6521fd5e34620841006dabce2ceb2a3e112294",
+      "concepts": [
+        "knowledge-maintenance",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "knowledge/editions/public.json",
+      "sha256": "3cfd08496801f51f64829df8c810b6346b2068e8c76e6d771cde6e37ef82588a",
+      "concepts": [
+        "knowledge-maintenance",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "dfdcfa77076a0ebd4ed1808cf42f4f548204ff88db54319dbd59066b1f1fea97",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "package.json",
+      "sha256": "4683e6813f856a7481fd8fee81ae792f6a5ea2c704f09f00d1225d262792ce01",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "packages/cases/package.json",
+      "sha256": "7fa0fd704e3ecb9bab031032720bcfd91f30866e4b5ed9a941106424db3570eb",
+      "concepts": [
+        "workspace-case",
+        "user-flows",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "packages/cases/src/authoring.ts",
+      "sha256": "f57682a8f0715b09df1e71fe47ccfb66bdae02b9c17497a7ac1aae6324865511",
+      "concepts": [
+        "workspace-case",
+        "user-flows",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "packages/cases/src/fixtures/commerce.json",
+      "sha256": "9ec1009c28ef5cb6d4163b3263d2ed6b38fce2597bc11402d6a46067c796b0e0",
+      "concepts": [
+        "simulation-cases"
+      ]
+    },
+    {
+      "path": "packages/cases/src/fixtures/real-estate.json",
+      "sha256": "aa41fc3e35ead0be61344606007fa6753710ba23bf92ae14000ac68d4d274d74",
+      "concepts": [
+        "simulation-cases"
+      ]
+    },
+    {
+      "path": "packages/cases/src/fixtures/travel.json",
+      "sha256": "46a6543b09f53beec09b3cc73170706813eea171ed986cb209b915dff039f07c",
+      "concepts": [
+        "simulation-cases"
+      ]
+    },
+    {
+      "path": "packages/cases/src/flow-explorer.ts",
+      "sha256": "e5ad1e3f2f94a1d4e7449e8f5d7941ff21fb97320f2292626d9cec5c5a7bc39b",
+      "concepts": [
+        "perspectives",
+        "workspace-case",
+        "user-flows",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "packages/cases/src/index.ts",
+      "sha256": "9d44a20dd736058669869f75ddac16d9bff85cd23004774df358890ba59fbbd5",
+      "concepts": [
+        "workspace-case",
+        "user-flows",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "packages/cases/src/messages.ts",
+      "sha256": "63b1e2501a7e0268cfdc191e1b6b435052eb6cd58d0c98b1f481a17675986b94",
+      "concepts": [
+        "workspace-case",
+        "user-flows",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "packages/cases/src/simulation-flow.ts",
+      "sha256": "45943076161457daf833086e606bc78634f7aba214110f767570e39ddfab53bd",
+      "concepts": [
+        "simulation-cases"
+      ]
+    },
+    {
+      "path": "packages/cases/src/simulation.ts",
+      "sha256": "ccb41b017ffd34860afd8550a9660e3e0f69d5ec285c8c143d8b292a4419ed25",
+      "concepts": [
+        "simulation-cases"
+      ]
+    },
+    {
+      "path": "packages/cases/src/workspace-atlas.ts",
+      "sha256": "aa9482c3f44a2ed58f7490f150629e04b9f6fcfca7c7baa749cc6334af41db57",
+      "concepts": [
+        "perspectives",
+        "workspace-case",
+        "user-flows",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "packages/cases/src/workspace-compare.ts",
+      "sha256": "b671844b6a6e9b35e242fce2cc142af50c8194bdaca8da47e705add9775b6c42",
+      "concepts": [
+        "perspectives",
+        "workspace-case",
+        "user-flows",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "packages/cases/src/workspace-layout.ts",
+      "sha256": "17c9e70d21fc09de5cd0442641f3b6569149fc7df835a755fcee77382823695c",
+      "concepts": [
+        "workspace-case",
+        "user-flows",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "packages/cases/src/workspace-story.ts",
+      "sha256": "76426499238383f067a72c4d430978fdc19cbfd2afe11240aa0bfd3e548b76ef",
+      "concepts": [
+        "workspace-case",
+        "user-flows",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "packages/cases/src/workspace.ts",
+      "sha256": "abc881055de48e74a8f3e707e12c69dca26a7f773b541f77588a98b96add9739",
+      "concepts": [
+        "workspace-case",
+        "user-flows",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "packages/cases/tsconfig.build.json",
+      "sha256": "2f7bfa1698a5359c5cd3b9d2051a50a9b2148b38c12a39e7462d4cfdad7284c0",
+      "concepts": [
+        "workspace-case",
+        "user-flows",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "packages/cli/package.json",
+      "sha256": "710ada70fa127443aa747c7adc9deded112315a1ef151a4428767e590a2f2ea9",
+      "concepts": [
+        "development-cli"
+      ]
+    },
+    {
+      "path": "packages/cli/src/index.ts",
+      "sha256": "11ddeb980b3ec2d7175cf9ff79a526f39787d3200ad5f6fb860e02443ac3212b",
+      "concepts": [
+        "development-cli"
+      ]
+    },
+    {
+      "path": "packages/cli/tsconfig.build.json",
+      "sha256": "2f7bfa1698a5359c5cd3b9d2051a50a9b2148b38c12a39e7462d4cfdad7284c0",
+      "concepts": [
+        "development-cli"
+      ]
+    },
+    {
+      "path": "packages/contracts/package.json",
+      "sha256": "d990ea0697002ffeecaee87ca93690bc04df23c66d0d7992e57ef92b2dfab3cc",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/acceptance.ts",
+      "sha256": "fc169cf5d26315f80bda1a768a907196675ce9a618fe76bd29f278bcd869a49c",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/agent.ts",
+      "sha256": "0950118a66fb9c8bf2e2c1958c1d80c0c97471dfcd749086ba410534b95df25e",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/authoring.ts",
+      "sha256": "e6d8926df9bff4b32bbeeeb0798829b03b295f1af113444a7f24020c0242b542",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/components.ts",
+      "sha256": "978f512b9be95e10ff1b61ada0d182201fd872e12aa4f8fe44a61f59e669e9f0",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/data.ts",
+      "sha256": "f9582829ef9102b36bf0d2ce0ac3be550c2e5e1f7484f585d654e6540b9f6532",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/design-tokens.ts",
+      "sha256": "14582afa48cc74217ca2ad0b7b3c5b447eff37acee09fbe18729ca0f0ff08579",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/development-proposal.ts",
+      "sha256": "cc75fce1edcb2b3c7e1b9a02af7889298cb5c852fe5a156bba91c106e4cef91e",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/effects.ts",
+      "sha256": "7f3a6f057f5ce08b39ddfc8f89ae99ad6894545e478786edabea72107cecf181",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/index.ts",
+      "sha256": "62bae716ac01f2a7fc311837864b1bf7bde9f3f1c2c988169300d8950256bfd6",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/input-observation.ts",
+      "sha256": "9278c8419af854cdc784fcd2ddf0e89cd5ea049fd61bf6dfccb34cada424622e",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/lifecycle.ts",
+      "sha256": "5e5b306c921e50f660493320841d921eaa05ecf2eead94ce178a014d1a4651e0",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/load.d.ts",
+      "sha256": "0e0a043790dc1f8a1bb5a60bc3b62766bd8e0004ad5c0e583ca6c58e8f98125d",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/load.js",
+      "sha256": "2f6ec160deeab20fd8f059317401bc5d18e7d4aec727f196d5a4cd0bb650e851",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/load.ts",
+      "sha256": "651bc9ba418f20f11a587eb16be2b12330c5d3952798669f2ed0b56ffdc28567",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/local-project.ts",
+      "sha256": "59491de51b8699d88a3d48cb1ff367741764b9dd745c19f79e60b57d64f1a082",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/m8-qualification.ts",
+      "sha256": "96e702c95577c97f9c3d4f113c76fc8296054480b46d6b75010aabce5662c5f4",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/m8-timing.ts",
+      "sha256": "15f0e80d1ce968ce17f983a79ab3f6af80fb57125abe1e81091d7b18d76344ec",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/motion-geometry.ts",
+      "sha256": "832246e071dafd46f0bc7644683ac2392948243a1ca901e4dd0c87d0fcf51a85",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/motion.ts",
+      "sha256": "55565b9675edb27844efd332a497458e436ba02fcc77e9174fce4ec3384b7188",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/native-targets.ts",
+      "sha256": "5a2ed4b368c139075e9100742016e55a9526fcad85c2580e65860b1621f1111d",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/presentation.ts",
+      "sha256": "8f3448674b995b40d4c620a86932df958639334d006224fd7767b31d67a9126e",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/proof-capture.ts",
+      "sha256": "88b4e5923c1f43c7834d51cb6f882627bc05e086c7db6b45ab25459a274bcbfd",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/quality.ts",
+      "sha256": "456ddc825df5ea8278f02228f01ac1a7af7945dfffb4d3771db42b2d7b27e9eb",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/rehearsal.ts",
+      "sha256": "bba5769cbd976e7f1fda78ecb9945490b7bb3cbce94972c920195e73fa46dda4",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/sequence-geometry.ts",
+      "sha256": "6f2947e989b1c89445f379b6ddf96fd1dd008e89d81e3210cfc19f394e8a720b",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/sequence.ts",
+      "sha256": "974ec791aad84a212ba54590f9c0e3d37d8d479a4ebc32a7038695079bea76e7",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/surface-qualification.ts",
+      "sha256": "868e09c649e51e921ea7caec7e4a7a5864366500a07a0827121da19e113a96db",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/text-geometry.ts",
+      "sha256": "8929f99e580c1b4bffffc6fa47f0d1e35e0b979f83b5de6c746abcef527a6105",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/theme.ts",
+      "sha256": "03833366198bcbce3802314664d77ea3e3ee31ac86f0061af21dd98b6efdeef2",
+      "concepts": [
+        "appearance",
+        "contracts",
+        "rendering"
+      ]
+    },
+    {
+      "path": "packages/contracts/src/workspace-qualification.ts",
+      "sha256": "a66508b114c0f2e08a1c5fab06f7651c11b54b748f801faa8ecd101c2d4a7ad9",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/contracts/tsconfig.build.json",
+      "sha256": "2f7bfa1698a5359c5cd3b9d2051a50a9b2148b38c12a39e7462d4cfdad7284c0",
+      "concepts": [
+        "contracts",
+        "schema-reference"
+      ]
+    },
+    {
+      "path": "packages/core/package.json",
+      "sha256": "f298239511121f8cf1b237a9c209bc8093a5c837e68ce69be67751f99372e016",
+      "concepts": [
+        "core-runtime",
+        "state-flows"
+      ]
+    },
+    {
+      "path": "packages/core/src/agent.ts",
+      "sha256": "85c9ebd8fcfeb93ff0ac70ed4a0fc0ae1983babc54090e12fc140bf85cd44faa",
+      "concepts": [
+        "core-runtime",
+        "state-flows"
+      ]
+    },
+    {
+      "path": "packages/core/src/collection.ts",
+      "sha256": "ca7e7448bfa99028eebe42877c38f26a7394453cf6451341a85f1cbf53577059",
+      "concepts": [
+        "core-runtime",
+        "state-flows"
+      ]
+    },
+    {
+      "path": "packages/core/src/data.ts",
+      "sha256": "783b46c38fc2463f74997d5b4190303c11e0e81c1db6ce52b4378d2158bce662",
+      "concepts": [
+        "data-actions"
+      ]
+    },
+    {
+      "path": "packages/core/src/index.ts",
+      "sha256": "6abdbd82d0a1fd6ea4b1611149323725614af608977871e879372c28a1af0517",
+      "concepts": [
+        "core-runtime",
+        "state-flows"
+      ]
+    },
+    {
+      "path": "packages/core/src/layout.ts",
+      "sha256": "76fb887701f82962437e408732f1a4bbe66c807185ad628f5d9c5085ef784ee0",
+      "concepts": [
+        "core-runtime",
+        "state-flows"
+      ]
+    },
+    {
+      "path": "packages/core/src/surface-interactions.ts",
+      "sha256": "73ff8a9b6b218f461ef36558d8fad7e2844659db67ed6272b702de51cbfef17c",
+      "concepts": [
+        "core-runtime",
+        "state-flows"
+      ]
+    },
+    {
+      "path": "packages/core/tsconfig.build.json",
+      "sha256": "2f7bfa1698a5359c5cd3b9d2051a50a9b2148b38c12a39e7462d4cfdad7284c0",
+      "concepts": [
+        "core-runtime",
+        "state-flows"
+      ]
+    },
+    {
+      "path": "packages/effects/package.json",
+      "sha256": "b7057ad98ff67517a6ea06588a533de643b1d0e13e86024a0a5e33e25fe859fc",
+      "concepts": [
+        "effects"
+      ]
+    },
+    {
+      "path": "packages/effects/src/index.ts",
+      "sha256": "304b22e15224030e248c9d0b4fbe233c0db13a4275a683f6744668807c6c8494",
+      "concepts": [
+        "effects"
+      ]
+    },
+    {
+      "path": "packages/effects/src/motion-plan.ts",
+      "sha256": "ab67708cd8fd2fa8913adc972c4a171162fe761960caa402fddde669f3829c3f",
+      "concepts": [
+        "effects"
+      ]
+    },
+    {
+      "path": "packages/effects/src/motion-sampler.ts",
+      "sha256": "50e0380a2c891696aef0ec1a0a4ae9f26fa8b77982a9b3687aef711d4439604c",
+      "concepts": [
+        "effects"
+      ]
+    },
+    {
+      "path": "packages/effects/src/presentation.ts",
+      "sha256": "a173e4bd68db9602cf3d0bcd30fac1fc9a33774d632316f916498e8ba7f5fffa",
+      "concepts": [
+        "effects"
+      ]
+    },
+    {
+      "path": "packages/effects/tsconfig.build.json",
+      "sha256": "2f7bfa1698a5359c5cd3b9d2051a50a9b2148b38c12a39e7462d4cfdad7284c0",
+      "concepts": [
+        "effects"
+      ]
+    },
+    {
+      "path": "packages/gpu-kernels/package.json",
+      "sha256": "835b3e93efa3554fe91088ad18505737d569117c2b5ed1fcdf01f56de275d981",
+      "concepts": [
+        "gpu-kernels"
+      ]
+    },
+    {
+      "path": "packages/gpu-kernels/src/coupling.ts",
+      "sha256": "56f1344de18b1d1fd8b22bffaf346582a0a40f0bb52230ffab7e33800954b393",
+      "concepts": [
+        "gpu-kernels"
+      ]
+    },
+    {
+      "path": "packages/gpu-kernels/src/index.ts",
+      "sha256": "819ba3045524faa39c104f1abdc8ba9af3086788a7086bde9afc135e28ed8894",
+      "concepts": [
+        "gpu-kernels"
+      ]
+    },
+    {
+      "path": "packages/gpu-kernels/tsconfig.build.json",
+      "sha256": "1ac4416dc03b88c2662424ef35ca38b6d8d43f8b75e2d1b779b113e039ebcdf6",
+      "concepts": [
+        "gpu-kernels"
+      ]
+    },
+    {
+      "path": "packages/gpu-kernels/vite.config.ts",
+      "sha256": "39ee9c649dba51d17966017e1468ae5dcc138a7701482a65330f429f4a9ccef7",
+      "concepts": [
+        "gpu-kernels"
+      ]
+    },
+    {
+      "path": "packages/i18n/package.json",
+      "sha256": "d9a1a1d08b29bc4d05893b422f65b2c2aaa1267303f30b2f4eee0cb835e8d031",
+      "concepts": [
+        "contracts",
+        "react-integration",
+        "layout-text-input"
+      ]
+    },
+    {
+      "path": "packages/i18n/src/host-catalog.ts",
+      "sha256": "68545ca3379598e725d383e442b19feaf624b458ee7fbccf4722f6bd5ba436ae",
+      "concepts": [
+        "contracts",
+        "react-integration",
+        "layout-text-input"
+      ]
+    },
+    {
+      "path": "packages/i18n/src/index.ts",
+      "sha256": "a519cc574cced3ca941119884cbdfaf8420bdf9253248ddf838df5f82eead2e3",
+      "concepts": [
+        "contracts",
+        "react-integration",
+        "layout-text-input"
+      ]
+    },
+    {
+      "path": "packages/i18n/src/locale.ts",
+      "sha256": "a10cfd95d94e5bb734aa05c209aab1b219a7820166b06736682dc74202ac95aa",
+      "concepts": [
+        "contracts",
+        "react-integration",
+        "layout-text-input"
+      ]
+    },
+    {
+      "path": "packages/i18n/tsconfig.build.json",
+      "sha256": "2f7bfa1698a5359c5cd3b9d2051a50a9b2148b38c12a39e7462d4cfdad7284c0",
+      "concepts": [
+        "contracts",
+        "react-integration",
+        "layout-text-input"
+      ]
+    },
+    {
+      "path": "packages/intelligence/package.json",
+      "sha256": "6871f4eabc561d8795a2ddab00c3e836dfe08946d99d412ed99e3f176572856b",
+      "concepts": [
+        "ai-review",
+        "release-roadmap"
+      ]
+    },
+    {
+      "path": "packages/intelligence/src/index.ts",
+      "sha256": "92aa7f580d370b7a8f9e951674317212a974b2c588b126ae788de0e2d1e659bf",
+      "concepts": [
+        "ai-review",
+        "release-roadmap"
+      ]
+    },
+    {
+      "path": "packages/intelligence/tsconfig.build.json",
+      "sha256": "2f7bfa1698a5359c5cd3b9d2051a50a9b2148b38c12a39e7462d4cfdad7284c0",
+      "concepts": [
+        "ai-review",
+        "release-roadmap"
+      ]
+    },
+    {
+      "path": "packages/react/package.json",
+      "sha256": "d43f55442fa58a1594553960eb5c6b062189be244ef94ccef02454e6c4fc7997",
+      "concepts": [
+        "react-integration",
+        "layout-text-input"
+      ]
+    },
+    {
+      "path": "packages/react/src/index.tsx",
+      "sha256": "f40fbed8adbbcbd5b515e0190243dcbe7086bd3c87b58408b11de5e4c5f14b15",
+      "concepts": [
+        "react-integration",
+        "layout-text-input"
+      ]
+    },
+    {
+      "path": "packages/react/tsconfig.build.json",
+      "sha256": "2f7bfa1698a5359c5cd3b9d2051a50a9b2148b38c12a39e7462d4cfdad7284c0",
+      "concepts": [
+        "react-integration",
+        "layout-text-input"
+      ]
+    },
+    {
+      "path": "packages/server/package.json",
+      "sha256": "91af1f9868e644514f0a32048c416a656589faa814e97f84ca6cedbcd7131b60",
+      "concepts": [
+        "ai-review",
+        "security"
+      ]
+    },
+    {
+      "path": "packages/server/src/ai-authoring.ts",
+      "sha256": "3b682785e3548f3f0a92f94d27849c95b6c507e5bd4353e31cee5ab9f4e2078c",
+      "concepts": [
+        "ai-review",
+        "security"
+      ]
+    },
+    {
+      "path": "packages/server/src/ai-review.ts",
+      "sha256": "68ef09ac3edda642fbea0226bb7c6691fc1566ef6aeaa37ad9da7efae05c925b",
+      "concepts": [
+        "ai-review",
+        "security"
+      ]
+    },
+    {
+      "path": "packages/server/src/development-proposal.ts",
+      "sha256": "e4ea5aeb1d065bfe48692f5e0d3a9e78b14b299d5f97a1eadccccc2820bbb1f2",
+      "concepts": [
+        "ai-review",
+        "security"
+      ]
+    },
+    {
+      "path": "packages/server/src/evidence-files.ts",
+      "sha256": "fbc00702173058dda42ae554aee00ec00c1ced20debf029df7194a877b03ad0a",
+      "concepts": [
+        "ai-review",
+        "security"
+      ]
+    },
+    {
+      "path": "packages/server/src/index.ts",
+      "sha256": "db24b7ee263b61cc5371c299a9285e3024ff39fe03ddc6cae787e8a2b217398d",
+      "concepts": [
+        "ai-review",
+        "security"
+      ]
+    },
+    {
+      "path": "packages/server/src/local-access.ts",
+      "sha256": "9ef3d3566f0766b1cfd0cb02c55ae48c6db7a3bbcbd82ab329c4a760e6c0afd4",
+      "concepts": [
+        "ai-review",
+        "security"
+      ]
+    },
+    {
+      "path": "packages/server/src/local-project.ts",
+      "sha256": "f7271bc8c0e775c6df9bdf6dcf13546b1307dfab0a363ffed9844a42d5f97fec",
+      "concepts": [
+        "ai-review",
+        "security"
+      ]
+    },
+    {
+      "path": "packages/server/src/openai-review.ts",
+      "sha256": "7b0bb65f07293543450ea2f918e20a88bcb9f09a349cbe3dc51982d2a2885cae",
+      "concepts": [
+        "ai-review",
+        "security"
+      ]
+    },
+    {
+      "path": "packages/server/src/response-language.ts",
+      "sha256": "f53a8287896d140c839a99f2c5b326d921acdc05ad585b1c99bc751e36cb4166",
+      "concepts": [
+        "ai-review",
+        "security"
+      ]
+    },
+    {
+      "path": "packages/server/src/review-access.ts",
+      "sha256": "f4700d06006cf1f57e1a6cc3efc23281068d9d6a82703b63fb19b2bf924163b1",
+      "concepts": [
+        "ai-review",
+        "security"
+      ]
+    },
+    {
+      "path": "packages/server/src/review-policy.ts",
+      "sha256": "4bf394b6fef594510c313971da1fec8d5ccd8e65caaf523f4b98fe9f26bffb87",
+      "concepts": [
+        "ai-review",
+        "security"
+      ]
+    },
+    {
+      "path": "packages/server/tsconfig.build.json",
+      "sha256": "2f7bfa1698a5359c5cd3b9d2051a50a9b2148b38c12a39e7462d4cfdad7284c0",
+      "concepts": [
+        "ai-review",
+        "security"
+      ]
+    },
+    {
+      "path": "packages/testing/package.json",
+      "sha256": "c4cf9028d355bd297715d06801dc8747121409341ca33dace9fd69350b6ba45a",
+      "concepts": [
+        "quality-testing",
+        "rehearsal"
+      ]
+    },
+    {
+      "path": "packages/testing/src/dom-quality.ts",
+      "sha256": "9fc3e56c30739a757f1277a37a83f8d688130fd4aa0450921d84bd1be518987f",
+      "concepts": [
+        "quality-testing",
+        "rehearsal"
+      ]
+    },
+    {
+      "path": "packages/testing/src/index.ts",
+      "sha256": "8f6ff2eeacca426f2cac85b0042a93a36677c566f1911db1f5d6685b203cb225",
+      "concepts": [
+        "quality-testing",
+        "rehearsal"
+      ]
+    },
+    {
+      "path": "packages/testing/src/load.ts",
+      "sha256": "30610c1e70750d707d359ac0299781aa71fcab748ac6fba3f81a29150bbbb3c9",
+      "concepts": [
+        "quality-testing",
+        "rehearsal"
+      ]
+    },
+    {
+      "path": "packages/testing/src/proof-capture.ts",
+      "sha256": "82691be1ca2763cac42ebc6bbe57b1fb3eb75e94ee99f4d29fd4491fb68154a9",
+      "concepts": [
+        "quality-testing",
+        "rehearsal"
+      ]
+    },
+    {
+      "path": "packages/testing/src/quality.ts",
+      "sha256": "d4e49b5d1f7af68afda6c3dee4f377e547921c46b0b24961dc80395639be3ef5",
+      "concepts": [
+        "quality-testing",
+        "rehearsal"
+      ]
+    },
+    {
+      "path": "packages/testing/src/sequence.ts",
+      "sha256": "8014d3b7a71cf38b54cd4fef64af2d8efaa93fc3fb3278f1818827aa8db8a858",
+      "concepts": [
+        "quality-testing",
+        "rehearsal"
+      ]
+    },
+    {
+      "path": "packages/testing/src/story.ts",
+      "sha256": "6ad20c0c490716810425c429ee19d88ccbf6966db68fc4c3882491bc84e95771",
+      "concepts": [
+        "quality-testing",
+        "rehearsal"
+      ]
+    },
+    {
+      "path": "packages/testing/src/workspace-qualification.ts",
+      "sha256": "fd8003128a955fb0633fc0022496d2f4f14d905945e2e93752bebd3ac66e673b",
+      "concepts": [
+        "quality-testing",
+        "rehearsal"
+      ]
+    },
+    {
+      "path": "packages/testing/tsconfig.build.json",
+      "sha256": "2f7bfa1698a5359c5cd3b9d2051a50a9b2148b38c12a39e7462d4cfdad7284c0",
+      "concepts": [
+        "quality-testing",
+        "rehearsal"
+      ]
+    },
+    {
+      "path": "packages/webgpu/package.json",
+      "sha256": "b4fe2fe7eade12e1d38ee31dd059df0efc801c51b214335ed123ac85892c0cbb",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/backend-policy.ts",
+      "sha256": "74f168764f08efd808bbe108e267b78beb1f70901d408291afadfe1f53cca094",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/capabilities.ts",
+      "sha256": "9939e4b83976fe7abaf97b6ebdc49d6cd59f32157f7198d7f951aa87336ad72e",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/coupling-layer.ts",
+      "sha256": "b61fad41c1f4b183f0e7bc3e7ec2e6d7dee51fb5c17daa0572959aa245947c01",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/effect-layers.ts",
+      "sha256": "f2c9173bd9075cc73b475eec48a5d696678442711b2ead8e23435d9ff9bef1e6",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/focus-ring.ts",
+      "sha256": "69dedaaecb694ae5b33cfe4e6fc9a75dda6667a973b952d387a69f5a80821e85",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/font-assets.ts",
+      "sha256": "278b080796cd166deee947216ecc7fafad1274590a3340416a77c17c6682c19f",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/fonts.ts",
+      "sha256": "a8ebd96ad207ac966511fd0d5792fbf7dd849078bc3dd38c27e1df903cf432ef",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/hit-testing.ts",
+      "sha256": "95915df933ebbbe97b014602c625718e5059b483e6e6042208551dd771628f5a",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/index.ts",
+      "sha256": "9b738df88061e2277b34c88811e7eb29f9820c2bacc2181147d470d4df4f0b65",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/motion.ts",
+      "sha256": "352deb016d1c83eac64e1856066fcef0bc47b068d2838c9b2a15c1646c88c112",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/privacy.ts",
+      "sha256": "461a175940eb2e82b83b2457d41e79b18e50a900b5c0bdfdacaa1f92577c75fa",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/resources.ts",
+      "sha256": "cbb8b658c16e28d5c2ba36154b821ef5cacfb029250ffcb97efb0e732b17ed6c",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/restage.ts",
+      "sha256": "4f1cfdbf2ffd4fa099ba3b91e62ec3acf1d9bc07c8a4b3c1db21b06714215c94",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/selection-visibility.ts",
+      "sha256": "b4dc12212f2570689bec151e2e6a33fae558893c756c8bbc1e1f86d163b0b34a",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/text-input.ts",
+      "sha256": "9ded19853a9d3b4b29e1db838e030708b9937c2cd893dceaa2da58acd5d693db",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/text-layout.ts",
+      "sha256": "dd68314040d253240da404baf64ca3b4680cd4ebdbf7bdb1fe1e30d9d31f2e87",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/src/timeline.ts",
+      "sha256": "0c7b26d730ae9d105f745ef2d56c05394b809f24698694d179d47d29a2a26036",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "packages/webgpu/tsconfig.build.json",
+      "sha256": "2f7bfa1698a5359c5cd3b9d2051a50a9b2148b38c12a39e7462d4cfdad7284c0",
+      "concepts": [
+        "rendering",
+        "layout-text-input",
+        "performance-lifecycle"
+      ]
+    },
+    {
+      "path": "scripts/acceptance-source.ts",
+      "sha256": "ccfacae5683db73a20bad76573ab477cf67c779690288a1b5435c400fcb9dc1e",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "scripts/acceptance-validation.ts",
+      "sha256": "daa323ad7ebe91325e00b820567c90675952a0060e44994b87da597e840950c7",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "scripts/ai-design-check.d.ts",
+      "sha256": "070ae4bcd034e22418251f97efb7aa1f6ef21faada6ed4bc0ba70a9e38003216",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/bake-font.mjs",
+      "sha256": "7a2f93222935294ca5294e332feee8edadad3ee3f8fd37c3743739fe0ee9f056",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/build-gpu-kernels.mjs",
+      "sha256": "ac50d89256eb86ea4989de3f57b8a7ab009cb71c7adecd73c7a64949e8bc72fc",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/build-packages.mjs",
+      "sha256": "7cab8dd3943459d2d0348db8e314cde838828c0c7f8b0363683fb89e3a406b32",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/check-acceptance.ts",
+      "sha256": "73dcac5aac731d1c9bf8b87241e0ead21159da38b7329354798f64e9b34dfb0a",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "scripts/check-design.ts",
+      "sha256": "af7c7fa3a9daeb59bbe582783334af014752261a5454ab9c0746defadb599ab7",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/check-mermaid.mjs",
+      "sha256": "40f55b32624d740f2f414c49037b9ad626cc50510c326dcf447201654a38f56c",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/check-plan.mjs",
+      "sha256": "ebf52eb274b3d7bd22833ff0aa921bb2bafc19b770042e142c9f5236727a0f29",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/collect-load.ts",
+      "sha256": "a6c17dc47e2a6504b2a13aaf8f3f9e77ab82b7d3ef92c8733c30dc0a5f1f6fc2",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/design-static.ts",
+      "sha256": "a0a31814a31d36ae251412084d319cefcafd73d351b8b3da9554c5e4f9a2a2c4",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/evaluate-ai-review.ts",
+      "sha256": "b80f44d0a7b1c8dcd0ec1f87de2bbd771bb476f83f18aeed55aad108757b62cd",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/knowledge/build.ts",
+      "sha256": "670a711e87c6e3c6f7d314a1bfcd01c1996a582ee09aef0e9def05edf54c4d54",
+      "concepts": [
+        "knowledge-maintenance"
+      ]
+    },
+    {
+      "path": "scripts/knowledge/check.ts",
+      "sha256": "78cc5efe8490b3368a2e428c40967d1156a8d06fc999310df28b0789230fbe6f",
+      "concepts": [
+        "knowledge-maintenance"
+      ]
+    },
+    {
+      "path": "scripts/knowledge/config.ts",
+      "sha256": "ed6a1c6ad3ae683bd90a1a35755eae02f41a258e2dda7dd30e850e9acc7ed6fa",
+      "concepts": [
+        "knowledge-maintenance"
+      ]
+    },
+    {
+      "path": "scripts/knowledge/edition-reader.js",
+      "sha256": "c515c9249ef4e05a8b22fda3c18262594b05439fb6bb3bed11b0e30930816a40",
+      "concepts": [
+        "knowledge-maintenance"
+      ]
+    },
+    {
+      "path": "scripts/knowledge/editions.ts",
+      "sha256": "c37221c3a4401cbdf6b5871efe379149dfc4045778e5c867cd3cc2e7b8320901",
+      "concepts": [
+        "knowledge-maintenance"
+      ]
+    },
+    {
+      "path": "scripts/knowledge/export.ts",
+      "sha256": "9e46cf65e3591c5f5a458c3f3a600c6a3fe1e3265c9edc01ceaf47a08fab7dcf",
+      "concepts": [
+        "knowledge-maintenance"
+      ]
+    },
+    {
+      "path": "scripts/knowledge/files.ts",
+      "sha256": "5d9d92e8f461d03f10413591aac855c404751f3ecf373b7f925ea5bb58da260d",
+      "concepts": [
+        "knowledge-maintenance"
+      ]
+    },
+    {
+      "path": "scripts/knowledge/format.ts",
+      "sha256": "a29a5ca7993038af45b5ba72a3082c70d5bfb1b19c979625563ad9cdcb15a731",
+      "concepts": [
+        "knowledge-maintenance"
+      ]
+    },
+    {
+      "path": "scripts/knowledge/publish.ts",
+      "sha256": "322b222fc80b30355c29c6a7b7772b08a87844a27538fb3d38942e9e0d209d6d",
+      "concepts": [
+        "knowledge-maintenance"
+      ]
+    },
+    {
+      "path": "scripts/knowledge/reader.ts",
+      "sha256": "6fb2c17092d7b01b13354f607666c0804656d0ded0e1eb58c6238099dae79b29",
+      "concepts": [
+        "knowledge-maintenance"
+      ]
+    },
+    {
+      "path": "scripts/knowledge/serve.ts",
+      "sha256": "ee0a987bf3d525b372eab32ccf30a967f869df20b9acad4ec64fbfa7c36f4ae0",
+      "concepts": [
+        "knowledge-maintenance"
+      ]
+    },
+    {
+      "path": "scripts/knowledge/style.css",
+      "sha256": "632ebd6c018c1365d1f476219206936b6f0411a06378344a6c5b567102c225f3",
+      "concepts": [
+        "knowledge-maintenance"
+      ]
+    },
+    {
+      "path": "scripts/knowledge/sync.ts",
+      "sha256": "c6b7b5174dc04648be1ece0090602351b4a079c007202006979efb39d7f215fe",
+      "concepts": [
+        "knowledge-maintenance"
+      ]
+    },
+    {
+      "path": "scripts/m8-bundle-comparison.mjs",
+      "sha256": "9004d9b2c482102553c6c5b99c59ea4bcaadaad8f2827366dd62563c294ca46f",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/m8-evidence.ts",
+      "sha256": "87133627c2c483c23947e367fb32f1728cd2eeb6a41be069121e8ecdcb67c122",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/qualify-i18n.mjs",
+      "sha256": "c03a428bf0b6a3f65c1ca9a6d3efe06b0441d816d54e2ca6c8e09a455d59eb69",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/qualify-ui-sdk.mjs",
+      "sha256": "fd06df070260b4089f973bfa0dc4dc3521b724772685609bf2107e552674ee96",
+      "concepts": [
+        "architecture",
+        "contracts",
+        "core-runtime",
+        "studio",
+        "release-roadmap"
+      ]
+    },
+    {
+      "path": "scripts/react-host/assess.ts",
+      "sha256": "ace939a6243e30e7196b5cabbdeed256468b32902e10e5da32b97dcdf9c7c5f5",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/react-host/main.tsx",
+      "sha256": "401e50ab67f5917a930661f25bd9da1a44f886a4b9d701949f0580bf3466c5b7",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/react-host/timing.ts",
+      "sha256": "3eb129fe5c75b541001f79ec016b934bbce01875446a488af9dd805d71aba381",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/release/public-assets.json",
+      "sha256": "94d3fc3ca851f8fa948ef2a77c79f845311a25e797620d9e7c22af7b97d17470",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/update-feature-docs.ts",
+      "sha256": "43e2d292d54b02240516207f07bf3848ecce28a63f1352c3ca008f9b4f4c6c69",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "scripts/verify-react-host.ts",
+      "sha256": "920828a39fe55ca417f7a1eb698b4d6616be36fe47a43f6bbfbaa82a20fe07a5",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "tests/browser/locale-surface/index.html",
+      "sha256": "496e17e14fdf81dc29a3d7788d584c887b74af1d202e5203f1f4f92c99cad0ee",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/browser/locale-surface/qualification.ts",
+      "sha256": "afdbf392d62cd6b0ab4f06d6bfd2879e21a1629db5dc123e0cf587bd77164697",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/e2e/form-review.spec.ts",
+      "sha256": "b37188eaa020b43764bb63d5e989f73d7df796654cdeb16e16f2d8e9e0c1a188",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/e2e/multilingual-books.spec.ts",
+      "sha256": "a63febacf6bd4931ee4aad14ab0ab022b148c217d3d949c6f0898af7c26f99aa",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/e2e/multilingual-diagnostics.spec.ts",
+      "sha256": "a9483a7e09092c022ad583b31e362372708ff5a1cb682e1a1354677b73ad12c8",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/e2e/multilingual-workspace.spec.ts",
+      "sha256": "88bb31f2b678d9639d9199c470c8a18c97b8f73333a220b59a68a8a48bdb2e6d",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/e2e/structural-workspace.spec.ts",
+      "sha256": "284c7fbc03d008234f9f5e95e80675b98d83a66d6fc7fb194ffa9c06bcf8fc3b",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/e2e/studio-evidence.spec.ts",
+      "sha256": "76231c3ab75913701a7063d38c7fedbf245042561c01f4e29fa199eb21f266fe",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/evaluations/ai-review-v1.json",
+      "sha256": "8e844a37781f134ffcb75681b9c52775b47d60d0555abd8f9a770c6cb4653e9b",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/acceptance.test.ts",
+      "sha256": "a6316d8e204d88723f0fa1e742424f11cb622ae63c250fc8ea4ac5bce72a4e5f",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/agent-bridge.test.ts",
+      "sha256": "096e558a19ca63942def962973e3c7632b666d738e83f7c958f8e8aba7f5f90c",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/agent-callback-boundaries.test.ts",
+      "sha256": "2d47880137b296b678364794c05e2529685b5595f9240f5884625d735d86c5fe",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/ai-authoring.test.ts",
+      "sha256": "aa1243f33713347a12008de02dceaec61de86390ab75e67da1d3aec5286b569c",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/ai-review-panel.test.ts",
+      "sha256": "c26ad2dd1fa0697cf448e82b9d67d8779310ef7432e352dbfb37456561c4a68e",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/ai-review.test.ts",
+      "sha256": "e1cfaf5c4cff940fbb63aa158da94eb51e298d5790a002fc62ad47127043f30b",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/authoring-case.test.ts",
+      "sha256": "ae5a7caacffbda0970a956bc9fdcbb7c720377f3a688bb63659c3f9639ef6f8c",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/authoring-controller.test.ts",
+      "sha256": "2be9924a382e50dd792d1297d67aca4f7dad4202f7887c1a23e38d3f195800ac",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/authoring-route.test.ts",
+      "sha256": "680bdcbe2fcab70bb47f53b52c239af8479dffed933560ad5ef6196254957bbd",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/authoring-workshop.test.ts",
+      "sha256": "9bfdbe6b15e2ea90a6781398a48f36b2892356541c73f65fda6c2f42bb405fa7",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/backend-policy.test.ts",
+      "sha256": "1627413db192d624ae61daca630a8d9f312436a83cf9043cbd72d7647e7b380d",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/base-ui-contracts.test.ts",
+      "sha256": "e8a45df243bb4ed53f4788a45b2be2835c8308d412e677c4cce317c8a3e3397a",
+      "concepts": [
+        "layout-text-input",
+        "studio"
+      ]
+    },
+    {
+      "path": "tests/unit/behavior-comparison.test.ts",
+      "sha256": "5d3de71ec66f638a998a1831eb9880a0c2bbf3cfb31ea115cdcc33efa5809f15",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/client-import-boundary.test.ts",
+      "sha256": "4827dbba0a9acc9626632803040bffac9e23886b40820615f592ff86ab9c19a4",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/collection-bridge.test.ts",
+      "sha256": "e1d1c34fb214225910e58c345351497e2c0a47d9544c4951743e2b62dc7dfdaf",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/collection.test.ts",
+      "sha256": "372a42e412b93f09027012efdc48f4eb6349bb58bffd2be952317758db6b518d",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/component-definition.test.ts",
+      "sha256": "21d9377682b0d63e5e719ea0534114f515303ed15d3489e53801ed635f855ef5",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/core-collection.test.ts",
+      "sha256": "3959e010829e3e888764f60fe0107e60712064c6e70a27e6ff1109d3ad638c3c",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/coupling-kernel.test.ts",
+      "sha256": "b306d1fbb68227af51cb5a46162010ae8284984c55792459d6098a829c90438b",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/coupling-layer.test.ts",
+      "sha256": "029065d55fd74e2b09c0d1f4a9550a109aa843872639ce4b1a819624f83d217d",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/data.test.ts",
+      "sha256": "babf5880f3de3e81cde16bf149a26094ec948c5a829e9f197a6f90cd18b7e4b7",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/design-quality.test.ts",
+      "sha256": "0e4ab9cc943fa79771864bef5830ef5e5b3076e4f2e78ddddff56cea93100c5b",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/development-proposal.test.ts",
+      "sha256": "1740ea824a0090bafcb04f99469b049741c4fa55ae019428495e1d76804312d0",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/effect-showcase-tour.test.ts",
+      "sha256": "7fdced27105cdbad7f7767ff43fdd7242e8f43ecda7c862c62f6f1f3af9e5437",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/effects.test.ts",
+      "sha256": "a8f60eb8019663fb07973158579d84adc3a9aff17c455a6c62354cd1bbeca14b",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/evidence-files.test.ts",
+      "sha256": "c42d21642779c4aa1613a5dcacff205fc9ab38d268ba45962f8174802bbdf469",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/flow-explorer-ui.test.ts",
+      "sha256": "b1a9bbc671e271cdddf11f0c079016fca3be61b657f30c81a41e0a1e9540fbed",
+      "concepts": [
+        "perspectives",
+        "workspace-case",
+        "user-flows",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "tests/unit/flow-explorer.test.ts",
+      "sha256": "e80abb710a789dde10919c88fac4913510b071f5e4439d327c485fe5365532e9",
+      "concepts": [
+        "perspectives",
+        "workspace-case",
+        "user-flows",
+        "url-routing"
+      ]
+    },
+    {
+      "path": "tests/unit/flow-proof-export.test.ts",
+      "sha256": "37e828bb1de34c521443c704e57f14f0e3ef87845266635f5ef09a07c3b22ecf",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/flow-proof.test.ts",
+      "sha256": "ef062bbb76859d076b4c2999ff072768b793aa7e30ceec0c718ee1ea817ac27b",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/focus-ring.test.ts",
+      "sha256": "997b93fe7bf37cb63630de113282cc1f1361c6203857c22d4fa827f12b110253",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/font-fallback.test.ts",
+      "sha256": "81e707316df4133d60beab55e12e4486e0461a6273d49b2fa2baf31f4b020226",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/glyph-selection-commit.test.ts",
+      "sha256": "a16d8ac2084c63ac78983bfafb440c72d08941ce12b1de9e4109d8c62fff676b",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/hit-testing.test.ts",
+      "sha256": "fcee6bf3c51cd9bf69017ccee72cf0d6cf6380833c99f584d361ff7e6982076e",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/i18n.test.ts",
+      "sha256": "f7d92a905658ce5638e014d258f06548f009242b7eb479180357aeb34e192352",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/knowledge.test.ts",
+      "sha256": "e176670945ebee8a7c642be1082494cc42728315cf35d6b908d2c79c5b14c638",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/lens-kernel.test.ts",
+      "sha256": "413996530bf16f628f4166d21ea1ed2c343f43f8dec62f89876af7b2dc283de2",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/load-lifetime.test.ts",
+      "sha256": "e7d81cb4476282ea56d4185b1372c3e175ff4bd895e7bfbe89b79c93b277023c",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/load.test.ts",
+      "sha256": "8ea018ad8e946e9926e44a364c54e0a12443b06cd33c7321a4a3898e979a2574",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/local-project.test.ts",
+      "sha256": "6abe2417e74c22334236d7a4d122a1d0b9bc9c1e486ffb435e83b8051ab727d9",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/local-review-evidence.test.ts",
+      "sha256": "e1b9f66c3a2730574f49138efb2872c0ed7aa454094df1dedf773f54e1828359",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/locale-hosts.test.ts",
+      "sha256": "57f4dce28ada34f6191795b123723a84593ec4ec6c1aa09c92de0eefe7ca5326",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/m11-workspace-locales.test.ts",
+      "sha256": "c43a9032beb02efb6f7d2c53fe3176f0a6ab74d09662ce5f0f2ec341e68e63bb",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/m7-surface-qualification.test.ts",
+      "sha256": "b096c2f2aca37d3e63939d26820ef8f49ea34cae13e279a034b04e4aea4e5526",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/m8-evidence.test.ts",
+      "sha256": "5db4266556d41079f4a5ed526307ea2457af3755d8e2d3c128a605b2b70aa425",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/m8-qualification.test.ts",
+      "sha256": "fe1bf4346bd4595740065c76cd982bc43b8dcf692aa72484810e51ca0f7dc46b",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/m8-timing.test.ts",
+      "sha256": "d1c5ed41871931aa20f4e1ba44ae7bdec8c3af98b3465aae12ac3e8711668683",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/motion-correspondence.test.ts",
+      "sha256": "de6babe1d43cd057d013d0dd8b84ab20250e6c0e25e40050126ee4a84b664794",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/native-input-limit.test.ts",
+      "sha256": "364b6a663d0f9a50bc244f0a715ba52c60d37c737aec18c9660843d9abbe254e",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/native-input-observation.test.ts",
+      "sha256": "b5c8250d33b5dc345c772b5330562225f67c982035336afeedbc4821d3197f9c",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/native-proof-export.test.ts",
+      "sha256": "83d3d306be819a233b773d0c23de86c91d242df30dd0e4003c5d3681454c6f83",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/presentation.test.ts",
+      "sha256": "145bef086212fd98cc3f2b91e55f17cc24f1de95cd138ff8a32b6c5207430937",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/proof-capture.test.ts",
+      "sha256": "e6db8d76945ca9cc8d3fe52d2b1429c48d20ce244ec9070a65737e132e490417",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/react-host-timing.test.ts",
+      "sha256": "27af8cf217f61dc613081759ec12846cc02f9392e427e7f655f30fe1031eadb1",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/react-recovery-state.test.ts",
+      "sha256": "4aa3cef2b1c96c29713b44899253d4f653a21511158598ecef89e590effbfbec",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/rehearsal-capture.test.ts",
+      "sha256": "dc61cff07653a1eb5fcdaa8c3def4efcad754c7a132fa7031adb22faa5c77137",
+      "concepts": [
+        "rehearsal",
+        "studio"
+      ]
+    },
+    {
+      "path": "tests/unit/rehearsal-controls.test.ts",
+      "sha256": "153400f11580c0772701123d5e52cb4c394e30a35112067ad344590ca8fe0b4e",
+      "concepts": [
+        "rehearsal",
+        "studio"
+      ]
+    },
+    {
+      "path": "tests/unit/rehearsal.test.ts",
+      "sha256": "82aed931ecafd4bb5d865de795767041c9077d655753481b3b3db4e181f7d029",
+      "concepts": [
+        "rehearsal",
+        "studio"
+      ]
+    },
+    {
+      "path": "tests/unit/resolved-layout.test.ts",
+      "sha256": "304f64ab7349cd5ed6cc4a95dbd6770982508317e1bfeccf37d2077803cd5c1a",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/resources.test.ts",
+      "sha256": "7ae8349ca5bd182d9caf9e57965a55d59a6e73aae19ed81ce7a80c8406700678",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/runtime-failures.test.ts",
+      "sha256": "8d86ef905142eff9ba1ea56b8aefe4c1b86540048b4b9f41ed81216a9f0d82ca",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/runtime-history-effects.test.ts",
+      "sha256": "68364f8adf8f4bf05879834d706eeba9751788c5b6fe8d0f5488b9a4ec37d25c",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/runtime-transactions.test.ts",
+      "sha256": "20dc880e8e18d6a47c2c72fe1f932846cdfdd64dd22c18b73cdca9a5cea064ad",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/runtime.test.ts",
+      "sha256": "2b1052ea502e431608c33e349686e78d2dd5bfde3c57322a2a81ebe667ecf854",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/selection-visibility.test.ts",
+      "sha256": "eda6deb26a91c3037e02cf3b7fb7b5187d5c0fa52eb8fd7fdd0a3c785be74f23",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/sequence.test.ts",
+      "sha256": "c039a8e0a86033b6b63b792ceef76c531582f3024d638cad4c003b0c634b1b7e",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/showcase-cases.test.ts",
+      "sha256": "3840c5ab5ec10e00fbaa8c3d8bf85559068084df6e640b806435b3781cfd9d4d",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/simulation.test.ts",
+      "sha256": "ce23bd6bf11a1ca36d118c40dd7c3c5b1b183cae1a6db69387391bff8ec02800",
+      "concepts": [
+        "simulation-cases",
+        "studio"
+      ]
+    },
+    {
+      "path": "tests/unit/studio-locale.test.ts",
+      "sha256": "49ffd77e9c5609ea15c14d8d3677f0b05e93f102d8443d616de166606efb6841",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/surface-authority.test.ts",
+      "sha256": "97ea9e40e145698402abb79109482354e6b077e8c63d4f3150007df96bbcd658",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/surface-capabilities.test.ts",
+      "sha256": "bb18f8db9038393241f678f4d2c5174352d133d22d6ec34322ee42af2de7e8cf",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/surface-lifecycle-policy.test.ts",
+      "sha256": "04337f1e94934167bd8c7861a25fa2f70812761ded963a8397f78596a17c7e4b",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/text-input.test.ts",
+      "sha256": "c9b2054146b5097e62ea8b8aceef1e69cf40500fc8721967baefe6dea78d0ac2",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/theme-provider.test.ts",
+      "sha256": "acd30c5f685d86da70558718e55a9b46bae6fcdc78e4e2d0e98abc3aa6156b14",
+      "concepts": [
+        "appearance",
+        "contracts",
+        "rendering"
+      ]
+    },
+    {
+      "path": "tests/unit/theme.test.ts",
+      "sha256": "374d58614230c8fe5e532f1079c7063edfc091d3593f7f2965bb233eae83e94a",
+      "concepts": [
+        "appearance",
+        "contracts",
+        "rendering"
+      ]
+    },
+    {
+      "path": "tests/unit/ui-quality.test.ts",
+      "sha256": "cb61cafde89dc8ee644c97bdf234a06307362eb55577dabeb30cb8e7fa9b0b6b",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/workspace-collection.test.ts",
+      "sha256": "d27def794de6dbf8b6edb6dc380d2e9e5717cc33e1d53fbe71656458065356a9",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/workspace-coupling.test.ts",
+      "sha256": "048efe250a794866233eead36d4e8735128895aeaab228d4676d0234508646f7",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/workspace-motion-ink.test.ts",
+      "sha256": "ecede4f5d29aa61405a2ba803249af4d0f6160688de5c48dd5f8d9ac464515a6",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/workspace-perspectives.test.ts",
+      "sha256": "891ad30a719572c38ebbca79be85370a2268861979477081b7038f8dcbbd08ab",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/workspace-qualification.test.ts",
+      "sha256": "72f463c660820b5c5a7d6c1a5d08b9bf26f37e611c1c1aa5b86f60ddc1e8d8fe",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/workspace-story.test.ts",
+      "sha256": "058ba12ab1fe6102c3cd1b6a93852da02743c8bc96488d65f3243d4976f99ad7",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/workspace.test.ts",
+      "sha256": "86201a5657458c584998affbff5192699d8dc1440a4c513ed32c963c65b779bc",
+      "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "8c749f057b21d1f9289da37cc37afc7067b3884ce4dd629db683afca68509bff",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    },
+    {
+      "path": "vitest.config.ts",
+      "sha256": "64462e7912fbfe3f9afa1d91b7c4a9bedb0860d52f7ff350b4d021773d2d3457",
+      "concepts": [
+        "development-cli",
+        "architecture"
+      ]
+    }
+  ]
+}

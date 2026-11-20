@@ -1,0 +1,46 @@
+{
+  "name": "@fluidkit/testing",
+  "version": "0.2.0-alpha.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    "./proof-capture": {
+      "types": "./src/proof-capture.ts",
+      "default": "./src/proof-capture.ts"
+    },
+    "./sequence": {
+      "types": "./src/sequence.ts",
+      "default": "./src/sequence.ts"
+    },
+    "./story": {
+      "types": "./src/story.ts",
+      "default": "./src/story.ts"
+    },
+    "./quality": {
+      "types": "./src/quality.ts",
+      "default": "./src/quality.ts"
+    },
+    "./dom-quality": {
+      "types": "./src/dom-quality.ts",
+      "default": "./src/dom-quality.ts"
+    },
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./workspace-qualification": {
+      "types": "./src/workspace-qualification.ts",
+      "default": "./src/workspace-qualification.ts"
+    }
+  },
+  "dependencies": {
+    "@fluidkit/effects": "*",
+    "@fluidkit/contracts": "*",
+    "@fluidkit/core": "*"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  }
+}

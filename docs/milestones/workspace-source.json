@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "name": "fluidkit-pro",
+  "capturedAt": "2026-11-20T12:54:10.542Z",
+  "source": "Workspace package.json + src/**/*.ts(x)",
+  "modules": [
+    {
+      "id": "cases",
+      "name": "@fluidkit/cases",
+      "version": "0.2.0-alpha.0",
+      "group": "Adapter",
+      "files": 11,
+      "lines": 1454,
+      "dependencies": [
+        "@fluidkit/contracts",
+        "@fluidkit/core",
+        "@fluidkit/effects",
+        "@fluidkit/i18n",
+        "zod"
+      ],
+      "internal": [
+        "contracts",
+        "core",
+        "effects",
+        "i18n"
+      ]
+    },
+    {
+      "id": "cli",
+      "name": "@fluidkit/cli",
+      "version": "0.2.0-alpha.0",
+      "group": "Tooling",
+      "files": 1,
+      "lines": 23,
+      "dependencies": [
+        "@fluidkit/cases",
+        "@fluidkit/contracts",
+        "@fluidkit/testing"
+      ],
+      "internal": [
+        "cases",
+        "contracts",
+        "testing"
+      ]
+    },
+    {
+      "id": "contracts",
+      "name": "@fluidkit/contracts",
+      "version": "0.2.0-alpha.0",
+      "group": "Kernel",
+      "files": 29,
+      "lines": 2173,
+      "dependencies": [
+        "@fluidkit/i18n",
+        "zod"
+      ],
+      "internal": [
+        "i18n"
+      ]
+    },
+    {
+      "id": "core",
+      "name": "@fluidkit/core",
+      "version": "0.2.0-alpha.0",
+      "group": "Kernel",
+      "files": 6,
+      "lines": 1280,
+      "dependencies": [
+        "@fluidkit/contracts",
+        "@fluidkit/effects",
+        "@fluidkit/i18n",
+        "@ui-sdk/core",
+        "xstate",
+        "yoga-layout",
+        "zod"
+      ],
+      "internal": [
+        "contracts",
+        "effects",
+        "i18n"
+      ]
+    },
+    {
+      "id": "effects",
+      "name": "@fluidkit/effects",
+      "version": "0.2.0-alpha.0",
+      "group": "Kernel",
+      "files": 4,
+      "lines": 763,
+      "dependencies": [
+        "@fluidkit/contracts"
+      ],
+      "internal": [
+        "contracts"
+      ]
+    },
+    {
+      "id": "gpu-kernels",
+      "name": "@fluidkit/gpu-kernels",
+      "version": "0.2.0-alpha.0",
+      "group": "Kernel",
+      "files": 2,
+      "lines": 260,
+      "dependencies": [
+        "@typegpu/gl",
+        "@typegpu/sdf",
+        "@typegpu/three",
+        "three",
+        "typegpu"
+      ],
+      "internal": []
+    },
+    {
+      "id": "i18n",
+      "name": "@fluidkit/i18n",
+      "version": "0.2.0-alpha.0",
+      "group": "Tooling",
+      "files": 3,
+      "lines": 176,
+      "dependencies": [
+        "@formatjs/icu-messageformat-parser",
+        "@schummar/icu-type-parser",
+        "intl-messageformat",
+        "zod"
+      ],
+      "internal": []
+    },
+    {
+      "id": "intelligence",
+      "name": "@fluidkit/intelligence",
+      "version": "0.2.0-alpha.0",
+      "group": "Adapter",
+      "files": 1,
+      "lines": 6,
+      "dependencies": [
+        "@fluidkit/contracts",
+        "@fluidkit/core"
+      ],
+      "internal": [
+        "contracts",
+        "core"
+      ]
+    },
+    {
+      "id": "react",
+      "name": "@fluidkit/react",
+      "version": "0.2.0-alpha.0",
+      "group": "Adapter",
+      "files": 1,
+      "lines": 435,
+      "dependencies": [
+        "@fluidkit/contracts",
+        "@fluidkit/core",
+        "@fluidkit/i18n",
+        "@fluidkit/webgpu"
+      ],
+      "internal": [
+        "contracts",
+        "core",
+        "i18n",
+        "webgpu"
+      ]
+    },
+    {
+      "id": "server",
+      "name": "@fluidkit/server",
+      "version": "0.2.0-alpha.0",
+      "group": "Adapter",
+      "files": 11,
+      "lines": 714,
+      "dependencies": [
+        "@ai-sdk/openai",
+        "@fluidkit/cases",
+        "@fluidkit/contracts",
+        "@fluidkit/core",
+        "@fluidkit/i18n",
+        "ai",
+        "typescript",
+        "zod"
+      ],
+      "internal": [
+        "cases",
+        "contracts",
+        "core",
+        "i18n"
+      ]
+    },
+    {
+      "id": "testing",
+      "name": "@fluidkit/testing",
+      "version": "0.2.0-alpha.0",
+      "group": "Tooling",
+      "files": 8,
+      "lines": 833,
+      "dependencies": [
+        "@fluidkit/contracts",
+        "@fluidkit/core",
+        "@fluidkit/effects"
+      ],
+      "internal": [
+        "contracts",
+        "core",
+        "effects"
+      ]
+    },
+    {
+      "id": "webgpu",
+      "name": "@fluidkit/webgpu",
+      "version": "0.2.0-alpha.0",
+      "group": "Kernel",
+      "files": 17,
+      "lines": 1277,
+      "dependencies": [
+        "@fluidkit/contracts",
+        "@fluidkit/core",
+        "@fluidkit/effects",
+        "@fluidkit/gpu-kernels",
+        "@fluidkit/i18n",
+        "@pmndrs/glyph",
+        "three",
+        "yoga-layout"
+      ],
+      "internal": [
+        "contracts",
+        "core",
+        "effects",
+        "gpu-kernels",
+        "i18n"
+      ]
+    }
+  ]
+}

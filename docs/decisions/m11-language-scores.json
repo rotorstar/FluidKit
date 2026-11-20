@@ -1,0 +1,386 @@
+{
+  "schemaVersion": 1,
+  "researchedAt": "2026-11-20",
+  "status": "adopted",
+  "dimensions": [
+    "Zielerfüllung",
+    "Korrektheit und Accessibility",
+    "Testbarkeit",
+    "Lieferbarkeit und Pflege",
+    "Erweiterbarkeit"
+  ],
+  "weights": [
+    30,
+    25,
+    20,
+    15,
+    10
+  ],
+  "scale": [
+    1,
+    5
+  ],
+  "formula": "sum(weight * rating) / 5",
+  "decisions": [
+    {
+      "id": "ARCH",
+      "title": "Bibliothek und Paketgrenze",
+      "winner": "H",
+      "options": {
+        "A": {
+          "description": "Vollständiges Lingui-System mit PO, Extraktion und Compiler",
+          "ratings": [
+            4,
+            4,
+            5,
+            3,
+            5
+          ],
+          "score": 83
+        },
+        "B": {
+          "description": "next-intl im Studio und use-intl/core für Surface und unabhängigen Host",
+          "ratings": [
+            5,
+            4,
+            4,
+            5,
+            4
+          ],
+          "score": 89
+        },
+        "H": {
+          "description": "Host-Vertrag, FormatJS für ICU, natives Intl, schlanker Studio-Routenadapter",
+          "ratings": [
+            5,
+            5,
+            5,
+            4,
+            5
+          ],
+          "score": 97
+        }
+      }
+    },
+    {
+      "id": "M11-01",
+      "title": "Sprachfreigabe",
+      "winner": "H",
+      "options": {
+        "A": {
+          "description": "Alle Zielsprachen gleichzeitig mit gleichem Funktionsumfang starten",
+          "ratings": [
+            4,
+            3,
+            3,
+            2,
+            4
+          ],
+          "score": 65
+        },
+        "B": {
+          "description": "Studio vollständig übersetzen, danach die Runtime",
+          "ratings": [
+            3,
+            3,
+            3,
+            5,
+            3
+          ],
+          "score": 66
+        },
+        "H": {
+          "description": "Eine echte Aufgabe durch alle Ebenen übersetzen, danach je Sprache und Schrift ausbauen",
+          "ratings": [
+            5,
+            5,
+            5,
+            4,
+            5
+          ],
+          "score": 97
+        }
+      }
+    },
+    {
+      "id": "M11-02",
+      "title": "Katalog und Autorschaft",
+      "winner": "A",
+      "options": {
+        "A": {
+          "description": "Stabile semantische Schlüssel, ganze ICU-Nachrichten, Parametervertrag und menschliches Review",
+          "ratings": [
+            5,
+            5,
+            5,
+            4,
+            5
+          ],
+          "score": 97
+        },
+        "B": {
+          "description": "Quellsätze automatisch als Schlüssel extrahieren",
+          "ratings": [
+            4,
+            4,
+            4,
+            5,
+            3
+          ],
+          "score": 81
+        },
+        "H": {
+          "description": "Redaktionelle Schlüssel für Kerntexte und aus Quellsätzen erzeugte Schlüssel für Studio",
+          "ratings": [
+            4,
+            4,
+            4,
+            4,
+            5
+          ],
+          "score": 82
+        }
+      }
+    },
+    {
+      "id": "M11-03",
+      "title": "Sprache und Navigation",
+      "winner": "H",
+      "options": {
+        "A": {
+          "description": "Cookie und Umschalter mit gemeinsamen URLs",
+          "ratings": [
+            3,
+            4,
+            3,
+            5,
+            3
+          ],
+          "score": 71
+        },
+        "B": {
+          "description": "Jeden Einstieg mit festem Sprachpfad verlangen",
+          "ratings": [
+            4,
+            4,
+            5,
+            4,
+            3
+          ],
+          "score": 82
+        },
+        "H": {
+          "description": "Sprachpfade mit Aushandlung bei alten Links und expliziter Host-Vorgabe für Einbettung",
+          "ratings": [
+            5,
+            5,
+            5,
+            4,
+            5
+          ],
+          "score": 97
+        }
+      }
+    },
+    {
+      "id": "M11-04",
+      "title": "GPU, Text und Eingabe",
+      "winner": "H",
+      "options": {
+        "A": {
+          "description": "Gesamte Fläche für jede Sprache neu erzeugen",
+          "ratings": [
+            3,
+            2,
+            4,
+            5,
+            3
+          ],
+          "score": 65
+        },
+        "B": {
+          "description": "Text, Layout und Eingabe vollständig selbst implementieren",
+          "ratings": [
+            5,
+            4,
+            3,
+            1,
+            5
+          ],
+          "score": 75
+        },
+        "H": {
+          "description": "Glyph/Yoga konfigurieren, Geometrie und Semantik gemeinsam projizieren, Schriftprofile einzeln qualifizieren",
+          "ratings": [
+            5,
+            5,
+            5,
+            3,
+            5
+          ],
+          "score": 94
+        }
+      }
+    },
+    {
+      "id": "M11-05",
+      "title": "Daten und Sortierung",
+      "winner": "H",
+      "options": {
+        "A": {
+          "description": "Lokalisierte Daten je Sprache duplizieren",
+          "ratings": [
+            3,
+            3,
+            4,
+            3,
+            3
+          ],
+          "score": 64
+        },
+        "B": {
+          "description": "Alle Formate und Ordnungen dem Host überlassen",
+          "ratings": [
+            3,
+            4,
+            3,
+            5,
+            4
+          ],
+          "score": 73
+        },
+        "H": {
+          "description": "Geteilte Formate für die Anzeige, Originalwerte im Host, sprachbezogene Abfragen bei Bedarf",
+          "ratings": [
+            5,
+            5,
+            5,
+            4,
+            5
+          ],
+          "score": 97
+        }
+      }
+    },
+    {
+      "id": "M11-06",
+      "title": "Replay und Belege",
+      "winner": "H",
+      "options": {
+        "A": {
+          "description": "Jeden historischen Lauf in der aktiven Sprache anzeigen",
+          "ratings": [
+            3,
+            2,
+            2,
+            4,
+            3
+          ],
+          "score": 54
+        },
+        "B": {
+          "description": "Nur gerenderte Bilder je Sprache archivieren",
+          "ratings": [
+            4,
+            4,
+            3,
+            3,
+            3
+          ],
+          "score": 71
+        },
+        "H": {
+          "description": "Originalclip erhalten, neue Sprach- und Fontmetadaten versionieren, Neuinszenierung als eigener Lauf",
+          "ratings": [
+            5,
+            5,
+            5,
+            4,
+            5
+          ],
+          "score": 97
+        }
+      }
+    },
+    {
+      "id": "M11-07",
+      "title": "KI und Projektinhalte",
+      "winner": "H",
+      "options": {
+        "A": {
+          "description": "Alle Texte und Projektinhalte beim Umschalten übersetzen lassen",
+          "ratings": [
+            3,
+            2,
+            2,
+            3,
+            3
+          ],
+          "score": 51
+        },
+        "B": {
+          "description": "Nur das Studio übersetzen, alle KI-Antworten deutsch lassen",
+          "ratings": [
+            3,
+            4,
+            4,
+            5,
+            2
+          ],
+          "score": 73
+        },
+        "H": {
+          "description": "Antwortsprache bei expliziter Anfrage binden, Katalog und fremde Inhalte getrennt redigieren",
+          "ratings": [
+            5,
+            5,
+            5,
+            4,
+            5
+          ],
+          "score": 97
+        }
+      }
+    },
+    {
+      "id": "M11-08",
+      "title": "OKF und Freigabe",
+      "winner": "H",
+      "options": {
+        "A": {
+          "description": "Lokalisierte Markdown-Bücher manuell kopieren",
+          "ratings": [
+            4,
+            4,
+            3,
+            3,
+            2
+          ],
+          "score": 69
+        },
+        "B": {
+          "description": "Handbuch beim Lesen automatisch übersetzen",
+          "ratings": [
+            3,
+            2,
+            2,
+            5,
+            3
+          ],
+          "score": 57
+        },
+        "H": {
+          "description": "Offline-Ausgaben je Sprache aus stabilen Kapitel-IDs bauen, Redaktion und visuelle Prüfung je Ausgabe",
+          "ratings": [
+            5,
+            5,
+            5,
+            3,
+            5
+          ],
+          "score": 94
+        }
+      }
+    }
+  ]
+}

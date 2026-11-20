@@ -1,0 +1,27 @@
+{
+  "name": "@fluidkit/react",
+  "version": "0.2.0-alpha.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./src/index.tsx",
+      "default": "./src/index.tsx"
+    }
+  },
+  "dependencies": {
+    "@fluidkit/contracts": "*",
+    "@fluidkit/core": "*",
+    "@fluidkit/webgpu": "*",
+    "@fluidkit/i18n": "*"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "peerDependencies": {
+    "react": "^19.2.9",
+    "react-dom": "^19.2.9"
+  }
+}

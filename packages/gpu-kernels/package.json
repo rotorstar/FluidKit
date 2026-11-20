@@ -1,0 +1,17 @@
+{
+  "name": "@fluidkit/gpu-kernels",
+  "version": "0.2.0-alpha.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "exports": { ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" } },
+  "dependencies": {
+    "typegpu": "0.12.9",
+    "@typegpu/three": "0.12.2",
+    "@typegpu/gl": "0.12.8",
+    "@typegpu/sdf": "0.12.2",
+    "three": "0.187.0"
+  },
+  "scripts": { "build": "tsc -p tsconfig.build.json && vite build --config vite.config.ts" }
+}

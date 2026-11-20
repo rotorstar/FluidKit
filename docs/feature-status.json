@@ -1,0 +1,416 @@
+{
+  "T01": {
+    "feature": "Vision und Nachweisregister",
+    "status": "Teilweise",
+    "evidence": "historischer M5-Abgleich mit 340 AC; erweiterter Plan v2.3, Quellen, ADRs und Traceability",
+    "remaining": "weitere Release-Evidenz und Schließen der offenen AC; Design-Brief, Story- und neue AI-Reviewverträge T50–T58 nachführen"
+  },
+  "T02": {
+    "feature": "Workspace und Toolchain",
+    "status": "Teilweise",
+    "evidence": "strict Typecheck, Lint und Paketbuild",
+    "remaining": "Clean Install/Publishing und Node-26-Gate"
+  },
+  "T03": {
+    "feature": "Vollständiger Machbarkeits-Proof",
+    "status": "Teilweise",
+    "evidence": "M1 und M2 Browser-Proofs",
+    "remaining": "IME/Screenreader/Supportmatrix"
+  },
+  "T04": {
+    "feature": "Renderer und Backend",
+    "status": "Teilweise",
+    "evidence": "WebGPU und WebGL2 live; Backend-Policy-Tests",
+    "remaining": "Supportmatrix und automatische Fallback-Fehlerklassen"
+  },
+  "T05": {
+    "feature": "Layout und Scene-Modell",
+    "status": "Teilweise",
+    "evidence": "responsive Projektion, Yoga-Bounds, Virtual-Range-Test",
+    "remaining": "Scroll/Clipping/Flex/Grid-Conformance und echte große GPU-Liste; gemeinsame Clip-/Eingabe-/Semantiktransformation für T53 qualifizieren"
+  },
+  "T06": {
+    "feature": "Typografie und Assets",
+    "status": "Teilweise",
+    "evidence": "baked Inter/MSDF und GPU-Text auf beiden Backends; gemeinsame Caption-Rolle und gemessene CSS-Schriftgrößen inklusive Replay-Skalierung; reproduzierbarer Inter-Bake einschließlich Euro, Font-Assets im Buildhash; M7-Nachprüfung: kontrollierter Noto-Sans-JP-Fontstack (512 deklarierte Codepoints), echte Font-/Caret-Tests und horizontales Textbox-Clipping implementiert; lokale Nov4-Originalbilder zeigen JP-Auswahl und Langtext-Anfang/Ende auf WebGPU/WebGL2",
+    "remaining": "Weitere RTL-/CJK-/Emoji-/Font-Failure-Isolation und vollständige Theme-/Tokenversionen T51; der lokale deklarierte Fontumfang ist keine allgemeine Sprachfreigabe."
+  },
+  "T07": {
+    "feature": "Semantik und Eingabe",
+    "status": "Teilweise",
+    "evidence": "native Tabellen-/Input-/Button-Brücke; Keyboard; automatischer Abgleich nativer Namen/Part-Zustände; lokale manuelle OS-Dead-Key-Eingabe funktional korrekt, trusted Start/Input und Core-Schutz, beobachtetes Ende untrusted; Clipboard/Langtext/Selection qualifiziert",
+    "remaining": "Breite manuelle Screenreader-/IME-/Mobile-/Touch-Journeys, japanische Kandidatenkonversion und vollständig trusted Browser-Composition-Sitzungen; allgemeine Ziel-/Kamera-/Scrollprojektion T52/T53."
+  },
+  "T08": {
+    "feature": "Ressourcen und Scheduler",
+    "status": "Teilweise",
+    "evidence": "M6: explizite Resource Ownership; 100 WebGPU-Mount/Unmount-Zyklen des dokumentierten historischen Builds ohne offene Tokens, Core-Abos, DOM-Kinder oder Idle-Frames; M7 Build2006: 100 Replay-/100 visuelle Retargetzyklen pro dokumentierter Effekt-/Backendkombination mit verwaltetem Plateau; M7 final81: je Backend 100 frische imperative Surfaces mit allen drei Effekten plus fünf Fehler-/Privacyfällen, unabhängige Schema-/Ressourcenprüfung ohne Resttokens; tatsächliche React-Device-Loss-Journey f706 erhält Entwurf/Revision/Selection, getrennte finale Source-Deltabindung",
+    "remaining": "Langzeitsitzung, weitere Hardware-/Browserprofile und Treiber-/Prozessspeicher; imperative Surfacezyklen nicht als React-Mountmatrix ausgeben."
+  },
+  "T09": {
+    "feature": "Statecharts und Kontrollmodi",
+    "status": "Teilweise",
+    "evidence": "Statecharts, Kontrollmodi, isolierte Handlerregister; Host-/Action-/Projektionsfehler und Dispose-Grenzen unabhängig geprüft R2: Ereignisse aus verschachtelten Guards, Disposal während der Benachrichtigung und getrennte Interaktionszustände zweier Flächen besitzen Regressionstests.",
+    "remaining": "vollständige produktive Host-Policies"
+  },
+  "T10": {
+    "feature": "Morphing und Choreography",
+    "status": "Teilweise",
+    "evidence": "Table→Cards→Map→Detail mit stabilen IDs; M7: gemeinsamer stateless Sampler mit gruppierter Silk Cascade, lokaler Liquid Lens und instanziertem Particle Weave implementiert; lokale WebGPU-/WebGL2-Originalphasen und vier responsive Browserbreiten geprüft; Nov4: native Unterbrechungen, 144 Fälle/720 Kontrollbilder, Live-Resize und Legacy-Regressionen lokal qualifiziert · explizite Match-, Split- und Merge-Beziehungen im Workspace R2: echte Modul-ID, Mitgliedschaft und Auswahl treiben Match, Split und Merge im selben Sampler. Die ursprüngliche Layoutinterpolation ist im Studio vergleichbar.",
+    "remaining": "Weitere Morph-Familien, allgemeine Multi-Component-Choreography und breitere Host-/Hardware-/Eingabematrix; kausale Beat-/Part-Verträge T52 weiterführen."
+  },
+  "T11": {
+    "feature": "Physics und Timing",
+    "status": "Teilweise",
+    "evidence": "deterministische Interpolation und Reduced-Motion-Test; M7: analytische Zeit-/Seed-Auswertung, flache Unterbrechungszustände und unveränderliche Clips · versionierte Bewegungspläne mit Ports und Unterbrechungssnapshots R2: Geometrie und Geschwindigkeit werden beim Retarget übernommen. V4 zeichnet die Bewegungsbeziehungen auf.",
+    "remaining": "Physics-Presets und Fixed-Step-Simulation; M7: lokale neue Effekt-/Backendnachweise vorhanden; manuelle Eingabe-, Live-Resize-, Fehlerpfad- und geräteübergreifende Freigabe verbleiben gemäß M7-Matrix"
+  },
+  "T12": {
+    "feature": "Content Preservation",
+    "status": "Teilweise",
+    "evidence": "Feld-/Auswahlerhalt und atomare Assignments",
+    "remaining": "typisierte Projektionen beliebiger Content-Schemas"
+  },
+  "T13": {
+    "feature": "Komponentenbibliothek",
+    "status": "Teilweise",
+    "evidence": "Table/Card/Text/Input/Button/Progress im Showcase",
+    "remaining": "vollständige Familien und Error/Empty/Loading-Conformance; Detail-Herkunft/Rückweg und optionale Gruppierung der Paketabhängigkeiten aus der geprüften AI-Review nachführen"
+  },
+  "T14": {
+    "feature": "URLs und History",
+    "status": "Teilweise",
+    "evidence": "validierte View-/Sort-/Auswahl-URLs und History; nativer History-Stale-Clipfehler behoben, lokale Back/Forward-/Reload-/Replay-Journeys erhalten State/IDs R1: kanonische Rückkehr-URL mit Auswahl, optional beschränktem Kartenbestand und Back/Forward im Browser geprüft.",
+    "remaining": "Next-Routeradapter und allgemeine fachliche Deep Links weiterer Cases/Hostanwendungen."
+  },
+  "T15": {
+    "feature": "Daten-/Action-Adapter",
+    "status": "Teilweise",
+    "evidence": "validierte Data-/Action-Adapter; Abort/Stale/Cache/Revalidation, Autorisierung, In-Prozess-Idempotenz und Concurrency-Tests",
+    "remaining": "Query-/HTTP-Providerqualifikation und dauerhafte produktive Idempotenz beim Host"
+  },
+  "T16": {
+    "feature": "Studio-Projekte und Inspector",
+    "status": "Teilweise",
+    "evidence": "Live-Inspector für Domain/Presentation/Anatomy · lokale Entwurfsversionen und A/B-Ansicht im Studio R1/R4: früher Einstieg mit sichtbaren Modulen und drei Aktionen. Lokale SQLite-Versionen, Wiederöffnen und erneuter Preflight.",
+    "remaining": "Freies Öffnen externer Projektverzeichnisse und gemeinsame Projektbearbeitung über den lokalen SQLite-Entwurfsspeicher hinaus; versionierte Stories und Rehearsal-Artefakte T50/T55 speichern"
+  },
+  "T17": {
+    "feature": "Visueller Builder",
+    "status": "Teilweise",
+    "evidence": "deklarative Flows und generiertes Mermaid",
+    "remaining": "grafisches Authoring, Monaco, Undo/Redo; Story-/Beat-Ansicht und Reviewnavigation T55 aus demselben Vertrag ableiten"
+  },
+  "T18": {
+    "feature": "Simulation und Replay",
+    "status": "Teilweise",
+    "evidence": "Schema-v2-GPU-Aufzeichnung mit Original-Viewport, read-only Replay/Scrubbing und Live-Restore R2: V4-Export, Rückwärts-Scrubbing, gemeinsamer Vergleich und unveränderte v2/v3-Abspielpfade geprüft.",
+    "remaining": "vollständige Simulation/Fault-Injection und versionierte Projekt-/Datenaufzeichnungen; Captureabdeckung und getrennte Offline-/Echtzeit-Rehearsal T54 ergänzen"
+  },
+  "T19": {
+    "feature": "Testsystem",
+    "status": "Teilweise",
+    "evidence": "Historischer M6-Stand: 137 Tests einschließlich 9 Knowledge-Tests; historischer Coveragebericht Core 85,75 und Server 85,43 Prozent; AC-Driftchecker, 100 echte GPU-Zyklen, historische 54 Case-Endzustände/60 Effektphasen und 12 M6-Endpunkte; OKF-/Quellen-/Audienceprüfung; M7 final81: 267 Tests/33 Dateien, 144 kontrollierte Ansichtswechsel/720 Kontrollbilder und echte Surface-/Privacy-Prüfungen · wiederholbare Workspace-Browserjourneys bei drei Breiten R6: Erkennungsprotokoll für unabhängige Personen im Meilenstein dokumentiert. Eigene Browserjourneys prüfen Inhalt, Fokus und Downloads.",
+    "remaining": "Separate Routing-/Policy-/Budgetabnahme, volle Support-/Komponentenmatrix und manuelle AT-Prüfung; vollständige zeitliche Evidenz T54 und unabhängiger Qualitätsvergleich T56."
+  },
+  "T20": {
+    "feature": "CLI und Integration",
+    "status": "Teilweise",
+    "evidence": "CLI validate/test",
+    "remaining": "init/add/studio/export und frische Hostintegration"
+  },
+  "T21": {
+    "feature": "Intent-Runtime",
+    "status": "Geplant",
+    "evidence": "noch kein Implementierungsnachweis",
+    "remaining": "Acceptance Criteria des Gesamtplans"
+  },
+  "T22": {
+    "feature": "KI-Orchestrierung",
+    "status": "Teilweise",
+    "evidence": "Vercel AI SDK 7.0.159, direkter OpenAI-Provider 4.0.106 mit realem WebGPU-Live-Review; keine Anwendungs-DecisionPlan-Abnahme",
+    "remaining": "Serverseitige Anwendungs-DecisionPlans, vollständige Provider-Evaluation und dauerhafte Mehrinstanzautorität"
+  },
+  "T23": {
+    "feature": "Predictive Loading",
+    "status": "Geplant",
+    "evidence": "noch kein Implementierungsnachweis",
+    "remaining": "Acceptance Criteria des Gesamtplans"
+  },
+  "T24": {
+    "feature": "Ziele und Personalisierung",
+    "status": "Geplant",
+    "evidence": "noch kein Implementierungsnachweis",
+    "remaining": "Acceptance Criteria des Gesamtplans"
+  },
+  "T25": {
+    "feature": "Reale Case-Pakete",
+    "status": "Teilweise",
+    "evidence": "drei synthetische Case-Dateien mit Provenienz und GPU-Cases für Suche, Sortierung, Detail, Vergleich und simulierte Übergabe",
+    "remaining": "alle produktiven Anbieteradapter, zusätzliche Cases und Manual/Hybrid/Auto-Vergleich"
+  },
+  "T26": {
+    "feature": "Observability",
+    "status": "Teilweise",
+    "evidence": "korrelierte Event-Traces und Export",
+    "remaining": "OTLP, Persistenz und Exportausfall-Prüfung; Frame-/Beat-/Eventkorrelation und AI-Reviewherkunft T54/T58 ergänzen"
+  },
+  "T27": {
+    "feature": "Kosten und Schutzmaßnahmen",
+    "status": "Teilweise",
+    "evidence": "Lokaler Review: synchrone Reservierung, exakte OpenAI-Inputprüfung, Standard-Tier/Outputdeckel, Konkurrenz/Usage/Abort/Deadline geprüft; reale Usage exportiert",
+    "remaining": "Anwendungsbudgets, dauerhafte verteilte Autorität, Abrechnungsabgleich und alle Produktions-AC separat qualifizieren"
+  },
+  "T28": {
+    "feature": "Lernen und Experimente",
+    "status": "Geplant",
+    "evidence": "noch kein Implementierungsnachweis",
+    "remaining": "Acceptance Criteria des Gesamtplans"
+  },
+  "T29": {
+    "feature": "Performance und Skalierung",
+    "status": "Teilweise",
+    "evidence": "echte Frame-/Scene-/Textspeichermetriken R6: eigenständiger Host erfasst Echtzeitintervalle, Idle-Frames, CPU-Fremdlast und beobachtbare GPU-Zähler. Zwei belastete Referenzläufe überschreiten das Frameziel.",
+    "remaining": "Gerätematrix, P95-Budgets und Langzeittests; Capturekosten getrennt von Echtzeit-Pacing T54 messen"
+  },
+  "T30": {
+    "feature": "Release-Härtung",
+    "status": "Teilweise",
+    "evidence": "lokales quality:gate für Check/Design, Plan, Mermaid und Produktionsbuild; explizite offene Abnahmen im Report",
+    "remaining": "externer CI-Betrieb und vollständige Release-/Geräte-/Security-/Upgrade-Gates; Rehearsal-, Review- und AI-Gates T54–T58 im jeweiligen Scope nachweisen"
+  },
+  "T31": {
+    "feature": "Collaboration",
+    "status": "Geplant",
+    "evidence": "noch kein Implementierungsnachweis",
+    "remaining": "Acceptance Criteria des Gesamtplans"
+  },
+  "T32": {
+    "feature": "Plugins und Headless",
+    "status": "Teilweise",
+    "evidence": "R6: separater Vite-/React-Host mit öffentlichen Paketimporten, Abstand zu Next/Studio im Modulgraph und WebGPU-/WebGL2-Prüfläufen.",
+    "remaining": "Versions- und Capability-Prüfung für installierte Plugins, Entladen und Conformance weiterer Host-Frameworks."
+  },
+  "T33": {
+    "feature": "Voice und Gesten",
+    "status": "Geplant",
+    "evidence": "noch kein Implementierungsnachweis",
+    "remaining": "Acceptance Criteria des Gesamtplans"
+  },
+  "T34": {
+    "feature": "Enterprise-Integration",
+    "status": "Geplant",
+    "evidence": "noch kein Implementierungsnachweis",
+    "remaining": "Acceptance Criteria des Gesamtplans"
+  },
+  "T35": {
+    "feature": "WebXR",
+    "status": "Geplant",
+    "evidence": "noch kein Implementierungsnachweis",
+    "remaining": "Acceptance Criteria des Gesamtplans"
+  },
+  "T36": {
+    "feature": "Neural Rendering",
+    "status": "Geplant",
+    "evidence": "noch kein Implementierungsnachweis",
+    "remaining": "Acceptance Criteria des Gesamtplans"
+  },
+  "T37": {
+    "feature": "Marketplace",
+    "status": "Geplant",
+    "evidence": "noch kein Implementierungsnachweis",
+    "remaining": "Acceptance Criteria des Gesamtplans"
+  },
+  "T38": {
+    "feature": "Dokumentation und Adoption",
+    "status": "Teilweise",
+    "evidence": "README, Plan, Forschungsberichte; getrennte OKF-v0.2-Bundles für Engineering/Public mit Quellinventar, API-/Schema-Referenzen, ursprünglich 408 AC und 15 tatsächlichen UI-Aufnahmen; M7 erweitert auf 435 AC und drei zusätzlich buildgebundene Effektbilder und offline lesbaren Handbüchern; Engineering und Bedienungsanleitung direkt unten in der Studio-Navigation mit statischen Same-Origin-Handbüchern; kuratierte GitHub-README aus OKF mit vier Originalbildern, zwei Mermaid-Grafiken und überprüften Einstiegen; recherchierte Usability-/GPU-Nutzenargumentation mit konstruktiven Grenzen und getrennten Zukunftsoptionen; eigene portable Kapitel „Warum Fluid UI?“ in beiden OKF-Bundles",
+    "remaining": "vollständige Tutorial-Integrationstests, veröffentlichbare Hardwarebenchmarks und Adoption; eigene Referenzkorpora T56/T57; menschliche Knowledge-Fachfreigabe"
+  },
+  "T39": {
+    "feature": "Anatomy-/Behavior-Verträge",
+    "status": "Proof",
+    "evidence": "Schema und negative Part-/Behavior-Tests",
+    "remaining": "alle späteren Komponenten separat qualifizieren"
+  },
+  "T40": {
+    "feature": "State Ownership und Change Requests",
+    "status": "Proof",
+    "evidence": "getrennte Stores, Cancel/Reasons und Assignment-Tests",
+    "remaining": "produktive Host-Integration separat qualifizieren"
+  },
+  "T41": {
+    "feature": "Presence und Animation",
+    "status": "Teilweise",
+    "evidence": "Presentationsphase, Exit-Presence und Unterbrechung",
+    "remaining": "komplexe Popup-Presence und vollständige GPU-Tests"
+  },
+  "T42": {
+    "feature": "Studio mit Base UI",
+    "status": "Proof",
+    "evidence": "Base-UI-Buttons/Tabs/Dialog und Keyboardprüfung; gemeinsame native Studio-Controls, deutsche Zahlen/Labels und explizite Label-Zuordnung",
+    "remaining": "weitere Studio-Komponenten sowie mobile/assistive Bedienung qualifizieren"
+  },
+  "T43": {
+    "feature": "Konsistenz und Conformance",
+    "status": "Teilweise",
+    "evidence": "vollständige Task-/Milestone-/Release-AC-Matrix mit Quelltext- und Evidenzhashes",
+    "remaining": "laufende Nachweise für alle offenen Produktkriterien; Plan v2.3 und neue T50–T58 mit denselben Nachweisregeln nachführen"
+  },
+  "T44": {
+    "feature": "Adaptive Datenoberfläche",
+    "status": "Teilweise",
+    "evidence": "M2/M3: echte Daten, Sortierung, vier GPU-Ansichten; erweiterte Map-Geometrietests und Browserprüfung",
+    "remaining": "vollständige Interaktions-/Accessibility-Matrix und große virtuelle Tabellen"
+  },
+  "T45": {
+    "feature": "RP1-Fortsetzung",
+    "status": "Teilweise",
+    "evidence": "validierte Projektionen, Motion und Recovery; viewporttreues Replay v2, Textregionen und lesbare Choreografie",
+    "remaining": "übrige vollständige RP1-Gates"
+  },
+  "T46": {
+    "feature": "Backend-Transparenz",
+    "status": "Proof",
+    "evidence": "Backend-Badge folgt realem Renderer; Verlust/Fehler löscht vorherige Aktiv-Metrik sofort",
+    "remaining": "breite Initialisierungs-/Recovery-/Fallback-Fehlermatrix"
+  },
+  "T47": {
+    "feature": "TypeGPU-Qualifikation",
+    "status": "Teilweise",
+    "evidence": "M3: gepinnter Vite-Kernelbuild, SDF-Invarianten und realer 8-Punkt-GPU-Readback; Three/Glyph und GLSL-Pfad geprüft; M7: korrigierter echter GLSL-Graph, 8-Panel-/8-Linsen-GPU-Readback, separate GPU-/GL2-Sequenzen",
+    "remaining": "breite Hardware-/Treiber-/Lifecycle-Matrix und vergleichende Performance-/Speichermessung; weitere Verdichtung des sichtbaren Showcase-Effektdocks mit T55 prüfen; M7: lokale neue Effekt-/Backendnachweise vorhanden; manuelle Eingabe-, Live-Resize-, Fehlerpfad- und geräteübergreifende Freigabe verbleiben gemäß M7-Matrix"
+  },
+  "T48": {
+    "feature": "Effektmodell und Auswahl-Policies",
+    "status": "Proof",
+    "evidence": "Zod-Verträge, Resolver, Prioritäten, deterministische Auswahl, Policy-/Rezeptversion und Replay; Domain bleibt atomar; M7: sechs versionierte Rezepte, explizite Presets, unveränderte alte Random-Pools und v2/v3-Importadapter",
+    "remaining": "separate Choreografiegruppen und persistente vollständige Run-Pipeline; Story-Kausalität T52 getrennt von Effektwahl erhalten; M7: lokale neue Effekt-/Backendnachweise vorhanden; manuelle Eingabe-, Live-Resize-, Fehlerpfad- und geräteübergreifende Freigabe verbleiben gemäß M7-Matrix"
+  },
+  "T49": {
+    "feature": "Studio- und Showcase-Effekt-Library",
+    "status": "Teilweise",
+    "evidence": "M3: drei Rezepte, GPU-Effektleiste, gemeinsamer VisualState, Parameter, Timeline und visueller Szenarioexport/-import; M7: sechs responsive Rezepte, bewusste Presetübernahme und eigene Vier-Stationen-Vorführung implementiert; M7a Desktop und 390 px im Browser durchgelaufen, Einstellungserhalt nach Ende geprüft; /studio/m7 mit 18 Ansichtswechseln je tatsächlicher Breite/Backend, frischen Surface-/Privacy-Proben und Motion-/Visibility-Berichten",
+    "remaining": "Grafisches Transition-Regel-Authoring, persistente Projektkonfiguration, automatisierter Run-Vergleich und gemeinsame Story-/Frame-/Befundansichten T55."
+  },
+  "T50": {
+    "feature": "Design-Brief und Storyvertrag",
+    "status": "Teilweise",
+    "evidence": "Zod-StoryDefinition, echter Workspace-Brief mit fünf Beats, Runner und abgewiesene Ziel-/Guard-/Revisionfehler; M6-Nachweise 2026-11-02",
+    "remaining": "Szenarioreferenz-Compiler, vollständiger Preflight aller zukünftigen Parts, Illustration-/Poster-Authoring"
+  },
+  "T51": {
+    "feature": "Gemeinsame Theme- und Design-Tokens",
+    "status": "Teilweise",
+    "evidence": "ThemeDefinition 1.0.0 mit sRGB/px/ms; generierte CSS-Rollen, abgeleitete Lesbarkeitstokens und erste GPU-Farbrollen; M6-Nachweise 2026-11-02",
+    "remaining": "Alle bestehenden Farb-/Spacing-/Radius-/Motionwerte migrieren; benannten Importteilumfang und Asset-/Fontversionierung vervollständigen"
+  },
+  "T52": {
+    "feature": "Kausale Choreografie und gemessene Ziele",
+    "status": "Teilweise",
+    "evidence": "Fünf echte Events mit Beat-/Event-/Revisions-/Effekt-ID; gemessene Parts, Hover statt Fokusübernahme, Pause/Einzelschritt/offscreen-Stopp; M6-Nachweise 2026-11-02",
+    "remaining": "Vollständiger Effektplan-/Framebezug, Cursor/Anker, Reduced-Motion-/Retargeting- und Geräteprofile qualifizieren"
+  },
+  "T53": {
+    "feature": "Responsive Komposition und Präsentationsprojektion",
+    "status": "Teilweise",
+    "evidence": "Responsive Werkstatt und echte GPU-Surface; 12 Endpunktprüfungen bei 320/390/768/1280 px ohne Textfehler oder Seitenüberlauf; M6-Nachweise 2026-11-02",
+    "remaining": "Allgemeiner PresentationProjection-Vertrag mit Clip/Inverse, Kamera und vollständiger Eingabe-/Scroll-/DPR-Matrix"
+  },
+  "T54": {
+    "feature": "Zeitliche GPU-Rehearsal",
+    "status": "Teilweise",
+    "evidence": "Historische selected-frame-Aufnahmen bleiben entsprechend begrenzt. M7: vollständige deterministische 67-Frame-Folgen lokal auf WebGPU/WebGL2; numerische Text-/Geometrie-/Endpunktchecks plus getrennte Originalphasen-Review, 100 Replay-/100 Retargetzyklen und warme Scheduler-Messungen mit Build-/Gerätebezug; M7 final81: 144 Fälle mit fünf Checkpoints auf vier tatsächlichen Browserbreiten und zwei Backends; 720 PNG-Integritätschecks, 288 Endpunkte und begründete Originalbildreview · gebundene Originalframes im lokalen Rehearsal R5: Live-Export bindet Originalbild, Frame, Run und Datenstand. AC-Download prüft die registrierten Bytes vor der Auslieferung.",
+    "remaining": "Weitere Browser-/Hardwareprofile, GPU-/Compositorzuordnung, zeitliche Pixel-/Drift-/Loopanalyse, unabhängige menschliche Freigabe und vollständiger CI-Rehearsalrunner. Fünf Kontrollphasen der M7-Matrix ersetzen keine vollständige Bildfolge."
+  },
+  "T55": {
+    "feature": "Studio-Qualitätswerkstatt und Beat-Inspector",
+    "status": "Teilweise",
+    "evidence": "Fünf Studio-Prüfbereiche, Storysteuerung, reale Bildaufnahme, lokaler Referenz-/Kandidatenvergleich, Qualitäts- und Runexport; M6-Nachweise 2026-11-02; menschliche AI-Befundbewertung mit Begründung und validiertem Reviewexport; M7: Bildfolgen und Diagnoseberichte in der Motion-Ansicht integriert",
+    "remaining": "Persistente unveränderliche Runs, validierte Run-/Frame-/Part-URLs, Partnavigation, Authoring/Undo und durchgängiger CI-Rehearsalrunner; M7: lokale neue Effekt-/Backendnachweise vorhanden; manuelle Eingabe-, Live-Resize-, Fehlerpfad- und geräteübergreifende Freigabe verbleiben gemäß M7-Matrix"
+  },
+  "T56": {
+    "feature": "Referenzkorpus und kontrollierter Qualitätsvergleich",
+    "status": "Geplant",
+    "evidence": "Recherche 2026-11-02, ADR-0006, bewertete Optionen und M6-Vertrag; keine Runtime-Abnahme",
+    "remaining": "Vertrag, Implementierung und vollständige Einzel-AC gemäß Plan v2.3 umsetzen und qualifizieren; M7: vollständige visuelle, zeitliche und Backend-/Eingabequalifikation nach docs/milestones/m7-plan.md"
+  },
+  "T57": {
+    "feature": "Design-Regressions- und Review-Lernschleife",
+    "status": "Teilweise",
+    "evidence": "Fokusübernahme und Sticky-Fehlalarm auf Ursachenebene korrigiert; Gut-/Fehlkontrollen und Vorher-/Nachher-Endpunktmatrix; M6-Nachweise 2026-11-02; M7: unabhängige Integrationsreview mit Datenschutz-, Replay-, Eingabe-, Hit-Test- und Resize-Ursachen, reine Regressionstests; erste echte M7-Sequenzen deckten Ghost-Labels, Lens-Anker und Replay-Ruckler auf; Korrekturen mit gebundenen reinen Regressionen nachgeprüft; reale Bildreview deckte Linsen-Y-Inversion und GL2-Kompilierungsfehler auf, Eingabeprüfung fehlende Glyph-Layout-Commit-/Selection-Sichtbarkeit; Korrekturen erhalten eigene Build-/Testnachweise; Nov4: fehlende JP-Glyphen, Langtext-Ellipse und veralteter History-Clip als konkrete Ursachen reproduziert; Font-/Input-/Historykorrekturen mit neuen Regressionen, negative f0-Historynachweise bleiben archiviert; finale lokale Nachprüfung schließt acht M7-Scope-Kriterien mit unveränderter kanonischer Formulierung, Originalartefakten und getrennten Vertrauens-/Gerätegrenzen",
+    "remaining": "Persistentes Issue-/Regressionsregister, unabhängige menschliche Review und systematische Nachbar-/Langzeitfälle; allgemeine Hardware-/AT- und weitere IME-Profile bleiben offen."
+  },
+  "T58": {
+    "feature": "Multimodale AI-Designanalyse",
+    "status": "Teilweise",
+    "evidence": "Direktes OpenAI über Vercel AI SDK; qualifiziertes Visionmodell, tatsächliche Inputzählung, reale GPU-Live-Analyse, Referenzprüfung, explizite Freigabe, bewerteter Export, Usage und lokale Schutzgrenzen (2026-11-02); zweite Live-Prüfung auf Tabelle/Detail, ein adversarieller Brief-Test und zwölf fehler-/warnungsfreie Layout-Endpunkte auf Build b383",
+    "remaining": "Breite Live-Evaluation/Prompt-Injection-Korpus, Pixelmaskierung, prüfbare Änderungsdiffs, persistente/verteilte Budget- und Projektberechtigungen qualifizieren"
+  },
+  "T59": {
+    "feature": "Komponentenverträge und Inventar",
+    "status": "Proof",
+    "evidence": "Kanonische Multipart-Schemas und Referenzprüfung, kontrollierte Werte/Parts/Fokus-/Presspflichten; öffentliches SDK-Importinventar mit Versionen, Lizenzen, Transitiven und Headless-/SSR-Smokes vorhanden.",
+    "remaining": "Im lokalen M8-Vertrag qualifiziert; Erweiterungen benötigen eigene Part-/Semantik-/Kompatibilitätsnachweise, keine allgemeine Komponentenbibliotheksfreigabe."
+  },
+  "T60": {
+    "feature": "Gemeinsames Layout und dargestellte Interaktionsgeometrie",
+    "status": "Proof",
+    "evidence": "Gemeinsamer Yoga-/Layoutvertrag und pro Frame dargestellte native Ziele; M8-Matrix dfc mit 144 Fällen/720 Kontrollpunkten und maximal 0,007812 CSS-px Zielabweichung; getrennte DPR2-Ergänzung vorhanden. · UI-SDK-Collection-Adapter und Studiovergleich mit Beta.13 R3: identische 40 Tests für UI SDK Beta.1 und Beta.13. Tastatur, Dialog-Fokusrückkehr und Bibliothekswechsel im Studio-Browser geprüft.",
+    "remaining": "Lokaler Geometrie-/Eingabescope qualifiziert. Seeds unterscheiden sich zwischen Matrixläufen; kein Same-Seed-Pixelvergleich und keine breite Hardwarefreigabe."
+  },
+  "T61": {
+    "feature": "Selection-/Typeahead-Pilot und sichtbarer Multipart-GPU-Proof",
+    "status": "Proof",
+    "evidence": "Reale Table-/Cards-/Map-Daten, stabile Mehrfachauswahl, Range-Anker, Typeahead, nichtmodaler Inspector und drei deterministische M7-Effekte implementiert; gezielte Core-/DOM-Tests und aktuelle Matrix vorhanden. Native Desktop-/390px-Journeys besitzen tatsächlich heruntergeladene gleiche-Run-PNG-/Trace-/Geometriearchive; je 45 native Ziele ohne Abweichung.",
+    "remaining": "Sechs M8-Kriterien im lokalen Scope qualifiziert; breite AT-/IME-/Mobile-Abnahmen bleiben eigene Produktgates."
+  },
+  "T62": {
+    "feature": "UI SDK und Base UI im Studio vergleichen",
+    "status": "Proof",
+    "evidence": "Öffentliche UI-SDK-/Base-UI-Tabs, Select und Dialog steuern denselben Core/Preview. Eigener nativer Vergleich inklusive korrigierter Keyboardherkunft, Dialogfokus/Tab/Escape und fokussierbarem inaktivem Detail bestanden. Teileentscheidung: Base UI für Studio beibehalten, SDK-DOM im Labor; öffentliche SDK-Selection übernehmen, Typeahead selbst. Isolierter gleicher Bundlelauf: kombiniert +16779 gzip Bytes für UI SDK.",
+    "remaining": "Lokaler Vergleich und Teileentscheidung qualifiziert; spätere Versionen separat prüfen. Kein vollständiges Next-Anwendungsdelta oder allgemeiner Bibliotheksgewinner."
+  },
+  "T63": {
+    "feature": "Begrenzte Fluid-Agentbridge",
+    "status": "Proof",
+    "evidence": "Default-deny Fluid-Agent-Bridge mit Scope/Revision/Policy/TTL, redigierten lesenden Queries, atomaren lokalen Batches und ausdrücklich freigegebenen geordneten Hostaktionen; Negativ-/Reentranztests und ehrliche Commit-Receipts implementiert.",
+    "remaining": "Lokaler API-/Policy-Vertrag qualifiziert; durable organisationsweite Idempotenz/Rechte und produktive Hosttransaktionen sind separate Produktarbeit."
+  },
+  "T64": {
+    "feature": "Entwicklungsagent und deklarativer Studioentwurf",
+    "status": "Proof",
+    "evidence": "Registrierte GPU-Komposition, manueller Editor, serverseitiger Vercel-AI-SDK-Stream, echter Typecheck/Preflight, Diff, isolierte Kandidatenruntime und bewusster Apply implementiert. Eigener lokaler OpenAI-/WebGPU-Workflow mit Auswahl-/Notizerhalt; UI-/Controller-Negativtests und native Fehler-/Dirty-Note-Prüfungen belegt.",
+    "remaining": "Lokaler registrierter Authoring-Scope qualifiziert. Historischer Live-Providerlauf und spätere Quellrequalifikationen bleiben getrennt; keine allgemeine Agentur-/Persistenz-/Deployfreigabe."
+  },
+  "T65": {
+    "feature": "Conformance, Vergleich und Entscheidung dokumentieren",
+    "status": "Proof",
+    "evidence": "M8-Matrix 144 Fälle/720 Checkpoints, eigene DPR2-Ergänzung, sieben visuell geprüfte Originalbilder, native Bibliotheksvergleiche, isolierter Bundlevergleich und getrennte Echtzeit-/Lastdiagnosen; final 544 Tests/59 Dateien und erfolgreiche Builds. Beide OKF-Handbücher, generierte Referenzen und Exporte geprüft; Dokumentationsabschluss separat gebunden. Mess-/Vergleichsauftrag einschließlich negativer Last-/Budgetbewertung unabhängig abgeschlossen; 41 von 41 M8-Kriterien lokal nachgewiesen. · sichtbarer Draft als Basis, serverseitiger Datenhash und Budgetreservierung R4: lokaler Entwurf, Preflight, Modellvorschlag und ausdrückliche Übernahme teilen Revisions- und Datenbindung. Dauerhafte Reservierungen für Authoring und Review.",
+    "remaining": "Positiver T29-Leistungsnachweis und breite Produktions-/Gerätefreigaben bleiben offen. RAF-Nachmessung P95 maximal 17,6 ms / Maximum 66,7 ms, Budget failed; Last contaminated/not-qualified. T65-Messabnahme ändert diese Resultate nicht."
+  },
+  "T66": {
+    "feature": "Flow Explorer und lokaler Architektur-Review",
+    "status": "Proof",
+    "evidence": "Eigener deklarierter Review-Flow mit beiden Entscheidungspfaden, gemeinsamer GPU-/Mermaid-Projektion, tatsächlicher Ereignisspur und gebundenem Originalbildexport implementiert. Gezielte Flow-/Font-/Exporttests vorhanden; Desktop- und Kompaktbrowserpfade separat geprüft. Lokaler M9-Proof auf Build fluid-5efc7ce43b5669cc30e9; Desktop-/390px-Originalbilder, zusammen sechs visuell geprüfte GPU-Aufnahmen ohne Textüberlappungen. 608 Tests in 67 Dateien bestehen; vier aktuelle Qualitätsberichte enthalten null Fehler und null Warnungen. Abschlussbeleg: docs/qa/2026-11-14-m9/final-verification.json.",
+    "remaining": "Lokaler M9-Scope mit 21 von 21 Kriterien und beiden Handbuchexporten nachgewiesen. Allgemeine Hardware-/AT-/IME-, positive T29-Leistungs- und Produktionsfreigaben bleiben separat. Keine Hochstufung historischer M7-/M8-Nachweise."
+  },
+  "T67": {
+    "feature": "Vergleichsarbeitsfläche mit realen Moduldaten",
+    "status": "Proof",
+    "evidence": "Zwei bis vier gewählte Module, echte Metriken und Dependency-Schnittmengen, explizite Vorschlagsaktion, Unterschiedefilter und responsive Darstellung implementiert. Auswahl bleibt im vorhandenen Workspace-Core; aktuelle Eingabe-/History-/Browsernachweise separat gebunden. Lokaler M9-Proof auf Build fluid-5efc7ce43b5669cc30e9; Desktop-/390px-Originalbilder, zusammen sechs visuell geprüfte GPU-Aufnahmen ohne Textüberlappungen. 608 Tests in 67 Dateien bestehen; vier aktuelle Qualitätsberichte enthalten null Fehler und null Warnungen. Abschlussbeleg: docs/qa/2026-11-14-m9/final-verification.json.",
+    "remaining": "Lokaler M9-Scope mit 21 von 21 Kriterien und beiden Handbuchexporten nachgewiesen. Allgemeine Hardware-/AT-/IME-, positive T29-Leistungs- und Produktionsfreigaben bleiben separat. Keine Hochstufung historischer M7-/M8-Nachweise."
+  },
+  "T68": {
+    "feature": "Proportionaler Workspace-Atlas",
+    "status": "Proof",
+    "evidence": "Deterministische Flächen nach tatsächlichen Dateien oder Codezeilen, Gruppenfokus/Breadcrumb und bedienbare Liste kleiner oder gewichtloser Module implementiert. Reine Layout-/Datenprüfungen und erste Originalaufnahme vorhanden; aktuelle Browser-/URL-Pfade separat geprüft. Lokaler M9-Proof auf Build fluid-5efc7ce43b5669cc30e9; Desktop-/390px-Originalbilder, zusammen sechs visuell geprüfte GPU-Aufnahmen ohne Textüberlappungen. 608 Tests in 67 Dateien bestehen; vier aktuelle Qualitätsberichte enthalten null Fehler und null Warnungen. Abschlussbeleg: docs/qa/2026-11-14-m9/final-verification.json.",
+    "remaining": "Lokaler M9-Scope mit 21 von 21 Kriterien und beiden Handbuchexporten nachgewiesen. Allgemeine Hardware-/AT-/IME-, positive T29-Leistungs- und Produktionsfreigaben bleiben separat. Keine Hochstufung historischer M7-/M8-Nachweise."
+  },
+  "T69": {
+    "feature": "Wählbare Farbwelten und M9-Qualifikation",
+    "status": "Proof",
+    "evidence": "Blau, sieben weitere Paletten und eigener Hex-Akzent, gemeinsame CSS-/GPU-Rollen, lokale Präferenzen mit Fehlermeldungen und unveränderte Replayfarben implementiert. Rollen-Kontrasttests mit Weiß/Schwarz sowie React/Core-/Storage-Tests bestanden; historische Evidence-Pfade wurden nur auf bytegleiche Archive umgestellt. Lokaler M9-Proof auf Build fluid-5efc7ce43b5669cc30e9; Desktop-/390px-Originalbilder, zusammen sechs visuell geprüfte GPU-Aufnahmen ohne Textüberlappungen. 608 Tests in 67 Dateien bestehen; vier aktuelle Qualitätsberichte enthalten null Fehler und null Warnungen. Abschlussbeleg: docs/qa/2026-11-14-m9/final-verification.json.",
+    "remaining": "Lokaler M9-Scope mit 21 von 21 Kriterien und beiden Handbuchexporten nachgewiesen. Allgemeine Hardware-/AT-/IME-, positive T29-Leistungs- und Produktionsfreigaben bleiben separat. Keine Hochstufung historischer M7-/M8-Nachweise."
+  }
+}

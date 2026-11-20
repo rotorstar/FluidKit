@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "scope": "Byte-identical copies of registered public original GPU canvas frames; no additional capture or qualification.",
+  "screenshots": [
+    {
+      "id": "m9-flow-1280",
+      "file": "assets/m9-flow-1280.png",
+      "caption": "Flow Explorer im Zustand Abwägen mit echtem Modulkontext; Original-GPU-Fläche bei 1280px Browserbreite, blaue Palette, 14. November 2026.",
+      "capturedAt": "2026-11-14T06:20:26.993Z",
+      "sourceBuild": "fluid-5efc7ce43b5669cc30e9",
+      "backend": "webgpu",
+      "pageTitle": "Flow Explorer · Fluid Studio",
+      "route": "/studio/flows?module=core",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 1194,
+        "height": 818,
+        "dpr": 1
+      },
+      "encoding": "image/png",
+      "sha256": "0a7a9a54bd99a4006143e13d9789412a1e0014ecbdefea829f441772cfa6e7c8",
+      "captureScope": "original-canvas-frame, not surrounding DOM or motion sequence",
+      "originalBundle": "public",
+      "sourceFile": "knowledge/public/assets/m9-flow-1280.png"
+    },
+    {
+      "id": "m9-compare-1280",
+      "file": "assets/m9-compare-1280.png",
+      "caption": "Vergleich von core, react und webgpu mit tatsächlichen Manifestwerten; Original-GPU-Fläche bei 1280px Browserbreite, blaue Palette, 14. November 2026.",
+      "capturedAt": "2026-11-14T06:20:53.702Z",
+      "sourceBuild": "fluid-5efc7ce43b5669cc30e9",
+      "backend": "webgpu",
+      "pageTitle": "Fluid Studio — Adaptive workspace",
+      "route": "/?view=compare&sort=name&direction=asc&selected=core&group=all&picked=core&picked=react&picked=webgpu",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 1004,
+        "height": 1234,
+        "dpr": 1
+      },
+      "encoding": "image/png",
+      "sha256": "685b4a5ff5a71428a3ee6654138637f270d51dc437dd390f79f97e7db68c09f9",
+      "captureScope": "original-canvas-frame, not surrounding DOM or motion sequence",
+      "originalBundle": "public",
+      "sourceFile": "knowledge/public/assets/m9-compare-1280.png"
+    }
+  ]
+}

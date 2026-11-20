@@ -1,0 +1,32 @@
+{
+  "name": "@fluidkit/studio",
+  "version": "0.2.0-alpha.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1",
+    "predev": "node ../../scripts/build-gpu-kernels.mjs && node --import tsx ../../scripts/check-design.ts && node --import tsx ../../scripts/knowledge/publish.ts",
+    "prebuild": "node --import tsx ../../scripts/check-design.ts && node --import tsx ../../scripts/knowledge/publish.ts"
+  },
+  "dependencies": {
+    "@base-ui/react": "1.9.0",
+    "@fluidkit/cases": "*",
+    "@fluidkit/contracts": "*",
+    "@fluidkit/core": "*",
+    "@fluidkit/effects": "*",
+    "@fluidkit/i18n": "*",
+    "@fluidkit/intelligence": "*",
+    "@fluidkit/react": "*",
+    "@fluidkit/server": "*",
+    "@fluidkit/testing": "*",
+    "@fluidkit/webgpu": "*",
+    "@next/env": "16.4.6",
+    "@ui-sdk/react": "0.1.0-beta.13",
+    "next": "16.4.6",
+    "react": "19.2.9",
+    "react-dom": "19.2.9"
+  }
+}

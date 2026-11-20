@@ -1,0 +1,23 @@
+{
+  "sourceBuild": "fluid-0f80b42806fab50ea044",
+  "backend": "webgpu",
+  "frames": [
+    {
+      "phase": 0,
+      "file": "phase-000.png",
+      "sha256": "27c9f7a7191f744dc61ff0e90c162158eeacbfda1183ea7095b35f226d35195c"
+    },
+    {
+      "phase": 0.5,
+      "file": "phase-050.png",
+      "sha256": "2e51458449636c724f5039a51f04c059fe029c1cc29133016e753fcf3e3187e2"
+    },
+    {
+      "phase": 1,
+      "file": "phase-100.png",
+      "sha256": "4d5749660667b2a179f21e9e6b1d557ee8d570251f70b1edad1436068c00d2a4"
+    }
+  ],
+  "sourceReport": "docs/qa/2026-11-20-r2/browser-production-0f80b428/webgpu-split/report.json",
+  "method": "Three original composited browser captures uniformly scaled to fit. Captions added outside the image."
+}

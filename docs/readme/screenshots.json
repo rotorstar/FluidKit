@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "captureScope": "Original UI stills; no claim of continuous motion or full hardware qualification.",
+  "screenshots": [
+    {
+      "id": "workspace-cards",
+      "file": "assets/workspace-cards.jpg",
+      "caption": "Fünf echte Kernelmodule als Karten; WebGPU aktiv und Effektsteuerung im selben Workspace.",
+      "capturedAt": "2026-11-02T11:11:44.032Z",
+      "sourceBuild": "fluid-82e1541dee9b5ad0e8b2",
+      "captureMethod": "native-viewport-no-image-editing",
+      "backend": "WebGPU aktivWEBGPU DEFAULT",
+      "domain": "cards / r1",
+      "route": "/?view=cards&sort=name&direction=asc&selected=webgpu&group=Kernel",
+      "viewport": {
+        "dpr": 1,
+        "height": 1000,
+        "width": 1280
+      }
+    },
+    {
+      "id": "workspace-table",
+      "file": "assets/workspace-table.jpg",
+      "caption": "Dieselben fünf Kernelmodule als sortierbare Tabelle; Auswahl und Filter bleiben erhalten.",
+      "capturedAt": "2026-11-02T11:11:59.488Z",
+      "sourceBuild": "fluid-82e1541dee9b5ad0e8b2",
+      "captureMethod": "native-viewport-no-image-editing",
+      "backend": "WebGPU aktivWEBGPU DEFAULT",
+      "domain": "table / r2",
+      "route": "/?view=table&sort=name&direction=asc&selected=webgpu&group=Kernel",
+      "viewport": {
+        "dpr": 1,
+        "height": 1000,
+        "width": 1280
+      }
+    },
+    {
+      "id": "workspace-map",
+      "file": "assets/workspace-map.jpg",
+      "caption": "Dieselben fünf Kernelmodule als Dependency Map; die sieben Kanten stammen aus echten internen Paketabhängigkeiten.",
+      "capturedAt": "2026-11-02T11:12:14.377Z",
+      "sourceBuild": "fluid-82e1541dee9b5ad0e8b2",
+      "captureMethod": "native-viewport-no-image-editing",
+      "backend": "WebGPU aktivWEBGPU DEFAULT",
+      "domain": "map / r3",
+      "route": "/?view=map&sort=name&direction=asc&selected=webgpu&group=Kernel",
+      "viewport": {
+        "dpr": 1,
+        "height": 1150,
+        "width": 1280
+      }
+    },
+    {
+      "id": "studio-ai-review",
+      "file": "../../knowledge/public/assets/ai-review.jpg",
+      "caption": "Echte OpenAI-Analyse im Studio; unveränderte Aufnahme des dokumentierten Live-Tests.",
+      "capturedAt": "2026-11-02T08:18:33.305Z",
+      "sourceBuild": "fluid-b383e3697f017257a779",
+      "route": "/studio/rehearsal",
+      "viewport": {
+        "width": 1174,
+        "height": 1314,
+        "dpr": 2
+      },
+      "origin": "prior-verified-live-run",
+      "captureMethod": "original-native-jpeg",
+      "provenance": "Dokumentierter OpenAI-Live-Test, vor Erstellung dieses Handbuchs.",
+      "encoding": "image/jpeg",
+      "reusedFrom": "knowledge/public/assets/screenshots.json#ai-review"
+    },
+    {
+      "id": "m9-flow-1280",
+      "file": "assets/m9-flow-1280.png",
+      "caption": "Flow Explorer im Zustand Abwägen mit echtem Modulkontext; Original-GPU-Fläche bei 1280px Browserbreite, blaue Palette, 14. November 2026.",
+      "capturedAt": "2026-11-14T06:20:26.993Z",
+      "sourceBuild": "fluid-5efc7ce43b5669cc30e9",
+      "backend": "webgpu",
+      "pageTitle": "Flow Explorer · Fluid Studio",
+      "route": "/studio/flows?module=core",
+      "viewport": {
+        "width": 1280,
+        "height": 900,
+        "dpr": 1
+      },
+      "surface": {
+        "width": 1194,
+        "height": 818,
+        "dpr": 1
+      },
+      "encoding": "image/png",
+      "sha256": "0a7a9a54bd99a4006143e13d9789412a1e0014ecbdefea829f441772cfa6e7c8",
+      "captureScope": "original-canvas-frame, not surrounding DOM or motion sequence",
+      "captureMethod": "Original GPU canvas export, byte-identical to registered Public asset; not surrounding Studio DOM"
+    }
+  ]
+}

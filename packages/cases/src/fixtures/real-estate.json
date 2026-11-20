@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "real-estate",
+  "source": {
+    "schemaVersion": 1,
+    "id": "fluid-real-estate-simulation",
+    "version": "1",
+    "mode": "synthetic",
+    "provider": "Fluid Simulation",
+    "label": "Simulation · synthetische Daten · keine realen Angebote",
+    "asOf": "2026-11-01T12:00:00Z",
+    "simulation": true
+  },
+  "records": [
+    {
+      "kind": "property",
+      "id": "sim-home-01",
+      "title": "Altbau mit Hofbalkon",
+      "city": "Berlin",
+      "summary": "3 Zimmer · 78 m² · Prenzlauer Berg",
+      "priceMinor": 159000,
+      "currency": "EUR",
+      "available": true,
+      "district": "Prenzlauer Berg",
+      "areaM2": 78,
+      "rooms": 3,
+      "serviceChargeMinor": 29500,
+      "depositMinor": 477000,
+      "energyClass": "B",
+      "features": [
+        "Balkon",
+        "Einbauküche"
+      ]
+    },
+    {
+      "kind": "property",
+      "id": "sim-home-02",
+      "title": "Helle Stadtwohnung",
+      "city": "Hamburg",
+      "summary": "2 Zimmer · 64 m² · Eimsbüttel",
+      "priceMinor": 132000,
+      "currency": "EUR",
+      "available": true,
+      "district": "Eimsbüttel",
+      "areaM2": 64,
+      "rooms": 2,
+      "serviceChargeMinor": 24000,
+      "depositMinor": 396000,
+      "energyClass": "C",
+      "features": [
+        "Aufzug",
+        "Abstellraum"
+      ]
+    },
+    {
+      "kind": "property",
+      "id": "sim-home-03",
+      "title": "Familienwohnung am Park",
+      "city": "Leipzig",
+      "summary": "4 Zimmer · 104 m² · Schleußig",
+      "priceMinor": 124500,
+      "currency": "EUR",
+      "available": true,
+      "district": "Schleußig",
+      "areaM2": 104,
+      "rooms": 4,
+      "serviceChargeMinor": 32000,
+      "depositMinor": 373500,
+      "energyClass": "D",
+      "features": [
+        "Balkon",
+        "Einbauküche"
+      ]
+    },
+    {
+      "kind": "property",
+      "id": "sim-home-04",
+      "title": "Studio im Innenhof",
+      "city": "Berlin",
+      "summary": "1 Zimmer · 38 m² · Moabit",
+      "priceMinor": 79000,
+      "currency": "EUR",
+      "available": false,
+      "district": "Moabit",
+      "areaM2": 38,
+      "rooms": 1,
+      "serviceChargeMinor": 15000,
+      "depositMinor": 237000,
+      "energyClass": "B",
+      "features": [
+        "Aufzug",
+        "Abstellraum"
+      ]
+    },
+    {
+      "kind": "property",
+      "id": "sim-home-05",
+      "title": "Maisonette mit Dachterrasse",
+      "city": "Köln",
+      "summary": "4 Zimmer · 112 m² · Sülz",
+      "priceMinor": 185000,
+      "currency": "EUR",
+      "available": true,
+      "district": "Sülz",
+      "areaM2": 112,
+      "rooms": 4,
+      "serviceChargeMinor": 38000,
+      "depositMinor": 555000,
+      "energyClass": "C",
+      "features": [
+        "Balkon",
+        "Einbauküche"
+      ]
+    },
+    {
+      "kind": "property",
+      "id": "sim-home-06",
+      "title": "Kompakte Gartenwohnung",
+      "city": "Dresden",
+      "summary": "2 Zimmer · 56 m² · Striesen",
+      "priceMinor": 72000,
+      "currency": "EUR",
+      "available": true,
+      "district": "Striesen",
+      "areaM2": 56,
+      "rooms": 2,
+      "serviceChargeMinor": 18000,
+      "depositMinor": 216000,
+      "energyClass": "D",
+      "features": [
+        "Aufzug",
+        "Abstellraum"
+      ]
+    },
+    {
+      "kind": "property",
+      "id": "sim-home-07",
+      "title": "Loft mit Arbeitsbereich",
+      "city": "Düsseldorf",
+      "summary": "3 Zimmer · 89 m² · Flingern",
+      "priceMinor": 143000,
+      "currency": "EUR",
+      "available": true,
+      "district": "Flingern",
+      "areaM2": 89,
+      "rooms": 3,
+      "serviceChargeMinor": 29000,
+      "depositMinor": 429000,
+      "energyClass": "B",
+      "features": [
+        "Balkon",
+        "Einbauküche"
+      ]
+    },
+    {
+      "kind": "property",
+      "id": "sim-home-08",
+      "title": "Ruhige Wohnung am Fluss",
+      "city": "Bremen",
+      "summary": "3 Zimmer · 71 m² · Neustadt",
+      "priceMinor": 91000,
+      "currency": "EUR",
+      "available": true,
+      "district": "Neustadt",
+      "areaM2": 71,
+      "rooms": 3,
+      "serviceChargeMinor": 21000,
+      "depositMinor": 273000,
+      "energyClass": "C",
+      "features": [
+        "Aufzug",
+        "Abstellraum"
+      ]
+    }
+  ]
+}
