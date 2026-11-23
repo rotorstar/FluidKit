@@ -74,8 +74,11 @@ stateDiagram-v2
     Hybrid --> Manual: mode.set
 ```
 
-Der Diagrammteil „DecisionPlan“ beschreibt implementierte Core-Regeln. Er belegt
-keine vorhandene Intent-/Providerpipeline; `intelligence` liefert derzeit nur den
-Providervertrag. Die Studio-Designanalyse ist ein separater Advisory-Pfad.
+Der Diagrammteil „DecisionPlan“ beschreibt die Core-Regeln für Modellvorschläge.
+Im [Workspace](workspace-case.md) besitzt `intelligence` außerdem einen lokalen
+Ranker. Er kann aus bestätigten Modulbesuchen einen Vergleich ableiten. Nimmt die
+Person den Vorschlag in Hybrid an, setzt die autorisierte Core-Transaktion beide
+Modul-IDs und öffnet den Vergleich. Die optionale Studio-Designanalyse beurteilt
+separat ausdrücklich ausgewählte Bilder.
 
 [^implementation]: Implementierung und SHA-256-Dateibindung im Quellinventar.

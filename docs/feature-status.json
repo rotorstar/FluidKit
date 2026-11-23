@@ -121,9 +121,9 @@
   },
   "T21": {
     "feature": "Intent-Runtime",
-    "status": "Geplant",
-    "evidence": "noch kein Implementierungsnachweis",
-    "remaining": "Acceptance Criteria des Gesamtplans"
+    "status": "Teilweise",
+    "evidence": "Workspace: lokale Erkennung eines Vergleichswunsches aus wiederholten Modulöffnungen, Kandidatenpaare mit Gründen und Enthaltung, freiwillige Bestätigung im Studio.",
+    "remaining": "Weitere Absichten und Cases, unabhängig erhobene Nutzungssitzungen mit Aufgabenziel, Kalibrierung und Evaluation der Nützlichkeit."
   },
   "T22": {
     "feature": "KI-Orchestrierung",
@@ -135,13 +135,13 @@
     "feature": "Predictive Loading",
     "status": "Geplant",
     "evidence": "noch kein Implementierungsnachweis",
-    "remaining": "Acceptance Criteria des Gesamtplans"
+    "remaining": "Lesende Vorladejobs aus Absichten auswählen und mit dem Host koordinieren. Konkurrenz, Treffer, unnötige Bytes und Zeitgewinn messen."
   },
   "T24": {
     "feature": "Ziele und Personalisierung",
     "status": "Geplant",
     "evidence": "noch kein Implementierungsnachweis",
-    "remaining": "Acceptance Criteria des Gesamtplans"
+    "remaining": "Freigegebene persönliche Varianten, Rücknahme und Aufgabenziel je Case prüfen. Der lokale Vergleichsvorschlag in T21 verwendet Sitzungsereignisse."
   },
   "T25": {
     "feature": "Reale Case-Pakete",
@@ -165,7 +165,7 @@
     "feature": "Lernen und Experimente",
     "status": "Geplant",
     "evidence": "noch kein Implementierungsnachweis",
-    "remaining": "Acceptance Criteria des Gesamtplans"
+    "remaining": "Exposures und Aufgabenergebnisse zuordnen, Kontrollgruppe und Datenqualität prüfen, eine neue Policy qualifizieren und zurückrollen."
   },
   "T29": {
     "feature": "Performance und Skalierung",

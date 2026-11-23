@@ -1,5 +1,9 @@
 # Änderungslog
 
+## 2026-11-23
+
+Im Workspace kannst du die Intent-Assistenz aktivieren. Wiederholte Besuche derselben zwei Moduldetails können einen Vergleich nahelegen. Die Anleitung zeigt, wie du den Vorschlag nachvollziehst, annimmst oder verwirfst. [Warum Fluid UI?](why-fluid.md) · [Lokale Sitzungsdaten](privacy.md)
+
 ## 2026-11-20
 
 Drei Formübergänge, der Studio-Vergleich, gespeicherte Entwürfe und gebundene Bildnachweise ergänzen den Stand. Das Register führt 510 Kriterien.

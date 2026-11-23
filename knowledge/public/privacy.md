@@ -5,7 +5,7 @@ description: "Lokale Daten von bewusst gesendeten AI-Bildern und Exporten unters
 audience: "public"
 tags: ["fluidkit", "privacy"]
 status: "draft"
-generated: {"by": "codex/fluidkit-knowledge-v1", "at": "2026-11-20T10:36:00Z"}
+generated: {"by": "codex/fluidkit-knowledge-v1", "at": "2026-11-23T10:37:01Z"}
 stale_after: "2026-12-04T00:00:00Z"
 sources: [{"id": "product", "resource": "assets/product-facts.json", "title": "Dokumentierter Produktstand und Screenshotnachweise"}]
 ---
@@ -19,6 +19,10 @@ Modulbestand. Die Praxisfälle sind als Simulation gekennzeichnet.[^product]
 Suchtext und Entwürfe werden nicht in den beschriebenen URLs gespeichert.
 URLs können Ansicht, Modul-/Angebotsauswahl, Vergleich und Sortierung enthalten.
 Teile solche Links nur im passenden Projektkontext.
+
+## Welche Besuche die Intent-Assistenz auswertet
+
+Die optionale Intent-Assistenz wertet im Workspace besuchte Modul-IDs und die Zeitpunkte dieser Besuche lokal aus. Der erklärbare Verlauf bleibt in der Sitzung. Erst wenn du das Angebot annimmst, erscheinen die zwei verglichenen IDs als gewöhnliche Auswahl in der teilbaren Workspace-URL. Deine Suchbegriffe und eingegebenen Texte benutzt der Ranker nicht. [Intent-Assistenz ausprobieren](why-fluid.md)
 
 ## Wann Bilder gesendet werden
 

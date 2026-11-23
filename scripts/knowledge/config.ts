@@ -38,7 +38,8 @@ export function topicsForSource(path: string): string[] {
   if (path.startsWith('packages/cases/') && (path.includes('simulation')||path.includes('/fixtures/'))) return ['simulation-cases'];
   if (path.startsWith('packages/cases/')) return ['workspace-case','user-flows','url-routing'];
   if (path.startsWith('packages/server/')) return ['ai-review','security'];
-  if (path.startsWith('packages/intelligence/')) return ['ai-review','release-roadmap'];
+  if (path.includes('workspace-intent')) return ['workspace-case','state-flows','quality-testing'];
+  if (path.startsWith('packages/intelligence/')) return ['architecture','workspace-case','release-roadmap'];
   if (path.startsWith('packages/testing/')) return ['quality-testing','rehearsal'];
   if (path.startsWith('packages/cli/')) return ['development-cli'];
   if (path.startsWith('packages/')) throw new Error(`Neue Paketgrenze benötigt eine bewusste Knowledge-Zuordnung: ${path}`);

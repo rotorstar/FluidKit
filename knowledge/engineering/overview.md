@@ -5,7 +5,7 @@ description: "Vision, Alpha-Implementierung und nachgewiesener Umfang des Framew
 audience: "engineering"
 tags: ["fluidkit", "overview"]
 status: "draft"
-generated: {"by": "codex/fluidkit-knowledge-v1", "at": "2026-11-03T22:51:43.750Z"}
+generated: {"by": "codex/fluidkit-knowledge-v1", "at": "2026-11-23T10:37:01Z"}
 stale_after: "2026-12-03T00:00:00Z"
 sources: [{"id": "implementation", "resource": "assets/source-inventory.json", "title": "Geprüfter Implementierungsstand"}]
 ---
@@ -36,11 +36,7 @@ liefern dafür Grundlagen. Studien zu
 stützen geeignete Übergänge in ihrem untersuchten Scope. FluidKit-eigene
 Zeit-/Fehler-/Lernvorteile bleiben zu messen.
 
-Das Modell bietet kontrollierter Assistenz einen gemeinsamen Zustandsvertrag:
-Vorschläge werden gegen dieselben IDs, Events und Guards geprüft. Dieses
-Architekturargument ist keine produktive Intent-Implementierung. Eine eigene
-GPU-Szene erweitert die grafischen Möglichkeiten; Identität, Kontrolle und
-Informationsarchitektur erzeugen den eigentlichen Nutzungszusammenhang.
+FluidKit kann eine Oberfläche an einen neuen Arbeitsschritt anpassen. Im Workspace liefert dafür auch Verhalten einen Hinweis: Wer dieselben zwei Module wiederholt öffnet, könnte sie vergleichen wollen. Nach ausdrücklicher Aktivierung bietet die lokale Assistenz einen gemeinsamen Vergleich an. Mit der Annahme bleiben beide Modulidentitäten erhalten, während sich die Oberfläche für die neue Aufgabe verwandelt. Die Einzelheiten stehen unter [Workspace-Case](workspace-case.md).
 
 Die vollständige Einordnung steht in [Warum Fluid UI?](why-fluid.md): Nutzen,
 Usability, Grafiktechnik, Zukunftsperspektive und bewusste Grenzen.
@@ -51,11 +47,11 @@ Usability, Grafiktechnik, Zukunftsperspektive und bewusste Grenzen.
 |---|---|---|
 | Fachlichkeit | Core, Flow, Felder, Revision, Guards, Aktionen | validierte lokale Runtime |
 | Präsentation | Scene, Visual-State, Effektplan, Timeline, GPU-Ressourcen | animierter Workspace und Rehearsal |
-| Assistenz | validierter DecisionPlan oder separate AI-Designkritik | Core-Grenzen vorhanden; echte OpenAI-Review im Studio |
+| Assistenz | lokale Erkennung wahrscheinlicher Vergleichspaare, autorisierte Aktionen und separate AI-Designkritik | bestätigungspflichtiger Workspace-Vorschlag und optionale OpenAI-Review im Studio |
 
-Ein Live-Review ist keine autonome Anwendungs-KI. `DecisionProvider` ist derzeit
-nur ein Interface; Intent-Ranking, Predictive Loading und Online-Lernen sind offene
-Produktarbeit. Alle Praxisangebote in den drei Simulationen sind synthetisch.
+Der Vergleichsranker benötigt keinen Modellanbieter. Predictive Loading,
+weitere Absichten und das Lernen aus Aufgabenergebnissen sind offen.
+Alle Praxisangebote in den drei Simulationen sind synthetisch.
 Die Workspace-Ansicht verwendet dagegen tatsächliche lokale Paket- und Quellstatistiken.
 
 ```mermaid

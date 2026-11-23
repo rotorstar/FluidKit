@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "split": "synthetic-holdout",
+  "labelDefinition": "The assigned task determines the useful next view at the last checkpoint. Module-open sequences are fictional. The ranker only sees module IDs and elapsed time. Two sessions deliberately have identical observations and different goals.",
+  "sessions": [
+    {"id":"dependency-review","task":"Decide whether core and webgpu share a layout dependency.","opens":[[0,"core"],[8,"webgpu"],[18,"core"],[28,"webgpu"]],"checkAt":28,"expected":["core","webgpu"]},
+    {"id":"verify-two-facts","task":"Double-check two unrelated package details for two separate maintenance tickets. No comparison is wanted.","opens":[[0,"core"],[8,"webgpu"],[18,"core"],[28,"webgpu"]],"checkAt":28,"expected":null},
+    {"id":"explore-four","task":"Read four package summaries in succession.","opens":[[0,"core"],[9,"testing"],[15,"server"],[21,"cases"]],"checkAt":21,"expected":null},
+    {"id":"size-tradeoff","task":"Put the sizes of react and cases side by side.","opens":[[2,"react"],[8,"cases"],[20,"react"],[33,"cases"]],"checkAt":33,"expected":["cases","react"]},
+    {"id":"fresh-pair","task":"After an initial look at the architecture, compare effects and gpu-kernels.","opens":[[1,"contracts"],[8,"effects"],[13,"gpu-kernels"],[35,"effects"],[42,"gpu-kernels"]],"checkAt":42,"expected":["effects","gpu-kernels"]},
+    {"id":"single-reference","task":"Keep the server package open as a reference while checking local code.","opens":[[2,"server"],[12,"server"],[25,"server"],[48,"server"]],"checkAt":48,"expected":null},
+    {"id":"ready-after-two","task":"Compare testing with cli after a single visit to each.","opens":[[0,"testing"],[15,"cli"]],"checkAt":15,"expected":["cli","testing"]},
+    {"id":"compare-after-reopen","task":"Revisit the same entry and then compare both rendering packages.","opens":[[0,"effects"],[4,"effects"],[16,"webgpu"],[19,"webgpu"],[37,"effects"],[50,"webgpu"]],"checkAt":50,"expected":["effects","webgpu"]},
+    {"id":"returned-later","task":"Resume work hours later by inspecting the current cli module alone.","opens":[[0,"core"],[5,"cli"],[11,"core"],[10000,"cli"]],"checkAt":10000,"expected":null},
+    {"id":"broad-inventory","task":"Inventory the whole stack without narrowing it to a pair.","opens":[[0,"react"],[4,"core"],[8,"testing"],[13,"contracts"],[16,"testing"],[22,"react"]],"checkAt":22,"expected":null},
+    {"id":"inspect-fresh-module","task":"Finish checking two packages and start reading intelligence on its own.","opens":[[0,"cli"],[2,"cases"],[9,"cli"],[13,"cases"],[22,"intelligence"]],"checkAt":22,"expected":null},
+    {"id":"repeated-contract-review","task":"Check how contracts and core differ before changing the public API.","opens":[[0,"contracts"],[11,"core"],[22,"contracts"],[34,"core"],[42,"contracts"],[54,"core"]],"checkAt":54,"expected":["contracts","core"]},
+    {"id":"idle-end","task":"A previous comparison task has ended and the session is idle.","opens":[[0,"contracts"],[9,"server"],[22,"contracts"],[40,"server"]],"checkAt":180,"expected":null},
+    {"id":"two-unrelated-browsing-pairs","task":"Audit packages in two batches without making a choice between packages.","opens":[[0,"core"],[5,"effects"],[12,"core"],[19,"effects"],[27,"i18n"],[31,"server"],[40,"i18n"],[48,"server"]],"checkAt":48,"expected":null},
+    {"id":"later-task","task":"On returning after a break, evaluate cases alongside testing.","opens":[[0,"server"],[2,"core"],[240,"testing"],[251,"cases"],[269,"testing"],[288,"cases"]],"checkAt":288,"expected":["cases","testing"]},
+    {"id":"empty-start","task":"Open the workspace for the first time to browse.","opens":[],"checkAt":0,"expected":null}
+  ]
+}

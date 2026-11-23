@@ -1,5 +1,9 @@
 # Änderungslog
 
+## 2026-11-23
+
+Der lokale Workspace-Ranker ordnet mögliche Vergleichspaare anhand bestätigter Modulbesuche und gibt die Beobachtungen zu seinem Vorschlag aus. T21 verbindet den begrenzten Sitzungsspeicher, die Enthaltung und das Ergebnis aus 16 synthetischen Prüfsitzungen mit getrennten Abnahmen. Für die Wirkung bei realen Nutzern fehlen unabhängige Sitzungen. [Workspace-Case](workspace-case.md) · [AC-Register](acceptance-reference.md)
+
 ## 2026-11-20
 
 Drei Formübergänge, der Studio-Vergleich, gespeicherte Entwürfe und gebundene Bildnachweise ergänzen den Stand. Das Register führt 510 Kriterien.

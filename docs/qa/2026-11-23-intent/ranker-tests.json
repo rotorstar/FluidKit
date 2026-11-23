@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "scope": "Workspace comparison ranker, isolated unit tests. Run from the repository root.",
+  "run": "node_modules/.bin/vitest run tests/unit/workspace-intent.test.ts",
+  "sources": {
+    "tests/unit/workspace-intent.test.ts": "4196c92455723ff94a0d5cad22dc94b9713d9f4962735b29843ac6efd9a9f842",
+    "packages/intelligence/src/workspace-intent.ts": "11b53090f3aea74df2ec76c93c662a85194f713ee6b362f809c0592eafb2686d"
+  },
+  "results": [
+    {
+      "test": "requires repeated alternating visits and exposes the evidence and next expiry",
+      "status": "passed"
+    },
+    {
+      "test": "coalesces duplicates, drops unknown modules and ignores late observations",
+      "status": "passed"
+    },
+    {
+      "test": "abstains when equally plausible pairs compete or the most recent visit breaks the pattern",
+      "status": "passed"
+    },
+    {
+      "test": "respects a dismissal through the quiet window and allows a fresh deliberate sequence afterwards",
+      "status": "passed"
+    },
+    {
+      "test": "bounds evidence and top-k even when a session is busy and returns isolated snapshots",
+      "status": "passed"
+    }
+  ]
+}

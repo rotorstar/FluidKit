@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20",
+  "updatedAt": "2026-11-23",
   "criteria": [
     {
       "id": "T01-AC01",
@@ -2264,10 +2264,26 @@
       "source": "docs/implementation-plan.md",
       "criterion": "Default Top-3, konfigurierbar bis fünf",
       "sourceHash": "c1d4d04b014f738d647c61b593592cd7905bea5326f4018cd5763f1ba7788630",
-      "status": "open",
-      "scope": "Vollständiger Planumfang",
-      "evidence": [],
-      "remaining": "Acceptance Criteria des Gesamtplans"
+      "status": "verified",
+      "scope": "Lokaler Workspace-Ranker für konkrete Vergleichspaare. Die Begrenzung zählt Paare innerhalb dieses Ziels.",
+      "evidence": [
+        {
+          "path": "packages/intelligence/src/workspace-intent.ts",
+          "sha256": "11b53090f3aea74df2ec76c93c662a85194f713ee6b362f809c0592eafb2686d",
+          "kind": "source"
+        },
+        {
+          "path": "tests/unit/workspace-intent.test.ts",
+          "sha256": "4196c92455723ff94a0d5cad22dc94b9713d9f4962735b29843ac6efd9a9f842",
+          "kind": "test"
+        },
+        {
+          "path": "docs/qa/2026-11-23-intent/ranker-tests.json",
+          "sha256": "63342c289a6e88a4377768edee910c91630bd8c17a8ff770ea14aca8e64846e6",
+          "kind": "artifact"
+        }
+      ],
+      "remaining": ""
     },
     {
       "id": "T21-AC02",
@@ -2275,10 +2291,31 @@
       "source": "docs/implementation-plan.md",
       "criterion": "Unklarheit wird ausdrücklich dargestellt",
       "sourceHash": "9cf13271142165b623f578d3d3f3d28819c47f6d03c340e58bb13e4788a12346",
-      "status": "open",
-      "scope": "Vollständiger Planumfang",
-      "evidence": [],
-      "remaining": "Acceptance Criteria des Gesamtplans"
+      "status": "verified",
+      "scope": "Unklarheit im lokalen Workspace-Vergleich: Ranker enthält sich, der Studio-Inspector nennt den Status. Browserprüfung mit englischer Oberfläche und echtem WebGPU; offene Eingabe bleibt bedienbar.",
+      "evidence": [
+        {
+          "path": "tests/unit/workspace-intent.test.ts",
+          "sha256": "4196c92455723ff94a0d5cad22dc94b9713d9f4962735b29843ac6efd9a9f842",
+          "kind": "test"
+        },
+        {
+          "path": "docs/qa/2026-11-23-intent/ranker-tests.json",
+          "sha256": "63342c289a6e88a4377768edee910c91630bd8c17a8ff770ea14aca8e64846e6",
+          "kind": "artifact"
+        },
+        {
+          "path": "tests/e2e/workspace-intent.spec.ts",
+          "sha256": "ae49c3f5d6b1a5d1b76f097ada1c6e790028af0b7b6faa523e35cb8e3aee94e2",
+          "kind": "test"
+        },
+        {
+          "path": "docs/qa/2026-11-23-intent/browser.json",
+          "sha256": "4729c1b63863b6dbf7107341f647d7632fd87774f6aca78565b2cd008599ed00",
+          "kind": "artifact"
+        }
+      ],
+      "remaining": ""
     },
     {
       "id": "T21-AC03",
@@ -2286,10 +2323,26 @@
       "source": "docs/implementation-plan.md",
       "criterion": "Qualitätsmessung auf getrennten Sessions statt Trainingsdaten",
       "sourceHash": "8150c86936f7184327d60004c6d1ab2bdc71ac0d839d5a90e803254dfdeeaa9b",
-      "status": "open",
-      "scope": "Vollständiger Planumfang",
-      "evidence": [],
-      "remaining": "Acceptance Criteria des Gesamtplans"
+      "status": "partial",
+      "scope": "16 getrennte, vorab beschriftete synthetische Sitzungen, ein Prüfzeitpunkt je Sitzung. Manuell festgelegte Regel ohne Training.",
+      "evidence": [
+        {
+          "path": "tests/evaluations/workspace-intent-holdout-v1.json",
+          "sha256": "b1b593b46e525c373a880b3e7c6cc7ccef67b20a132b0db07d581b09c36f9162",
+          "kind": "source"
+        },
+        {
+          "path": "tests/unit/workspace-intent-eval.test.ts",
+          "sha256": "30695294feea0b636c12dec3edcaf284b6f8c5ada230883257385764e28512b1",
+          "kind": "test"
+        },
+        {
+          "path": "docs/qa/2026-11-23-intent/evaluation.json",
+          "sha256": "c619c38eb9bd94eb53d380e4915ec77c202214d267688faafff3a5e2701507cc",
+          "kind": "artifact"
+        }
+      ],
+      "remaining": "Unabhängig erhobene Nutzersitzungen mit Aufgabenziel, unterbliebene und störende Vorschläge im gesamten Verlauf sowie Aufgabennutzen messen. Schwellen ohne Zugriff auf den finalen Prüfsatz kalibrieren."
     },
     {
       "id": "T22-AC01",

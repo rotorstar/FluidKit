@@ -79,7 +79,7 @@ const VIEWS = ['table','cards','map','detail','compare','atlas'] as const;
 export function createWorkspaceFlow(data: WorkspaceData, locale: Locale = 'de') {
   const views = VIEWS;
   const transitions = (current: string) => ({
-    ...Object.fromEntries(views.filter(view => view !== 'detail').map(view => [`view.${view}`, { target: view, duration: 850 }])),
+    ...Object.fromEntries(views.filter(view => view !== 'detail').map(view => [`view.${view}`, { target: view, duration: 850, aiAllowed: current === 'detail' && view === 'compare' }])),
     ...Object.fromEntries(data.modules.map(module => [`select.${module.id}`, { target: 'detail', assign: { selected: module.id }, duration: 900 }])),
     ...Object.fromEntries(['name', 'files', 'dependencies'].flatMap(sort => ['asc', 'desc'].map(direction => [`sort.${sort}.${direction}`, { target: current, assign: { sort, direction }, duration: 650 }]))),
     ...Object.fromEntries(['all', 'Kernel', 'Adapter', 'Tooling'].map(group => [`filter.${group}`, { target: current, assign: { group }, duration: 500 }])),

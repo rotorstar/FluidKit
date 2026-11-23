@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "scope": "One labelled decision point per independent synthetic session. Comparison is the only candidate action. These results do not estimate human task completion, production accuracy or calibrated confidence.",
+  "corpus": {
+    "path": "tests/evaluations/workspace-intent-holdout-v1.json",
+    "sha256": "b1b593b46e525c373a880b3e7c6cc7ccef67b20a132b0db07d581b09c36f9162",
+    "split": "synthetic-holdout"
+  },
+  "recognizer": {
+    "path": "packages/intelligence/src/workspace-intent.ts",
+    "sha256": "11b53090f3aea74df2ec76c93c662a85194f713ee6b362f809c0592eafb2686d"
+  },
+  "metrics": {
+    "sessions": 16,
+    "positive": 7,
+    "negative": 9,
+    "proposals": 7,
+    "exactPairs": 6,
+    "falseAlarms": 1,
+    "wrongPairs": 0,
+    "missedPairs": 1,
+    "abstentions": 9,
+    "correctAbstentions": 8,
+    "exactPairPrecision": 0.8571428571428571,
+    "exactPairRecall": 0.8571428571428571,
+    "specificity": 0.8888888888888888,
+    "suggestionCoverage": 0.4375
+  },
+  "sessions": [
+    {
+      "id": "dependency-review",
+      "expected": [
+        "core",
+        "webgpu"
+      ],
+      "proposed": [
+        "core",
+        "webgpu"
+      ],
+      "reason": "ready",
+      "correct": true
+    },
+    {
+      "id": "verify-two-facts",
+      "expected": null,
+      "proposed": [
+        "core",
+        "webgpu"
+      ],
+      "reason": "ready",
+      "correct": false
+    },
+    {
+      "id": "explore-four",
+      "expected": null,
+      "proposed": null,
+      "reason": "ambiguous",
+      "correct": true
+    },
+    {
+      "id": "size-tradeoff",
+      "expected": [
+        "cases",
+        "react"
+      ],
+      "proposed": [
+        "cases",
+        "react"
+      ],
+      "reason": "ready",
+      "correct": true
+    },
+    {
+      "id": "fresh-pair",
+      "expected": [
+        "effects",
+        "gpu-kernels"
+      ],
+      "proposed": [
+        "effects",
+        "gpu-kernels"
+      ],
+      "reason": "ready",
+      "correct": true
+    },
+    {
+      "id": "single-reference",
+      "expected": null,
+      "proposed": null,
+      "reason": "insufficient",
+      "correct": true
+    },
+    {
+      "id": "ready-after-two",
+      "expected": [
+        "cli",
+        "testing"
+      ],
+      "proposed": null,
+      "reason": "insufficient",
+      "correct": false
+    },
+    {
+      "id": "compare-after-reopen",
+      "expected": [
+        "effects",
+        "webgpu"
+      ],
+      "proposed": [
+        "effects",
+        "webgpu"
+      ],
+      "reason": "ready",
+      "correct": true
+    },
+    {
+      "id": "returned-later",
+      "expected": null,
+      "proposed": null,
+      "reason": "insufficient",
+      "correct": true
+    },
+    {
+      "id": "broad-inventory",
+      "expected": null,
+      "proposed": null,
+      "reason": "ambiguous",
+      "correct": true
+    },
+    {
+      "id": "inspect-fresh-module",
+      "expected": null,
+      "proposed": null,
+      "reason": "ambiguous",
+      "correct": true
+    },
+    {
+      "id": "repeated-contract-review",
+      "expected": [
+        "contracts",
+        "core"
+      ],
+      "proposed": [
+        "contracts",
+        "core"
+      ],
+      "reason": "ready",
+      "correct": true
+    },
+    {
+      "id": "idle-end",
+      "expected": null,
+      "proposed": null,
+      "reason": "insufficient",
+      "correct": true
+    },
+    {
+      "id": "two-unrelated-browsing-pairs",
+      "expected": null,
+      "proposed": null,
+      "reason": "ambiguous",
+      "correct": true
+    },
+    {
+      "id": "later-task",
+      "expected": [
+        "cases",
+        "testing"
+      ],
+      "proposed": [
+        "cases",
+        "testing"
+      ],
+      "reason": "ready",
+      "correct": true
+    },
+    {
+      "id": "empty-start",
+      "expected": null,
+      "proposed": null,
+      "reason": "insufficient",
+      "correct": true
+    }
+  ]
+}

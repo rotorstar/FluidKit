@@ -5,17 +5,25 @@ description: "Orientierung, passende Ansichten und verständliche Übergänge; G
 audience: "public"
 tags: ["fluidkit", "usability", "rationale", "webgpu"]
 status: "draft"
-generated: {"by": "codex/fluidkit-knowledge-v1", "at": "2026-11-02T11:49:15.608947+00:00"}
+generated: {"by": "codex/fluidkit-knowledge-v1", "at": "2026-11-23T10:37:01Z"}
 stale_after: "2026-12-02T00:00:00Z"
 sources: [{"id": "product", "resource": "assets/product-facts.json", "title": "Dokumentierter Alpha-Stand"}, {"id": "transitions", "resource": "https://idl.uw.edu/papers/animated-transitions", "title": "Forschung zu sinnvoll gestalteten Übergängen"}]
 ---
 
 # Warum Fluid UI?
 
-**Eine Oberfläche kann ihre Perspektive wechseln und dabei deinen Arbeitskontext
-behalten.** In der Tabelle vergleichst du Werte, auf Karten erkennst du Inhalte,
-in der Map untersuchst du Beziehungen und im Detail arbeitest du weiter. Es sind
-Ansichten desselben Bestands. Deine Auswahl verbindet sie.
+**FluidKit passt die Oberfläche an das an, was du gerade tun möchtest.** Beim Stöbern helfen einzelne Karten. Sobald du zwei Angebote gegeneinander abwägst, hilft ein Vergleich, in dem jede Eigenschaft in derselben Zeile steht. Die beiden Karten können sich in Vergleichsspalten verwandeln und ihren Inhalt mitnehmen. Den Anstoß kannst du selbst geben. Im Modul-Workspace kann FluidKit ihn auch aus deinem Verhalten ableiten und dir den Wechsel anbieten.
+
+## Den Vergleich aus deinem Verhalten vorschlagen lassen
+
+1. Schalte im Workspace die **Intent-Assistenz** ein. Beim Öffnen der Seite ist sie aus.
+2. Öffne das Moduldetail von `core`, gehe zur Tabelle zurück und öffne `webgpu`. Wiederhole die beiden Besuche in derselben Reihenfolge. Die Auswahlkästchen dienen der manuellen Mehrfachauswahl.
+3. Öffne die Erklärung beim Vorschlag. Du kannst sehen, aus welchen Detailbesuchen FluidKit auf einen möglichen Vergleich schließt.
+4. Wähle **Module vergleichen**. Der Workspace verwandelt sich in den Vergleich mit beiden Modulnamen als Spalten. Wenn du nur etwas nachschlagen möchtest, wähle **Verwerfen**. Die Assistenz pausiert ihre Vorschläge für zwei Minuten.
+
+![Im englischen Workspace bietet die Intent-Assistenz nach wiederholten Besuchen von core und webgpu deren Vergleich an.](assets/workspace-intent-offer-en.png)
+
+Bei uneindeutigem Verlauf oder aktiver Texteingabe bleibt die Ansicht ruhig. Der Verlauf gehört zur laufenden Sitzung. Für diesen Vorschlag brauchst du weder einen Chat noch einen API-Key. Ob solche Angebote auch anderen Menschen bei ihren Aufgaben helfen, muss mit echten Nutzungssitzungen geprüft werden. [Version und Grenzen](version-status.md)
 
 ## Welche Usability-Vorteile das bringen kann
 
@@ -85,11 +93,6 @@ Perspektive: [ONNX Runtime Web](https://onnxruntime.ai/docs/tutorials/web/ep-web
 unterstützt WebGPU bereits. Im aktuellen Studio werden freigegebene Analysebilder
 jedoch an den angegebenen Cloudanbieter gesendet. Eine lokale Modelloption ist
 kein bereits verfügbares Bedienfeature.
-
-Assistenz kann künftig eine geeignete Ansicht vorschlagen. Nutzerkontrolle,
-aktive Eingaben und nachvollziehbare Änderungen bleiben dabei Gestaltungsziele.
-Die Alpha besitzt noch keine vollständige produktive Intent-Pipeline.
-[Version und Grenzen](version-status.md) trennt Gegenwart und Roadmap.
 
 ## Bleiben Inhalte vor Kopieren geschützt?
 

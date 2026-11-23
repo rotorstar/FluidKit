@@ -129,7 +129,7 @@ export function createFluidRuntime(options: RuntimeOptions) {
     return nodes;
   }
   function appendTrace(kind: TraceEntry['kind'], event: RuntimeEvent, detail: string, committed = snapshot) {
-    const entry = freeze({ schemaVersion: 1 as const, sequence: sequence++, timestamp: clock.now(), kind, eventId: event.id, eventType: event.type, reason: event.reason, revision: committed.revision, state: committed.state, detail });
+    const entry = freeze({ schemaVersion: 1 as const, sequence: sequence++, timestamp: clock.now(), kind, eventId: event.id, eventType: event.type, source: event.source, reason: event.reason, revision: committed.revision, state: committed.state, detail });
     traces = Object.freeze([...traces.slice(-999), entry]);
     return entry;
   }

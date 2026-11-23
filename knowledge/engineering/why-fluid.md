@@ -5,7 +5,7 @@ description: "Vollständige Nutzenargumentation, Primärquellen, GPU-Hebel, Zuku
 audience: "engineering"
 tags: ["fluidkit", "usability", "rationale", "webgpu"]
 status: "draft"
-generated: {"by": "codex/fluidkit-knowledge-v1", "at": "2026-11-02T11:49:15.608947+00:00"}
+generated: {"by": "codex/fluidkit-knowledge-v1", "at": "2026-11-23T10:37:01Z"}
 stale_after: "2026-12-02T00:00:00Z"
 sources: [{"id": "implementation", "resource": "assets/source-inventory.json", "title": "Geprüfter Produktstand und Forschung im Quellinventar"}, {"id": "transitions", "resource": "https://idl.uw.edu/papers/animated-transitions", "title": "Heer und Robertson: Animated Transitions in Statistical Data Graphics"}]
 ---
@@ -46,7 +46,7 @@ trennt fachliche, visuelle, semantische und menschliche Nachweise.
 | Verständliche Übergänge | [Heer/Robertson, 2007](https://idl.uw.edu/papers/animated-transitions) berichten zwei kontrollierte Experimente zu statistischen Grafiken; geeignete Übergänge verbesserten darin die grafische Wahrnehmung. | Bewegung kann Herkunft, Ziel und Änderung erklären. Das Studienergebnis gilt nicht pauschal für Formulare, alle Effekte oder sämtliche Nutzer. |
 | Dosierte Komplexität | [Nielsen: Progressive Disclosure, 2006](https://www.nngroup.com/articles/progressive-disclosure/) beschreibt das zugängliche Anordnen häufiger und zusätzlicher Funktionen. | Übersicht und Details passend entfalten. Häufig benötigte Funktionen bleiben direkt erreichbar; zu viele Offenlegungsstufen wären ein neues Hindernis. |
 | Passende Arbeitsansicht | Produkt-/Designableitung aus den genannten Prinzipien. | Tabelle für Wertevergleich, Karten für visuelle Auswahl, Graph für Beziehungen. Nutzen hängt von Aufgabe und Daten ab; mehr Ansichten allein erhöhen die Qualität nicht. |
-| Kontrollierte Assistenz | Bestehender Core-/DecisionPlan-Vertrag, kein neuer externer Wirksamkeitsbeleg. | AI darf Ansichten vorschlagen; Guards, aktiver Fokus und explizite Nutzeraktionen behalten Vorrang. Produktives Intent-Ranking bleibt offen. |
+| Kontrollierte Assistenz | Bewusste Modulbesuche können einen Vergleich nahelegen. Das Studio zeigt die beobachteten Öffnungen. | Die Person entscheidet, ob die vorgeschlagene Ansicht zur Aufgabe passt. Der Nutzen für reale Nutzer bleibt zu messen. |
 | Zugängliche Bewegung | [W3C zu SC 2.3.3, Level AAA](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html): nichtessenzielle interaktionsausgelöste Bewegung abschaltbar machen. | Reduced Motion, Effekt-Aus und Unterbrechbarkeit schützen Wahlfreiheit. Kein WCAG-Konformitätsclaim allein durch einen Schalter. |
 
 Damit sind **bessere Orientierung, leichteres Wiedererkennen und verständlichere

@@ -9,7 +9,7 @@ tags:
 status: draft
 generated:
   by: process:fluidkit-knowledge-sync
-  at: 2026-11-20T11:46:48.000Z
+  at: 2026-11-23T10:46:25.000Z
 stale_after: 2026-12-02T00:00:00Z
 sources:
   - id: implementation
@@ -23,7 +23,7 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 
 | Quelldatei | SHA-256, gekürzt | Konzepte |
 |---|---|---|
-| `README.md` | `a64e69362e41e01c` | [development-cli](development-cli.md), [architecture](architecture.md) |
+| `README.md` | `a4c45d511b733a54` | [development-cli](development-cli.md), [architecture](architecture.md) |
 | `apps/studio/app/[locale]/layout.tsx` | `b61920771a3e6eda` | [studio](studio.md), [architecture](architecture.md) |
 | `apps/studio/app/[locale]/page.tsx` | `779fb1568e832468` | [url-routing](url-routing.md), [workspace-case](workspace-case.md), [studio](studio.md) |
 | `apps/studio/app/[locale]/studio/acceptance/page.tsx` | `db763d8c90076c6e` | [url-routing](url-routing.md), [quality-testing](quality-testing.md) |
@@ -89,15 +89,16 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 | `apps/studio/components/showcase-cases.tsx` | `798b2b0d6971e091` | [studio](studio.md), [architecture](architecture.md) |
 | `apps/studio/components/simulation-showcase.tsx` | `adfd4004d6ff8637` | [simulation-cases](simulation-cases.md), [studio](studio.md) |
 | `apps/studio/components/structural-controls.tsx` | `7a39ce5488c913c2` | [studio](studio.md), [architecture](architecture.md) |
-| `apps/studio/components/structural-workspace.module.css` | `e14aef751e2d6fba` | [studio](studio.md), [architecture](architecture.md) |
+| `apps/studio/components/structural-workspace.module.css` | `d3e3d354925e30fd` | [studio](studio.md), [architecture](architecture.md) |
 | `apps/studio/components/studio-controls.tsx` | `c2d662b04f3e327b` | [studio](studio.md), [architecture](architecture.md) |
 | `apps/studio/components/studio-fluid-surface.tsx` | `b149387ab9533e99` | [studio](studio.md), [architecture](architecture.md) |
 | `apps/studio/components/studio-locale.tsx` | `ed97d13a08c88480` | [studio](studio.md), [architecture](architecture.md) |
 | `apps/studio/components/studio-navigation.module.css` | `1e1da03e7adb6444` | [studio](studio.md), [architecture](architecture.md) |
 | `apps/studio/components/studio-navigation.tsx` | `eeb63f4891b17796` | [studio](studio.md), [architecture](architecture.md) |
 | `apps/studio/components/studio-proof.tsx` | `f4a0e4eb00c1d3bb` | [studio](studio.md), [architecture](architecture.md) |
-| `apps/studio/components/studio-showcase.tsx` | `728a26086d4a0a9c` | [workspace-case](workspace-case.md), [url-routing](url-routing.md), [studio](studio.md) |
+| `apps/studio/components/studio-showcase.tsx` | `5f489f3800a26643` | [workspace-case](workspace-case.md), [url-routing](url-routing.md), [studio](studio.md) |
 | `apps/studio/components/ui-quality.tsx` | `1771b9c9bdef6a33` | [quality-testing](quality-testing.md) |
+| `apps/studio/components/workspace-intent.tsx` | `ae161da228cb95b8` | [workspace-case](workspace-case.md), [state-flows](state-flows.md), [quality-testing](quality-testing.md) |
 | `apps/studio/components/workspace-page.tsx` | `481b52a7de466436` | [studio](studio.md), [architecture](architecture.md) |
 | `apps/studio/components/workspace-surface.tsx` | `31a8a31204bb43c2` | [studio](studio.md), [architecture](architecture.md) |
 | `apps/studio/lib/ai-request-status.ts` | `617f8351ad30778f` | [studio](studio.md), [architecture](architecture.md) |
@@ -111,16 +112,17 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 | `apps/studio/lib/read-workspace.ts` | `df3ad0e480e4ae32` | [workspace-case](workspace-case.md) |
 | `apps/studio/lib/rehearsal-capture.ts` | `a25d8325a41cfa9c` | [rehearsal](rehearsal.md), [studio](studio.md) |
 | `apps/studio/lib/studio-destinations.ts` | `00b78ee4c38cd947` | [studio](studio.md), [architecture](architecture.md) |
-| `apps/studio/lib/studio-messages.ts` | `13ab5cc79dc0d50e` | [studio](studio.md), [architecture](architecture.md) |
-| `apps/studio/lib/workspace-navigation.ts` | `c268d613e22cec8c` | [studio](studio.md), [architecture](architecture.md) |
+| `apps/studio/lib/studio-messages.ts` | `2f12697444c9b78c` | [studio](studio.md), [architecture](architecture.md) |
+| `apps/studio/lib/workspace-intent.ts` | `6428ee2f0059047a` | [workspace-case](workspace-case.md), [state-flows](state-flows.md), [quality-testing](quality-testing.md) |
+| `apps/studio/lib/workspace-navigation.ts` | `fafc5cc084aa0068` | [studio](studio.md), [architecture](architecture.md) |
 | `apps/studio/lib/workspace-stage.ts` | `bbd6713b6bb01332` | [studio](studio.md), [architecture](architecture.md) |
 | `apps/studio/next.config.ts` | `560dfe52ea16f7f8` | [studio](studio.md), [architecture](architecture.md) |
 | `apps/studio/package.json` | `4dfbd95b1981e131` | [studio](studio.md), [architecture](architecture.md) |
 | `apps/studio/proxy.ts` | `b732bfec50e87fbc` | [studio](studio.md), [architecture](architecture.md) |
 | `apps/studio/tsconfig.json` | `2065e0ad016a9a5c` | [studio](studio.md), [architecture](architecture.md) |
 | `design-quality.config.json` | `7cb71eab742ca9d7` | [quality-testing](quality-testing.md) |
-| `docs/acceptance-matrix.md` | `a5897c97798792cf` | [quality-testing](quality-testing.md) |
-| `docs/acceptance/ledger.json` | `5055057509ae2d55` | [quality-testing](quality-testing.md) |
+| `docs/acceptance-matrix.md` | `33c9700d86d87689` | [quality-testing](quality-testing.md) |
+| `docs/acceptance/ledger.json` | `a79a0a5953f3ecd4` | [quality-testing](quality-testing.md) |
 | `docs/acceptance/m8-adoption-2026-11-13.json` | `99fc655cfdf68b80` | [quality-testing](quality-testing.md) |
 | `docs/decisions/0002-base-ui.md` | `6ed74588b070c118` | [layout-text-input](layout-text-input.md), [studio](studio.md) |
 | `docs/decisions/0003-renderer-policy.md` | `4af429ab4e49d3da` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
@@ -139,8 +141,8 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 | `docs/decisions/structural-scores.json` | `b39f0b4a5be8ba0c` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
 | `docs/decisions/typegpu-scores.json` | `21bf48259c35f1b1` | [gpu-kernels](gpu-kernels.md), [effects](effects.md) |
 | `docs/decisions/ui-sdk-scores.json` | `0df9e8c27dd0c0bc` | [architecture](architecture.md), [contracts](contracts.md), [core-runtime](core-runtime.md), [studio](studio.md), [release-roadmap](release-roadmap.md) |
-| `docs/feature-status.json` | `e8db04dc0b41da1d` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
-| `docs/feature-status.md` | `2441c83d8a8868b4` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
+| `docs/feature-status.json` | `eed7e39abb372de8` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
+| `docs/feature-status.md` | `7fe251d4f52d1dcd` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
 | `docs/flows/data-adapters.md` | `a1a0acc22b1a6f98` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
 | `docs/flows/design-quality.md` | `fad4aef6ab85b178` | [quality-testing](quality-testing.md) |
 | `docs/flows/design-rehearsal.md` | `b1b66d2a0c58504d` | [rehearsal](rehearsal.md), [studio](studio.md) |
@@ -149,9 +151,9 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 | `docs/flows/simulation-cases.md` | `3229380e09d5f1b2` | [simulation-cases](simulation-cases.md), [studio](studio.md) |
 | `docs/flows/sound.md` | `6b96bc01007fb5ac` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
 | `docs/flows/workspace-state.mmd` | `8a829291a5b34310` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
-| `docs/flows/workspace.md` | `e41d4c2b0423cc1e` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
+| `docs/flows/workspace.md` | `00eb0cbce07e24ae` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
 | `docs/implementation-plan-v1.md` | `b117d1eebc706813` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
-| `docs/implementation-plan.md` | `db9d02a8310d11b8` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
+| `docs/implementation-plan.md` | `c5a8074d0182bb87` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
 | `docs/milestones/github-readme-plan.md` | `444ba270e8a44b43` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
 | `docs/milestones/knowledge-plan.md` | `38ea0089db99cfd3` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
 | `docs/milestones/m1.md` | `810844fb5126b7b3` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
@@ -179,7 +181,7 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 | `docs/milestones/structural-transitions.md` | `59603b11f8ec5209` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
 | `docs/milestones/ui-rationale-plan.md` | `6f1245c2532a8b32` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
 | `docs/milestones/ui-sdk-evaluation.md` | `6720994f5451d4b7` | [architecture](architecture.md), [contracts](contracts.md), [core-runtime](core-runtime.md), [studio](studio.md), [release-roadmap](release-roadmap.md) |
-| `docs/milestones/workspace-source.json` | `7224080a18a4871d` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
+| `docs/milestones/workspace-source.json` | `be2d243c72d852ee` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
 | `docs/qa/2026-11-02-m6/lifecycle-100.json` | `3a169bf76d60cd31` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
 | `docs/qa/2026-11-02-openai/brief-injection-v1.json` | `7a49a0cb9d2c8ff0` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
 | `docs/qa/2026-11-02-openai/final-layout-matrix.json` | `cb9ba1593bf54b0c` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
@@ -203,11 +205,12 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 | `docs/research/stageshow.md` | `c88920cd9a2784d1` | [rehearsal](rehearsal.md), [quality-testing](quality-testing.md) |
 | `docs/research/typegpu.md` | `a62cd7c0e86326dd` | [gpu-kernels](gpu-kernels.md), [effects](effects.md) |
 | `docs/research/vercel-ui-sdk.md` | `196f17f85a37d83a` | [architecture](architecture.md), [contracts](contracts.md), [core-runtime](core-runtime.md), [studio](studio.md), [release-roadmap](release-roadmap.md) |
+| `docs/research/vision-abgleich-2026-11-20.md` | `ff63a0e0afa13b1a` | [release-roadmap](release-roadmap.md), [quality-testing](quality-testing.md) |
 | `eslint.config.mjs` | `cbf1fd39a88b07c1` | [development-cli](development-cli.md), [architecture](architecture.md) |
 | `font-bake.config.json` | `27b15e00f2ab68aa` | [development-cli](development-cli.md), [architecture](architecture.md) |
-| `knowledge/editions/engineering.json` | `176cd0f83faa25ac` | [knowledge-maintenance](knowledge-maintenance.md), [url-routing](url-routing.md) |
-| `knowledge/editions/public.json` | `3cfd08496801f51f` | [knowledge-maintenance](knowledge-maintenance.md), [url-routing](url-routing.md) |
-| `package-lock.json` | `dfdcfa77076a0ebd` | [development-cli](development-cli.md), [architecture](architecture.md) |
+| `knowledge/editions/engineering.json` | `b8d107522d4993cc` | [knowledge-maintenance](knowledge-maintenance.md), [url-routing](url-routing.md) |
+| `knowledge/editions/public.json` | `0e83e65fb45b2f62` | [knowledge-maintenance](knowledge-maintenance.md), [url-routing](url-routing.md) |
+| `package-lock.json` | `3ba4e6ef4e01ec4c` | [development-cli](development-cli.md), [architecture](architecture.md) |
 | `package.json` | `4683e6813f856a74` | [development-cli](development-cli.md), [architecture](architecture.md) |
 | `packages/cases/package.json` | `7fa0fd704e3ecb9b` | [workspace-case](workspace-case.md), [user-flows](user-flows.md), [url-routing](url-routing.md) |
 | `packages/cases/src/authoring.ts` | `f57682a8f0715b09` | [workspace-case](workspace-case.md), [user-flows](user-flows.md), [url-routing](url-routing.md) |
@@ -223,7 +226,7 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 | `packages/cases/src/workspace-compare.ts` | `b671844b6a6e9b35` | [perspectives](perspectives.md), [workspace-case](workspace-case.md), [user-flows](user-flows.md), [url-routing](url-routing.md) |
 | `packages/cases/src/workspace-layout.ts` | `17c9e70d21fc09de` | [workspace-case](workspace-case.md), [user-flows](user-flows.md), [url-routing](url-routing.md) |
 | `packages/cases/src/workspace-story.ts` | `76426499238383f0` | [workspace-case](workspace-case.md), [user-flows](user-flows.md), [url-routing](url-routing.md) |
-| `packages/cases/src/workspace.ts` | `abc881055de48e74` | [workspace-case](workspace-case.md), [user-flows](user-flows.md), [url-routing](url-routing.md) |
+| `packages/cases/src/workspace.ts` | `4077ec64b29d67f2` | [workspace-case](workspace-case.md), [user-flows](user-flows.md), [url-routing](url-routing.md) |
 | `packages/cases/tsconfig.build.json` | `2f7bfa1698a5359c` | [workspace-case](workspace-case.md), [user-flows](user-flows.md), [url-routing](url-routing.md) |
 | `packages/cli/package.json` | `710ada70fa127443` | [development-cli](development-cli.md) |
 | `packages/cli/src/index.ts` | `11ddeb980b3ec2d7` | [development-cli](development-cli.md) |
@@ -237,7 +240,7 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 | `packages/contracts/src/design-tokens.ts` | `14582afa48cc7421` | [contracts](contracts.md), [schema-reference](schema-reference.md) |
 | `packages/contracts/src/development-proposal.ts` | `cc75fce1edcb2b3c` | [contracts](contracts.md), [schema-reference](schema-reference.md) |
 | `packages/contracts/src/effects.ts` | `7f3a6f057f5ce08b` | [contracts](contracts.md), [schema-reference](schema-reference.md) |
-| `packages/contracts/src/index.ts` | `62bae716ac01f2a7` | [contracts](contracts.md), [schema-reference](schema-reference.md) |
+| `packages/contracts/src/index.ts` | `7c667ac5c60a87ca` | [contracts](contracts.md), [schema-reference](schema-reference.md) |
 | `packages/contracts/src/input-observation.ts` | `9278c8419af854cd` | [contracts](contracts.md), [schema-reference](schema-reference.md) |
 | `packages/contracts/src/lifecycle.ts` | `5e5b306c921e50f6` | [contracts](contracts.md), [schema-reference](schema-reference.md) |
 | `packages/contracts/src/load.d.ts` | `0e0a043790dc1f8a` | [contracts](contracts.md), [schema-reference](schema-reference.md) |
@@ -264,7 +267,7 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 | `packages/core/src/agent.ts` | `85c9ebd8fcfeb93f` | [core-runtime](core-runtime.md), [state-flows](state-flows.md) |
 | `packages/core/src/collection.ts` | `ca7e7448bfa99028` | [core-runtime](core-runtime.md), [state-flows](state-flows.md) |
 | `packages/core/src/data.ts` | `783b46c38fc2463f` | [data-actions](data-actions.md) |
-| `packages/core/src/index.ts` | `6abdbd82d0a1fd6e` | [core-runtime](core-runtime.md), [state-flows](state-flows.md) |
+| `packages/core/src/index.ts` | `d420b9d87941da3d` | [core-runtime](core-runtime.md), [state-flows](state-flows.md) |
 | `packages/core/src/layout.ts` | `76fb887701f82962` | [core-runtime](core-runtime.md), [state-flows](state-flows.md) |
 | `packages/core/src/surface-interactions.ts` | `73ff8a9b6b218f46` | [core-runtime](core-runtime.md), [state-flows](state-flows.md) |
 | `packages/core/tsconfig.build.json` | `2f7bfa1698a5359c` | [core-runtime](core-runtime.md), [state-flows](state-flows.md) |
@@ -284,9 +287,10 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 | `packages/i18n/src/index.ts` | `a519cc574cced3ca` | [contracts](contracts.md), [react-integration](react-integration.md), [layout-text-input](layout-text-input.md) |
 | `packages/i18n/src/locale.ts` | `a10cfd95d94e5bb7` | [contracts](contracts.md), [react-integration](react-integration.md), [layout-text-input](layout-text-input.md) |
 | `packages/i18n/tsconfig.build.json` | `2f7bfa1698a5359c` | [contracts](contracts.md), [react-integration](react-integration.md), [layout-text-input](layout-text-input.md) |
-| `packages/intelligence/package.json` | `6871f4eabc561d87` | [ai-review](ai-review.md), [release-roadmap](release-roadmap.md) |
-| `packages/intelligence/src/index.ts` | `92aa7f580d370b7a` | [ai-review](ai-review.md), [release-roadmap](release-roadmap.md) |
-| `packages/intelligence/tsconfig.build.json` | `2f7bfa1698a5359c` | [ai-review](ai-review.md), [release-roadmap](release-roadmap.md) |
+| `packages/intelligence/package.json` | `84367483fc70de3b` | [architecture](architecture.md), [workspace-case](workspace-case.md), [release-roadmap](release-roadmap.md) |
+| `packages/intelligence/src/index.ts` | `ec9301ef69104f2d` | [architecture](architecture.md), [workspace-case](workspace-case.md), [release-roadmap](release-roadmap.md) |
+| `packages/intelligence/src/workspace-intent.ts` | `11b53090f3aea74d` | [workspace-case](workspace-case.md), [state-flows](state-flows.md), [quality-testing](quality-testing.md) |
+| `packages/intelligence/tsconfig.build.json` | `2f7bfa1698a5359c` | [architecture](architecture.md), [workspace-case](workspace-case.md), [release-roadmap](release-roadmap.md) |
 | `packages/react/package.json` | `d43f55442fa58a15` | [react-integration](react-integration.md), [layout-text-input](layout-text-input.md) |
 | `packages/react/src/index.tsx` | `f40fbed8adbbcbd5` | [react-integration](react-integration.md), [layout-text-input](layout-text-input.md) |
 | `packages/react/tsconfig.build.json` | `2f7bfa1698a5359c` | [react-integration](react-integration.md), [layout-text-input](layout-text-input.md) |
@@ -347,7 +351,7 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 | `scripts/evaluate-ai-review.ts` | `b80f44d0a7b1c8dc` | [development-cli](development-cli.md), [architecture](architecture.md) |
 | `scripts/knowledge/build.ts` | `670a711e87c6e3c6` | [knowledge-maintenance](knowledge-maintenance.md) |
 | `scripts/knowledge/check.ts` | `78cc5efe8490b336` | [knowledge-maintenance](knowledge-maintenance.md) |
-| `scripts/knowledge/config.ts` | `ed6a1c6ad3ae683b` | [knowledge-maintenance](knowledge-maintenance.md) |
+| `scripts/knowledge/config.ts` | `5ee1d6be854f0bcd` | [knowledge-maintenance](knowledge-maintenance.md) |
 | `scripts/knowledge/edition-reader.js` | `c515c9249ef4e05a` | [knowledge-maintenance](knowledge-maintenance.md) |
 | `scripts/knowledge/editions.ts` | `c37221c3a4401cbd` | [knowledge-maintenance](knowledge-maintenance.md) |
 | `scripts/knowledge/export.ts` | `9e46cf65e3591c5f` | [knowledge-maintenance](knowledge-maintenance.md) |
@@ -365,7 +369,7 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 | `scripts/react-host/assess.ts` | `ace939a6243e30e7` | [development-cli](development-cli.md), [architecture](architecture.md) |
 | `scripts/react-host/main.tsx` | `401e50ab67f5917a` | [development-cli](development-cli.md), [architecture](architecture.md) |
 | `scripts/react-host/timing.ts` | `3eb129fe5c75b541` | [development-cli](development-cli.md), [architecture](architecture.md) |
-| `scripts/release/public-assets.json` | `94d3fc3ca851f8fa` | [development-cli](development-cli.md), [architecture](architecture.md) |
+| `scripts/release/public-assets.json` | `22e4834f011745d0` | [development-cli](development-cli.md), [architecture](architecture.md) |
 | `scripts/update-feature-docs.ts` | `43e2d292d54b0224` | [development-cli](development-cli.md), [architecture](architecture.md) |
 | `scripts/verify-react-host.ts` | `920828a39fe55ca4` | [development-cli](development-cli.md), [architecture](architecture.md) |
 | `tests/browser/locale-surface/index.html` | `496e17e14fdf81dc` | [quality-testing](quality-testing.md) |
@@ -376,7 +380,9 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 | `tests/e2e/multilingual-workspace.spec.ts` | `88bb31f2b678d963` | [quality-testing](quality-testing.md) |
 | `tests/e2e/structural-workspace.spec.ts` | `284c7fbc03d00823` | [quality-testing](quality-testing.md) |
 | `tests/e2e/studio-evidence.spec.ts` | `76231c3ab7591370` | [quality-testing](quality-testing.md) |
+| `tests/e2e/workspace-intent.spec.ts` | `ae49c3f5d6b1a5d1` | [workspace-case](workspace-case.md), [state-flows](state-flows.md), [quality-testing](quality-testing.md) |
 | `tests/evaluations/ai-review-v1.json` | `8e844a37781f134f` | [quality-testing](quality-testing.md) |
+| `tests/evaluations/workspace-intent-holdout-v1.json` | `b1b593b46e525c37` | [workspace-case](workspace-case.md), [state-flows](state-flows.md), [quality-testing](quality-testing.md) |
 | `tests/unit/acceptance.test.ts` | `a6316d8e204d8872` | [quality-testing](quality-testing.md) |
 | `tests/unit/agent-bridge.test.ts` | `096e558a19ca6394` | [quality-testing](quality-testing.md) |
 | `tests/unit/agent-callback-boundaries.test.ts` | `2d47880137b296b6` | [quality-testing](quality-testing.md) |
@@ -446,6 +452,7 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 | `tests/unit/showcase-cases.test.ts` | `3840c5ab5ec10e00` | [quality-testing](quality-testing.md) |
 | `tests/unit/simulation.test.ts` | `ce23bd6bf11a1ca3` | [simulation-cases](simulation-cases.md), [studio](studio.md) |
 | `tests/unit/studio-locale.test.ts` | `49ffd77e9c5609ea` | [quality-testing](quality-testing.md) |
+| `tests/unit/studio-workspace-intent.test.ts` | `cb73b2046b860456` | [workspace-case](workspace-case.md), [state-flows](state-flows.md), [quality-testing](quality-testing.md) |
 | `tests/unit/surface-authority.test.ts` | `97ea9e40e1456984` | [quality-testing](quality-testing.md) |
 | `tests/unit/surface-capabilities.test.ts` | `bb18f8db90383932` | [quality-testing](quality-testing.md) |
 | `tests/unit/surface-lifecycle-policy.test.ts` | `04337f1e94934167` | [quality-testing](quality-testing.md) |
@@ -455,6 +462,8 @@ Das Inventar umfasst Runtime, Studio, Werkzeuge, Tests, Manifeste und kanonische
 | `tests/unit/ui-quality.test.ts` | `cb61cafde89dc8ee` | [quality-testing](quality-testing.md) |
 | `tests/unit/workspace-collection.test.ts` | `d27def794de6dbf8` | [quality-testing](quality-testing.md) |
 | `tests/unit/workspace-coupling.test.ts` | `048efe250a794866` | [quality-testing](quality-testing.md) |
+| `tests/unit/workspace-intent-eval.test.ts` | `30695294feea0b63` | [workspace-case](workspace-case.md), [state-flows](state-flows.md), [quality-testing](quality-testing.md) |
+| `tests/unit/workspace-intent.test.ts` | `4196c92455723ff9` | [workspace-case](workspace-case.md), [state-flows](state-flows.md), [quality-testing](quality-testing.md) |
 | `tests/unit/workspace-motion-ink.test.ts` | `ecede4f5d29aa614` | [quality-testing](quality-testing.md) |
 | `tests/unit/workspace-perspectives.test.ts` | `891ad30a719572c3` | [quality-testing](quality-testing.md) |
 | `tests/unit/workspace-qualification.test.ts` | `72f463c660820b5c` | [quality-testing](quality-testing.md) |

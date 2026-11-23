@@ -2,6 +2,8 @@
 
 **Recherche-Stichtag: 31. Oktober 2026. Prüfung durchgeführt am 1. November 2026.**
 
+**Erweiterung vom 23. November 2026.** Der [erste Intent-Anwendungsfall](#erster-intent-anwendungsfall-im-workspace) verbindet echte Modulbesuche mit einer vorgeschlagenen Transformation im Workspace. Der Nutzer kann die Herleitung ansehen und bestimmen, ob er jetzt vergleichen möchte.
+
 **Erweiterung vom 20. November 2026.** [Formübergänge und Studioabläufe R1–R6](milestones/structural-transitions.md) ergänzen den Plan um drei reale Verwandlungen, die UI-SDK-Beta.13, versioniertes Authoring und gebundene Bildnachweise. Die neuen Kriterien sind mit den bestehenden Umsetzungstasks verbunden. Die am 20. November geprüfte Studio-Integration nutzt den Sicherheitspatchstand Next.js 16.4.6. Die Oktobermatrix dokumentiert die damalige Entscheidung. Der Soundplan bleibt ein eigener Entwurf.
 
 Der [Plan für Mehrsprachigkeit M11](milestones/m11-multilingual-plan.md) ergänzt die Roadmap mit einer implementierten ersten Sprachfreigabe. Im frühen Meilenstein sind Deutsch, Englisch und Französisch direkt wählbar. Beim Wechsel lässt sich derselbe Datensatz in Studio, GPU und zugänglicher Bedienoberfläche verfolgen. Acht Tasks verbinden die bewerteten Entscheidungen mit Abnahmen im zentralen Register. Die externe Sprach- und Geräteabnahme wird je Profil geführt.
@@ -852,6 +854,19 @@ Refactor umetikettiert. Bestehende globale Produktgates bleiben zusätzlich maß
 | **T23 Predictive Loading** | A alles für Top-3 laden **60**; B nur Hover-Prefetch **80**; H Nutzen-/Kostenranking mit Hostkoordination **95** | **H:** abbrechbare Queue, Cache-Deduplizierung und Ressourcenbudgets | Maximal drei eigene gleichzeitige Preloads; kein Kauf/Submit; überholte Jobs abbrechen; Treffer, verschwendete Bytes und Latenznutzen messen. |
 | **T24 Ziele und Personalisierung** | A feste Personas **65**; B freie KI-Umgestaltung **45**; H freigegebene Varianten plus explizite Präferenzen **95** | **H:** Task Completion als Standardziel; Geschäftsziel optional | Nutzer kann Anpassungen stoppen und zurücknehmen; keine Reorganisation während aktiver Eingabe; Präferenzen werden nicht aus sensiblen Vermutungen abgeleitet. |
 | **T25 Case-Pakete** | A getrennte Demo-Apps **60**; B ein austauschbares Scheindemo **55**; H gemeinsame Case-Verträge mit echten Datenadaptern **95** | **H:** folgende Case-Matrix umsetzen | Jeder Case hat Datenherkunft, vollständige URL-/State-Flows, Fehlerfälle, Manual/Hybrid/Auto-Vergleich und reproduzierbare Tests. |
+
+#### Erster Intent-Anwendungsfall im Workspace
+
+Wenn jemand wiederholt dieselben zwei Module öffnet, könnte ein Vergleich die nächste Frage beantworten. Die lokale Assistenz wertet bewusst geöffnete Details aus. Bei einem eindeutigen Paar bietet sie an, die beiden Module nebeneinanderzustellen. Erst die Annahme übergibt beide IDs an den Vergleich. Wer nur nachschlägt, kann weitermachen oder den Vorschlag verwerfen. Der manuelle Workspace ist der Standard.
+
+T21 trennt hierfür drei Nachweise: reproduzierbares Ranking der Kandidatenpaare, Enthaltung bei mehrdeutigen Signalen und Auswertung auf getrennten Sitzungen. Der deklarierte synthetische Prüfsatz umfasst 16 getrennte Sitzungen mit je einem Auswertungszeitpunkt. Bei sieben Vergleichsaufgaben gab es sechs richtige Vorschläge und ein verpasstes Paar. Bei den neun anderen Aufgaben trat ein unerwünschter Vorschlag auf. [Auswertung](qa/2026-11-23-intent/evaluation.json) Ob Besucher eine angebotene Transformation tatsächlich hilfreich finden, erfordert unabhängig erhobene Sitzungen mit einem bekannten Aufgabenziel. Erst danach lässt sich eine Schwelle für weitere Cases begründen. Datenvorbereitung (T23), persönliche Ziele (T24) und Lernen aus Ergebnissen (T28) behalten eigene Abnahmen. [Ablauf und Grenzen](flows/workspace.md#von-modulbesuchen-zum-vergleich)
+
+| Teilprüfung des Workspace-Meilensteins | Beobachtbare Abnahme |
+| --- | --- |
+| Bedarf erkennen | Nach Aktivierung können vier abwechselnde Detailöffnungen zweier Module ein erklärtes Angebot ergeben. Sortieren und das Bedienen von Auswahlkästchen allein genügen nicht. |
+| Kontrolle behalten | Unsichere Evidenz bleibt als solche erkennbar. Ein Vorschlag für sich ändert weder Ansicht noch URL. Während einer Texteingabe bleibt der Fokus erhalten. Eine Ablehnung schaltet weitere Vorschläge vorübergehend stumm. |
+| Oberfläche passend verwandeln | Die Annahme öffnet den bestehenden Modulvergleich mit genau den angebotenen zwei Kennungen. Die URL enthält beide Kennungen. Ein erneutes Öffnen des Links stellt den Vergleich ohne den ursprünglichen Sitzungsverlauf wieder her. |
+| Folgen der Regel messen | Ein versionierter synthetischer Prüfsatz enthält auch Beobachtungen mit mehr als einer plausiblen Erklärung. Richtige, unerwünschte und verpasste Vorschläge werden getrennt ausgewiesen. Der nächste Wirkungsnachweis benötigt unabhängig erhobene Nutzeraufgaben. |
 
 #### Verbindliches Case-Set
 

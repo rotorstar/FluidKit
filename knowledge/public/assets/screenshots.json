@@ -988,6 +988,23 @@
       "encoding": "image/png",
       "sha256": "81a2db0cd0aa400967d5c49a7be6db9a6c5c1c0c75db510cfe77bca043ff3648",
       "captureScope": "Tatsächliche Studio-Oberfläche mit angehaltener GPU-Darstellung bei 50 Prozent."
+    },
+    {
+      "id": "workspace-intent-offer-en",
+      "file": "assets/workspace-intent-offer-en.png",
+      "caption": "Nach dem vierten Detailbesuch bietet die englische Arbeitsfläche einen Vergleich von core und webgpu an.",
+      "capturedAt": "2026-11-23T10:37:47.093Z",
+      "sourceBuild": "fluid-6d115da3df9f22a8bf30",
+      "backend": "webgpu",
+      "route": "/en?view=detail&sort=name&direction=asc&selected=webgpu&group=all",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 1
+      },
+      "encoding": "image/png",
+      "sha256": "05c5254c27c1a1fd511c6686d8059f1138b87b2f9c6fb37e97e820265596b402",
+      "captureScope": "Gerenderter Workspace-Ausschnitt mit dem noch nicht angenommenen Vorschlag. Browser: Chromium, Reduced Motion aktiv."
     }
   ]
 }

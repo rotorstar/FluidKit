@@ -5,7 +5,7 @@ description: "Verantwortlichkeiten, Abhängigkeiten und Grenzen zwischen Runtime
 audience: "engineering"
 tags: ["fluidkit", "architecture"]
 status: "draft"
-generated: {"by": "codex/fluidkit-knowledge-v1", "at": "2026-11-13T13:20:40Z"}
+generated: {"by": "codex/fluidkit-knowledge-v1", "at": "2026-11-23T10:37:01Z"}
 stale_after: "2026-12-13T00:00:00Z"
 sources: [{"id": "implementation", "resource": "assets/source-inventory.json", "title": "Geprüfter Implementierungsstand"}]
 ---
@@ -26,7 +26,7 @@ Transitionen. Framework- und GPU-Objekte gehören nicht in einen RuntimeSnapshot
 | react | Provider, Abonnements, Surface und native Brücke | keine zweite fachliche Wahrheit |
 | cases | Workspace- und synthetische Praxisprojektionen | Quellenmodus ausdrücklich deklarieren |
 | testing | Szenarien, Storyrunner, DOM-/GPU-/Semantikreports | Prüfscope nicht mit Release gleichsetzen |
-| intelligence | DecisionProvider-Vertrag | produktive Intent-Pipeline offen |
+| intelligence | lokaler Ranker für mögliche Vergleichspaare und DecisionProvider-Vertrag | nur laufende Sitzung, ein fachliches Ziel, Vorschlag benötigt Bestätigung |
 | server | AI-Review, lokale Autorisierung, Budget, Validierung | API-Key ausschließlich serverseitig |
 | cli | Projektvalidierung und Szenarien | keine fertigen init/add/studio-Kommandos |
 

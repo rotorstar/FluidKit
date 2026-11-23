@@ -10,7 +10,7 @@ tags:
 status: draft
 generated:
   by: process:fluidkit-knowledge-sync
-  at: 2026-11-20T11:46:48.000Z
+  at: 2026-11-23T10:46:25.000Z
 stale_after: 2026-12-02T00:00:00Z
 sources:
   - id: implementation
@@ -223,29 +223,29 @@ Automatisch aus den direkt exportierten Quelldeklarationen ermittelt. Ein Export
 | `DecisionPlanSchema` | const | `packages/contracts/src/index.ts:213` |
 | `DecisionPlan` | TypeAliasDeclaration | `packages/contracts/src/index.ts:219` |
 | `TraceEntrySchema` | const | `packages/contracts/src/index.ts:220` |
-| `TraceEntry` | TypeAliasDeclaration | `packages/contracts/src/index.ts:229` |
-| `ScenarioDefinitionSchema` | const | `packages/contracts/src/index.ts:230` |
-| `ScenarioDefinition` | TypeAliasDeclaration | `packages/contracts/src/index.ts:237` |
-| `DatasetSchema` | const | `packages/contracts/src/index.ts:238` |
-| `Dataset` | TypeAliasDeclaration | `packages/contracts/src/index.ts:243` |
-| `ProjectSchema` | const | `packages/contracts/src/index.ts:244` |
-| `FluidProject` | TypeAliasDeclaration | `packages/contracts/src/index.ts:253` |
-| `defineFlow` | FunctionDeclaration | `packages/contracts/src/index.ts:254` |
-| `defineComponent` | FunctionDeclaration | `packages/contracts/src/index.ts:255` |
-| `VisualScenarioV2Schema` | const | `packages/contracts/src/index.ts:263` |
-| `VisualScenarioV3Schema` | const | `packages/contracts/src/index.ts:264` |
-| `VisualScenarioV4Schema` | const | `packages/contracts/src/index.ts:265` |
-| `RecordingLanguageProfileSchema` | const | `packages/contracts/src/index.ts:270` |
-| `RecordingLanguageProfile` | TypeAliasDeclaration | `packages/contracts/src/index.ts:276` |
-| `VisualScenarioV5Schema` | const | `packages/contracts/src/index.ts:277` |
-| `VisualScenarioSchema` | const | `packages/contracts/src/index.ts:285` |
-| `TextInkBoxSchema` | const | `packages/contracts/src/index.ts:299` |
-| `TextInkBox` | TypeAliasDeclaration | `packages/contracts/src/index.ts:300` |
-| `TextAuditSchema` | const | `packages/contracts/src/index.ts:301` |
-| `TextAudit` | TypeAliasDeclaration | `packages/contracts/src/index.ts:308` |
-| `VisualScenario` | TypeAliasDeclaration | `packages/contracts/src/index.ts:309` |
-| `RestagedRecordingSchema` | const | `packages/contracts/src/index.ts:310` |
-| `RestagedRecording` | TypeAliasDeclaration | `packages/contracts/src/index.ts:314` |
+| `TraceEntry` | TypeAliasDeclaration | `packages/contracts/src/index.ts:230` |
+| `ScenarioDefinitionSchema` | const | `packages/contracts/src/index.ts:231` |
+| `ScenarioDefinition` | TypeAliasDeclaration | `packages/contracts/src/index.ts:238` |
+| `DatasetSchema` | const | `packages/contracts/src/index.ts:239` |
+| `Dataset` | TypeAliasDeclaration | `packages/contracts/src/index.ts:244` |
+| `ProjectSchema` | const | `packages/contracts/src/index.ts:245` |
+| `FluidProject` | TypeAliasDeclaration | `packages/contracts/src/index.ts:254` |
+| `defineFlow` | FunctionDeclaration | `packages/contracts/src/index.ts:255` |
+| `defineComponent` | FunctionDeclaration | `packages/contracts/src/index.ts:256` |
+| `VisualScenarioV2Schema` | const | `packages/contracts/src/index.ts:264` |
+| `VisualScenarioV3Schema` | const | `packages/contracts/src/index.ts:265` |
+| `VisualScenarioV4Schema` | const | `packages/contracts/src/index.ts:266` |
+| `RecordingLanguageProfileSchema` | const | `packages/contracts/src/index.ts:271` |
+| `RecordingLanguageProfile` | TypeAliasDeclaration | `packages/contracts/src/index.ts:277` |
+| `VisualScenarioV5Schema` | const | `packages/contracts/src/index.ts:278` |
+| `VisualScenarioSchema` | const | `packages/contracts/src/index.ts:286` |
+| `TextInkBoxSchema` | const | `packages/contracts/src/index.ts:300` |
+| `TextInkBox` | TypeAliasDeclaration | `packages/contracts/src/index.ts:301` |
+| `TextAuditSchema` | const | `packages/contracts/src/index.ts:302` |
+| `TextAudit` | TypeAliasDeclaration | `packages/contracts/src/index.ts:309` |
+| `VisualScenario` | TypeAliasDeclaration | `packages/contracts/src/index.ts:310` |
+| `RestagedRecordingSchema` | const | `packages/contracts/src/index.ts:311` |
+| `RestagedRecording` | TypeAliasDeclaration | `packages/contracts/src/index.ts:315` |
 | `NativeInputContextSchema` | const | `packages/contracts/src/input-observation.ts:3` |
 | `NativeInputObservationSchema` | const | `packages/contracts/src/input-observation.ts:4` |
 | `NativeInputObservation` | TypeAliasDeclaration | `packages/contracts/src/input-observation.ts:13` |
@@ -506,7 +506,14 @@ Automatisch aus den direkt exportierten Quelldeklarationen ermittelt. Ein Export
 | `LocaleContext` | TypeAliasDeclaration | `packages/i18n/src/locale.ts:18` |
 | `resolveLocaleContext` | FunctionDeclaration | `packages/i18n/src/locale.ts:19` |
 | `formatRegion` | const | `packages/i18n/src/locale.ts:22` |
-| `DecisionProvider` | InterfaceDeclaration | `packages/intelligence/src/index.ts:3` |
+| `DecisionProvider` | InterfaceDeclaration | `packages/intelligence/src/index.ts:5` |
+| `WorkspaceIntentVisitSchema` | const | `packages/intelligence/src/workspace-intent.ts:10` |
+| `WorkspaceComparisonIntentSchema` | const | `packages/intelligence/src/workspace-intent.ts:11` |
+| `WorkspaceIntentResultSchema` | const | `packages/intelligence/src/workspace-intent.ts:17` |
+| `WorkspaceIntentVisit` | TypeAliasDeclaration | `packages/intelligence/src/workspace-intent.ts:25` |
+| `WorkspaceComparisonIntent` | TypeAliasDeclaration | `packages/intelligence/src/workspace-intent.ts:26` |
+| `WorkspaceIntentResult` | TypeAliasDeclaration | `packages/intelligence/src/workspace-intent.ts:27` |
+| `createWorkspaceIntentSession` | FunctionDeclaration | `packages/intelligence/src/workspace-intent.ts:51` |
 | `FluidLocaleProvider` | FunctionDeclaration | `packages/react/src/index.tsx:19` |
 | `FluidThemeProvider` | FunctionDeclaration | `packages/react/src/index.tsx:24` |
 | `FluidProvider` | FunctionDeclaration | `packages/react/src/index.tsx:27` |
@@ -1675,7 +1682,7 @@ export type DecisionPlan = z.infer<typeof DecisionPlanSchema>;
 
 ### TraceEntry
 
-Quelle: `packages/contracts/src/index.ts:229`.
+Quelle: `packages/contracts/src/index.ts:230`.
 
 ```typescript
 export type TraceEntry = z.infer<typeof TraceEntrySchema>;
@@ -1683,7 +1690,7 @@ export type TraceEntry = z.infer<typeof TraceEntrySchema>;
 
 ### ScenarioDefinition
 
-Quelle: `packages/contracts/src/index.ts:237`.
+Quelle: `packages/contracts/src/index.ts:238`.
 
 ```typescript
 export type ScenarioDefinition = z.infer<typeof ScenarioDefinitionSchema>;
@@ -1691,7 +1698,7 @@ export type ScenarioDefinition = z.infer<typeof ScenarioDefinitionSchema>;
 
 ### Dataset
 
-Quelle: `packages/contracts/src/index.ts:243`.
+Quelle: `packages/contracts/src/index.ts:244`.
 
 ```typescript
 export type Dataset = z.infer<typeof DatasetSchema>;
@@ -1699,7 +1706,7 @@ export type Dataset = z.infer<typeof DatasetSchema>;
 
 ### FluidProject
 
-Quelle: `packages/contracts/src/index.ts:253`.
+Quelle: `packages/contracts/src/index.ts:254`.
 
 ```typescript
 export type FluidProject = z.infer<typeof ProjectSchema>;
@@ -1707,7 +1714,7 @@ export type FluidProject = z.infer<typeof ProjectSchema>;
 
 ### defineFlow
 
-Quelle: `packages/contracts/src/index.ts:254`.
+Quelle: `packages/contracts/src/index.ts:255`.
 
 ```typescript
 export function defineFlow(input: z.input<typeof FlowDefinitionSchema>): FlowDefinition
@@ -1715,7 +1722,7 @@ export function defineFlow(input: z.input<typeof FlowDefinitionSchema>): FlowDef
 
 ### defineComponent
 
-Quelle: `packages/contracts/src/index.ts:255`.
+Quelle: `packages/contracts/src/index.ts:256`.
 
 ```typescript
 export function defineComponent(input: z.input<typeof ComponentDefinitionSchema>): ComponentDefinition
@@ -1723,7 +1730,7 @@ export function defineComponent(input: z.input<typeof ComponentDefinitionSchema>
 
 ### RecordingLanguageProfile
 
-Quelle: `packages/contracts/src/index.ts:276`.
+Quelle: `packages/contracts/src/index.ts:277`.
 
 ```typescript
 export type RecordingLanguageProfile = z.infer<typeof RecordingLanguageProfileSchema>;
@@ -1731,7 +1738,7 @@ export type RecordingLanguageProfile = z.infer<typeof RecordingLanguageProfileSc
 
 ### TextInkBox
 
-Quelle: `packages/contracts/src/index.ts:300`.
+Quelle: `packages/contracts/src/index.ts:301`.
 
 ```typescript
 export type TextInkBox=z.infer<typeof TextInkBoxSchema>;
@@ -1739,7 +1746,7 @@ export type TextInkBox=z.infer<typeof TextInkBoxSchema>;
 
 ### TextAudit
 
-Quelle: `packages/contracts/src/index.ts:308`.
+Quelle: `packages/contracts/src/index.ts:309`.
 
 ```typescript
 export type TextAudit=z.infer<typeof TextAuditSchema>;
@@ -1747,7 +1754,7 @@ export type TextAudit=z.infer<typeof TextAuditSchema>;
 
 ### VisualScenario
 
-Quelle: `packages/contracts/src/index.ts:309`.
+Quelle: `packages/contracts/src/index.ts:310`.
 
 ```typescript
 export type VisualScenario = z.infer<typeof VisualScenarioSchema>;
@@ -1755,7 +1762,7 @@ export type VisualScenario = z.infer<typeof VisualScenarioSchema>;
 
 ### RestagedRecording
 
-Quelle: `packages/contracts/src/index.ts:314`.
+Quelle: `packages/contracts/src/index.ts:315`.
 
 ```typescript
 export type RestagedRecording = z.infer<typeof RestagedRecordingSchema>;
@@ -3043,12 +3050,44 @@ export function resolveLocaleContext(language: Locale, options: Partial<Pick<Loc
 
 ### DecisionProvider
 
-Quelle: `packages/intelligence/src/index.ts:3`.
+Quelle: `packages/intelligence/src/index.ts:5`.
 
 ```typescript
 export interface DecisionProvider {
   propose(context: { snapshot: RuntimeSnapshot; allowedEvents: readonly string[]; signal: AbortSignal }): Promise<DecisionPlan | null>;
 }
+```
+
+### WorkspaceIntentVisit
+
+Quelle: `packages/intelligence/src/workspace-intent.ts:25`.
+
+```typescript
+export type WorkspaceIntentVisit = z.infer<typeof WorkspaceIntentVisitSchema>;
+```
+
+### WorkspaceComparisonIntent
+
+Quelle: `packages/intelligence/src/workspace-intent.ts:26`.
+
+```typescript
+export type WorkspaceComparisonIntent = z.infer<typeof WorkspaceComparisonIntentSchema>;
+```
+
+### WorkspaceIntentResult
+
+Quelle: `packages/intelligence/src/workspace-intent.ts:27`.
+
+```typescript
+export type WorkspaceIntentResult = z.infer<typeof WorkspaceIntentResultSchema>;
+```
+
+### createWorkspaceIntentSession
+
+Quelle: `packages/intelligence/src/workspace-intent.ts:51`.
+
+```typescript
+export function createWorkspaceIntentSession(moduleIds: readonly string[], options: z.input<typeof SessionOptionsSchema> = {})
 ```
 
 ### FluidLocaleProvider

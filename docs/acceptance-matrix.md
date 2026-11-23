@@ -1,13 +1,13 @@
 # Abgleichsmatrix aller Acceptance Criteria
 
-Stand: 2026-11-20. 518 Kriterien aus dem kanonischen Plan, M1–M9, M11, R1–R6, UI-Prüfliste und Anbieter-/Simulationsvertrag.
+Stand: 2026-11-23. 518 Kriterien aus dem kanonischen Plan, M1–M9, M11, R1–R6, UI-Prüfliste und Anbieter-/Simulationsvertrag.
 
 **Gesamtplan vollständig erfüllt: Nein.** Ein Proof und ein bestandener Teilcheck sind keine vollständige Produktabnahme. Statuswerte beziehen sich auf den ausdrücklich angegebenen Scope; übergreifende Gates bleiben zusätzlich maßgeblich.
 
-- Nachgewiesen im Scope: 6
+- Nachgewiesen im Scope: 8
 - Implementiert, Nachweis offen: 0
-- Teilweise: 387
-- Offen: 123
+- Teilweise: 388
+- Offen: 120
 - Externer Nachweis nötig: 2
 
 [Maschinenlesbares Register](acceptance/ledger.json) · [Grundlagenplan](milestones/m5-plan.md) · [M6-Rehearsalvertrag](milestones/m6-plan.md) · [M7-Effektvertrag](milestones/m7-plan.md) · [M8-Komponentenvertrag](milestones/m8-plan.md) · [M9-Ansichten und Farbwelten](milestones/m9-plan.md) · [M11-Sprachprofile](milestones/m11-multilingual-plan.md) · [R1–R6](milestones/structural-transitions.md)
@@ -38,7 +38,7 @@ Die Zahlen bezeichnen einzelne Kriterien im dokumentierten Scope, keinen pauscha
 | [T18](#t18) | 0/4 | 4 | 0 |
 | [T19](#t19) | 0/4 | 3 | 1 |
 | [T20](#t20) | 0/3 | 3 | 0 |
-| [T21](#t21) | 0/3 | 0 | 3 |
+| [T21](#t21) | 2/3 | 1 | 0 |
 | [T22](#t22) | 0/3 | 1 | 2 |
 | [T23](#t23) | 0/4 | 0 | 4 |
 | [T24](#t24) | 0/3 | 0 | 3 |
@@ -541,13 +541,13 @@ Nachgewiesen im Scope: 0/3.
 
 ## T21
 
-Nachgewiesen im Scope: 0/3.
+Nachgewiesen im Scope: 2/3.
 
 | AC | Kriterium | Status / Scope | Nachweis | Offen / nächste Abnahme |
 |---|---|---|---|---|
-| T21-AC01 | Default Top-3, konfigurierbar bis fünf | Offen · Vollständiger Planumfang | — | Acceptance Criteria des Gesamtplans |
-| T21-AC02 | Unklarheit wird ausdrücklich dargestellt | Offen · Vollständiger Planumfang | — | Acceptance Criteria des Gesamtplans |
-| T21-AC03 | Qualitätsmessung auf getrennten Sessions statt Trainingsdaten | Offen · Vollständiger Planumfang | — | Acceptance Criteria des Gesamtplans |
+| T21-AC01 | Default Top-3, konfigurierbar bis fünf | Nachgewiesen im Scope · Lokaler Workspace-Ranker für konkrete Vergleichspaare. Die Begrenzung zählt Paare innerhalb dieses Ziels. | [source: packages/intelligence/src/workspace-intent.ts](../packages/intelligence/src/workspace-intent.ts), [test: tests/unit/workspace-intent.test.ts](../tests/unit/workspace-intent.test.ts), [artifact: docs/qa/2026-11-23-intent/ranker-tests.json](qa/2026-11-23-intent/ranker-tests.json) | Im genannten Scope belegt |
+| T21-AC02 | Unklarheit wird ausdrücklich dargestellt | Nachgewiesen im Scope · Unklarheit im lokalen Workspace-Vergleich: Ranker enthält sich, der Studio-Inspector nennt den Status. Browserprüfung mit englischer Oberfläche und echtem WebGPU; offene Eingabe bleibt bedienbar. | [test: tests/unit/workspace-intent.test.ts](../tests/unit/workspace-intent.test.ts), [artifact: docs/qa/2026-11-23-intent/ranker-tests.json](qa/2026-11-23-intent/ranker-tests.json), [test: tests/e2e/workspace-intent.spec.ts](../tests/e2e/workspace-intent.spec.ts), [artifact: docs/qa/2026-11-23-intent/browser.json](qa/2026-11-23-intent/browser.json) | Im genannten Scope belegt |
+| T21-AC03 | Qualitätsmessung auf getrennten Sessions statt Trainingsdaten | Teilweise · 16 getrennte, vorab beschriftete synthetische Sitzungen, ein Prüfzeitpunkt je Sitzung. Manuell festgelegte Regel ohne Training. | [source: tests/evaluations/workspace-intent-holdout-v1.json](../tests/evaluations/workspace-intent-holdout-v1.json), [test: tests/unit/workspace-intent-eval.test.ts](../tests/unit/workspace-intent-eval.test.ts), [artifact: docs/qa/2026-11-23-intent/evaluation.json](qa/2026-11-23-intent/evaluation.json) | Unabhängig erhobene Nutzersitzungen mit Aufgabenziel, unterbliebene und störende Vorschläge im gesamten Verlauf sowie Aufgabennutzen messen. Schwellen ohne Zugriff auf den finalen Prüfsatz kalibrieren. |
 
 ## T22
 

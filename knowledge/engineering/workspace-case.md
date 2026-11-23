@@ -5,7 +5,7 @@ description: "Manifeste, Quellstatistiken, Projektionen und stabile Identitäten
 audience: "engineering"
 tags: ["fluidkit", "workspace-case"]
 status: "draft"
-generated: {"by": "codex/fluidkit-knowledge-v1", "at": "2026-11-13T13:20:40Z"}
+generated: {"by": "codex/fluidkit-knowledge-v1", "at": "2026-11-23T10:37:01Z"}
 stale_after: "2026-12-13T00:00:00Z"
 sources: [{"id": "implementation", "resource": "assets/source-inventory.json", "title": "Geprüfter Implementierungsstand"}]
 ---
@@ -104,5 +104,26 @@ Notizwert. Der Host verhindert zusätzlich, dass das Entfernen des Bausteins ein
 nichtleeren Entwurf verschwinden lässt. Die Standard-Resetaktion löscht die Notiz
 nicht. Die Fontprüfung umfasst ausgelieferte Fonts und sehr lange Labels;
 zugängliche Namen behalten den Originaltext trotz visueller Zeilenumbrüche.
+
+## Einen möglichen Vergleich aus Modulbesuchen ableiten
+
+Die optionale Workspace-Assistenz führt zwei Entscheidungen getrennt aus. Der Ranker bestimmt aus den bestätigten Detailöffnungen der laufenden Sitzung, ob ein Vergleichspaar plausibel ist. Die Person entscheidet, ob der Workspace tatsächlich wechseln soll. Der manuelle Modus bleibt der Einstieg.
+
+Der Ranker betrachtet höchstens 24 Beobachtungen in einem zweiminütigen Fenster. Jede Beobachtung enthält eine freigegebene Modul-ID und einen Zeitpunkt. Abwechselnde Öffnungen wie `core → webgpu → core → webgpu` können ein Paar qualifizieren. Wenn mehrere Paare in Frage kommen, umfasst die Rangliste standardmäßig bis zu drei Kandidaten und lässt sich auf eins bis fünf begrenzen. Der Score beschreibt die Stärke des Musters. Eine Gleichrangigkeit oder zu wenig Evidenz kann zur Enthaltung führen. Der Studio-Inspector erklärt die Beobachtungen. Bei aktiver Eingabe und im Replay unterbleibt die Anpassung.
+
+```mermaid
+flowchart LR
+  User["Bestätigte Detailöffnung"] --> Evidence["Lokale Modul-ID und Zeitpunkt"]
+  Evidence --> Rank["Paar-Ranking"]
+  Rank --> Unclear["Unklar: Ansicht beibehalten"]
+  Rank --> Suggest["Eindeutiges Paar anbieten"]
+  Suggest --> Dismiss["Verwerfen: Vorschlagspause starten"]
+  Suggest --> Confirm["Person nimmt aktuellen Vorschlag an"]
+  Confirm --> Core["Vergleich und beide Modul-IDs atomar setzen"]
+  Core --> URL["Route mit zwei picked-Werten"]
+  Core --> GPU["Oberfläche für den neuen Arbeitsschritt"]
+```
+
+Ein Vorschlag löst keinen Datenabruf und keine Transaktion aus. Vorladen anhand von Intent (T23), persönliche Varianten (T24) und Lernen aus Ergebnissen (T28) besitzen eigene Abnahmen. Der synthetische Prüfsatz bewertet einen festgelegten Zeitpunkt je Sitzung. Bei sieben Aufgaben mit Vergleichsziel schlug die Regel sechsmal das richtige Paar vor. Bei neun anderen Aufgaben enthielt sie sich achtmal. Beim Nachschlagen zweier unabhängiger Fakten erzeugte dieselbe Besuchsfolge einen unerwünschten Vorschlag. Wie hilfreich die Anpassung für reale Personen ist, erfordert die unabhängige Erhebung von Aufgabe und Ergebnis. [Kriterienscharfe Nachweise](acceptance-reference.md)
 
 [^implementation]: Implementierung und SHA-256-Dateibindung im Quellinventar.

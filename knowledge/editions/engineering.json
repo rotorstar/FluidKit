@@ -11,12 +11,12 @@
   },
   "why-fluid": {
     "en": [
-      "What the transition conveys",
-      "A stable identity connects a row to a card. A declared membership connects a group to its children. The visible correspondence can help a reader track data through a change of perspective. Independent recognition tasks and device measurements are separate release gates."
+      "Adapting to the user’s next task",
+      "In the workspace, a local ranker can infer a possible comparison from repeated visits to two module details. It uses a bounded session window of module IDs and times. If the evidence is ambiguous it abstains. On acceptance, the core commits the comparison and its two IDs together. Synthetic sessions exercise the rule. Measuring usefulness calls for independent human sessions with known task goals."
     ],
     "fr": [
-      "Le sens de la transition",
-      "Une identité stable relie une ligne à une carte. Une appartenance déclarée relie un groupe à ses membres. La correspondance visible aide à suivre les données lors d’un changement de vue. La reconnaissance par des utilisateurs et les mesures sur appareil ont des critères distincts."
+      "Adapter la vue à la prochaine tâche",
+      "Dans l’atelier, des visites répétées sur les fiches de deux modules peuvent indiquer une intention de comparaison. La règle locale utilise les identifiants et les heures des visites récentes. Si le signal est ambigu, elle s’abstient. Après confirmation, le moteur ouvre la comparaison avec les deux identifiants en une seule opération. Les scénarios synthétiques vérifient la règle. Mesurer son utilité demande des sessions indépendantes avec des utilisateurs et un objectif de tâche connu."
     ]
   },
   "architecture": {

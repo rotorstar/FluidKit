@@ -16,6 +16,7 @@ import type { SurfaceMetrics, BackendMode, SurfacePlaybackControls } from '@flui
 import { DEFAULT_EFFECT_SETTINGS, type FluidProject, type QualityReport } from '@fluidkit/contracts';
 import { EffectLab, EffectTransport } from './effect-lab';
 import { WorkspaceSurface } from './workspace-surface';
+import { IntentEvidence, IntentOffer, IntentSwitch, useWorkspaceIntent } from './workspace-intent';
 import { EffectShowcaseTour } from './effect-showcase-tour';
 import { UIQuality } from './ui-quality';
 import { StudioProof } from './studio-proof';
@@ -34,6 +35,7 @@ export function StudioShowcase({data,project,staticReport,workshop = false}:{wor
   const trace=useSyncExternalStore(runtime.subscribeTrace,runtime.getTraceSnapshot,runtime.getTraceSnapshot);
   const [metrics,setMetrics]=useState<SurfaceMetrics|null>(null);
   const [controls,setControls]=useState<SurfacePlaybackControls|null>(null);
+  const intent = useWorkspaceIntent(runtime, data, controls, !workshop);
   const [panel,setPanel]=useState('state');
   const [proof,setProof]=useState(false);
   const [urlError,setUrlError]=useState('');
@@ -59,7 +61,8 @@ export function StudioShowcase({data,project,staticReport,workshop = false}:{wor
   function stage(version:1|2) {
     const current=version===1?originalMetrics:metrics;
     return <section key={version} className={styles.stage} data-motion-version={version} data-view={snapshot.state} data-backend={current?.backend} data-phase={current?.phase} data-progress={current?.progress} aria-label={t(version===1?'originalMotion':'structuralMotion')}>
-      <div className={styles.stagebar}><strong>{t(workshop?(version===1?'originalLabel':'structureLabel'):'workspaceModules')}</strong><Button className={styles.filter} aria-pressed={snapshot.fields.workspaceTools===true} onClick={()=>runtime.send(snapshot.fields.workspaceTools===true?'tools.close':'tools.open')}>{t('filters')}</Button><span role="status">{t(current?.backend==='webgpu'?'webgpuActive':current?.backend==='webgl2'?'webglActive':'startingGPU')}</span></div>
+      <div className={styles.stagebar}><strong>{t(workshop?(version===1?'originalLabel':'structureLabel'):'workspaceModules')}</strong>{!workshop&&<IntentSwitch intent={intent} runtime={runtime} ready={Boolean(controls)}/>}<Button className={styles.filter} aria-pressed={snapshot.fields.workspaceTools===true} onClick={()=>runtime.send(snapshot.fields.workspaceTools===true?'tools.close':'tools.open')}>{t('filters')}</Button><span role="status">{t(current?.backend==='webgpu'?'webgpuActive':current?.backend==='webgl2'?'webglActive':'startingGPU')}</span></div>
+      {!workshop && <IntentOffer intent={intent} live={controls?.getPresentationMode()==='live'}/>}
       {current?.fallbackReason&&<div className="backend-notice">{current.fallbackReason}</div>}
       <div className={styles.scroll} ref={element=>{stages.current[version]=element;}} onScroll={event=>{
         if(!workshop)return;
@@ -77,6 +80,7 @@ export function StudioShowcase({data,project,staticReport,workshop = false}:{wor
       {([['structure','structure'],['original','original'],['both','both']] as const).map(([key,label])=><Button key={key} type="button" aria-pressed={mobileVersion===key} onClick={()=>setMobileVersion(key)}>{t(label)}</Button>)}
     </div>}
     <div data-mobile-version={mobileVersion} className={workshop?styles.columns:undefined} aria-label={t('gpuWorkspace')}>{workshop&&stage(1)}{stage(2)}</div>
+    {!workshop && snapshot.mode==='hybrid' && <IntentEvidence intent={intent}/>}
     <div className={styles.notes}><span>{snapshot.state==='compare'?t('selectedComparison'):t('visibleModules',{count:rows.length})} · {t('selectedCount',{count:Array.isArray(snapshot.fields.selection)?snapshot.fields.selection.length:0})}{selected?' · '+selected.id:''}</span>{snapshot.fields.cardsPickedOnly===true&&snapshot.state==='cards'&&<Button className="outline-button" onClick={()=>runtime.send('cards.scope.all')}>{t('allCards')}</Button>}<Button className="outline-button" onClick={()=>runtime.send('reset')}>{t('reset')}</Button></div>
     {!workshop&&<details className={styles.more}><summary>{t('playback')}</summary><EffectTransport controls={controls} metrics={metrics}/></details>}
     <details className={styles.more}><summary>{t('effects')}</summary><EffectLab runtime={runtime} metrics={metrics} controls={controls} onPreview={()=>runtime.send(runtime.getSnapshot().state==='table'?'view.cards':'view.table')}/><EffectShowcaseTour runtime={runtime} data={data} controls={controls}/></details>

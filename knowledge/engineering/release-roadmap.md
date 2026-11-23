@@ -5,7 +5,7 @@ description: "Umgesetzter Alpha-Schnitt, offene Produktarbeit und verbindliche N
 audience: "engineering"
 tags: ["fluidkit", "release-roadmap"]
 status: "draft"
-generated: {"by": "codex/fluidkit-knowledge-v1", "at": "2026-11-14T06:46:48.647536Z"}
+generated: {"by": "codex/fluidkit-knowledge-v1", "at": "2026-11-23T10:37:01Z"}
 stale_after: "2026-12-14T00:00:00Z"
 sources: [{"id": "implementation", "resource": "assets/source-inventory.json", "title": "Geprüfter Implementierungsstand"}]
 ---
@@ -176,8 +176,8 @@ nicht als Authoring-Nachweise übernommen.
 
 Vollständige Widgets und Form-/Wizard-/Nav-/Modal-Semantik; breite IME-/Screenreader-/
 RTL-/CJK-/Mobile-Matrix; geräteübergreifende Bewegungserfassung und Pacing; persistentes
-Studio-Authoring/Runs/URLs; reale Anbieteradapter und Hosttransaktionen; Intent,
-Preload und Personalisierung; durable Budget-/Projektrollen; breite AI-Evaluation;
+Studio-Authoring/Runs/URLs; reale Anbieteradapter und Hosttransaktionen; zusätzliche
+Intents und Messung der Vorschlagsqualität mit echten Nutzern, Preload und Personalisierung; durable Budget-/Projektrollen; breite AI-Evaluation;
 Collaboration, Plugins, Enterprise, Voice, XR, Forschung und Marketplace.
 
 Marketplace bleibt die letzte Distributionsstufe. Negative Forschungsergebnisse

@@ -9,7 +9,7 @@ tags:
 status: draft
 generated:
   by: process:fluidkit-knowledge-sync
-  at: 2026-11-20T11:46:48.000Z
+  at: 2026-11-23T10:46:25.000Z
 stale_after: 2026-12-02T00:00:00Z
 sources:
   - id: implementation
@@ -714,35 +714,42 @@ Kein Nachweis im Register.
 
 ## T21: Intent-Runtime
 
-### T21-AC01 · open
+### T21-AC01 · verified
 
 Default Top-3, konfigurierbar bis fünf
 
-**Scope:** Vollständiger Planumfang
+**Scope:** Lokaler Workspace-Ranker für konkrete Vergleichspaare. Die Begrenzung zählt Paare innerhalb dieses Ziels.
 
-**Offen:** Acceptance Criteria des Gesamtplans
+**Offen:** Im bezeichneten Scope kein Restpunkt eingetragen.
 
-Kein Nachweis im Register.
+- Nachweis: `packages/intelligence/src/workspace-intent.ts`, SHA-256 `11b53090f3aea74df2ec76c93c662a85194f713ee6b362f809c0592eafb2686d`
+- Nachweis: `tests/unit/workspace-intent.test.ts`, SHA-256 `4196c92455723ff94a0d5cad22dc94b9713d9f4962735b29843ac6efd9a9f842`
+- Nachweis: `docs/qa/2026-11-23-intent/ranker-tests.json`, SHA-256 `63342c289a6e88a4377768edee910c91630bd8c17a8ff770ea14aca8e64846e6`
 
-### T21-AC02 · open
+### T21-AC02 · verified
 
 Unklarheit wird ausdrücklich dargestellt
 
-**Scope:** Vollständiger Planumfang
+**Scope:** Unklarheit im lokalen Workspace-Vergleich: Ranker enthält sich, der Studio-Inspector nennt den Status. Browserprüfung mit englischer Oberfläche und echtem WebGPU; offene Eingabe bleibt bedienbar.
 
-**Offen:** Acceptance Criteria des Gesamtplans
+**Offen:** Im bezeichneten Scope kein Restpunkt eingetragen.
 
-Kein Nachweis im Register.
+- Nachweis: `tests/unit/workspace-intent.test.ts`, SHA-256 `4196c92455723ff94a0d5cad22dc94b9713d9f4962735b29843ac6efd9a9f842`
+- Nachweis: `docs/qa/2026-11-23-intent/ranker-tests.json`, SHA-256 `63342c289a6e88a4377768edee910c91630bd8c17a8ff770ea14aca8e64846e6`
+- Nachweis: `tests/e2e/workspace-intent.spec.ts`, SHA-256 `ae49c3f5d6b1a5d1b76f097ada1c6e790028af0b7b6faa523e35cb8e3aee94e2`
+- Nachweis: `docs/qa/2026-11-23-intent/browser.json`, SHA-256 `4729c1b63863b6dbf7107341f647d7632fd87774f6aca78565b2cd008599ed00`
 
-### T21-AC03 · open
+### T21-AC03 · partial
 
 Qualitätsmessung auf getrennten Sessions statt Trainingsdaten
 
-**Scope:** Vollständiger Planumfang
+**Scope:** 16 getrennte, vorab beschriftete synthetische Sitzungen, ein Prüfzeitpunkt je Sitzung. Manuell festgelegte Regel ohne Training.
 
-**Offen:** Acceptance Criteria des Gesamtplans
+**Offen:** Unabhängig erhobene Nutzersitzungen mit Aufgabenziel, unterbliebene und störende Vorschläge im gesamten Verlauf sowie Aufgabennutzen messen. Schwellen ohne Zugriff auf den finalen Prüfsatz kalibrieren.
 
-Kein Nachweis im Register.
+- Nachweis: `tests/evaluations/workspace-intent-holdout-v1.json`, SHA-256 `b1b593b46e525c373a880b3e7c6cc7ccef67b20a132b0db07d581b09c36f9162`
+- Nachweis: `tests/unit/workspace-intent-eval.test.ts`, SHA-256 `30695294feea0b636c12dec3edcaf284b6f8c5ada230883257385764e28512b1`
+- Nachweis: `docs/qa/2026-11-23-intent/evaluation.json`, SHA-256 `c619c38eb9bd94eb53d380e4915ec77c202214d267688faafff3a5e2701507cc`
 
 ## T22: KI-Orchestrierung
 

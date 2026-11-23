@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T11:46:48.000Z",
+  "generatedAt": "2026-11-23T10:46:25.000Z",
   "sourceCommit": null,
   "semantics": "Working-tree source hashes are authoritative. Commit identifies the baseline; knowledge changes may be uncommitted.",
   "files": [
     {
       "path": "README.md",
-      "sha256": "a64e69362e41e01c3fe38e0832daa3e4b372155960db9e10c200830657f7523f",
+      "sha256": "a4c45d511b733a541cd17018dadf9b89103afe08c229a09dd6555a270b20487b",
       "concepts": [
         "development-cli",
         "architecture"
@@ -581,7 +581,7 @@
     },
     {
       "path": "apps/studio/components/structural-workspace.module.css",
-      "sha256": "e14aef751e2d6fbac50566886e5afd189aba4d61f85ce3e19adfa7fcd8751340",
+      "sha256": "d3e3d354925e30fd08da915e1e8bcef0b44610a0a5bf40acd4697dc732a5b9da",
       "concepts": [
         "studio",
         "architecture"
@@ -637,7 +637,7 @@
     },
     {
       "path": "apps/studio/components/studio-showcase.tsx",
-      "sha256": "728a26086d4a0a9c83d35ec7a9131a364bdcf3002d9fc2aaed5e3ba44a10e33a",
+      "sha256": "5f489f3800a266432d08a043c2176f7f4966193ac101525a0d7c83d7bcab4b1a",
       "concepts": [
         "workspace-case",
         "url-routing",
@@ -648,6 +648,15 @@
       "path": "apps/studio/components/ui-quality.tsx",
       "sha256": "1771b9c9bdef6a33255041a6a91f48110170de80ded008cd434711f0825e4148",
       "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "apps/studio/components/workspace-intent.tsx",
+      "sha256": "ae161da228cb95b8c5bb3cc48b027f657aef13c03d977fcd4d2e165775f892bf",
+      "concepts": [
+        "workspace-case",
+        "state-flows",
         "quality-testing"
       ]
     },
@@ -756,15 +765,24 @@
     },
     {
       "path": "apps/studio/lib/studio-messages.ts",
-      "sha256": "13ab5cc79dc0d50e31035f32f5efbbd193ed401330c5f74d9d26fd1f2a8a8660",
+      "sha256": "2f12697444c9b78ccce69cda35f7de744e24bb2d995fb3ae4d6e05d7c1f25348",
       "concepts": [
         "studio",
         "architecture"
       ]
     },
     {
+      "path": "apps/studio/lib/workspace-intent.ts",
+      "sha256": "6428ee2f0059047ac3a54c1117e933b6adb4d40b8baa6dd57b47a1aad04b5109",
+      "concepts": [
+        "workspace-case",
+        "state-flows",
+        "quality-testing"
+      ]
+    },
+    {
       "path": "apps/studio/lib/workspace-navigation.ts",
-      "sha256": "c268d613e22cec8c88310b6f38ee8be14d4e1f64393b22ba649a1faa526a9350",
+      "sha256": "fafc5cc084aa0068712c1773652135fa40dd82fa0ed51b4ac0a6a86c29d3ae18",
       "concepts": [
         "studio",
         "architecture"
@@ -819,14 +837,14 @@
     },
     {
       "path": "docs/acceptance-matrix.md",
-      "sha256": "a5897c97798792cf794680a8dd8dac40cfcccc9de4084773b9e8ccecd7cb2896",
+      "sha256": "33c9700d86d876896d3ff5ce8056110909e3c9fd96cacbde271c7ac033f35109",
       "concepts": [
         "quality-testing"
       ]
     },
     {
       "path": "docs/acceptance/ledger.json",
-      "sha256": "5055057509ae2d55bfbf19e2adb8c63d492d70eb47f461f94b4c6ec69e71a03c",
+      "sha256": "a79a0a5953f3ecd4ff4324d30c50cacf51a90e95e6cff1a00cf9e66c5c3186c9",
       "concepts": [
         "quality-testing"
       ]
@@ -982,7 +1000,7 @@
     },
     {
       "path": "docs/feature-status.json",
-      "sha256": "e8db04dc0b41da1da2a97e7ee75ea489e017261a9e887ba614f942c3205cf47f",
+      "sha256": "eed7e39abb372de86d00181aeb7e4a2c791d058a1b13b79e7d7a985c6ccee815",
       "concepts": [
         "release-roadmap",
         "quality-testing"
@@ -990,7 +1008,7 @@
     },
     {
       "path": "docs/feature-status.md",
-      "sha256": "2441c83d8a8868b44358c475bca5275d6eaef68eb0ecfedf016fdf06c0d2a9d5",
+      "sha256": "7fe251d4f52d1dcdf4c718930126146eeb7c391a5372368b80a3af626ffbf8f3",
       "concepts": [
         "release-roadmap",
         "quality-testing"
@@ -1061,7 +1079,7 @@
     },
     {
       "path": "docs/flows/workspace.md",
-      "sha256": "e41d4c2b0423cc1ec6fb726c9cab15c21d35814da8a87016fe503ebd78f1e2ea",
+      "sha256": "00eb0cbce07e24ae2e0cb9cdd467552b43ef2773278b5714631f7a05e9dfb7b9",
       "concepts": [
         "release-roadmap",
         "quality-testing"
@@ -1077,7 +1095,7 @@
     },
     {
       "path": "docs/implementation-plan.md",
-      "sha256": "db9d02a8310d11b895fbb5bfd357c2fb75fa04869c12557e24703a7bdeb77051",
+      "sha256": "c5a8074d0182bb87de15fcd31795d0f0f82cec01ff265d97a1270fc97da392c6",
       "concepts": [
         "release-roadmap",
         "quality-testing"
@@ -1309,7 +1327,7 @@
     },
     {
       "path": "docs/milestones/workspace-source.json",
-      "sha256": "7224080a18a4871d45afd439eade49c820ed6efc0386e115903447adf7f0913f",
+      "sha256": "be2d243c72d852eee8ae58bf30e7ccf2031c94ece10244086a0062d934b36214",
       "concepts": [
         "release-roadmap",
         "quality-testing"
@@ -1503,6 +1521,14 @@
       ]
     },
     {
+      "path": "docs/research/vision-abgleich-2026-11-20.md",
+      "sha256": "ff63a0e0afa13b1a9381006c8c069272154cb8d72cfdb5d79957e054cd3adcb8",
+      "concepts": [
+        "release-roadmap",
+        "quality-testing"
+      ]
+    },
+    {
       "path": "eslint.config.mjs",
       "sha256": "cbf1fd39a88b07c140a47558ba262ce5286614f644ed4d9783c103b0c287a7b9",
       "concepts": [
@@ -1520,7 +1546,7 @@
     },
     {
       "path": "knowledge/editions/engineering.json",
-      "sha256": "176cd0f83faa25ac13156284bf6521fd5e34620841006dabce2ceb2a3e112294",
+      "sha256": "b8d107522d4993ccfe9e8f2b303d52d1b40eb8dc9e63f306bf2c0677e673b01d",
       "concepts": [
         "knowledge-maintenance",
         "url-routing"
@@ -1528,7 +1554,7 @@
     },
     {
       "path": "knowledge/editions/public.json",
-      "sha256": "3cfd08496801f51f64829df8c810b6346b2068e8c76e6d771cde6e37ef82588a",
+      "sha256": "0e83e65fb45b2f62212d2fd4860e929435c7c50ff941b85c4bbe4601fe38246c",
       "concepts": [
         "knowledge-maintenance",
         "url-routing"
@@ -1536,7 +1562,7 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "dfdcfa77076a0ebd4ed1808cf42f4f548204ff88db54319dbd59066b1f1fea97",
+      "sha256": "3ba4e6ef4e01ec4c09e889afa284831b587a4da7e7aeff540894003c7726cbfb",
       "concepts": [
         "development-cli",
         "architecture"
@@ -1671,7 +1697,7 @@
     },
     {
       "path": "packages/cases/src/workspace.ts",
-      "sha256": "abc881055de48e74a8f3e707e12c69dca26a7f773b541f77588a98b96add9739",
+      "sha256": "4077ec64b29d67f2c1c6740f676199c60ea9065df98738764070c7b244fe5413",
       "concepts": [
         "workspace-case",
         "user-flows",
@@ -1782,7 +1808,7 @@
     },
     {
       "path": "packages/contracts/src/index.ts",
-      "sha256": "62bae716ac01f2a7fc311837864b1bf7bde9f3f1c2c988169300d8950256bfd6",
+      "sha256": "7c667ac5c60a87ca289f056280cb3c69371748022b24c9dd89760c556452e174",
       "concepts": [
         "contracts",
         "schema-reference"
@@ -1998,7 +2024,7 @@
     },
     {
       "path": "packages/core/src/index.ts",
-      "sha256": "6abdbd82d0a1fd6ea4b1611149323725614af608977871e879372c28a1af0517",
+      "sha256": "d420b9d87941da3d0ad8478dc972cd5d0726a8616e5f74492f38d48d125ba556",
       "concepts": [
         "core-runtime",
         "state-flows"
@@ -2152,25 +2178,37 @@
     },
     {
       "path": "packages/intelligence/package.json",
-      "sha256": "6871f4eabc561d8795a2ddab00c3e836dfe08946d99d412ed99e3f176572856b",
+      "sha256": "84367483fc70de3b8ca2c96509b9e8dae60b8ad3694378fc90ac91321dac5c95",
       "concepts": [
-        "ai-review",
+        "architecture",
+        "workspace-case",
         "release-roadmap"
       ]
     },
     {
       "path": "packages/intelligence/src/index.ts",
-      "sha256": "92aa7f580d370b7a8f9e951674317212a974b2c588b126ae788de0e2d1e659bf",
+      "sha256": "ec9301ef69104f2d3d5a2d4bc1cd1acc9c829ac1fed8bb30fc8121f3d7109641",
       "concepts": [
-        "ai-review",
+        "architecture",
+        "workspace-case",
         "release-roadmap"
+      ]
+    },
+    {
+      "path": "packages/intelligence/src/workspace-intent.ts",
+      "sha256": "11b53090f3aea74df2ec76c93c662a85194f713ee6b362f809c0592eafb2686d",
+      "concepts": [
+        "workspace-case",
+        "state-flows",
+        "quality-testing"
       ]
     },
     {
       "path": "packages/intelligence/tsconfig.build.json",
       "sha256": "2f7bfa1698a5359c5cd3b9d2051a50a9b2148b38c12a39e7462d4cfdad7284c0",
       "concepts": [
-        "ai-review",
+        "architecture",
+        "workspace-case",
         "release-roadmap"
       ]
     },
@@ -2670,7 +2708,7 @@
     },
     {
       "path": "scripts/knowledge/config.ts",
-      "sha256": "ed6a1c6ad3ae683bd90a1a35755eae02f41a258e2dda7dd30e850e9acc7ed6fa",
+      "sha256": "5ee1d6be854f0bcd489ed9387525118060a05b3ef8c290ae8dbdcd273f8acd20",
       "concepts": [
         "knowledge-maintenance"
       ]
@@ -2806,7 +2844,7 @@
     },
     {
       "path": "scripts/release/public-assets.json",
-      "sha256": "94d3fc3ca851f8fa948ef2a77c79f845311a25e797620d9e7c22af7b97d17470",
+      "sha256": "22e4834f011745d0a9116c2dd369ff238bdb24fa69563ca3b43499e994f0ed0a",
       "concepts": [
         "development-cli",
         "architecture"
@@ -2885,9 +2923,27 @@
       ]
     },
     {
+      "path": "tests/e2e/workspace-intent.spec.ts",
+      "sha256": "ae49c3f5d6b1a5d1b76f097ada1c6e790028af0b7b6faa523e35cb8e3aee94e2",
+      "concepts": [
+        "workspace-case",
+        "state-flows",
+        "quality-testing"
+      ]
+    },
+    {
       "path": "tests/evaluations/ai-review-v1.json",
       "sha256": "8e844a37781f134ffcb75681b9c52775b47d60d0555abd8f9a770c6cb4653e9b",
       "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/evaluations/workspace-intent-holdout-v1.json",
+      "sha256": "b1b593b46e525c373a880b3e7c6cc7ccef67b20a132b0db07d581b09c36f9162",
+      "concepts": [
+        "workspace-case",
+        "state-flows",
         "quality-testing"
       ]
     },
@@ -3386,6 +3442,15 @@
       ]
     },
     {
+      "path": "tests/unit/studio-workspace-intent.test.ts",
+      "sha256": "cb73b2046b860456f058ea6cf9d999621623c980fadcb9317693d8f143adb802",
+      "concepts": [
+        "workspace-case",
+        "state-flows",
+        "quality-testing"
+      ]
+    },
+    {
       "path": "tests/unit/surface-authority.test.ts",
       "sha256": "97ea9e40e145698402abb79109482354e6b077e8c63d4f3150007df96bbcd658",
       "concepts": [
@@ -3449,6 +3514,24 @@
       "path": "tests/unit/workspace-coupling.test.ts",
       "sha256": "048efe250a794866233eead36d4e8735128895aeaab228d4676d0234508646f7",
       "concepts": [
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/workspace-intent-eval.test.ts",
+      "sha256": "30695294feea0b636c12dec3edcaf284b6f8c5ada230883257385764e28512b1",
+      "concepts": [
+        "workspace-case",
+        "state-flows",
+        "quality-testing"
+      ]
+    },
+    {
+      "path": "tests/unit/workspace-intent.test.ts",
+      "sha256": "4196c92455723ff94a0d5cad22dc94b9713d9f4962735b29843ac6efd9a9f842",
+      "concepts": [
+        "workspace-case",
+        "state-flows",
         "quality-testing"
       ]
     },

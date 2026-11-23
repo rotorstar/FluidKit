@@ -9,7 +9,7 @@ tags:
 status: draft
 generated:
   by: process:fluidkit-knowledge-sync
-  at: 2026-11-20T11:46:48.000Z
+  at: 2026-11-23T10:46:25.000Z
 stale_after: 2026-12-02T00:00:00Z
 sources:
   - id: implementation
@@ -43,14 +43,14 @@ Aus dem kanonischen Task-Register erzeugt. „Proof“ ist auf den dokumentierte
 | T18 | Simulation und Replay | Teilweise | Schema-v2-GPU-Aufzeichnung mit Original-Viewport, read-only Replay/Scrubbing und Live-Restore R2: V4-Export, Rückwärts-Scrubbing, gemeinsamer Vergleich und unveränderte v2/v3-Abspielpfade geprüft. | vollständige Simulation/Fault-Injection und versionierte Projekt-/Datenaufzeichnungen; Captureabdeckung und getrennte Offline-/Echtzeit-Rehearsal T54 ergänzen |
 | T19 | Testsystem | Teilweise | Historischer M6-Stand: 137 Tests einschließlich 9 Knowledge-Tests; historischer Coveragebericht Core 85,75 und Server 85,43 Prozent; AC-Driftchecker, 100 echte GPU-Zyklen, historische 54 Case-Endzustände/60 Effektphasen und 12 M6-Endpunkte; OKF-/Quellen-/Audienceprüfung; M7 final81: 267 Tests/33 Dateien, 144 kontrollierte Ansichtswechsel/720 Kontrollbilder und echte Surface-/Privacy-Prüfungen · wiederholbare Workspace-Browserjourneys bei drei Breiten R6: Erkennungsprotokoll für unabhängige Personen im Meilenstein dokumentiert. Eigene Browserjourneys prüfen Inhalt, Fokus und Downloads. | Separate Routing-/Policy-/Budgetabnahme, volle Support-/Komponentenmatrix und manuelle AT-Prüfung; vollständige zeitliche Evidenz T54 und unabhängiger Qualitätsvergleich T56. |
 | T20 | CLI und Integration | Teilweise | CLI validate/test | init/add/studio/export und frische Hostintegration |
-| T21 | Intent-Runtime | Geplant | noch kein Implementierungsnachweis | Acceptance Criteria des Gesamtplans |
+| T21 | Intent-Runtime | Teilweise | Workspace: lokale Erkennung eines Vergleichswunsches aus wiederholten Modulöffnungen, Kandidatenpaare mit Gründen und Enthaltung, freiwillige Bestätigung im Studio. | Weitere Absichten und Cases, unabhängig erhobene Nutzungssitzungen mit Aufgabenziel, Kalibrierung und Evaluation der Nützlichkeit. |
 | T22 | KI-Orchestrierung | Teilweise | Vercel AI SDK 7.0.159, direkter OpenAI-Provider 4.0.106 mit realem WebGPU-Live-Review; keine Anwendungs-DecisionPlan-Abnahme | Serverseitige Anwendungs-DecisionPlans, vollständige Provider-Evaluation und dauerhafte Mehrinstanzautorität |
-| T23 | Predictive Loading | Geplant | noch kein Implementierungsnachweis | Acceptance Criteria des Gesamtplans |
-| T24 | Ziele und Personalisierung | Geplant | noch kein Implementierungsnachweis | Acceptance Criteria des Gesamtplans |
+| T23 | Predictive Loading | Geplant | noch kein Implementierungsnachweis | Lesende Vorladejobs aus Absichten auswählen und mit dem Host koordinieren. Konkurrenz, Treffer, unnötige Bytes und Zeitgewinn messen. |
+| T24 | Ziele und Personalisierung | Geplant | noch kein Implementierungsnachweis | Freigegebene persönliche Varianten, Rücknahme und Aufgabenziel je Case prüfen. Der lokale Vergleichsvorschlag in T21 verwendet Sitzungsereignisse. |
 | T25 | Reale Case-Pakete | Teilweise | drei synthetische Case-Dateien mit Provenienz und GPU-Cases für Suche, Sortierung, Detail, Vergleich und simulierte Übergabe | alle produktiven Anbieteradapter, zusätzliche Cases und Manual/Hybrid/Auto-Vergleich |
 | T26 | Observability | Teilweise | korrelierte Event-Traces und Export | OTLP, Persistenz und Exportausfall-Prüfung; Frame-/Beat-/Eventkorrelation und AI-Reviewherkunft T54/T58 ergänzen |
 | T27 | Kosten und Schutzmaßnahmen | Teilweise | Lokaler Review: synchrone Reservierung, exakte OpenAI-Inputprüfung, Standard-Tier/Outputdeckel, Konkurrenz/Usage/Abort/Deadline geprüft; reale Usage exportiert | Anwendungsbudgets, dauerhafte verteilte Autorität, Abrechnungsabgleich und alle Produktions-AC separat qualifizieren |
-| T28 | Lernen und Experimente | Geplant | noch kein Implementierungsnachweis | Acceptance Criteria des Gesamtplans |
+| T28 | Lernen und Experimente | Geplant | noch kein Implementierungsnachweis | Exposures und Aufgabenergebnisse zuordnen, Kontrollgruppe und Datenqualität prüfen, eine neue Policy qualifizieren und zurückrollen. |
 | T29 | Performance und Skalierung | Teilweise | echte Frame-/Scene-/Textspeichermetriken R6: eigenständiger Host erfasst Echtzeitintervalle, Idle-Frames, CPU-Fremdlast und beobachtbare GPU-Zähler. Zwei belastete Referenzläufe überschreiten das Frameziel. | Gerätematrix, P95-Budgets und Langzeittests; Capturekosten getrennt von Echtzeit-Pacing T54 messen |
 | T30 | Release-Härtung | Teilweise | lokales quality:gate für Check/Design, Plan, Mermaid und Produktionsbuild; explizite offene Abnahmen im Report | externer CI-Betrieb und vollständige Release-/Geräte-/Security-/Upgrade-Gates; Rehearsal-, Review- und AI-Gates T54–T58 im jeweiligen Scope nachweisen |
 | T31 | Collaboration | Geplant | noch kein Implementierungsnachweis | Acceptance Criteria des Gesamtplans |

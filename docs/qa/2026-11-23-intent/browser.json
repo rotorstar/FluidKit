@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-11-23T10:37:45.267Z",
+  "scope": "Local Chromium workspace journeys with actual package manifests, English UI and reduced motion. Keyboard module visits, explicit approval and dismissal. No human outcome inference.",
+  "spec": "tests/e2e/workspace-intent.spec.ts",
+  "specSha256": "ae49c3f5d6b1a5d1b76f097ada1c6e790028af0b7b6faa523e35cb8e3aee94e2",
+  "observed": {
+    "browser": "157.0.8103.80",
+    "backend": "webgpu",
+    "capture": {
+      "timestamp": "2026-11-23T10:37:47.093Z",
+      "sourceBuild": "fluid-6d115da3df9f22a8bf30",
+      "route": "/en?view=detail&sort=name&direction=asc&selected=webgpu&group=all",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 1
+      },
+      "sha256": "05c5254c27c1a1fd511c6686d8059f1138b87b2f9c6fb37e97e820265596b402",
+      "path": "docs/readme/assets/workspace-intent-offer-en.png"
+    },
+    "visits": [
+      "core",
+      "webgpu",
+      "core",
+      "webgpu"
+    ],
+    "selectedAfterApproval": [
+      "core",
+      "webgpu"
+    ],
+    "returnView": "detail",
+    "forwardView": "compare",
+    "historyEntriesOnApproval": 1,
+    "modelRequests": 0
+  },
+  "checks": [
+    {
+      "test": "deliberate visits offer the exact pair and approval creates one reversible navigation",
+      "status": "passed"
+    },
+    {
+      "test": "manual browsing, history restoration and a dismissed pair leave the person in control",
+      "status": "passed"
+    },
+    {
+      "test": "starting a search withdraws the offer and preserves the active input",
+      "status": "passed"
+    }
+  ]
+}

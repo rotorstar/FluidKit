@@ -9,7 +9,7 @@ tags:
 status: draft
 generated:
   by: process:fluidkit-knowledge-sync
-  at: 2026-11-20T11:46:48.000Z
+  at: 2026-11-23T10:46:25.000Z
 stale_after: 2026-12-02T00:00:00Z
 sources:
   - id: implementation
@@ -1139,6 +1139,7 @@ TraceEntrySchema = z.strictObject({
   schemaVersion: z.literal(1), sequence: z.number().int().nonnegative(),
   timestamp: z.number().finite().nonnegative(),
   kind: z.enum(['accepted', 'rejected', 'decision', 'effect', 'error', 'interaction']),
+  source: RuntimeEventSchema.shape.source.optional(),
   reason: ChangeReasonSchema.optional(),
   eventId: IdentifierSchema, eventType: IdentifierSchema,
   revision: z.number().int().nonnegative(), state: IdentifierSchema,
@@ -1148,7 +1149,7 @@ TraceEntrySchema = z.strictObject({
 
 ## ScenarioDefinitionSchema
 
-Quelle: `packages/contracts/src/index.ts:230`.
+Quelle: `packages/contracts/src/index.ts:231`.
 
 ```typescript
 ScenarioDefinitionSchema = z.strictObject({
@@ -1162,7 +1163,7 @@ ScenarioDefinitionSchema = z.strictObject({
 
 ## DatasetSchema
 
-Quelle: `packages/contracts/src/index.ts:238`.
+Quelle: `packages/contracts/src/index.ts:239`.
 
 ```typescript
 DatasetSchema = z.strictObject({
@@ -1174,7 +1175,7 @@ DatasetSchema = z.strictObject({
 
 ## ProjectSchema
 
-Quelle: `packages/contracts/src/index.ts:244`.
+Quelle: `packages/contracts/src/index.ts:245`.
 
 ```typescript
 ProjectSchema = z.strictObject({
@@ -1190,7 +1191,7 @@ ProjectSchema = z.strictObject({
 
 ## VisualScenarioV2Schema
 
-Quelle: `packages/contracts/src/index.ts:263`.
+Quelle: `packages/contracts/src/index.ts:264`.
 
 ```typescript
 VisualScenarioV2Schema = z.strictObject({ schemaVersion: z.literal(2), ...VisualScenarioFields })
@@ -1198,7 +1199,7 @@ VisualScenarioV2Schema = z.strictObject({ schemaVersion: z.literal(2), ...Visual
 
 ## VisualScenarioV3Schema
 
-Quelle: `packages/contracts/src/index.ts:264`.
+Quelle: `packages/contracts/src/index.ts:265`.
 
 ```typescript
 VisualScenarioV3Schema = z.strictObject({ schemaVersion: z.literal(3), ...VisualScenarioFields, sourceCheckpoint: SourcePresentationCheckpointSchema.nullable().default(null), protectedNodeIds: z.array(IdentifierSchema).max(10000).default([]) })
@@ -1206,7 +1207,7 @@ VisualScenarioV3Schema = z.strictObject({ schemaVersion: z.literal(3), ...Visual
 
 ## VisualScenarioV4Schema
 
-Quelle: `packages/contracts/src/index.ts:265`.
+Quelle: `packages/contracts/src/index.ts:266`.
 
 ```typescript
 VisualScenarioV4Schema = z.strictObject({ schemaVersion: z.literal(4), ...VisualScenarioFields,
@@ -1218,7 +1219,7 @@ VisualScenarioV4Schema = z.strictObject({ schemaVersion: z.literal(4), ...Visual
 
 ## RecordingLanguageProfileSchema
 
-Quelle: `packages/contracts/src/index.ts:270`.
+Quelle: `packages/contracts/src/index.ts:271`.
 
 ```typescript
 RecordingLanguageProfileSchema = z.strictObject({
@@ -1231,7 +1232,7 @@ RecordingLanguageProfileSchema = z.strictObject({
 
 ## VisualScenarioV5Schema
 
-Quelle: `packages/contracts/src/index.ts:277`.
+Quelle: `packages/contracts/src/index.ts:278`.
 
 ```typescript
 VisualScenarioV5Schema = VisualScenarioV4Schema.extend({
@@ -1246,7 +1247,7 @@ VisualScenarioV5Schema = VisualScenarioV4Schema.extend({
 
 ## VisualScenarioSchema
 
-Quelle: `packages/contracts/src/index.ts:285`.
+Quelle: `packages/contracts/src/index.ts:286`.
 
 ```typescript
 VisualScenarioSchema = z.discriminatedUnion('schemaVersion', [VisualScenarioV2Schema, VisualScenarioV3Schema, VisualScenarioV4Schema, VisualScenarioV5Schema]).superRefine((scenario, ctx) => {
@@ -1267,7 +1268,7 @@ VisualScenarioSchema = z.discriminatedUnion('schemaVersion', [VisualScenarioV2Sc
 
 ## TextInkBoxSchema
 
-Quelle: `packages/contracts/src/index.ts:299`.
+Quelle: `packages/contracts/src/index.ts:300`.
 
 ```typescript
 TextInkBoxSchema=z.strictObject({id:IdentifierSchema,line:z.number().int().nonnegative(),x:z.number(),y:z.number(),width:z.number().nonnegative(),height:z.number().nonnegative()})
@@ -1275,7 +1276,7 @@ TextInkBoxSchema=z.strictObject({id:IdentifierSchema,line:z.number().int().nonne
 
 ## TextAuditSchema
 
-Quelle: `packages/contracts/src/index.ts:301`.
+Quelle: `packages/contracts/src/index.ts:302`.
 
 ```typescript
 TextAuditSchema=z.strictObject({
@@ -1289,7 +1290,7 @@ TextAuditSchema=z.strictObject({
 
 ## RestagedRecordingSchema
 
-Quelle: `packages/contracts/src/index.ts:310`.
+Quelle: `packages/contracts/src/index.ts:311`.
 
 ```typescript
 RestagedRecordingSchema = z.strictObject({
@@ -2870,6 +2871,42 @@ LocaleContextSchema = z.strictObject({
     try { new Intl.DateTimeFormat('en', { timeZone: zone }); return true; } catch { return false; }
   }, 'Invalid time zone'),
   direction: z.enum(['ltr', 'rtl']),
+})
+```
+
+## WorkspaceIntentVisitSchema
+
+Quelle: `packages/intelligence/src/workspace-intent.ts:10`.
+
+```typescript
+WorkspaceIntentVisitSchema = z.strictObject({ moduleId: IdentifierSchema, at: TimeSchema })
+```
+
+## WorkspaceComparisonIntentSchema
+
+Quelle: `packages/intelligence/src/workspace-intent.ts:11`.
+
+```typescript
+WorkspaceComparisonIntentSchema = z.strictObject({
+  type: z.literal('compare'),
+  moduleIds: z.tuple([IdentifierSchema, IdentifierSchema]),
+  score: z.number().min(0).max(1),
+  evidence: z.array(WorkspaceIntentVisitSchema).max(MAX_VISITS),
+})
+```
+
+## WorkspaceIntentResultSchema
+
+Quelle: `packages/intelligence/src/workspace-intent.ts:17`.
+
+```typescript
+WorkspaceIntentResultSchema = z.strictObject({
+  schemaVersion: z.literal(1),
+  reason: z.enum(['ready', 'insufficient', 'ambiguous', 'dismissed']),
+  suggestion: WorkspaceComparisonIntentSchema.nullable(),
+  ranked: z.array(WorkspaceComparisonIntentSchema).max(5),
+  visits: z.array(WorkspaceIntentVisitSchema).max(MAX_VISITS),
+  expiresAt: TimeSchema.nullable(),
 })
 ```
 

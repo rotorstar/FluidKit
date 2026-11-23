@@ -221,6 +221,7 @@ export const TraceEntrySchema = z.strictObject({
   schemaVersion: z.literal(1), sequence: z.number().int().nonnegative(),
   timestamp: z.number().finite().nonnegative(),
   kind: z.enum(['accepted', 'rejected', 'decision', 'effect', 'error', 'interaction']),
+  source: RuntimeEventSchema.shape.source.optional(),
   reason: ChangeReasonSchema.optional(),
   eventId: IdentifierSchema, eventType: IdentifierSchema,
   revision: z.number().int().nonnegative(), state: IdentifierSchema,

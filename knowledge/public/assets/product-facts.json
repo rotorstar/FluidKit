@@ -24,7 +24,8 @@
     "authoring": "Actual workspace data; manual or server-side AI draft limited to registered sections. Project note excluded from model context; explicit apply after independent preflight and isolated preview.",
     "flowExplorer": "Actual selected workspace module; local architecture-review state machine. No external audit, publication or AI call.",
     "comparison": "Two to four explicitly selected workspace modules, real source metrics and dependency sets.",
-    "atlas": "Real files or source lines as proportional areas; group drilldown; size is not a quality score."
+    "atlas": "Real files or source lines as proportional areas; group drilldown; size is not a quality score.",
+    "workspaceIntent": "Opt-in in the workspace, 2026-11-23. Only deliberate module-detail visits supply module IDs and timestamps to the local session. The user can confirm a suggested comparison. Search and input text are excluded. No model credentials or provider call."
   },
   "screenshots": "screenshots.json",
   "limitations": [

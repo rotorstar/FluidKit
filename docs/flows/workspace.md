@@ -110,3 +110,26 @@ benennt nur den Modulkontext; sie behauptet keine bereits abgeschlossene
 Reviewentscheidung. Der [M9-Vertrag](../milestones/m9-plan.md) und die
 [Engineering-Beschreibung](../../knowledge/engineering/perspectives.md) zeigen
 den separaten User-/State-/Daten- und Exportflow.
+
+## Von Modulbesuchen zum Vergleich
+
+Die Assistenz ist anfangs ausgeschaltet. Wer sie im Workspace einschaltet, kann beispielsweise zweimal abwechselnd die Details von `core` und `webgpu` öffnen. Jede gültige Öffnung liefert dem lokalen Ranker die Modul-ID und den Zeitpunkt. Die Liste für die Erklärung im Studio bleibt an diese Sitzung gebunden. Suchtext, URL-Aufrufe, Wiedergabe, Tour und das Anklicken einer Auswahlbox liefern keine Besuchssignale.
+
+```mermaid
+flowchart TD
+    Visit["Nutzer öffnet ein Moduldetail"] --> Gate{"Assistenz aktiv und Öffnung bestätigt?"}
+    Gate -->|Ja| Memory["Lokales Zeitfenster aus Modul-IDs und Zeitpunkten"]
+    Memory --> Rank["Wiederkehrende Paare mit Quellen ordnen"]
+    Rank --> Eligible{"Eindeutiges Paar und freie Bedienung?"}
+    Eligible -->|Nein| Quiet["Kein Eingriff in die aktuelle Ansicht"]
+    Eligible -->|Ja| Offer["Vergleich anbieten und besuchte Module erklären"]
+    Gate -->|Nein| Quiet
+    Offer --> Discard["Verwerfen: Vorschlagspause starten"]
+    Offer --> Accept["Annehmen: Aktualität und Eingabe prüfen"]
+    Accept -->|Gültig| Core["Beide IDs und Vergleichsansicht gemeinsam übernehmen"]
+    Accept -->|Überholt| Quiet
+    Core --> Scene["Detail wird zum Vergleich derselben Module"]
+    Core --> URL["Workspace-URL enthält Ansicht und beide picked-Werte"]
+```
+
+Eine Vermutung verändert weder Auswahl noch URL. Das bestehende Navigationsmodell greift beim angenommenen Wechsel. Ein geteilter Link stellt den Vergleich wieder her, der lokale Beobachtungsverlauf wird dabei nicht übertragen. Predictive Loading und eine Lernschleife sind weitere Schritte des [Produktplans](../implementation-plan.md).
